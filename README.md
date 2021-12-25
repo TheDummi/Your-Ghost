@@ -1,4 +1,4 @@
-# Your-Ghost
+# Ghost
 
 Destiny wiki
 
