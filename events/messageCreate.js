@@ -13,49 +13,6 @@ module.exports = {
             return await message.reply('Here have a banana: :banana:!')
         }
 
-        // if (command.startsWith(`<@!${client.user.id}>`)) {
-        //     message.react('👀');
-        //     let embed = new Discord.MessageEmbed()
-        //         .setColor(config.color)
-        //         .setAuthor(`Hello there, ${message.member.nickname || message.author.username} !`, message.author.displayAvatarURL({ dynamic: true }))
-        //         .setDescription(`My prefixes are ${config.prefixes} and ${this.client.user}.\nRun ${config.prefixes}commands to get a commands list.`)
-        //     message.reply(embed)
-        // }    
-        // if (command.includes('dummi') || command.includes("<@!" + owners[0] + ">") || command.includes("<@" + owners[0] + ">")) {
-        //     if (message.guild == false) return;
-        //     if (message.author.id == owners[0]) return;
-        //     else {
-        //         message.react('👀')
-        //         let invite = message.url
-        //         invite = await invite
-        //         let anEmbed = new Discord.MessageEmbed()
-        //             .setTitle(`${message.author.username} mentioned you!`)
-        //             .setURL(invite)
-        //             .setColor(color)
-        //             .setFooter(`This was said in ${message.channel.name}, ${message.guild.name}.`, message.author.displayAvatarURL({ dynamic: true }))
-        //             .setTimestamp()
-        //         if (command.length > 1983) {
-        //             message.content = "Click the link above to see the message!"
-        //         }
-        //         if (message.attachments.array()) {
-        //             try {
-        //                 let attachment = await message.attachments.array();
-        //                 let attached = "";
-        //                 for (let i = 0; i < attachment.length; i++) {
-        //                     attached = await attachment[i].attachment;
-        //                 }
-        //                 await anEmbed
-        //                     .setImage(attached.toString())
-        //                     .setDescription(`Message content: ${message.content} `)
-        //             }
-        //             catch (e) { }
-        //         }
-        //         client.users.fetch(owners[0])
-        //             .then(owner => {
-        //                 owner.send(anEmbed)
-        //             })
-        //     }
-        // }
         if (message.channel.type === 'news') {
             message.crosspost()
                 .then((message) => message.react('📣'))
