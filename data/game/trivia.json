@@ -1,0 +1,162 @@
+[
+  {
+    "question": "Who is oryx' son?",
+    "correctAnswer": "Crota",
+    "wrongAnswer": "Malok",
+    "wrongAnswerToo": "Alak-Hul",
+    "grade": "Easy",
+    "tag": "Lore"
+  },
+  {
+    "question": "What is the ice Breaker?",
+    "correctAnswer": "An exotic sniper",
+    "wrongAnswer": "A legendary sniper",
+    "wrongAnswerToo": "A raid sniper",
+    "grade": "Easy",
+    "tag": "Exotics"
+  },
+  {
+    "question": "In Destiny, what planet does the moon belong to?",
+    "correctAnswer": "Earth",
+    "wrongAnswer": "Venus",
+    "wrongAnswerToo": "Mars",
+    "grade": "Easy",
+    "tag": "Lore"
+  },
+  {
+    "question": "Which Exotic was **NOT** part of Xûr's first ever inventory?",
+    "correctAnswer": "Gjallahorn",
+    "wrongAnswer": "Red Death",
+    "wrongAnswerToo": "Sunbreakers",
+    "grade": "Hard",
+    "tag": "Exotics"
+  },
+  {
+    "question": "Which of the following gods wasn't a main Hive god?",
+    "correctAnswer": "Zi Arack",
+    "wrongAnswer": "Sathone",
+    "wrongAnswerToo": "Auryx",
+    "grade": "Hard",
+    "tag": "Lore"
+  },
+  {
+    "question": "When detected, how long do you have to kill a Gorgon in the Vault of Glass?",
+    "correctAnswer": "10 seconds",
+    "wrongAnswer": "5 seconds",
+    "wrongAnswerToo": "15 seconds",
+    "grade": "Medium",
+    "tag": "Mechanic"
+  },
+  {
+    "question": "What event nearly caused the extinction of the human race?",
+    "correctAnswer": "The Collapse",
+    "wrongAnswer": "The End of Time",
+    "wrongAnswerToo": "The Reckoning",
+    "grade": "Medium",
+    "tag": "Lore"
+  },
+  {
+    "question": "When was the darkness created",
+    "correctAnswer": "At the beginning of time",
+    "wrongAnswer": "Before the beginning of time",
+    "wrongAnswerToo": "After the beginning of time",
+    "grade": "Medium",
+    "tag": "Lore"
+  },
+  {
+    "question": "Who practices a religion known as Sword Logic?",
+    "correctAnswer": "The Hive",
+    "wrongAnswer": "The Traveler",
+    "wrongAnswerToo": "Eris Morn",
+    "grade": "Medium",
+    "tag": "Lore"
+  },
+  {
+    "question": "Where is the Black Garden Located?",
+    "correctAnswer": "Mars",
+    "wrongAnswer": "Earth",
+    "wrongAnswerToo": "Venus",
+    "grade": "Easy",
+    "tag": "Locations"
+  },
+  {
+    "question": "What part of the Vex is biological?",
+    "correctAnswer": "Mind-core fluid",
+    "wrongAnswer": "Brain",
+    "wrongAnswerToo": "Eyes",
+    "grade": "Medium",
+    "tag": "Lore"
+  },
+  {
+    "question": "Who created the ghosts?",
+    "correctAnswer": "The Traveler",
+    "wrongAnswer": "The Speaker",
+    "wrongAnswerToo": "Guardians",
+    "grade": "Easy",
+    "tag": "Lore"
+  },
+  {
+    "question": "What are the Nine?",
+    "correctAnswer": "Dark Matter Beings",
+    "wrongAnswer": "The Vex Minds",
+    "wrongAnswerToo": "The Fallen Primes",
+    "grade": "Medium",
+    "tag": "Lore"
+  },
+  {
+    "question": "Who wielded the Thorn originally?",
+    "correctAnswer": "Dredgen Yor",
+    "wrongAnswer": "Uldren Sov",
+    "wrongAnswerToo": "Lord Felwinter",
+    "grade": "Medium",
+    "tag": "Lore"
+  },
+  {
+    "question": "What came before the Collapse?",
+    "correctAnswer": "The Golden Age",
+    "wrongAnswer": "The Dark Age",
+    "wrongAnswerToo": "New Beginning",
+    "grade": "Easy",
+    "tag": "Lore"
+  },
+  {
+    "question": "What do the Fallen call themselves in their own language?",
+    "correctAnswer": "Eliksni",
+    "wrongAnswer": "The Fallen",
+    "wrongAnswerToo": "The Scorn",
+    "grade": "Medium",
+    "tag": "Lore"
+  },
+  {
+    "question": "How many exotic weapons does Destiny have?",
+    "correctAnswer": "46",
+    "wrongAnswer": "45",
+    "wrongAnswerToo": "44",
+    "grade": "Medium",
+    "tag": "Exotics"
+  },
+  {
+    "question": "Who is not a representitve of the vanguard?",
+    "correctAnswer": "Zavala",
+    "wrongAnswer": "Ikora Rey",
+    "wrongAnswerToo": "Lord Shaxx",
+    "grade": "Easy",
+    "tag": "Lore"
+  },
+  {
+    "question": "What was Destiny's code name when it was being developped?",
+    "correctAnswer": "Project Tiger",
+    "wrongAnswer": "Project Lion",
+    "wrongAnswerToo": "Project Frog",
+    "grade": "Hard",
+    "tag": "Development"
+  },
+  {
+    "question": "What do the Hive call their home planet?",
+    "correctAnswer": "Moon",
+    "wrongAnswer": "Earth",
+    "wrongAnswerToo": "The Dreadnaught",
+    "grade": "Easy",
+    "tag": "Lore"
+  }
+]
