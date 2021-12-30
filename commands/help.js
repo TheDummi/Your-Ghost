@@ -3,6 +3,8 @@ const Discord = require('discord.js');
 const { color } = require('../data/config/config.json')
 
 module.exports = {
+    category: "Help",
+    detailedDescription: "Help command gives you more info on a command by running `help command: <command>`.",
     data: new SlashCommandBuilder()
         .setName('help')
         .setDescription('Get a help message.')
@@ -15,7 +17,7 @@ module.exports = {
         let command = interaction.options.getString('command');
         let commands = [];
         interaction.client.commands.forEach(i => {
-            commands.push({ name: i.data.name, description: i.data.description })
+            commands.push({ name: i.data.name, description: i.data.description, detailedDescription: i.detailedDescription, ownerOnly: i.owner, contributorOnly: i.contributor, guild: i.homeGuild })
         })
         let embed = new Discord.MessageEmbed()
             .setColor(color)
@@ -29,7 +31,7 @@ module.exports = {
                 if (commands[i].name == command) {
                     embed
                         .setTitle(`Help for ${command}`)
-                        .setDescription(commands[i].description)
+                        .setDescription((commands[i].detailedDescription || commands[i].description) + "\n\nDeveloper only: " + (commands[i].ownerOnly ? "Yes" : "No") + "\nContributor only: " + (commands[i].contributorOnly ? "Yes" : "No") + "\nMain server only: " + (commands[i].guild ? "Yes" : "No"))
                     break;
                 }
                 else embed

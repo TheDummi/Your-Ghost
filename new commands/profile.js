@@ -6,30 +6,17 @@ const profileSettings = require('../models/profileSettings.js');
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName('setup')
+        .setName('profile')
         .setDescription('Setup your destiny profile.')
-        .addStringOption((option) =>
+        .addMentionableOption((option) =>
             option
-                .setName('psn')
-                .setDescription('What is your PSN name?')
-                .setRequired(true),
-        )
-        .addBooleanOption((option) =>
-            option
-                .setName('synced')
-                .setDescription('Have you synced with ps4?')
-                .setRequired(true)
-        )
-        .addNumberOption((option) =>
-            option
-                .setName('grimoire')
-                .setDescription('What is your grimoire score?')
-                .setRequired(true)
+                .setName('user')
+                .setDescription('who whould you like to see?')
         ),
 
 
     async execute(interaction) {
-        let user = interaction.user;
+        let user = interaction.options.getMentionable('user') || interaction.user;
 
 
         let name = interaction.options.getString('psn');
@@ -38,10 +25,10 @@ module.exports = {
 
         let profileData;
         try {
-            profileData = await profileSettings.findOne({ userID: interaction.user.id })
+            profileData = await profileSettings.findOne({ userID: user.id })
             if (!profileData) {
                 let profile = await profileSettings.create({
-                    userID: { type: interaction.user.id, required: true },
+                    userID: { type: user.id, required: true },
                     psn: { type: name, required: true },
                     synced: { type: synced, required: true },
                     gimoire: { type: grimoire, required: true }
@@ -50,6 +37,6 @@ module.exports = {
             }
         }
         catch { }
-        await interaction.reply({ content: `set-up your profile under the name ${name}!` });
+        await interaction.reply({ content: `Name: ${profileData.name}\nSynced: ${profileData.synced ? "Yes" : "No"}\nGrimoire: ${profileData.grimoire}.` });
     },
 };

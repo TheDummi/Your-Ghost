@@ -129,17 +129,17 @@
   },
   {
     "question": "How many exotic weapons does Destiny have?",
-    "correctAnswer": "46",
-    "wrongAnswer": "45",
+    "correctAnswer": "45",
+    "wrongAnswer": "46",
     "wrongAnswerToo": "44",
     "grade": "Medium",
     "tag": "Exotics"
   },
   {
     "question": "Who is not a representitve of the vanguard?",
-    "correctAnswer": "Zavala",
+    "correctAnswer": "Lord Shaxx",
     "wrongAnswer": "Ikora Rey",
-    "wrongAnswerToo": "Lord Shaxx",
+    "wrongAnswerToo": "Zavala",
     "grade": "Easy",
     "tag": "Lore"
   },
@@ -153,10 +153,258 @@
   },
   {
     "question": "What do the Hive call their home planet?",
+    "correctAnswer": "Fundament",
+    "wrongAnswer": "Moon",
+    "wrongAnswerToo": "The Dreadnaught",
+    "grade": "Easy",
+    "tag": "Lore"
+  },
+  {
+    "question": "What caused the vex to invade our universe?",
+    "correctAnswer": "Crota, Son of Oryx",
+    "wrongAnswer": "Ir Anuk, Deathsinger",
+    "wrongAnswerToo": "The Collapse",
+    "grade": "Hard",
+    "tag": "Lore"
+  },
+  {
+    "question": "What species of enemies is part of The Scorn",
+    "correctAnswer": "The Fallen",
+    "wrongAnswer": "The Taken",
+    "wrongAnswerToo": "The Hive",
+    "grade": "Medium",
+    "tag": "Lore"
+  },
+  {
+    "question": "Who created the Gjallahorn",
+    "correctAnswer": "Feziel Crux",
+    "wrongAnswer": "Ana Brax",
+    "wrongAnswerToo": "Vell Tarlowe",
+    "grade": "Medium",
+    "tag": "Lore"
+  },
+  {
+    "question": "Who created the Exos?",
+    "correctAnswer": "Humanity",
+    "wrongAnswer": "Awoken",
+    "wrongAnswerToo": "The Traveler",
+    "grade": "Easy",
+    "tag": "Lore"
+  },
+  {
+    "question": "What intelligence do the Vex have a hard time simulating, due to its complexity?",
+    "correctAnswer": "Warmind",
+    "wrongAnswer": "The Hive",
+    "wrongAnswerToo": "The Ishtar Collectives",
+    "grade": "Easy",
+    "tag": "Lore"
+  },
+  {
+    "question": "Whoh Killed the Helium king?",
+    "correctAnswer": "Savathûn",
+    "wrongAnswer": "Oryx",
+    "wrongAnswerToo": "Xivu Arath",
+    "grade": "Medium",
+    "tag": "Lore"
+  },
+  {
+    "question": "What caused the owken to develop?",
+    "correctAnswer": "The Collapse",
+    "wrongAnswer": "The Beginning of Time",
+    "wrongAnswerToo": "The Golden Age",
+    "grade": "Medium",
+    "tag": "Lore"
+  },
+  {
+    "question": "What came after the Collapse?",
+    "correctAnswer": "The Dark Age",
+    "wrongAnswer": "The New Beginning",
+    "wrongAnswerToo": "The Return",
+    "grade": "Easy",
+    "tag": "Lore"
+  },
+  {
+    "question": "Who transformed Nessus into a machine world?",
+    "correctAnswer": "The Vex",
+    "wrongAnswer": "The cabal",
+    "wrongAnswerToo": "The Fallen",
+    "grade": "Medium",
+    "tag": "Lore"
+  },
+  {
+    "question": "Who invaded Nessus after the vex transformed it into a machine world?",
+    "correctAnswer": "The Fallen",
+    "wrongAnswer": "The Hive",
+    "wrongAnswerToo": "The Taken",
+    "grade": "Medium",
+    "tag": "Lore"
+  },
+  {
+    "question": "Who founded the Guardians after the factions war?",
+    "correctAnswer": "Lysander",
+    "wrongAnswer": "Rezyl Azzir",
+    "wrongAnswerToo": "Saladin Forge",
+    "grade": "Hard",
+    "tag": "Lore"
+  },
+  {
+    "question": "What dangerous power did the Ahamkara have that led the Great Hunt to destroy them?",
+    "correctAnswer": "Wish Granting",
+    "wrongAnswer": "Mind Reading",
+    "wrongAnswerToo": "Time Traveling",
+    "grade": "Medium",
+    "tag": "Lore"
+  },
+  {
+    "question": "Why were the Ahamkara hunted by the last city?",
+    "correctAnswer": "Wish Granting",
+    "wrongAnswer": "Mind Reading",
+    "wrongAnswerToo": "Time Traveling",
+    "grade": "Medium",
+    "tag": "Lore"
+  },
+  {
+    "question": "What Titan fought the battles of Twilight gap?",
+    "correctAnswer": "Saint-14",
+    "wrongAnswer": "Zavala",
+    "wrongAnswerToo": "Saladin Forge",
+    "grade": "Easy",
+    "tag": "Lore"
+  },
+  {
+    "question": "What do the Hive call their home planet?",
     "correctAnswer": "Moon",
     "wrongAnswer": "Earth",
     "wrongAnswerToo": "The Dreadnaught",
     "grade": "Easy",
+    "tag": "Lore"
+  },
+  {
+    "question": "Who attacked the Last City in the Battle of Burning Lake?",
+    "correctAnswer": "The Hive",
+    "wrongAnswer": "The Fallen",
+    "wrongAnswerToo": "The Taken",
+    "grade": "Medium",
+    "tag": "Lore"
+  },
+  {
+    "question": "Why did Crota get banished by Oryx?",
+    "correctAnswer": "Opening a Rift",
+    "wrongAnswer": "Having the Wrong intentions",
+    "wrongAnswerToo": "Not Standing in his father's name",
+    "grade": "Medium",
+    "tag": "Lore"
+  },
+  {
+    "question": "What weapon eventually defeated the Great Dredgen Yor?",
+    "correctAnswer": "The Last Word",
+    "wrongAnswer": "The Thorn",
+    "wrongAnswerToo": "Hawkmoon",
+    "grade": "Easy",
+    "tag": "Lore"
+  },
+  {
+    "question": "Why did Oryx want revenge for the death of his son Crota?",
+    "correctAnswer": "Restoring reputation",
+    "wrongAnswer": "The vex destroyed his home world",
+    "wrongAnswerToo": "The guardians killed his son",
+    "grade": "Medium",
+    "tag": "Lore"
+  },
+  {
+    "question": "Where does the Curse of Osiris take place?",
+    "correctAnswer": "Mercury",
+    "wrongAnswer": "Mars",
+    "wrongAnswerToo": "Venus",
+    "grade": "Easy",
+    "tag": "Lore"
+  },
+  {
+    "question": "What is the name for the moon in the IKELOS Core?",
+    "correctAnswer": "Luna",
+    "wrongAnswer": "Luno",
+    "wrongAnswerToo": "Luni",
+    "grade": "Easy",
+    "tag": "Lore"
+  },
+  {
+    "question": "What is the name for the earth in the IKELOS core?",
+    "correctAnswer": "Terra",
+    "wrongAnswer": "Terro",
+    "wrongAnswerToo": "Terri",
+    "grade": "Easy",
+    "tag": "Lore"
+  },
+  {
+    "question": "Who was the leader of the house of wolves?",
+    "correctAnswer": "Skolas",
+    "wrongAnswer": "Riksis",
+    "wrongAnswerToo": "Draksis",
+    "grade": "Easy",
+    "tag": "Lore"
+  },
+  {
+    "question": "After Osiris' deposal, who takes over the warlock vanguard?",
+    "correctAnswer": "Ikora Rey",
+    "wrongAnswer": "Preadyth",
+    "wrongAnswerToo": "Felwinter",
+    "grade": "Easy",
+    "tag": "Lore"
+  },
+  {
+    "question": "What race invaded Phobos before invading Mars first?",
+    "correctAnswer": "The Cabal",
+    "wrongAnswer": "The Taken",
+    "wrongAnswerToo": "The Vex",
+    "grade": "Easy",
+    "tag": "Lore"
+  },
+  {
+    "question": "Who wrote the books of Sorrow?",
+    "correctAnswer": "Oryx",
+    "wrongAnswer": "Crota",
+    "wrongAnswerToo": "The Speaker",
+    "grade": "Medium",
+    "tag": "Lore"
+  },
+  {
+    "question": "Who made the traveler",
+    "correctAnswer": "The Darkness",
+    "wrongAnswer": "The Beginning of time",
+    "wrongAnswerToo": "The Fallen",
+    "grade": "Easy",
+    "tag": "Lore"
+  },
+  {
+    "question": "What event caused the Fallen to Fall?",
+    "correctAnswer": "The Whirlwind",
+    "wrongAnswer": "The Collapse",
+    "wrongAnswerToo": "The Reaping",
+    "grade": "Medium",
+    "tag": "Lore"
+  },
+  {
+    "question": "Where is The Reef Located?",
+    "correctAnswer": "In an Astroid Belt",
+    "wrongAnswer": "In Empty Space",
+    "wrongAnswerToo": "On Venus",
+    "grade": "Easy",
+    "tag": "Lore"
+  },
+  {
+    "question": "Who is the other living lord other than Lord Shaxx?",
+    "correctAnswer": "Efrideet",
+    "wrongAnswer": "Shiro-4",
+    "wrongAnswerToo": "Felwinter",
+    "grade": "Medium",
+    "tag": "Lore"
+  },
+  {
+    "question": "Who operates the Cabal tank in The cerberus Vae III strike??",
+    "correctAnswer": "Val Ca'aul",
+    "wrongAnswer": "Val Zu'uarc",
+    "wrongAnswerToo": "Val Ma'arg",
+    "grade": "Hard",
     "tag": "Lore"
   }
 ]

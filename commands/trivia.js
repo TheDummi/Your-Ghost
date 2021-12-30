@@ -1,12 +1,16 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const Discord = require('discord.js');
-const { monthsShort } = require('moment');
+
 const trivia = require('../data/game/trivia.json');
 const { randomNumber } = require('../funcs.js');
 const { color } = require('../data/config/config.json')
+
+
 const cooldown = new Set();
 
 module.exports = {
+    category: "Destiny",
+    detailedDescription: "Trivia gives you a question and you have 15 seconds to answer. You can play with as many people as you wnat at once, and see who is the smarter one in your group, or play it alone, to work on your knowledge or even test it.",
     data: new SlashCommandBuilder()
         .setName('trivia')
         .setDescription('Replies with a trivia question'),
@@ -41,12 +45,12 @@ module.exports = {
             .setTitle(obj.question)
             .setDescription(`A: ${answers.A}\nB: ${answers.B}\nC: ${answers.C}`)
             .setColor(color)
-            .setFooter(`This question is ${obj.grade} and is for ${obj.tag}. You have 30sec to answer.`)
+            .setFooter({ text: `This question is ${obj.grade} and is for ${obj.tag}. You have 15sec to answer.` })
 
         await interaction.reply({ embeds: [embed], components: [row] });
         let answersGiven = { correct: new Set(), incorrect: new Set() };
         let filter = (inter) => inter.isButton() && inter.customId.startsWith(interaction.id);
-        let collector = interaction.channel.createMessageComponentCollector({ filter, time: 30000 })
+        let collector = interaction.channel.createMessageComponentCollector({ filter, time: 15000 })
         collector.on('collect', async (newInteraction) => {
             let [mId, answerLet] = newInteraction.customId.split('-');
             let answer = answers[answerLet];
@@ -72,6 +76,7 @@ module.exports = {
             embed
                 .setTitle('Results')
                 .setDescription(`The correct answer was: ${obj.correctAnswer}.\n${str}`)
+                .setFooter({ text: `This question was ${obj.grade} and was for ${obj.tag}.` })
             interaction.followUp({ embeds: [embed] });
             cooldown.delete(interaction.channel.id)
         })

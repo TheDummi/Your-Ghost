@@ -3,9 +3,11 @@ const Discord = require('discord.js')
 const { color } = require('../data/config/config.json')
 
 module.exports = {
+    category: "Utility",
+    detailedDescription: "Avatar gives you your avatar in a big embed.\n\nIf you want to get someone else's avatar, you can run `/avatar user: <mention user>`. This will give you the avatar of the user you mentioned!",
     data: new SlashCommandBuilder()
         .setName('avatar')
-        .setDescription('Replies with your avatar!')
+        .setDescription('Get your avatar')
         .addMentionableOption((option) =>
             option
                 .setName('user')

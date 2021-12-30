@@ -7,6 +7,9 @@ const clean = (text) => {
     else return text;
 };
 module.exports = {
+    owner: true,
+    category: "Developer",
+    detailedDescription: "Evaluate any code given to the JavaScript Language.",
     data: new SlashCommandBuilder()
         .setName('eval')
         .setDescription('run bot code')
@@ -17,20 +20,19 @@ module.exports = {
                 .setRequired(true)
         ),
     async execute(interaction, client, message) {
-        if (isOwner(interaction.user.id, interaction)) return;
         const embed = new Discord.MessageEmbed();
         let code = interaction.options.getString('code')
         try {
-            let output;
-            output = eval(code);
+            let output = eval(code);
             output = await output;
+            output = String(output).replace(new RegExp(interaction.client.token, 'g'), '[token omitted]');
             output = clean(output);
             embed
                 .setTitle('✅ Evaled code successfully')
                 .addField('📥 Input', code.length > 1012 ? 'Too large to display.' : '```js\n' + code + '```')
                 .addField('📤 Output', output.length > 1012 ? 'Too large to display.' : '```js\n' + output + '```')
                 .setColor('#66FF00')
-                .setFooter(interaction.user.username, interaction.user.avatarURL({ dynamic: true }))
+                .setFooter({ text: interaction.user.username, iconURL: interaction.user.avatarURL({ dynamic: true }) })
                 .setTimestamp();
         } catch (e) {
             embed
@@ -38,7 +40,7 @@ module.exports = {
                 .addField('📥 Input', code.length > 1012 ? 'Too large to display.' : '```js\n' + code + '```')
                 .addField('📤 Output', e.length > 1012 ? 'Too large to display.' : '```js\n' + e + '```')
                 .setColor('#FF0000')
-                .setFooter(interaction.user.username, interaction.user.avatarURL({ dynamic: true }))
+                .setFooter({ text: interaction.user.username, iconURL: interaction.user.avatarURL({ dynamic: true }) })
                 .setTimestamp();
         }
         interaction.reply({ embeds: [embed] })

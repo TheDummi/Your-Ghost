@@ -1,5 +1,71 @@
 [
   {
+    "name": "Glimmer",
+    "description": "The currency of the City. A programmable matter used as a source of power before the Collapse.",
+    "icon": "https://imgur.com/vqfTwA7",
+    "rank": "Common",
+    "note": [
+      "Glimmer is shared between all your characters.",
+      "Glimmer can be used for various expenses with vendors in Tower and Reef."
+    ],
+    "tag": "Currency",
+    "obtainable": [
+      "Dismantling Gear",
+      "Completing quests",
+      "Trading in Raid items",
+      "House Banners",
+      "Silken Codex",
+      "Axiomatic Beads",
+      "Network Keys",
+      "Royal Amethyst",
+      "Patrol Chests",
+      "Black Wax Idol",
+      "Blue Pholypage",
+      "Ether Seeds",
+      "Resupply Codes",
+      "Ghosts"
+    ],
+    "max": 25000
+  },
+  {
+    "name": "Legendary Mark",
+    "description": "None provided yet.",
+    "icon": "https://imgur.com/rowv8uD",
+    "rank": "Legendary",
+    "note": [
+      "You can start earning Legendary Marks when you are level 18.",
+      "Legendary Marks is shared between all your characters.",
+      "Legendary Marks can be used for various expenses with vendors in Tower and Reef."
+    ],
+    "tag": "Currency",
+    "obtainable": [
+      "Dismantling Legendary Gear",
+      "Completing quests",
+      "Completing Weekly Crucible games",
+      "Completing Heroic Strikes"
+    ],
+    "max": 200
+  },
+  {
+    "name": "Strange Coin",
+    "description": "This unusual coin is warm to the touch and vibrates gently in your hand.",
+    "icon": "https://imgur.com/ngizXW3",
+    "rank": "Rare",
+    "note": ["Strange Coins can be used for various expenses with Xûr."],
+    "tag": "Currency",
+    "obtainable": [
+      "Completing Crucible Games",
+      "Completing Strikes",
+      "Encrypting Engrams",
+      "Opening Chests",
+      "Gold Tier Public Events",
+      "Prison of Elders",
+      "Ranking up factions",
+      "Bounties"
+    ],
+    "max": "No limit"
+  },
+  {
     "name": "The Cabal",
     "icon": "https://imgur.com/8KhpEiV",
     "description": "Cabal, sometimes informally called Space Rhinos, are a race of large bipedal humanoids located on Mars, Mercury, Nessus and The Reef. They are one of the primary antagonist species in the Destiny Series. The Cabal empire is a Massive military-industrial complex.",
@@ -2610,7 +2676,7 @@
     "name": "Hand Cannon",
     "description": "Hand Cannons can be equipped in the primary weapon slot and are High dealing semi-automatic weapons.",
     "note": [
-      "Best statistics for Hand Cannons are High Impact, High fire rate and Big Magazine."
+      "Best statistics for Hand Cannons are High Impact, High fire rate and Range."
     ],
     "slot": "Primary",
     "bestUsePVP": [

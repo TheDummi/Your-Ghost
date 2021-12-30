@@ -7,6 +7,8 @@ const destiny = require('../data/game/destiny.json');
 const { setPresence, getUptime, capitalize, toArray } = require('../funcs.js');
 
 module.exports = {
+    category: "Destiny",
+    detailedDescription: "Get info on any Destiny item, find out if its registered in the ghost's archives if not enlighten him!\n\nrun `/info item: <any item>`.",
     data: new SlashCommandBuilder()
         .setName('info')
         .setDescription('Get info about a certain thing in Destiny.')
@@ -53,11 +55,15 @@ module.exports = {
                         .setTitle(d.name)
 
                         .setColor(getColor())
-                        .setFooter(`You searched for "${item}" if this wasn't what you were looking for please try to be more detailed.\nAll info is based on the latest update of The Taken King DLC.`)
+                        .setFooter({ text: `You searched for "${item}" if this wasn't what you were looking for please try to be more detailed.\nAll info is based on the latest update of The Taken King DLC.`, iconURL: interaction.user.avatarURL({ dynamic: true }) })
                     if (d.icon) {
-                        embed
-                            .setImage(d.icon)
-                            .setURL(d.icon)
+                        if (d.tag == "Currency" && d.icon) {
+                            embed.setThumbnail(d.icon)
+                        }
+                        else {
+                            embed.setImage(d.icon)
+                        }
+                        embed.setURL(d.icon)
                     }
                     if (d.description) {
                         if (d.tag == "Species" && d.description) {
@@ -114,6 +120,9 @@ module.exports = {
                             str += String(perk) + "\n"
                         })
                         embed.addField('How to obtain', str, true)
+                    }
+                    if (d.max) {
+                        embed.addField('Max', String(d.max), true)
                     }
                     if (d.baseLight && d.maxLight) {
                         let str = "";
@@ -208,6 +217,20 @@ module.exports = {
                             str += String(perk) + "\n"
                         })
                         embed.addField('Best PVE perks', str, true)
+                    }
+                    if (d.tag == "Species") {
+                        let str = "";
+                        let tempArray = [];
+                        for (const data in destiny) {
+                            if ("The " + destiny[data].species == d.name && destiny[data].tag == "Enemy") {
+                                tempArray.push(destiny[data].name)
+                            }
+                            else continue;
+                        }
+                        tempArray.forEach(thing => {
+                            str += thing + "\n"
+                        })
+                        embed.addField(`All Ranks`, str || "None", true)
                     }
                     if (d.tag == "Mechanic") {
                         let str = "";

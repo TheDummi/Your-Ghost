@@ -3,6 +3,12 @@ const fs = require('fs')
 const moment = require('moment')
 const { clientID, guildID, token, prefix } = require('./data/config/config.json');
 
+const Database = require('./config/database.js')
+
+const db = new Database()
+
+db.connect()
+
 const client = new Discord.Client({
     intents: [
         Discord.Intents.FLAGS.GUILDS,
@@ -29,7 +35,6 @@ for (const file of commandFiles) {
 
 for (const file of eventFiles) {
     const event = require(`./events/${file}`);
-
     if (event.once) {
         client.once(event.name, (...args) => {
             event.execute(...args, commands)
@@ -41,6 +46,8 @@ for (const file of eventFiles) {
         })
     }
 }
-
+process.on('unhandledRejection', error => {
+    console.error('Unhandled promise rejection:', error);
+});
 
 client.login(token);

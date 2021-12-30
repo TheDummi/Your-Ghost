@@ -4,6 +4,8 @@ const { title, description, icon, examples, changes, message } = require('../dat
 const { color } = require('../data/config/config.json')
 
 module.exports = {
+    category: "Info",
+    detailedDescription: "Get the latest news on what the bot has to offer.",
     data: new SlashCommandBuilder()
         .setName('new')
         .setDescription('Get the latest news on what\'s new.'),
@@ -12,7 +14,7 @@ module.exports = {
         let embed = new Discord.MessageEmbed()
             .setTitle(title)
             .setDescription(description)
-            .setFooter('- Dummi')
+            .setFooter({ text: '- Dummi' })
             .setTimestamp()
             .setImage(icon)
             .setColor(color)

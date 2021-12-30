@@ -4,6 +4,8 @@ const { color } = require('../data/config/config.json')
 const uses = require('../data/user/uses.json')
 
 module.exports = {
+    category: "Info",
+    detailedDescription: "Get a list of your used commands, these are in the order of when you used the command for the first time.\n\n`/uses` does not count.",
     data: new SlashCommandBuilder()
         .setName('uses')
         .setDescription('Get a list of your most used commands.'),
@@ -26,10 +28,10 @@ module.exports = {
             }
         }
         let embed = new Discord.MessageEmbed()
-            .setAuthor('Your most used commands', interaction.user.avatarURL({ dynamic: true }))
+            .setAuthor({ name: 'Your most used commands', iconURL: interaction.user.avatarURL({ dynamic: true }) })
             .setDescription(getUses().commands)
             .setColor(color)
-            .setFooter(`In total you've used ${getUses().total} commands!`)
+            .setFooter({ text: `In total you've used ${getUses().total} commands!` })
         await interaction.reply({ embeds: [embed], ephemeral: true });
     },
 };

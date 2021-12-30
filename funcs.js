@@ -1,7 +1,6 @@
 const fs = require("fs");
 const Discord = require('discord.js');
 const destiny = require('./data/game/destiny.json');
-const config = require('./data/config/config.json');
 const hasteURLs = [
     "https://hst.sh",
     "https://hastebin.com",
@@ -19,11 +18,6 @@ function randColor() {
 }
 
 module.exports = {
-    isOwner(ID, interaction) {
-        let owners = config.owners;
-        if (owners.includes(ID)) return;
-        else return interaction.reply({ content: 'This is a developer command!', ephemeral: true })
-    },
     randomNumber(min, max) {
         if (max == undefined) {
             max = min
