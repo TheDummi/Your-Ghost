@@ -32,14 +32,12 @@ module.exports = {
             allAnswers.splice(ind, 1);
         }
         let row = new Discord.MessageActionRow()
-        let afterRow = new Discord.MessageActionRow()
         for (let i = 0; i < 3; i++) {
             let b = new Discord.MessageButton()
                 .setCustomId(`${interaction.id}-${lets[i]}`)
                 .setLabel(answers[lets[i]])
                 .setStyle('PRIMARY')
-            row.addComponents(b)
-            afterRow.addComponents(b.setDisabled(true))
+            row.addComponents(b.setDisabled(false))
         }
         let embed = new Discord.MessageEmbed()
             .setTitle(obj.question)
@@ -64,6 +62,8 @@ module.exports = {
                 answersGiven.incorrect.add(newInteraction.user.username);
             }
         })
+        let afterRow = new Discord.MessageActionRow()
+        afterRow.addComponents(...row.components.map(c => c.setDisabled(true)))
         collector.on('end', () => {
             interaction.editReply({ embeds: [embed], components: [afterRow] })
             let str = "";
@@ -81,4 +81,4 @@ module.exports = {
             cooldown.delete(interaction.channel.id)
         })
     }
-}; 
+};

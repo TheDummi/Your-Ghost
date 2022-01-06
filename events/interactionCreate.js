@@ -1,7 +1,9 @@
-const { setPresence } = require('../funcs.js')
+const { setPresence, commandError } = require('../funcs.js');
 const fs = require('fs');
-const uses = require('../data/user/uses.json')
+const uses = require('../data/user/uses.json');
 const config = require('../data/config/config.json');
+const Discord = require('discord.js')
+
 module.exports = {
     name: 'interactionCreate',
     once: false,
@@ -25,7 +27,7 @@ module.exports = {
         }
 
         if (command.homeGuild) {
-            if (interaction.guild.id != config.guildID) return interaction.reply({ content: 'This command can only be used in my main server.', ephemeral: true });
+            if (interaction.guild.id != config.guildID) return interaction.reply({ content: `This command can only be used in my <#${config.guildID}> server.`, ephemeral: true });
         }
 
         try {
@@ -54,13 +56,9 @@ module.exports = {
             fs.writeFile('data/user/uses.json', JSON.stringify(uses), (err) => { if (err) console.error })
         }
         catch (error) {
-            console.error(error);
+            commandError(interaction.client, error)
             try {
-                await interaction.reply(
-                    {
-                        content: `There was an error executing ${interaction.commandName}.`,
-                        ephemeral: true
-                    });
+                await interaction.reply({ content: `There was an error executing ${interaction.commandName}.`, ephemeral: true });
             }
             catch { }
         }

@@ -406,5 +406,13 @@
     "wrongAnswerToo": "Val Ma'arg",
     "grade": "Hard",
     "tag": "Lore"
+  },
+  {
+    "question": "How many days after destiny's release did the vault of glass beaten?",
+    "correctAnswer": "5",
+    "wrongAnswer": "4",
+    "wrongAnswerToo": "6",
+    "grade": "Medium",
+    "tag": "Mechanics"
   }
 ]

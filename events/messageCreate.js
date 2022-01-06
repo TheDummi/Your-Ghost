@@ -1,52 +1,45 @@
-const { owners, color } = require('../data/config/config.json')
+const { guildID, prefix, contributors, owners } = require('../data/config/config.json')
+const { commandError } = require('../funcs.js')
 const Discord = require('discord.js')
 module.exports = {
     name: 'messageCreate',
     once: false,
     async execute(message) {
-        let command = message.content.toLowerCase()
-        if (message.author.id == message.client.user.id)
+        if (message.author.bot) return;
 
-            if (message.author.bot) return;
+        if (!message.content.startsWith(prefix) || message.author.bot) return;
+        let args = message.content.replace(prefix, "").split(/ +/);
+        let command = args.shift().toLowerCase();
 
-        if (command.startsWith("banana")) {
-            return await message.reply('Here have a banana: :banana:!')
+        if (command == "") return;
+
+        command = message.client.commands.get(command)
+
+        if (command.owner) {
+            if (!owners.includes(message.author.id)) return message.reply({ content: 'This is a developer command!', ephemeral: true });
         }
 
-        if (message.channel.type === 'news') {
-            message.crosspost()
-                .then((message) => message.react('📣'))
-                .catch(console.error)
+        if (command.contributor) {
+            config.owners.forEach(owner => {
+                contributors.push(owner)
+            })
+            if (!contributors.includes(message.author.id)) return message.reply({ content: 'This is a contributor only command', ephemeral: true })
         }
 
-        // const eventChannel = '921779479326634005'
-        // let number = randomNumber(10000) + 1;
-        // let pastNumbers = [];
-        // if (message.channel.id == eventChannel) {
-        //     if (command == '?start' && message.author.id == config.owners[0]) {
-        //         let startEmbed = new Discord.MessageEmbed()
-        //             .setTitle('Event started!')
-        //             .setDescription('If you guess the number you will get a custom role!\n\nThe number can be between 1 and 10000, but it changes every hour!')
-        //             .setColor(config.color)
-        //         message.channel.send(startEmbed).then(() => {
-        //             console.log(number)
-        //             if (message.content === number) {
-        //                 let embed = new Discord.MessageEmbed()
-        //                     .setAuthor(`🎉 ${message.author.username} guessed the number! 🎉`, message.author.displayAvatarURL({ dynamic: true }))
-        //                     .setColor(config.color)
-        //                     .setDesctiption(`The number was ${number}`)
-        //                 pastNumbers.push(number)
-        //                 message.channel.send(embed)
-        //             }
-        //             setInterval(() => {
-        //                 if (message.content === number) {
-        //                     embed.addField('Past hours numbers', pastNumbers, true)
-        //                     pastNumbers.push(number)
-        //                     message.channel.send(embed)
-        //                 }
-        //             }, 3600000)
-        //         })
-        //     }
-        // }
+        if (command.homeGuild) {
+            if (message.guild.id != guildID) return message.reply({ content: `This command can only be used in my <#${config.guildID}> server.`, ephemeral: true });
+        }
+
+
+        try {
+            await command.execute(message, ...args)
+        }
+        catch (error) {
+            commandError(message.client, error)
+            try {
+                await message.reply({ content: `There was an error executing ${command.name}.`, ephemeral: true });
+            }
+            catch { }
+        }
     }
 }

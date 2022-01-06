@@ -1,6 +1,8 @@
 const fs = require("fs");
+const config = require('./data/config/config.json')
 const Discord = require('discord.js');
 const destiny = require('./data/game/destiny.json');
+const got = require('got')
 const hasteURLs = [
     "https://hst.sh",
     "https://hastebin.com",
@@ -8,16 +10,28 @@ const hasteURLs = [
     "https://haste.tyman.tech"
 ]
 
-function randColor() {
-    var letters = '0123456789ABCDEF';
-    var color = '';
-    for (var i = 0; i < 6; i++) {
-        color += letters[Math.floor(Math.random() * 16)];
-    }
-    return color;
-}
 
 module.exports = {
+    randColor() {
+        let letters = '0123456789ABCDEF';
+        let color = '';
+        for (let i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+    },
+    getColor(rank) {
+        if (rank) {
+            let newColor = config.color
+            if (rank == "Exotic") return newColor = "#FFF000";
+            if (rank == "Legendary") return newColor = "#3B0054";
+            if (rank == "Rare") return newColor = '#02198B';
+            if (rank == "Uncommon") return newColor = "#99EBCB";
+            if (rank == "Common") return newColor = '#FFFFFF';
+            return newColor;
+        }
+        else return config.color
+    },
     randomNumber(min, max) {
         if (max == undefined) {
             max = min
@@ -101,23 +115,35 @@ module.exports = {
         let noSecUptime = `${days} days, ${hours} hours and ${minutes} minutes`;
         return { uptime: uptime, noSecUptime: noSecUptime };
     },
-    // async haste(text) {
-    //     for (const url of hasteURLs) {
-    //         try {
-    //             const resp = await got.post(url + "/documents", {
-    //                 body: text
-    //             }).json()
-    //             return `${url}/${resp.key}`
-    //         } catch (e) {
-    //             console.log(e)
-    //             continue
-    //         }
-    //     }
-    //     throw new Error("Haste failure")
-    // },
+    async haste(text) {
+        for (const url of hasteURLs) {
+            try {
+                const resp = await got.post(url + "/documents", {
+                    body: text
+                }).json()
+                return `${url}/${resp.key}`
+            } catch (e) {
+                console.log(e)
+                continue
+            }
+        }
+        throw new Error("Haste failure")
+    },
     capitalize(name) {
         name = name.toLowerCase();
         return name.charAt(0).toUpperCase() + name.slice(1)
+    },
+    commandError(client, error) {
+        client.channels.fetch('916283556928557056')
+            .then(channel => {
+                let embed = new Discord.MessageEmbed()
+                    .setTitle("ERROR")
+                    .setDescription(`\`\`\`js\n${error.stack}\`\`\``)
+                    .setColor(config.color)
+                channel.send({ embeds: [embed] })
+            }).catch((err) => {
+                console.error(err, error)
+            })
     },
     sleep(ms) {
         return new Promise(resolve => setTimeout(resolve, ms));
@@ -131,7 +157,6 @@ module.exports = {
             '(\\#[-a-z\\d_]*)?$', 'i'); // fragment locator
         return !!pattern.test(str);
     },
-    randColor: randColor,
     async paginate(message, embeds) {
         embeds.forEach((e, i) => {
             embeds[i] = embeds[i].setFooter(`Page ${i + 1}/${embeds.length} | Click ❔ for help!`)

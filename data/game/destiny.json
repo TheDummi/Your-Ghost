@@ -1,8 +1,14 @@
 [
   {
+    "name": "Destiny",
+    "description": "Destiny is an online-only multiplayer first-person shooter video game developed by Bungie and previously published by Activision. Destiny is now self-published by Bungie after separating from Activision in 2019.[3] It was released worldwide on September 9, 2014, for the PlayStation 3, PlayStation 4, Xbox 360, and Xbox One consoles. Destiny marked Bungie's first new console franchise since the Halo series, and it was the first game in a ten-year agreement between Bungie and Activision. Set in a \"mythic science fiction\" world, the game features a multiplayer \"shared-world\" environment with elements of role-playing games. Activities in Destiny are divided among player versus environment (PvE) and player versus player (PvP) game types. In addition to normal story missions, PvE features three-player \"strikes\" and six-player raids. A free roam patrol mode is also available for each destination which feature public events. PvP features objective-based modes, as well as traditional deathmatch game modes.\n\nPlayers take on the role of a Guardian, protectors of Earth's last safe city as they wield a power called Light to protect the City from different alien races. Guardians are tasked with reviving a celestial being called the Traveler, while journeying to different planets to investigate and destroy the alien threats before humanity is completely wiped out. Bungie released four expansion packs, furthering the story, and adding new content, missions, and new PvP modes. Year One of Destiny featured two small expansions, The Dark Below in December 2014 and House of Wolves in May 2015. A third, larger expansion, The Taken King, was released in September 2015 and marked the beginning of Year Two, changing much of the core gameplay. The base game and the first three expansions were packaged into Destiny: The Taken King Legendary Edition. Another large expansion called Rise of Iron was released in September 2016, beginning Year Three. Rise of Iron was only released for the PlayStation 4 and Xbox One; PlayStation 3 and Xbox 360 clients subsequently stopped receiving content updates. The base game and all four expansions were packaged into Destiny: The Collection. A sequel, Destiny 2, released in September 2017.\n\nUpon its release, Destiny received generally positive reviews, with praise for its gameplay, graphics, and for maintaining lineage from the Halo franchise, particularly in regards to its competitive experiences. Criticism centered mostly around the game's storyline and post-campaign content. It has been cited as one of the greatest video games ever made. It sold over US$325 million at retail in its first five days, making it the biggest new franchise launch of all time. It was GamesRadar's 2014 Game of the Year and it received the BAFTA Award for Best Game at the 2014 British Academy Video Games Awards.",
+    "icon": "https://store-images.s-microsoft.com/image/apps.337.65506807380982023.0e494b93-8e27-4f0d-aa29-8b32bb48a45b.a80c6f7e-6102-476d-a4a8-5d58baafd069?q=90&w=480&h=270",
+    "tag": "Game"
+  },
+  {
     "name": "Glimmer",
     "description": "The currency of the City. A programmable matter used as a source of power before the Collapse.",
-    "icon": "https://imgur.com/vqfTwA7",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/c/c5/Glimmer.png/revision/latest?cb=20150426060802",
     "rank": "Common",
     "note": [
       "Glimmer is shared between all your characters.",
@@ -30,7 +36,7 @@
   {
     "name": "Legendary Mark",
     "description": "None provided yet.",
-    "icon": "https://imgur.com/rowv8uD",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/d/d6/Legendary_Marks_icon.jpg/revision/latest/scale-to-width-down/96?cb=20150909170216",
     "rank": "Legendary",
     "note": [
       "You can start earning Legendary Marks when you are level 18.",
@@ -49,7 +55,7 @@
   {
     "name": "Strange Coin",
     "description": "This unusual coin is warm to the touch and vibrates gently in your hand.",
-    "icon": "https://imgur.com/ngizXW3",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/1/16/Strange_Coin_icon.jpg/revision/latest/scale-to-width-down/96?cb=20150711201426",
     "rank": "Rare",
     "note": ["Strange Coins can be used for various expenses with Xûr."],
     "tag": "Currency",
@@ -66,8 +72,140 @@
     "max": "No limit"
   },
   {
+    "name": "Vault of Glass",
+    "description": "Beneath Venus, evil stirs.",
+    "modes": ["Normal (Level 26)", "Hard (Level 30)"],
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/6/62/Vault.jpg/revision/latest/scale-to-width-down/1000?cb=20150330170833",
+    "tag": "Raid",
+    "chapters": [
+      {
+        "chapter": 1,
+        "name": "The Spire",
+        "description": "There are three Sync Plates that must be activated and protected simultaneously. The best way to do this is to split the fireteam into three groups of two members each and have each group activate and protect one plate. The plates can be activated by standing in the circle for a few seconds. Once the plate is activated, the Guardians do not need to remain inside it, but must defend it from Vex (only Praetorians can take control of Sync Plates, but other Vex will spawn as well). Each zone has line-of-sight of each other, so it is possible to provide support for the other groups if they are having a tough time. For example, if you see your team mates struggling on one of the zones that is visible to you, then you can snipe or shoot rockets to help clear out the Vex.The plate at the top near the entrance is typically the easiest to defend, so the two group members who are defending the top Sync Plate should help the others when possible. However, one member should always stay at the top. Praetorians, (upgraded Minotaurs), will spawn with Void shields here and attempt to retake the sync plates; they must be prevented from entering the circles. They will be accompanied by other Vex units, but only the Praetorians pose a threat to the plates.\n\nWhile all 3 plates are held by the guardians, a spire will slowly form on a platform opposite the vault door. If a sync plate is taken by a Praetorian it will reverse its growth and deteriorate until the plate is returned to Guardian control. You can tell if the sync plate is taken by a Praetorian if the sync plate fades from the white glow to a red glowing sync plate; at this point you need to clear out the Praetorian and regain control of the sync plate. The Guardians must control all the plates for two minutes for the spire to fully form.\n\nAfter the Spire has formed, a beam of light will shoot from it, opening the Vault of Glass. The fireteam can then enter.",
+        "icon": "https://destiny.wiki.gallery/images/thumb/c/c5/Destiny-VOG-Raid-Spire-Screen.jpg/1200px-Destiny-VOG-Raid-Spire-Screen.jpg",
+        "requiredPlayers": 2
+      },
+      {
+        "chapter": 2,
+        "name": "Confluxes",
+        "description": "After the first chest and some light platform jumping, the fireteam will come to a ledge. Dropping down from it will spawn The Templar. At this point, he cannot be damaged. There will be a Conflux where the team lands that the group must defend from waves of Vex. It looks similar to the spire that was built in the first part of the raid. If four Vex sacrifice themselves to the Conflux, the fireteam will all be killed (\"wiped\").\n\nIn addition to the normal Vex, special enemies called Fanatics will appear, distinguishable by their green aura. When a Fanatic is killed, a green puddle will appear on the ground that must be avoided until it dissipates. Walking into the puddle will mark the Guardian with a debuff called the Mark of Negation. The Templar will occasionally use an attack called \"Ritual of Negation\" that will kill all marked Guardians. In order to get rid of the mark, affected Guardians must cleanse themselves by walking into the fountain of light in the middle of the stage.\n\nAfter the conflux has been defended for a while, it will disappear. The Templar will then summon its legions, announced with an onscreen message to that effect. This will spawn a large number of Fanatics and a few major Hydra Vex. You can avoid fighting them by getting to higher ground. Once all of these enemies have been killed, or a once certain amount of time has passed, two new confluxes will appear, one on each side of the area. Once again, they must be defended against approaching Vex, and four sacrifices on either conflux (counted separately) must be prevented.\n\nOnce the two confluxes have been defended, the Templar will summon its legions again, and then the whole cycle repeats itself a third time with three confluxes in play. After defeating the third legion, the fireteam proceeds to the next phase.",
+        "icon": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/Destiny-Skip-Conflux-Guide.jpg",
+        "requiredPlayers": 2
+      },
+      {
+        "chapter": 3,
+        "name": "Oracles",
+        "description": "After all the Confluxes have been successfully defended, the team will receive the objective \"Destroy the Oracles.\" Throughout this phase, the Templar will spawn waves of Oracles, which look like yellow orbs of light. There are seven locations Oracles can appear: three on the left side, three on the right side, and one in the center. They cannot move or directly attack the player. Oracles make a distinctive chime sound when they spawn; each location can be identified by their specific pitch, which is previewed at the start of the phase.\n\nThey will be supported by other Vex units and Hobgoblins that spawn on the platforms that surround the area. Once the Oracles spawn, the players must quickly kill them within 15 seconds. If any Oracles survive for too long, all living players will receive the Mark of Negation and must cleanse themselves or be killed by the Templar's ritual. When seven waves (each of which spawns increasingly more Oracles) are dispatched, the next phase will start.",
+        "icon": "https://i.ytimg.com/vi/etPTageEfMc/maxresdefault.jpg",
+        "spawns": "- C: Center of the stage across from the cleansing fountain (\"center\").\n- D: Left side of the stage on the top of a small flight of stairs behind the left conflux (\"front left\").\n- E: To the right of the center oracle (\"front right\").\n- F♯: Left side of the left conflux area next to a small edge wall (\"left\").\n- G: Back right corner of the right conflux area (\"right\").\n- A: Left of The Templar's platform (\"back left\").\n- B♭: Right of The Templar's platform (\"back right\").",
+        "requiredPlayers": 2
+      },
+      {
+        "chapter": 4,
+        "name": "The Templar",
+        "description": "A relic will spawn in the middle of the room. One Guardian can pick up the relic, which will give that Guardian a shield weapon while it is held. While holding the relic, the player will only have access to melee attacks. The relic-holder will have three types of melee attacks: the melee button will perform a quick dash that deals minimal damage in exchange for high speed, the fire button will perform a stronger dash attack with a longer range that deals massive single-target damage and is capable of killing all enemies barring Praetorians instantly, and pressing the fire button in midair will perform an AOE ground slam attack that deals massive damage to nearby enemies. Note that the quick-dash can also be used as a sort of glide that allows the relic user to quickly escape from sticky situations, or to cross large distances quickly.\n\nWhen the relic is picked up, The Templar will spawn. He has a shield that is immune to all conventional attacks. To remove the shield, the relic's super attack must be used, which fires a projectile much like a rocket launcher. When his shield is taken down, some Guardians will randomly be surrounded by a red globe (\"detained\"), which hinders movement and blocks shots. The detainment field must be destroyed to free the Guardian. If the Guardian leaves the globe without destroying it, they will be killed in a matter of seconds. It is therefore not recommended to be moving or in the air when the globes spawn as the Guardian will fall out.\n\nAfter its shield is removed, the Templar will attempt to teleport; if he succeeds he will regain his shield. The location that he teleports to will be marked with a ring. If a Guardian stands in this ring for a few seconds, the teleport is canceled, extending the time that The Templar is vulnerable but spawning a Minotaur.\n\nOracles will also spawn during the fight. Failing to kill them in time results in them marking the Guardians. Note that during this phase, the fountain of light will not be present. In order to cleanse, the relic-holder is given a special shield similar to Ward of Dawn that replaces their grenade. This shield barrier cleanses all Guardians inside it and blocks all incoming attacks, although Guardians inside the shield can still shoot out through it. It is best to gather around the relic-holder when Guardians are marked to make sure everyone in the team is cleansed together. When the barrier is used, a cooldown will occur, preventing the user from activating it again for a short time. The duration of this cooldown depends on how long the barrier was previously used for.\n\nIf the Templar is fired at with the relic and the detain bubbles spawn before the Templar completes his ritual, then the ritual can be interrupted, allowing players with additional time to obtain a cleanse of the Mark of Negation debuff if need be.\n\nIf the Templar is not killed within eight minutes, he will become Enraged. While Enraged, the spawn rate of all enemies is increased, and Minotaurs spawn constantly. The Templar will also use the Ritual of Negation more frequently.\n\nOnce the Templar is killed, the team will automatically receive rewards. Additionally, there is a chest containing Spirit Bloom in a small hole in the wall on the left side of the room about 10 feet up, by where the left Conflux spawns. There is also a tunnel in the room that, if taken, provides an alternate route to the left chest in the Gorgon's Labyrinth. This route also leads to a \"mysterious\" chest platform that is only accessible through this tunnel. This chest will only be available to the raid group if the Templar was unable to teleport during the battle.",
+        "icon": "https://i.ytimg.com/vi/1gNxWoXbBuk/maxresdefault.jpg",
+        "requiredPlayers": 2
+      },
+      {
+        "chapter": 5,
+        "name": "The Gorgon's Labyrint",
+        "description": "The team must work their way through a maze filled with Gorgons (which resemble glowing white Harpies) without being detected. If any member of the team is seen, all members will be killed after 10 seconds and must start the maze over from the beginning. It is possible to kill Gorgons despite their immense amount of health, but if a Gorgon is killed all others will gain an immunity timer (they will not take damage for a period of time) if they spot a player and the timer will grow (up until it reaches a maximum of about 3 or 4 seconds) if additional Gorgons are killed.\n\nThere are two Chests in this maze: the first is to the left after you get to the bottom at the start of the maze. You will have to scale a short portion of the wall and go through a short tunnel. If you took the tunnel leading from the Templar area, then you will not have to scale the wall and will be near the chest before dropping to the floor of the Labyrinth. The second Chest is found by hugging the right wall of the Maze.",
+        "icon": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/05/Destiny-2-Gorgon.jpg",
+        "requiredPlayers": 3
+      },
+      {
+        "chapter": 6,
+        "name": "Disappearing Platforms",
+        "description": "After passing the Gorgons and locating the hidden exit, the team will enter the Vault of Glass proper and encounter a large canyon in which floating rock platforms appear and disappear in a specific order. The team must work their way across the canyon using these platforms to proceed to the final area.\n\nThere is an alternate route of disappearing platforms that don't spawn in a confusing path (unlike the initial route). To get here, approach the edge of the beginning of the area and jump up into a cave that is up to the left and proceed through the cave. The first platform spawns almost directly beneath the edge of the end of the cave.",
+        "icon": "https://fe42less.files.wordpress.com/2014/10/disappearingplatforms.jpg",
+        "requiredPlayers": 1
+      },
+      {
+        "chapter": 7,
+        "name": "The Gate",
+        "description": "The final area is a room that houses a Gatekeeper and a swarm of Hobgoblins and Goblins. Clear the room of all enemies. There are two portals, called Vex Timegates, with corresponding Sync Plates that function identically to the ones at the beginning of the raid. After killing the Gatekeeper, a Relic spawns, and the Sync Plates activate and may now be used to open the portals by having a Guardian stand in them for a few seconds.\n\nA group of Guardians should enter one of the portals while the remaining members stay outside. The group that stays back needs to defend the sync plate from the Vex. If a Praetorian regains control of the plate and closes the portal, an Oracle will spawn above the now closed portal. If the Oracle is not destroyed, the Guardians protecting the plate will die. This leaves the group inside the portal \"forever lost in the dark corners of time,\" killing them. The group that enters the portal needs to kill a Gatekeeper and retrieve a relic that spawns upon its death. Once the Gatekeeper is killed, the portal members will be given a debuff called \"Marked by the Void\" that remains as long as they are in the portal. This debuff will gradually cloud a player's vision until the screen is completely black, but can be removed by the cleanse function of the relic (it should be noted that the debuff can also do damage to players if they manage to stay alive with the debuff for an extended period of time). Once the relic is retrieved, the group must exit the portal.\n\nAfter you kill the first Gatekeeper, a Conflux will spawn in the center of the area that must also be defended. Minotaurs will constantly spawn and attempt to sacrifice themselves, so assign someone to defend the Conflux while the others proceed to the second portal. If four sacrifices occur at the conflux then the entire team will be killed.\n\nThe Guardian with the relic should accompany at least one other player into the second portal, leaving the rest of the team to defend both the corresponding sync plate and the Conflux. The player with the relic should keep the portal team's vision clear, as all members in the portal will constantly be debuffed by Mark of the Void. The rest of the group must kill a Gatekeeper and his minions, and retrieve a second relic; the use of the first relic will make this task much easier. Once the second relic is retrieved, the group must exit the portal, cleansing all marked members upon returning.\n\nAn alternative, more advanced strategy is to send a team of two Guardians in to each portal at the same time, coordinating Gatekeeper kills, since its death triggers the Conflux. Then, both teams must exit the portals as quickly as possible, and both relic holders defend the Conflux after cleansing the team. Occasionally, something will cause a party wipe after utilizing this strategy. If the loot has already been given, the game will recognize the checkpoint, and continue on to fighting Atheon after the team respawns.\n\nWhen back in the room, you must kill the rest of the minions that spawn in order to clear phase 1. Once this is achieved, both relics and the conflux will disappear, and loot will be given.",
+        "icon": "https://www.pcgamesn.com/wp-content/uploads/2021/04/destiny-2-vault-of-glass-1200x675.jpg",
+        "requiredPlayers": 2
+      },
+      {
+        "chapter": 8,
+        "name": "Atheon, Time's Conflux",
+        "description": "Shortly (about 20 seconds) after appearing, Atheon will \"open the timestream,\" teleporting three random Guardians into one of the portal regions. The Guardians inside the portal will appear next to a relic, which one Guardian must take. Mark of the Void will again continuously inflict its debuff on all portal members. Six Oracles will spawn, one at a time and in a fixed location, and must be killed. When all Oracles and enemies in the portal are killed, the entire fireteam will receive a buff called \"Time's Vengeance\" for 30 seconds. This buff will dramatically increase all damage dealt to Atheon, charge all supers and grenades in two seconds, and allow the cleansing shield be used for its entire duration.The Guardians outside the portal are required to activate the timegate the others have been teleported into in order for them to escape; the portal team must communicate which portal they have been sent to upon arrival. During each teleport phase, Harpy variants called Supplicants will spawn three at a time alternating between the right and left. Supplicants are extremely agile and will explode when they are in close proximity to a Guardian, usually resulting in the player's death.\n\nDuring \"Time's Vengeance,\" once all Guardians return from the portal, all damage should be concentrated on Atheon. The relic's super attack is very strong against Atheon and the shield function can be used constantly for the duration of the buff, allowing the team a safe refuge from which to fire on him. It is recommended that the team go to the small floating platform between the time portals as they will be out of the reach of Supplicants there. When Time's Vengeance runs out, the process repeats, and continues until Atheon is defeated. If players wish to use rockets, they must exit the bubble. Otherwise, the rocket will hit the bubble and detonate, resulting in the death of the user.\n\nOn the Normal difficulty, seven minutes after Atheon spawns an alert will appear that enrage is near, and after eight minutes he will become enraged. While enraged, Atheon attacks more frequently and spawns significantly more Supplicants.",
+        "icon": "https://static1.thegamerimages.com/wordpress/wp-content/uploads/2021/05/Destiny-2-Vault-of-Glass-Atheon.jpg",
+        "requiredPlayers": 2
+      }
+    ],
+    "tips": [
+      {
+        "name": "Oracles",
+        "description": "In the image below you can see a map of where the oracles spawn, and their spawn order.",
+        "icon": "https://external-preview.redd.it/wizHRUqLum6k39R4JEt_JZfxj5-PCP4HxbIFPPyI1Xg.jpg?auto=webp&s=d625f166c0e831ce73c4dd9bed2b951f66a491ed"
+      },
+      {
+        "name": "The Gorgon's Labyrint",
+        "description": "In the image below you can see routes on a map of the labyrinth.",
+        "icon": "https://external-preview.redd.it/onlPaktR_xhwsLjN-wSwPMG-3CaEkzx427owlzFRobE.jpg?auto=webp&s=22024d2d383ea4b1d40730a094ffe997111f0748"
+      }
+    ],
+    "hardMode": [
+      "**Revival is disabled:** While inside darkness zones, fallen Guardians cannot be revived by their teammates. Anyone who dies will stay dead until the remaining team members complete the current raid phase or wipe and revert to the last checkpoint. Sunsinger Warlocks can still use Radiance to self-revive.",
+      "**Two Oracles accompany The Templar:** Normally, during the phase in which players fight The Templar with the Relic, only a single Oracle at a time will spawn before he casts the Ritual of Negation. In hard mode, there are two. If neither Oracle is killed, the Guardians will be marked for negation twice.",
+      "**Additional Gorgons in the Labyrinth:** These new Gorgons are stationary and permanently watch certain spots in the maze, further restricting the paths that Guardians can take.",
+      "**Atheon detains Guardians:** When Atheon opens the timestream, the three Guardians who are not sent into a portal will be detained inside red bubbles and must shoot their way out, just like during the fight with The Templar."
+    ],
+    "challenges": [
+      "**Templar Challenge:** The fireteam must prevent The Templar from teleporting. Guardians must prevent every teleport attempt and kill The Templar in a single damage phase.",
+      "**Atheon Challenge:** Every Guardian must kill an Oracle when Atheon opens the timestream. This will require even the Guardians who were not teleported to enter the portal and kill an Oracle. If a Guardian kills two Oracles, the challenge will be failed."
+    ],
+    "rewards": [
+      "Atheon's Epilogue",
+      "Vision of Confluence",
+      "Praedyth's Revenge",
+      "Found Verdict",
+      "Corrective Measure",
+      "Hezen Vengeance",
+      "Light of the Great Prism (Titan)",
+      "Kabr's Brazen Grips (Titan)",
+      "Kabr's Wrath (Titan)",
+      "Kabr's Forceful Greaves (Titan)",
+      "Shattered Vault Cloak (Hunter)",
+      "Prime Zealot Gloves (Hunter)",
+      "Prime Zealot Cuirass (Hunter)",
+      "Prime Zealot Greaves (Hunter)",
+      "Fragment of the Prime",
+      "Gloves of the Hezen Lords",
+      "Cuirass of the Hezen Lords",
+      "Tread of the Hezen Lords",
+      "Chatterwhite",
+      "\"Glass Minuet\"",
+      "\"Timebreaker\"",
+      "Vex Mythoclast (Hard)",
+      "Praedyth's Timepiece (Hard)",
+      "Fatebringer (Hard)",
+      "Praetorian Foil (Hard)",
+      "Battlecage of Kabr (Titan) (Hard)",
+      "Prime Zealot Helm (Hunter) (Hard)",
+      "Façade of the Hezen Lords (Warlock) (Hard)",
+      "\"Aspect of Glass\" (Hard)"
+    ]
+  },
+  {
+    "name": "Three of Coins",
+    "description": "Stackable effect that increases the chances the next Ultra you defeat or Crucible match you complete will award an Exotic Engram.",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/6/6b/Three_of_Coins_icon.jpg/revision/latest/scale-to-width-down/96?cb=20180328054251",
+    "rank": "Rare",
+    "tag": "Consumable",
+    "note": [
+      "Thre of Coins is currency, but can't be used to buy anything. In return can be used to consume."
+    ],
+    "obtainable": ["Bought from Xûr"],
+    "price": ["7 Strange Coins for 5 Three of Coins"],
+    "max": 100
+  },
+  {
     "name": "The Cabal",
-    "icon": "https://imgur.com/8KhpEiV",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/4/48/Cabal_Render.png/revision/latest/scale-to-width-down/750?cb=20140609170438",
     "description": "Cabal, sometimes informally called Space Rhinos, are a race of large bipedal humanoids located on Mars, Mercury, Nessus and The Reef. They are one of the primary antagonist species in the Destiny Series. The Cabal empire is a Massive military-industrial complex.",
     "biology": "Cabal are a large, rhinoceros-like, bipedal race with thick grey skin, a flat nose, conical teeth, small eyes, and black blood. Despite being unable to breathe the Martian atmosphere without their armor, the Cabal appear to exhibit an affinity to desert-like terrain, which is evident through their colloquial nomenclature and occupation of Mars. The race expresses a complex understanding of technology, seen with advanced armor, weapons, vehicles, and the art of space-faring.\n\nAlmost all Cabal technology contains an unknown black sludge that human laboratories have yet to find a way to synthesize.[4] When killed, Cabal soldiers collapse loudly and \"squirt dark oil from their livery.\" Their armor is pressurized and replicates the high-gravity conditions found on their homeworld.[6] Judging by a Ghost's observations, they may have poor eyesight.",
     "homePlanet": "Mars",
@@ -76,7 +214,7 @@
   },
   {
     "name": "The Fallen",
-    "icon": "https://imgur.com/Yg1Grx8",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/a/a9/Captain.png/revision/latest/scale-to-width-down/422?cb=20130510122813",
     "description": "The Fallen, or Eliksni in their native language, are a nomadic species of four-armed bipedal humanoids. They are a race of pirates and mercenaries located on Earth, the Moon, Venus, The Reef, Mars, Nessus, Io, and Titan, and are one of the primary antagonist races in the Destiny series.",
     "biology": "The Fallen are an agile race with four arms, three fingers, and two legs, giving them the ability to scale walls with ease. The race expresses a complex understanding of technology as they possess advanced armor, weapons, vehicles, and space-faring capabilities. They have the capability to speak Earth languages to varying degrees. Variks, a member of the House of Judgment, is one of the few to speak them fluently. The Fallen have four eyes that glow a bright white-blue when they are alive, but once killed, the light dies out. In their mouths are two rows of sharp, knife-like teeth, indicating that the Fallen are carnivorous in nature. This is also implied from Saint-14 when he said he saw Dregs eating children. The Fallen are also capable of growing back their arms, as Dregs are allowed to develop their other two arms upon being granted the honor of becoming a Vandal.\n\nFallen cannot survive without Ether, which is distributed to them by their Servitors. Their armor contains a supply of Ether and serves as a life support system, similar to a spacesuit. When killed with precision damage, the Fallen's Ether will be released from their armor.",
     "homePlanet": "Earth",
@@ -85,7 +223,7 @@
   },
   {
     "name": "The Hive",
-    "icon": "https://imgur.com/r7J1bb4",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/8/8c/Hive_Thrall.png/revision/latest/scale-to-width-down/800?cb=20140609013118",
     "description": "The Hive are an impossibly ancient race that battled humanity at the end of their Golden Age. They most prominently reside on the Moon, where they have burrowed deep within its lifeless core, carving out a kingdom for themselves. They have been silent and buried among many dark and terrible secrets, staying there for centuries while growing stronger. They serve as a reminder of the tremendous power that brought forth the Collapse.",
     "biology": "The Hive is an ancient species that traverse the stars in ships that act like sarcophagi, which have kept them alive by some magical means for millennia. The Hive will delve deep into a planetoid, unheeding of the damage they do in the process, crafting linked caverns and gothic-inspired columns. Their underground spaces are like a dungeon that has only recently been pulled up from too long underwater. They have existed for billions of years in service to the Worm Gods who gave them their abilities directly from the Formless One. In return for their service, the Worm Gods helped them escape the incoming Syzygy that was going to destroy their homeworld of Fundament. They follow a religion called the Sword Logic, which is an extreme form of Darwinism where only the strongest survive.\n\nThe Hive intend to evoke a feeling of \"undead royalty,\" and are a vaguely humanoid species with \"dry, flaking skin encrusted with ancient armor.\" At least some of the Hive appear to have supernatural abilities, including the ability to hover or float and manipulate energy and electricity.[6][7]",
     "homePlanet": "Moon",
@@ -94,7 +232,7 @@
   },
   {
     "name": "The Vex",
-    "icon": "https://imgur.com/F2H1ZnD",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/b/bc/Vex.png/revision/latest/scale-to-width-down/1000?cb=20140609005540",
     "description": "The Vex are ancient metal warriors, linked together and governed by Axis Minds. Unlike most species, they don't understand hostility, as the species had a common threat on their planet. As a result, what the beings found in the Solar System perceive as hostility is in reality simply the vex attempting to convert everything into something that makes sense to them.",
     "biology": "The Vex originated from before the beginning of the universe as highly tenacious patterns fleeing destruction at the battle fought outside of cause and effect. In the earliest epochs of the universe, the Vex existed as patterns in the primordial chaos, and later during the era of atomic matter rode comets down to young worlds and encoded themselves as a substrate of Radiolaria. From these primordial origins the Vex began to spread. The Vex appeared on Venus from an unknown location by way of transfer gates that allow them to instantly warp through worlds and time. All attempts to communicate with the Vex have failed, due to their single purpose to expand their species throughout the galaxy, commanded by Axis Minds that single-handedly control whole armies.\n\nTheir bodies are made of an unknown metal alloy resembling hammered brass, yet they are not entirely mechanical; some organic materials are present as well. If they are decapitated, they will remain active and become more aggressive. Their routines and ceremonies remain mysterious and illogical to humans; they are hostile, unrelenting, and deadly. The Vex despise the Cabal as much as humanity and are constantly fighting them on Mars, keeping Cabal operations from expanding further into the system.\n\nBungie has described the Vex as having a \"fascinating\" fiction behind them, \"which, in turn, creates one of the coolest deaths in the game.\"",
     "homePlanet": "Venus",
@@ -103,7 +241,7 @@
   },
   {
     "name": "The Taken",
-    "icon": "https://imgur.com/Q6ORv2o",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/d/d2/701180_43d6ed76ad2dee232ad703a9111f7af0.jpg/revision/latest/scale-to-width-down/560?cb=20180903201857",
     "description": "The Taken are an army of various species that have been twisted and corrupted by the power of The Darkness.",
     "biology": "The Taken are former members of different species that have been sent out of this dimension, corrupted wholly by Oryx using the power of The Darkness, and sent back with new powers and abilities.[2] Their horrid \"initiation\" causes them to suffer slight twitching as well as display a blue, supernatural flame burning inside them. Their bodies, from the bottom up are bluish-white to pitch-black, with a single circle of blue flame representing some sort of optics.",
     "homePlanet": "The Dreadnaught",
@@ -123,9 +261,9 @@
     "icon": "https://static.wikia.nocookie.net/destinypedia/images/3/32/Cabal_Psion.png/revision/latest/scale-to-width-down/960?cb=20140620152516",
     "description": "Psions are a Psionic race enslaved by the Cabal. Psions are smaller than the Cabal, and use their mental powers to confront their enemies and pilot the massive vehicles they use.\n\nIn combat, Psions utilize standard rifles, and are physically weaker than their Cabal brethren, but make up for it with a smaller frame, greater agility, and powerful shockwave attacks that can deal heavy damage.",
     "tactic": "In regular combat, Psions present a threat equal to or less than that of standard Legionaries. Their thinner armor means they take more damage than a full-fledged Cabal unit, even on higher difficulties, and they can easily be dispatched with a few center of mass shots or a well-placed headshot. They only become a threat if the Epic modifier is active, which grants them a Void shield.\n\nAlthough they are physically weak, Psions are no pushovers. When they begin to glow and float slightly, they will release a shockwave attack. This move is extremely powerful, reducing even the best Guardians to critical health by simply being near the blast. It has a medium range, and can go through solid cover, meaning the only true way to avoid this attack is to either back up several paces, or run a good distance to the side. Therefore, it's advised that when they begin to signal this attack, either use this opportunity to dispatch them quickly, or move out of the vicinity.",
-    "rank": 1,
+    "rank": "1",
     "species": "Cabal",
-    "element": ["arc", "solar"],
+    "element": "arc",
     "tag": "Enemy"
   },
   {
@@ -251,6 +389,7 @@
   {
     "name": "Cosmodrome",
     "planet": "Earth",
+    "map": "https://pbs.twimg.com/media/Eld9K_MX0AIsCEi?format=jpg&name=large",
     "location": "Old Russia",
     "description": "Old Kazakhstan, falsely named Old Russia was originally modern day Kazakhstan during the Golden Age, is a toxic region located on Earth and a destination in Destiny. The area is characterized by its orange, burnt grass steppes and a massive walled structure which was built for the purpose of protecting numerous colony ships fleeing Earth during the Collapse. Decrepit and rickety cars, some of which contain the remains of refugees who were attempting to escape the planet, are a frequent sight.\n\nThe inside of the Cosmodrome is overrun by the Fallen House of Devils. The dry terrain and dimly lit interiors of old buildings are a magnet for invading Fallen soldiers. The Hive also occupy some regions within Old Kazakhstan.",
     "icon": "https://static.wikia.nocookie.net/destinypedia/images/3/3d/Old_Russia.png/revision/latest?cb=20140415203508",
@@ -2573,7 +2712,7 @@
       "Mulligan",
       "Life Support",
       "Third Eye",
-      "Grendaier",
+      "Grenadier",
       "Reactive Reload",
       "Icarus",
       "Army of One",
@@ -2593,7 +2732,7 @@
       "Life Support"
     ],
     "rof": 22,
-    "impact": "81",
+    "impact": 81,
     "range": "26-62",
     "stability": "31-96",
     "reload": "26-70",
@@ -2604,7 +2743,262 @@
     "speed": "55-105"
   },
   {
+    "name": "Appelant III",
+    "description": "Executor-issued hand cannon for loyal supporters of the New Monarchy.",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/2/23/AppellantIII.jpg/revision/latest/scale-to-width-down/1000?cb=20151005022236",
+    "rank": "Legendary",
+    "class": "Hand Cannon",
+    "tag": "Weapon",
+    "requirements": ["Level 40"],
+    "obtainable": ["New Monarchy rank up reward", "Bought from New Monarchy"],
+    "baseLight": [220],
+    "maxLight": [335],
+    "basePerks": ["Kinetic Damage", "Infuse"],
+    "firstTierPerks": [
+      "Steadyhand IS",
+      "Truesight IS",
+      "Fastdraw IS",
+      "Sureshot IS",
+      "Quickdraw IS"
+    ],
+    "secondTierPerk": [
+      "Partial Refund",
+      "Underdog",
+      "Rescue Mag",
+      "Danger Close",
+      "Surrounded",
+      "Exhumed",
+      "Relentless Tracker",
+      "outlaw",
+      "Spray and Play",
+      "Rangefinder",
+      "Triple Tap",
+      "Hot Swap",
+      "Last Resort"
+    ],
+    "thirdTierPerks": [
+      "Extended Mag",
+      "Hand Loaded",
+      "Hammer Forged",
+      "Snapshot",
+      "Lightweight",
+      "Braced Frame",
+      "Smallbore",
+      "Explosive Rounds",
+      "Casket Mage",
+      "Reinforced Barrel",
+      "Riffled Barrel",
+      "Injection Mold",
+      "High Caliber Rounds",
+      "Feather Mag",
+      "Oiled Frame"
+    ],
+    "fourthTierPerk": [
+      "Mulligan",
+      "Life Support",
+      "Third Eye",
+      "Grenadier",
+      "Reactive Reload",
+      "Icarus",
+      "Army of One",
+      "Hidden Hand",
+      "Luck in the Chamber"
+    ],
+    "bestUsePVP": [
+      "Truesight IS",
+      "Rangefinder",
+      "Riffled Barrel",
+      "Luck in the Chamber"
+    ],
+    "bestUsePVE": [
+      "Truesight IS",
+      "Triple Tap",
+      "Extended Mag",
+      "Life Support"
+    ],
+    "rof": 32,
+    "impact": 61,
+    "range": "13-49",
+    "stability": "8-73",
+    "reload": "42-70",
+    "magazine": "7-11",
+    "zoom": 15,
+    "aim": "76-81",
+    "recoil": 100,
+    "speed": "66-116"
+  },
+  {
+    "name": "Byronic Hero",
+    "description": "Brood, baby, brood.",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/a/af/ROI_Byronic_Hero.png/revision/latest/scale-to-width-down/1000?cb=20170209220111",
+    "rank": "Legendary",
+    "class": "Hand Cannon",
+    "tag": "Weapon",
+    "requirements": ["Level 40"],
+    "obtainable": [
+      "Legendary engrams",
+      "Bought from Crucible Quarter master",
+      "Nightfall"
+    ],
+    "baseLight": [220],
+    "maxLight": [335],
+    "basePerks": ["Kinetic Damage", "Infuse"],
+    "firstTierPerks": [
+      "Steadyhand IS",
+      "Truesight IS",
+      "Fastdraw IS",
+      "Sureshot IS",
+      "Quickdraw IS"
+    ],
+    "secondTierPerk": [
+      "Partial Refund",
+      "Underdog",
+      "Rescue Mag",
+      "Danger Close",
+      "Surrounded",
+      "Exhumed",
+      "Relentless Tracker",
+      "outlaw",
+      "Spray and Play",
+      "Rangefinder",
+      "Triple Tap",
+      "Hot Swap",
+      "Last Resort"
+    ],
+    "thirdTierPerks": [
+      "Extended Mag",
+      "Hand Loaded",
+      "Hammer Forged",
+      "Snapshot",
+      "Lightweight",
+      "Braced Frame",
+      "Smallbore",
+      "Explosive Rounds",
+      "Casket Mage",
+      "Reinforced Barrel",
+      "Riffled Barrel",
+      "Injection Mold",
+      "High Caliber Rounds",
+      "Feather Mag",
+      "Oiled Frame"
+    ],
+    "fourthTierPerk": [
+      "Mulligan",
+      "Life Support",
+      "Third Eye",
+      "Grenadier",
+      "Reactive Reload",
+      "Icarus",
+      "Army of One",
+      "Hidden Hand",
+      "Luck in the Chamber"
+    ],
+    "bestUsePVP": [
+      "Truesight IS",
+      "Rangefinder",
+      "Riffled Barrel",
+      "Luck in the Chamber"
+    ],
+    "bestUsePVE": [
+      "Truesight IS",
+      "Triple Tap",
+      "Extended Mag",
+      "Life Support"
+    ],
+    "rof": 22,
+    "impact": 81,
+    "range": "13-49",
+    "stability": "22-86",
+    "reload": "16-67",
+    "magazine": "7-11",
+    "zoom": 15,
+    "aim": "71-76",
+    "recoil": 100,
+    "speed": "54-104"
+  },
+  {
+    "name": "Down and Doubt 0-0",
+    "description": "We all have those days.",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/d/d1/Down_and_Doubt_00-0.png/revision/latest/scale-to-width-down/1000?cb=20170427224755",
+    "rank": "Legendary",
+    "class": "Hand Cannon",
+    "tag": "Weapon",
+    "requirements": ["Level 40"],
+    "obtainable": [
+      "Vanguard rank up reward",
+      "Bought from Vanguard Quarter master",
+      "Legendary engrams",
+      "Nightfall"
+    ],
+    "baseLight": [220],
+    "maxLight": [335],
+    "basePerks": ["Kinetic Damage", "Infuse"],
+    "firstTierPerks": [
+      "Steadyhand IS",
+      "Truesight IS",
+      "Fastdraw IS",
+      "Sureshot IS",
+      "Quickdraw IS"
+    ],
+    "secondTierPerk": [
+      "Third Eye",
+      "Mulligan",
+      "Grenadier",
+      "Luck in the Chamber",
+      "Army of One",
+      "Zn Moment"
+    ],
+    "thirdTierPerks": [
+      "Snapshot",
+      "Quikcdraw",
+      "Single Point Sling",
+      "Extended Mag",
+      "Lightweight",
+      "Oiled Frame",
+      "Braced Frame",
+      "Reinforced Barrel",
+      "Riffled Barrel",
+      "Injection Mold"
+    ],
+    "fourthTierPerk": [
+      "Triple Tap",
+      "Icarus",
+      "Firefly",
+      "Rescue Mag",
+      "Life Support",
+      "Outlaw",
+      "Underdog",
+      "Eye of the Storm",
+      "Exhumed",
+      "Surrounded",
+      "Danger Close"
+    ],
+    "bestUsePVP": [
+      "Truesight IS",
+      "Rangefinder",
+      "Riffled Barrel",
+      "Luck in the Chamber"
+    ],
+    "bestUsePVE": [
+      "Truesight IS",
+      "Triple Tap",
+      "Extended Mag",
+      "Life Support"
+    ],
+    "rof": 32,
+    "impact": 61,
+    "range": "13-49",
+    "stability": "8-73",
+    "reload": "42-70",
+    "magazine": "7-11",
+    "zoom": 15,
+    "aim": "76-81",
+    "recoil": 100,
+    "speed": "66-116"
+  },
+  {
     "name": "Auto Rifle",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/d/d0/Destiny_Assault_Rifle_1.jpg/revision/latest?cb=20140731021025",
     "description": "Auto Rifles can be equipped in the primary weapon slot and are fully automatic weapons with high fire rate and low damage.",
     "note": [
       "Best statistics for Auto Rifles are High Fire rate, High Stability and Big Magazine."
@@ -2628,6 +3022,7 @@
 
   {
     "name": "Pulse Rifle",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/6/6c/Destiny_Assault_Rifle_2.jpg/revision/latest/scale-to-width-down/1000?cb=20140731015728",
     "description": "Pulse Rifles can be equipped in the primary weapon slot and are burst fire type weapons.",
     "note": [
       "Best statistics for Pulse Rifles are High Fire rate, High Stability and Big Magazine."
@@ -2656,6 +3051,7 @@
   },
   {
     "name": "Scout Rifle",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/5/5e/ScoutRifleConcept.jpg/revision/latest/scale-to-width-down/640?cb=20160623035835",
     "description": "Scout Rifles can be equipped in the primary weapon slot and are semi-automatic weapons.",
     "note": [
       "Best statistics for Scout Rifles are High Fire rate, High Impact, High Stability and Big Magazine."
@@ -2674,6 +3070,7 @@
   },
   {
     "name": "Hand Cannon",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/6/6f/HandCannonRender.jpg/revision/latest/scale-to-width-down/1000?cb=20160623042248",
     "description": "Hand Cannons can be equipped in the primary weapon slot and are High dealing semi-automatic weapons.",
     "note": [
       "Best statistics for Hand Cannons are High Impact, High fire rate and Range."
@@ -2705,6 +3102,7 @@
   },
   {
     "name": "Fusion Rifle",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/8/81/Conduit_bluesky.jpg/revision/latest/scale-to-width-down/574?cb=20131011040652",
     "description": "Fusion Rifles can be equipped in the special weapon slot and are charging burst based weapons. Shooting 1 bullet will splice it in 4-6 beams.",
     "note": [
       "Best statistics for Fusion Rifles are High Stability, High Impact."
@@ -2741,6 +3139,7 @@
   },
   {
     "name": "Sniper Rifle",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/5/5d/Destiny_Sniper_Rifle_1.jpg/revision/latest/scale-to-width-down/1000?cb=20140731021407",
     "description": "Sniper Rifles can be equipped in the special weapon slot and are high damage dealing long ranged weapons with single shot.",
     "note": [
       "Best statistics for Sniper Rifles are High Impact, High fire rate and Fast reload."
@@ -2776,6 +3175,7 @@
   },
   {
     "name": "Shotgun",
+    "icon": "https://destiny.wiki.gallery/images/b/b5/Drawing_Board%2C_Silver_Dollar_customization_concept_art.jpg",
     "description": "Shotgun can be equipped in the primary weapon slot and are highly effective at shortrange and close-quarters, they shoot single pump shots.",
     "note": [
       "Best statistics for Shotguns are High Impact, Long Range and Fast Reload."
@@ -2809,6 +3209,7 @@
   },
   {
     "name": "Sidearm",
+    "icon": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2019/12/destiny-2-sidearms.jpg?q=50&fit=crop&w=1400&dpr=1.5",
     "description": "Sidearms can be equipped in the special weapon slot and are high fire rate semi-automatic pistols",
     "note": [
       "Best statistics for sidearms are High Fire rate, High Stability and High Impact."
@@ -2837,6 +3238,7 @@
   },
   {
     "name": "Rocket Launcher",
+    "icon": "https://i0.wp.com/planetdestiny.pcinvasion.com/wp-content/uploads/2015/01/gjallarhorn-exotic-comparison.png",
     "description": "Rocket launchers can be equipped in the heavy slot and shoot high damage dealing rockets.",
     "note": [
       "Best statistics for Rocket Launchers are High Blast Radius, High Velocity and a Big magazine."
@@ -2871,6 +3273,7 @@
   },
   {
     "name": "Machine Gun",
+    "icon": "https://cdn.wallpapersafari.com/16/48/8Ja9xD.jpg",
     "description": "Machine Guns can be equipped in the heavy weapon slot and are high damage dealing heavy weapons.",
     "note": [
       "Best Statistics for machine guns are High Impact, High Fire rate, high Stability and Range"
@@ -2909,6 +3312,7 @@
   },
   {
     "name": "Sword",
+    "icon": "https://t3t9y2b7.rocketcdn.me/wp-content/uploads/2020/01/2-exotic-weapons-we-need-back-destiny-2-1.jpg",
     "description": "Swords can be equipped in the heavy slot and are high damage dealing melee weapons",
     "note": [
       "Due to there only being 7 swords in the game I ranked them all, also there is no tactics for swords other than sword-glide (Warlock only) and sword-fly (Titan only)."
