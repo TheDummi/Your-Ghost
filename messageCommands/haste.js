@@ -22,7 +22,8 @@ module.exports = {
         catch (e) {
             return await message.reply("Not a valid file path")
         }
-        let str = String(b).replace(/```/g, "\`\`\`").replace(token, "Haha you thought you could get my token.")
+        let str = String(b)
+        str.replace(/```/g, "\`\`\`").replace(token, "Haha you thought you could get my token.")
         const { body } = await got.post(`${base}/documents`, {
             body: str
         });

@@ -1,6 +1,7 @@
 
 
 module.exports = {
+    owner: true,
     name: "restart",
     aliases: ["update"],
     category: "Developer",
