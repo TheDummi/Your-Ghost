@@ -39,6 +39,8 @@ module.exports = {
                         .setColor(color)
                     return message.reply({ embeds: [embed] })
                 }
+
+                let props = "";
                 c.props.forEach(e => {
                     props = `${props}**${e.name}**: ${e.description}\n\n`
                 })
@@ -52,7 +54,7 @@ module.exports = {
                     .addField("| Properties", props, true)
                     .addField("| Methods", meths, true)
                     .setColor(color)
-                return message.reply({ embeds: [embed], components: [row] }).catch(e => {
+                return message.reply({ embeds: [embed] }).catch(e => {
                     let propsSlim = "";
                     c.props.forEach(e => {
                         propsSlim = `${propsSlim}${e.name}\n\n`
@@ -68,7 +70,7 @@ module.exports = {
                         .addField("| Methods", meths, true)
                         .setFooter({ text: "This response was minified to get around the discord character limit" })
                         .setColor(color)
-                    message.reply({ embeds: [embedSlim], components: [row] }).catch(e => {
+                    message.reply({ embeds: [embedSlim] }).catch(e => {
                         let embedSuperSlim = new Discord.MessageEmbed()
                             .setTitle(c.name)
                             .setDescription(`${c.description.replace("<warn>", "```").replace("</warn>", "```")}\n\n[Docs link](http://discord.js.org/#/docs/main/stable/class/${c.name})`)

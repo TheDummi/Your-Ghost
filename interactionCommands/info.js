@@ -69,7 +69,7 @@ module.exports = {
                     if (d.rank) infoEmbed.addField('Rank', d.rank, true)
                     if (d.tag) infoEmbed.addField('Tag', d.tag, true)
                     if (d.class) infoEmbed.addField('Class', d.class, true)
-                    if (d.max) infoEmbed.addField('Max', d.max, true)
+                    if (d.max) infoEmbed.addField('Max', String(d.max), true)
                     if (d.modes) infoEmbed.addField('Modes', Array.from(d.modes).join('\n'), true)
                     title.push('General Info')
                     embeds.push(infoEmbed)

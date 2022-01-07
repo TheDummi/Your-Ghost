@@ -1,0 +1,52 @@
+TypeError: action.replace is not a function
+    at C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\funcs.js:143:169
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) RangeError [MESSAGE_CONTENT_TYPE]: Message content must be a non-empty string.
+    at Function.verifyString (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\util\Util.js:417:49)
+    at MessagePayload.makeContent (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\structures\MessagePayload.js:114:22)
+    at MessagePayload.resolveData (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\structures\MessagePayload.js:129:26)
+    at TextChannel.send (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\structures\interfaces\TextBasedChannel.js:171:61)
+    at Object.execute (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\messageCommands\echo.js:20:35)
+    at Object.execute (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\events\messageCreate.js:41:27)
+    at Client.<anonymous> (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\main.js:52:19)
+    at Client.emit (node:events:390:28)
+    at MessageCreateAction.handle (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\client\actions\MessageCreate.js:26:14)
+    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32) {
+  [Symbol(code)]: 'MESSAGE_CONTENT_TYPE'
+}
+TypeError: action.slice is not a function
+    at C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\funcs.js:143:200
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) RangeError [MESSAGE_CONTENT_TYPE]: Message content must be a non-empty string.
+    at Function.verifyString (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\util\Util.js:417:49)
+    at MessagePayload.makeContent (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\structures\MessagePayload.js:114:22)
+    at MessagePayload.resolveData (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\structures\MessagePayload.js:129:26)
+    at TextChannel.send (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\structures\interfaces\TextBasedChannel.js:171:61)
+    at Object.execute (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\messageCommands\echo.js:20:35)
+    at Object.execute (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\events\messageCreate.js:41:27)
+    at Client.<anonymous> (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\main.js:52:19)
+    at Client.emit (node:events:390:28)
+    at MessageCreateAction.handle (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\client\actions\MessageCreate.js:26:14)
+    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32) {
+  [Symbol(code)]: 'MESSAGE_CONTENT_TYPE'
+}
+TypeError: Cannot read properties of undefined (reading 'owner')
+    at Object.execute (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\events\messageCreate.js:24:21)
+    at Client.<anonymous> (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\main.js:52:19)
+    at Client.emit (node:events:390:28)
+    at MessageCreateAction.handle (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\client\actions\MessageCreate.js:26:14)
+    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\client\websocket\WebSocketManager.js:351:31)
+    at WebSocketShard.onPacket (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+    at WebSocket.onMessage (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\ws\lib\event-target.js:199:18)
+    at WebSocket.emit (node:events:390:28)
+Unhandled promise rejection: TypeError: Cannot read properties of undefined (reading 'owner')
+    at Object.execute (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\events\messageCreate.js:24:21)
+    at Client.<anonymous> (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\main.js:52:19)
+    at Client.emit (node:events:390:28)
+    at MessageCreateAction.handle (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\client\actions\MessageCreate.js:26:14)
+    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\client\websocket\WebSocketManager.js:351:31)
+    at WebSocketShard.onPacket (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+    at WebSocket.onMessage (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\ws\lib\event-target.js:199:18)
+    at WebSocket.emit (node:events:390:28)

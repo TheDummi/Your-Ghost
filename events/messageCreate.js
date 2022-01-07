@@ -7,11 +7,18 @@ module.exports = {
     async execute(message) {
         if (message.author.bot) return;
 
+        if (message.channel.type === 'GUILD_NEWS') {
+            message.crosspost()
+                .then(() => message.react('📣'))
+                .catch(message.react('❌'));
+        }
+
         if (!message.content.startsWith(prefix) || message.author.bot) return;
         let args = message.content.replace(prefix, "").split(/ +/);
         let command = args.shift().toLowerCase();
 
         if (command == "") return;
+        if (!message.client.commands.has(command)) return;
 
         command = message.client.commands.get(command)
 
@@ -35,7 +42,7 @@ module.exports = {
             await command.execute(message, ...args)
         }
         catch (error) {
-            commandError(message.client, error)
+            commandError(message, error)
             try {
                 await message.reply({ content: `There was an error executing ${command.name}.`, ephemeral: true });
             }

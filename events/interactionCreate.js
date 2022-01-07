@@ -56,7 +56,7 @@ module.exports = {
             fs.writeFile('data/user/uses.json', JSON.stringify(uses), (err) => { if (err) console.error })
         }
         catch (error) {
-            commandError(interaction.client, error)
+            commandError(interaction, error)
             try {
                 await interaction.reply({ content: `There was an error executing ${interaction.commandName}.`, ephemeral: true });
             }

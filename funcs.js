@@ -133,13 +133,14 @@ module.exports = {
         name = name.toLowerCase();
         return name.charAt(0).toUpperCase() + name.slice(1)
     },
-    commandError(client, error) {
-        client.channels.fetch('916283556928557056')
+    commandError(action, error) {
+        action.client.channels.fetch('916283556928557056')
             .then(channel => {
                 let embed = new Discord.MessageEmbed()
                     .setTitle("ERROR")
                     .setDescription(`\`\`\`js\n${error.stack}\`\`\``)
                     .setColor(config.color)
+                    .addField('Extra info', `Server: ${action.guild.name}\nChannel: ${action.channel}\nUser: ${action.author.tag || action.user.tag}\nCommand: ${String(action).length < 200 ? action : String(action).slice(200)}`, true)
                 channel.send({ embeds: [embed] })
             }).catch((err) => {
                 console.error(err, error)
