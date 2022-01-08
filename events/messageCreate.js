@@ -1,5 +1,5 @@
 const { guildID, prefix, contributors, owners } = require('../data/config/config.json')
-const { commandError } = require('../funcs.js')
+const { getCommandError } = require('../funcs.js')
 const Discord = require('discord.js')
 module.exports = {
     name: 'messageCreate',
@@ -42,9 +42,9 @@ module.exports = {
             await command.execute(message, ...args)
         }
         catch (error) {
-            commandError(message, error)
+            getCommandError(message, error)
             try {
-                await message.reply({ content: `There was an error executing ${command.name}.`, ephemeral: true });
+                await message.reply({ content: `There was an error executing ${command.name}.\nLog: <#916283556928557056>`, ephemeral: true });
             }
             catch { }
         }

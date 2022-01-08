@@ -1,4 +1,4 @@
-const { setPresence, commandError } = require('../funcs.js');
+const { getPresence, getCommandError } = require('../funcs.js');
 const fs = require('fs');
 const uses = require('../data/user/uses.json');
 const config = require('../data/config/config.json');
@@ -32,7 +32,7 @@ module.exports = {
 
         try {
             await command.execute(interaction);
-            await setPresence(interaction.client, 'WATCHING', `${interaction.user.username} use ${interaction.commandName}!`)
+            await getPresence(interaction.client, 'WATCHING', `${interaction.user.username} use ${interaction.commandName}!`)
             let com = interaction.commandName;
             if (!uses[interaction.user.id]) {
                 uses[interaction.user.id] = {
@@ -56,9 +56,9 @@ module.exports = {
             fs.writeFile('data/user/uses.json', JSON.stringify(uses), (err) => { if (err) console.error })
         }
         catch (error) {
-            commandError(interaction, error)
+            getCommandError(interaction, error)
             try {
-                await interaction.reply({ content: `There was an error executing ${interaction.commandName}.`, ephemeral: true });
+                await interaction.reply({ content: `There was an error executing ${interaction.commandName}.\nLog: <#916283556928557056>`, ephemeral: true });
             }
             catch { }
         }

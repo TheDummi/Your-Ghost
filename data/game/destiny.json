@@ -35,7 +35,7 @@
   },
   {
     "name": "Legendary Mark",
-    "description": "None provided yet.",
+    "description": "A currency used to purchase Legendary gear from vendors in tower.",
     "icon": "https://static.wikia.nocookie.net/destinypedia/images/d/d6/Legendary_Marks_icon.jpg/revision/latest/scale-to-width-down/96?cb=20150909170216",
     "rank": "Legendary",
     "note": [
@@ -72,7 +72,7 @@
     "max": "No limit"
   },
   {
-    "name": "Vault of Glass",
+    "name": "Vault of Glass (VoG)",
     "description": "Beneath Venus, evil stirs.",
     "modes": ["Normal (Level 26)", "Hard (Level 30)"],
     "icon": "https://static.wikia.nocookie.net/destinypedia/images/6/62/Vault.jpg/revision/latest/scale-to-width-down/1000?cb=20150330170833",
@@ -109,7 +109,7 @@
       },
       {
         "chapter": 5,
-        "name": "The Gorgon's Labyrint",
+        "name": "The Gorgon's Labyrinth",
         "description": "The team must work their way through a maze filled with Gorgons (which resemble glowing white Harpies) without being detected. If any member of the team is seen, all members will be killed after 10 seconds and must start the maze over from the beginning. It is possible to kill Gorgons despite their immense amount of health, but if a Gorgon is killed all others will gain an immunity timer (they will not take damage for a period of time) if they spot a player and the timer will grow (up until it reaches a maximum of about 3 or 4 seconds) if additional Gorgons are killed.\n\nThere are two Chests in this maze: the first is to the left after you get to the bottom at the start of the maze. You will have to scale a short portion of the wall and go through a short tunnel. If you took the tunnel leading from the Templar area, then you will not have to scale the wall and will be near the chest before dropping to the floor of the Labyrinth. The second Chest is found by hugging the right wall of the Maze.",
         "icon": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/05/Destiny-2-Gorgon.jpg",
         "requiredPlayers": 3
@@ -136,6 +136,32 @@
         "requiredPlayers": 2
       }
     ],
+    "chests": [
+      {
+        "name": 1,
+        "description": "Located on the path to The Templar after completing the Spire Phase. Contains",
+        "icon": "",
+        "rewards": ["Ascendant Energy", "Ascendant Shard"]
+      },
+      {
+        "name": 2,
+        "description": "Located in a hole in the wall to the left of The Templar after he is defeated.",
+        "icon": "",
+        "rewards": ["Spirit Bloom", "Glimmer"]
+      },
+      {
+        "name": 3,
+        "description": "Located in the same hole as the chest 2 near the bottom of the run",
+        "icon": "",
+        "rewards": ["Ascendant Energy", "Ascendant Shard"]
+      },
+      {
+        "name": 4,
+        "description": "Located on the left side of Gorgon's maze",
+        "icon": "",
+        "rewards": ["Ascendant Energy", "Ascendant Shard"]
+      }
+    ],
     "tips": [
       {
         "name": "Oracles",
@@ -143,7 +169,7 @@
         "icon": "https://external-preview.redd.it/wizHRUqLum6k39R4JEt_JZfxj5-PCP4HxbIFPPyI1Xg.jpg?auto=webp&s=d625f166c0e831ce73c4dd9bed2b951f66a491ed"
       },
       {
-        "name": "The Gorgon's Labyrint",
+        "name": "The Gorgon's Labyrinth",
         "description": "In the image below you can see routes on a map of the labyrinth.",
         "icon": "https://external-preview.redd.it/onlPaktR_xhwsLjN-wSwPMG-3CaEkzx427owlzFRobE.jpg?auto=webp&s=22024d2d383ea4b1d40730a094ffe997111f0748"
       }
@@ -188,6 +214,352 @@
       "Prime Zealot Helm (Hunter) (Hard)",
       "Façade of the Hezen Lords (Warlock) (Hard)",
       "\"Aspect of Glass\" (Hard)"
+    ]
+  },
+  {
+    "name": "Crota's End (CE or Crota)",
+    "description": "He waits in the dark below.",
+    "modes": ["Normal (Level 30à", "Hard (Level 33)"],
+    "icon": "https://d1fs8ljxwyzba6.cloudfront.net/assets/article/2017/04/26/Destiny-How-to-Beat-Crota-Challenge-Crotas-End_feature.jpg",
+    "tag": "Raid",
+    "chapters": [
+      {
+        "chapter": 1,
+        "name": "The Hellmouth",
+        "description": "The first thing the fireteam will encounter when spawning in is an isolated platform on the rim of the Hellmouth. There will be a circular plate on the ground that a guardian must stand in, which will slowly form a bridge extending out over the pit. Once the bridge has been formed the team should walk out onto it towards the center and drop through the hole at the end to enter the Hellmouth and begin the raid.",
+        "icon": "https://assets.vg247.com/current//2014/10/destiny_hellmouth.jpg",
+        "requiredPlayers": 1
+      },
+      {
+        "chapter": 2,
+        "name": "The Stills",
+        "description": "The team will land in a lighted area at the bottom of the Hellmouth. A pillar of white light can be seen in the distance. This area, outside the starting point, will continuously apply a debuff called Weight of Darkness, which can stack up to 10 times. It disables the ability to double-jump and reduces movement speed. Weight of Darkness can only be removed by standing close to one of the lighted pillars. However, as each pillar is used, the light will eventually turn orange/red, indicating that it has absorbed as much darkness as it can. Once the light is a deep red it will explode, killing anyone caught in the blast. The team must travel from light to light, fighting off hordes of Thrall and the occasional Cursed Thrall and Knight until reaching the end of the area. This only requires 1 guardian to complete so if preferred the team may choose 1 player to complete this alone and the others can fight off the Thrall.\n\nAfter reaching the last pillar there is another plate on the ground, similar to the one which triggered the bridge at the beginning of the raid. Once a guardian enters this circle, an enormous door opens to reveal a blinding white light, and a bridge gradually forms leading into it.\n\nWhile the bridge is forming, three Knights and an Ogre will spawn. Once the bridge is formed, up to three additional Ogres and three additional Knights will spawn. They will continue to respawn until the players reach the end. An Ogre will occasionally spawn at the end of the bridge. At least one player must run into the light and reach the end, which will advance the team to the next raid phase and drop loot.",
+        "icon": "https://destiny.wiki.gallery/images/thumb/8/82/Moon_-_The_Stills.jpg/1200px-Moon_-_The_Stills.jpg",
+        "requiredPlayers": 1
+      },
+      {
+        "chapter": 3,
+        "name": "The Bridge",
+        "description": "This area is divided into two separate platforms, connected by a temporary bridge which again must be formed by a guardian standing in a circle. Unlike previous bridge-forming circles, the guardian must remain in the circle to keep the bridge present, it will decay and disappear if the circle is not occupied. To both the left and right of the forming circle are floating pillars called Annihilation Totems. While the bridge is being formed, the totems will start turning orange and will wipe the team after a few seconds. This must be countered by having two additional players (one on each side) stand in the circles beneath the totems. The players can also abandon the attempt to form the bridge (by stepping out of the circle) to prevent a wipe if the totems have not yet fired.\n\nThe phase is begun when a guardian begins forming the bridge, which will trigger enemy spawns. Among the normal Hive enemies is a Swordbearer. When a Swordbearer is killed, it will drop a sword which one player must pick up within a brief period of time before it despawns. Only players carrying a sword may cross the bridge; swordless players who step onto it will be instantly killed from a debuff called Bane of the Swordless. The sword will last for 1 minute after being picked up, so the other team members must coordinate to have the bridge fully formed at the moment the sword is claimed.\n\nOn the other side of the bridge, the sword carrier will encounter blue knight variants called Gatekeepers. These can only be damaged by the sword, so the carrier must kill them quickly before the sword disappears. One gatekeeper will spawn for each Swordbearer killed. When the Gatekeeper is killed, one of the totems near the door will light up.\n\nThe carrier must also be careful not to spend too much time in the bridge-forming circle on the far side as that will trigger a second set of annihilation totems.\n\nOnce the sword despawns, another Swordbearer will emerge and the process must be repeated to move a second player across the bridge, and then again for a third. At that point the two halves of the team switch roles, and the players on the far side of the bridge must use their own forming circle and anti-totem circles to form the bridge while the players remaining on the starting side obtain swords and come across.\n\nAfter five Gatekeepers have been killed, the bridge will permanently solidify and the sixth player will not be required to obtain a Cleaver to cross it. Six new Cleavers will spawn on the far side of the bridge, accompanied by a large number of Hive and five more Gatekeepers. Once these have been killed and all ten statues powered up, the encounter will be completed.\n\nThe team must now run a gauntlet of Thralls, Cursed Thralls, and Shriekers to descend into the final area.",
+        "icon": "https://destiny.wiki.gallery/images/thumb/1/1a/Destiny-TDB-CrotasEnd-Raid-Screen.jpg/1200px-Destiny-TDB-CrotasEnd-Raid-Screen.jpg",
+        "requiredPlayers": 1
+      },
+      {
+        "chapter": 4,
+        "name": "Ir Yût, The Deathsinger",
+        "description": "This phase requires the team to kill Ir Yût, the Deathsinger, who is located within the chamber housing a large crystal and shielded off from the players. When the players enter the area, a message will appear that \"The Deathsinger prepares her song. After 2 minutes and 40 seconds, she will start the \"Liturgy of Ruin,\" which lasts 30 seconds. If Ir Yût is not killed before the Liturgy of Ruin is complete, the fireteam will be wiped.\n\nIn order to access the Crystal Chamber to fight Ir Yût, the players must lure out the Wizards from either side, then kill them. After each Wizard dies, a Shrieker will activate on either side of the Crystal Chamber that must be destroyed. Once both Wizards and both Shriekers have been killed, the Crystal Chamber will open, allowing access to Ir Yût.",
+        "icon": "https://d1fs8ljxwyzba6.cloudfront.net/assets/article/2017/03/29/Destiny-Deathsinger-Challenge-Mode-Guide_feature.jpg",
+        "requiredPlayers": 1
+      },
+      {
+        "chapter": 5,
+        "name": "Crota, Son of Oryx",
+        "description": "The crystal in Ir Yût's chamber may be used to spawn Crota, Son of Oryx by having every player stand very close to it. Once started, the shielded doorways will come up, sealing the team within the room while Knights and Acolytes spawn outside and surround it. Crota will spawn on the platform across from the crystal chamber. Once Crota has spawned, the shielded doors will drop and the horde will attack.\n\nDuring this entire fight, a debuff will be active called \"Presence of Crota\" which prevents normal health regeneration. Health may be regenerated by claiming the Chalice of Light, an item which spawns in the arena below Crota and may be held by one player at a time. Picking up the Chalice or taking it from another player will immediately trigger regeneration and holding it will allow regeneration to work normally. Any weapon perks, armor perks, or subclass abilities that grant health regeneration will still work.\n\nCrota possesses a shield which can be damaged by normal weapons, but which will recharge almost immediately if not continuously fired upon. Once the shield is down, Crota will kneel for about five seconds. During these five seconds, his health is vulnerable to damage by a Hive Cleaver, which the players must obtain by killing a Swordbearer in the arena below his walkway. The team must precisely match the arrival of the player carrying the sword at Crota with the fall of his shield so that the sword may be used to do as much damage to his health as possible.\n\nWhen Crota gets back up from kneeling, he will be briefly immune to weapons, indicated by an orange glow. He will also \"summon his oversoul\", which causes the gray sphere behind him to expand. The fireteam must fire their weapons at it until it disappears. If this is not done within ten seconds, the entire team will be killed.\n\nAfter two Swordbearers are killed, two Hallowed Ogres will spawn underneath the towers housing the Knights using Boomers. They must be killed before another Swordbearer will spawn.\n\nCrota will enrage if not killed within twelve minutes. While enraged, Crota will use the Oversoul repeatedly, and Ogres will spawn constantly.",
+        "icon": "https://i.pinimg.com/originals/52/32/67/523267caeb105b012b7ed68117eb661b.png",
+        "requiredPlayers": 1
+      }
+    ],
+    "chests": [
+      {
+        "name": 1,
+        "description": "In The Stills location, there are seven doors along the walls of the room that may contain the chest. Five doors are on the first floor along the left wall, and two doors are on the second floor along the right wall. The door with the chest will have an orange light above it. If everyone in the fireteam dies or reverts to the last checkpoint, the chest will respawn in a new random location. None of the tasks until this point require a fireteam, so it is possible to solo this chest.",
+        "icon": "",
+        "rewards": ["Radiant Energy", "Radiant Shard", "Bane XP"]
+      },
+      {
+        "name": 2,
+        "description": "The second chest is located in the room after the Bridge on the other side of the hole that leads to the fight with Ir Yût. The door to this room closes after a period of time. First, the fireteam must kill the second Shrieker, which removes the barrier. Once the barrier is down, at least one player must get inside the room before the door closes. Once a player is in the room, the door will open automatically after a few seconds.",
+        "icon": "",
+        "rewards": ["Radiant Energy", "Radiant Shard", "Bane XP"]
+      }
+    ],
+    "tips": [
+      {
+        "name": "The Stills",
+        "description": "Down below you can see a map with the route you can take.",
+        "icon": "https://i.imgur.com/NN3jTer.png"
+      }
+    ],
+    "hardMode": [
+      "Teammate revival is disabled.",
+      "The Shriekers in the long hallway after the Bridge respawn quickly.",
+      "During the Deathsinger encounter, the Liturgy of Ruin comes 1 minute quicker.",
+      "A Gatekeeper spawns with the Swordbearer during the Crota encounter.",
+      "During the Crota encounter, when a pair of Boomers are killed, a Wizard spawns instead of a Cleaver Knight.",
+      "Crota enrages when he reaches low health."
+    ],
+    "challenges": [
+      "**Deathsinger Challenge:** Players must kill Ir Yût with a Cleaver. In order to make a Cleaver spawn, all enemies except the Deathsinger herself (including the attendant Wizards and Shriekers) must be defeated. This will cause a message to appear reading \"Ir Yût screams in fear\" and a number of enemies to spawn in the crystal room, the courtyard, and above both Ogre rooms. Once these are killed, a Swordbearer appears. Once the Swordbearer is killed, its dropped Cleaver must be picked up by a Guardian, carried into the crystal chamber, and used to kill the Deathsinger.",
+      "**Crota Challenge:** During the encounter, no Guardian may pick up a Cleaver more than once. This means that each time a Swordbearer is killed, a different player must pick the Cleaver up and use it to attack Crota. If a player drops the Cleaver before it disappears on its own, they may not pick it back up."
+    ],
+    "rewards": [
+      "Willbreaker's Watch (Titan)",
+      "Willbreaker's Fists (Titan)",
+      "Willbreaker's Resolve (Titan)",
+      "Willbreaker's Greaves (Titan)",
+      "Mark of the Pit (Titan",
+      "Unyielding Casque (Hunter)",
+      "Dogged Gage (Hunter)",
+      "Relentless Harness (Hunter)",
+      "Tireless Striders (Hunter)",
+      "Shroud of Flies (Hunter)",
+      "Deathsinger's Gaze (Warlock)",
+      "Deathsinger's Grip (Warlock)",
+      "Deathsinger's Mantle (Warlock)",
+      "Deathsinger's Herald (Warlock)",
+      "Bone Circlet (Warlock)",
+      "Black Hammer",
+      "Light of the Abyss",
+      "Swordbreaker",
+      "Heavy Weapons",
+      "Hunger of Crota",
+      "Song of Ir Yût,",
+      "Crota's End",
+      "\"Light in the Abyss\"",
+      "Cryptographic",
+      "Oversoul Edict (Hard)",
+      "Abyss Defiant (Hard)",
+      "Word of Crota (Hard)",
+      "Fang of Ir Yût (Hard)",
+      "\"Bane of Dark Gods\" (Hard",
+      "S-13 \"Graverobber\" (Hard)",
+      "Glowhoo (Hard)",
+      "Crux of Crota (Hard)"
+    ]
+  },
+  {
+    "name": "King's Fall (KF)",
+    "description": "Long live the King.",
+    "modes": ["Normal (Light 290)", "Hard (Light 310)"],
+    "icon": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/08/oryx-the-taken-king-destiny-destiny-2-kings-fall-raid.jpg?q=50&fit=contain&w=943&h=472&dpr=1.5",
+    "tag": "Raid",
+    "chapters": [
+      {
+        "chapter": 1,
+        "name": "Hall Of Souls",
+        "description": "The raid begins in the Hall of Souls, where the fireteam is required to open the portal in the Court of Oryx by activating the six statues in sequence. Two relics will appear in the area, on columns immediately outside the court. When two Guardians take these relics, the area containing the statues will be blocked off by a force field and Taken will spawn within it. The remaining four players must shoot the field until it falls, then kill the enemies, allowing the relic holders to deposit both relics in quick succession into the marked statue. Once this has been done, two more relics will spawn elsewhere in the level, one to the right of the pre-Court room and one to the left, and must be retrieved and deposited in the same order. This process must be repeated six times, each time with the relics appearing further and further away and with more enemies and force fields between them and the statues. If the relics are not retrieved and deposited fast enough, the statue will depower and the sequence will regress by one stage.\n\nOnce all six statues have been powered up, the Court's portal will activate and a number of enemies will emerge. The fireteam must enter the portal to proceed. A loot chest is found immediately after traversing the portal.",
+        "icon": "",
+        "requiredPlayers": 3,
+        "hardMode": "The time after which a statue will depower is decreased, and the maximum time permitted between deposits of matching relics is shortened as well.",
+        "rewards": ["1 Moldering Shard", "3-7 Wormspore", "1 Antiquated Rune"]
+      },
+      {
+        "chapter": 2,
+        "name": "Tombships (jumping puzzle)",
+        "description": "The fireteam must jump across a set of swaying platforms. Each player must make the journey individually, timing and aiming their jumps carefully to land on each platform in succession.\n\nThe next area is an enormous room in which many Tombships fly pre-set paths through the air, appearing and disappearing periodically. The Guardians must jump onto the docked tombship to begin the sequence, then wait until it draws close to another and jump across before the first one vanishes. Continue to jump from ship to ship until reaching the opposite side of the room, where the final tombship allows a jump to solid ground. Once again, every player makes their journey individually and cannot affect each other's progress.\n\nOn the far side of the final landing platform, there is another docked tombship. If the fireteam boards it, it will fly out through a gateway protected by an impassible force field. There are two pads, one to the left and one to the right of the dock, upon which Guardians must stand simultaneously in order to let the riders pass through the field. The pads will only lower the field for a short time, so it is recommended that the two activators wait until the tombship is near the field before lowering it. Upon passing through the field, the riders will find two more panels which may be used in the same manner to bring the first two activators through the forcefield on a second tombship.",
+        "icon": "",
+        "requiredPlayers": 4,
+        "hardMode": "The small platform on the left midway through the jumping sequence is removed, and no checkpoint will be given there. All falls will return the player to the starting platform.",
+        "rewards": ["None"]
+      },
+      {
+        "chapter": 3,
+        "name": "The Warpriest's Trial (totems)",
+        "description": "In the center of the area is a large floor platform which is linked to a sealed gateway. On each side of the glyph are two rooms, one red and one blue, which are filled with an energy field that will damage unprotected players, and two totems that players must stand under at all times.\n\nAt the entrance to each side room is a ball of energy, which will grant an aura to a Guardian who picks it up by stepping up to it. This aura will protect that player, and any other players inside it, from the damage in the red or blue rooms for 30 seconds, during which they must stand under the totem. After those 30 seconds, the aura will transfer to another player standing inside it, and the original player will receive a buff called Deathsinger's Power. The player who has received this buff must now go to the central glyph and stand on it until the power discharges, as a third player arrives at the totem to relieve the second player and receive the aura from them just as the second received it from the first. The discharge at the glyph will partially unlock the gateway and leave the discharging player ready to receive the aura again and continue the cycle. This process must be done in both rooms simultaneously to maintain the flow of players handing off both auras at once.\n\nThe players must continually cycle between receiving the aura, holding it on the totem, allowing it to be taken from them, and discharging the Deathsinger's Power into the glyph until the runes lining the sides of the gateway are fully activated, about ten cycles. At this point, the message \"The Warpriest deems you worthy\" will be displayed, the gateway will open, the aura and totem mechanics will deactivate, and a loot chest will appear.",
+        "icon": "",
+        "requiredPlayers": 4,
+        "hardMode": "The mechanics of the encounter are unchanged. Major Knights will appear during later cycles.",
+        "rewards": [
+          "2 Moldering Shards",
+          "Antiquated Rune",
+          "Kingslayer Shell",
+          "Midha's Reckoning"
+        ]
+      },
+      {
+        "chapter": 4,
+        "name": "The Warpriest",
+        "description": "The Warpriest's chamber contains three pads upon which players can stand, and three large monuments bearing Hive runes on the near side and carved images on the far side. Standing on all three pads simultaneously will summon the Warpriest, who is initially immune to all damage. A large number of Hive will also spawn in the area. After most of them are killed, three Major Knights will appear, one in the area of each pad. Killing them will begin the glyph sequence that is used to make the Warpriest vulnerable.\n\nOne by one, in random order, the far sides of the three monuments will light up. A player must be in position to observe this because they will not be visible from the near side. Once a monument has lit, a Guardian must step onto the corresponding pad and remain there until the third pad has been activated.\n\nIf done correctly, the Guardian who steps on the third pad will receive an aura called \"Brand of the Initiate.\" Any other Guardians standing near this player will be able to damage the Warpriest. The brand will last for ten seconds, after which the branded Guardian is killed, unless they kill an enemy before then, which will reset the timer to ten seconds. This reset may be performed five times, granting extended time for the rest of the team to damage the Warpriest, so the resetting kill must be made at the last possible moment. After five kills by the brand holder, the Warpriest will use an attack that kills any Guardian not standing in the shadow of a monument. The easiest way to get into the shadow of a monument is to stand on a pad. The monument will save the team from wiping, but will be destroyed in the process.\n\nMore enemies spawn, and the cycle repeats four times, destroying one monument each time and with Taken replacing the Hive halfway through. At the end of the fourth cycle, there is no cover remaining, so the Warpriest's final attack will wipe the team if he has not been killed by then.",
+        "icon": "",
+        "requiredPlayers": 3,
+        "hardMode": "Each time a monument is destroyed by the Oculus, the Warpriest will gain a new type of attack. The left one will grant him tracking orbs identical to those of Taken Centurions. The center one will grant him seeking bolts in response to attacks, identical to those of Taken Hobgoblins. The right one will grant him balls of blinding darkness identical to those of Taken Captains.",
+        "rewards": [
+          "2 Moldering Shards",
+          "Antiquated Rune",
+          "Defiance of Yasmin",
+          "Qullim's Terminus",
+          "Elulim's Frenzy"
+        ]
+      },
+      {
+        "chapter": 5,
+        "name": "Golgoroth's Cellar",
+        "description": "The team will make their way to a dark maze. The entire fireteam must navigate it while avoiding bottomless pits to gather at the door at the far side, causing it to open and let them into the next chamber. Flying insects appear over the pits as indicators of their position.",
+        "icon": "",
+        "requiredPlayers": 1,
+        "hardMode": "No hardmode changes.",
+        "rewards": ["None"]
+      },
+      {
+        "chapter": 6,
+        "name": "Golgoroth",
+        "description": "Hanging from the ceiling is a bubble of darkness. Shooting it will cause it to drip onto the floor and summon Golgoroth and a large number of other enemies.\n\nIn the rear of the chamber is a large black column called the Tablet of Ruin. Any player death (even if immediately resurrected) will activate a rune carved into it. If all six runes are activated, the tablet will blind and then kill the entire fireteam.\n\nGolgoroth is a large mutated ogre who fires his beam attack constantly. He possesses two weak spots, one on his chest and one on his back. Above him are six more bubbles of darkness, each of which if shot down will produce a small pool of light on the floor of his arena which greatly increases damage done to him. Golgoroth will kill any Guardian jumping down to take advantage of that unless his Gaze is held by another player. Capturing his gaze is accomplished by shooting him in the back, which will cause him to turn his attention to the shooter and switch from firing his ogre beam to firing seeking projectiles similar to those of a Taken Centurion. The player who has drawn his attention must not seek cover or break Golgoroth's line of sight at this point, but instead stand their ground and shoot down the projectiles, thus holding his gaze. Golgoroth's attention will be focused on that player for a short time, indicated by a timer on the HUD. During that time, the remaining players are free to shoot down a bubble, enter the pit, and shoot Golgoroth's chest without reprisal from him. Once the gaze timer runs down, a second player on the opposite side of the area should capture his gaze, to maintain the safety of the arena attackers; this will cause Golgoroth to turn around so another bubble must be shot down and the attackers relocate to the new pool to continue attacking. This handoff may be done six times, after which there are no more bubbles and the attackers must leave the arena. Cursed thrall will pour into the arena to make damaging Golgoroth during this attack difficult. Alternatively, only one player can be a dedicated gaze holder, with the other five players damaging him in the pit and needing only one bubble per damage cycle, thus avoiding the Cursed Thrall until the Taken phase.\n\nAfter a short time, the bubbles respawn and the cycle may be performed repeatedly until Golgoroth is dead.\n\nWhen Golgoroth has 35 ~ 40% health left, Taken will spawn instead of Hive, making Golgoroth harder to kill. Stormcallers are great for this part.",
+        "icon": "",
+        "requiredPlayers": 2,
+        "hardMode": "While attacking Golgoroth from the pool of light, two random players will receive a debuff called \"Unstable Light.\" These players will explode, damaging or killing other nearby players (but not themselves) when their timers reach zero, and must leave the pool early to separate themselves before this happens.",
+        "rewards": [
+          "2 Moldering Shards",
+          "Antiquated Rune",
+          "King's Fall Gauntlets",
+          "King's Fall Chest Armor",
+          "King's Fall Leg Armor"
+        ]
+      },
+      {
+        "chapter": 7,
+        "name": "Pistons",
+        "description": "The players must traverse a large space between two of the Dreadnaught's hulls. There are platforms extended from the slanted walls which may safely be stood upon, while avoiding the piston-like devices which will knock players to their deaths. At certain points are power plates which must be occupied to cause floating platforms to appear. A Guardian must remain on each plate until all of them have been activated, at which point the floating platforms become permanent and all Guardians may continue. Gathering the fireteam before the final door of the area will unlock it and allow passage to the next encounter.",
+        "icon": "",
+        "requiredPlayers": 1,
+        "hardMode": "No hardmode changes.",
+        "rewards": ["None"]
+      },
+      {
+        "chapter": 8,
+        "name": "Daugthers of Oryx",
+        "description": "This final room contains the two Deathsingers, protected by force fields on elevated platforms. Elsewhere in the room are four power plates on pedestals, which may be activated by players to cause semi-transparent platforms to appear in the air. Hovering high above one of the platforms is a spark of light. Stepping onto any of these platforms will cause enemies to spawn and one of the deathsingers to begin casting a spell, which will wipe the team after one minute.\n\nOne player at random will be \"torn between dimensions,\" distorting their vision and making them appear translucent to the other players. This player is the only one who can traverse the floating platforms summoned by the power plates. In order to create a path to the spark, the platforms must be activated in a counter-clockwise sequence, starting from the one immediately after the spark and proceeding around the room to the one immediately preceding it. The torn player must reach the spark, leap onto the platform containing the Deathsinger which is not casting the spell, and use the spark (by holding square or X) to steal the deathsinger's protective aura. This will leave the deathsinger unprotected, allowing the team to damage it, and will protect any Guardians standing near the stealer from the wipe spell. After the wipe spell is cast, the aura will return to its rightful owner. The cycle will then repeat with the other deathsinger casting the spell and the spark in a different location.\n\nThe Deathsingers must be killed on consecutive cycles. Once one is killed, its aura will disappear and the players will not be able to protect themselves from the next wipe spell except by killing the remaining one before its timer expires.\n\nAfter both Deathsingers are dead, a loot chest will appear and a spark will appear at the far end of the room which triggers the final encounter when approached.",
+        "icon": "",
+        "requiredPlayers": 4,
+        "hardMode": "Subsequent cycles will begin immediately after the wipe spell and aura fade, without the short delay present on normal difficulty.",
+        "rewards": [
+          "2 Moldering Shards",
+          "King's Fall Class Item",
+          "Silence of A'arn"
+        ]
+      },
+      {
+        "chapter": 9,
+        "name": "Oryx, The Taken King",
+        "description": "Oryx appears when a player approaches the spark. After the players kill the knights spawned on the front 2 platforms, Oryx will move to front left or right platform. This will create a mote of light on that platform, and four special enemies called Light-Eater Ogres will emerge from the ground, one near each platform\n\nOne player must claim the spark, becoming torn between dimensions. Their role is to navigate the summoned platforms and reach the spark hanging overhead.\n\nAt the same time, 3 other players must summon the platforms the torn player needs. Just as before, the platforms must be triggered in a counter-clockwise sequence starting from the platform on which the mote appeared. Meanwhile the 2 remaing guardians should stay in the middle to kill the Light Eater Ogres. This has to be done as quickly as they spawn to keep the blights that the ogres spawn out of pathing, so that they can be detonated when the time is ready.\n\nWhen the torn player reaches the overhead spark and claims it, a Tombship will fly through the arena and deliver a special Knight named Vessel of Oryx, which will run up the central path. The torn player must jump down to intercept it, and then hold Square, to discharge the spark and steal the knight's aura.\n\nStealing the Knight's aura makes the knight vulnerable to all players, and also offers protection from damage to all players standing near the player who stole the aura. At this point, every player must converge on the Vessel of Oryx and kill it as quickly as possible. It is recommended that this be done near the center of the arena, to avoid the Corrupted Light spheres.\n\nOnce the Vessel of Oryx is killed, Oryx prepares to use his ultimate attack by opening his chest, emitting a shining white light. Every player must unload as much firepower as possible into Oryx's chest, aiming for the dead center of the glowing area to be sure to hit the vulnerable spot. With sufficient damage, Oryx will stagger. (With insufficient damage, the fireteam will wipe.)\n\nNow, the Corrupted Light spheres dropped by the Ogres may be used. Four players must each run to one sphere and stand near it for about five seconds, until a message acknowledging this appears, and then run back into the aura carried by the torn player to be protected from the Corrupted Light detonation. During this time, at least one other player needs to continue to damage Oryx. As long as Oryx is taking sustained damage while the Corrupted Lights are detonated, the detonation will do a significant amount of damage to Oryx. Any remaining normal enemies will be killed and Oryx will shudder and fall off the side of the area.\n\nOryx will rise at the end of the arena and begin firing on every player at once, as indicated by white circles that appear at their positions and then explode. This may be countered by sprinting around the arena. After a short time, the barrage will cease.\n\nWhen Oryx is below 50% health, he will no longer do the barrage attack after the Corrupted Lights are detonated and will instead create a bubble of darkness at one end of the arena, and one by one every member of the fireteam will be teleported into it. Within the bubble is a small arena with a foggy perimeter and a Shade of Oryx. Guardian health does not recharge while inside the bubble. Guardians not yet teleported into the bubble may assist those that are, by killing the other enemies in the arena, who will try to enter the bubble. If the echo is defeated within one minute, the arena will dissolve and return the players to the main encounter.\n\nWhen Oryx reaches less than 1% health, he will appear at the far end of the arena and open his chest. The fireteam must deal a small amount of damage to his chest in order to kill him and complete the encounter.",
+        "icon": "",
+        "requiredPlayers": 2,
+        "hardMode": "Every time a Light-Eater Ogre is killed, a Light-Eater Knight will spawn by the opposing platform and try to prematurely detonate the corrupted light orb.",
+        "rewards": [
+          "2 Moldering Shards",
+          "King's Fall Helmet",
+          "King's Fall Class Item",
+          "Kingsbane emblem",
+          "King's Fall Primary Weapon"
+        ]
+      }
+    ],
+    "chests": [
+      {
+        "name": 1,
+        "description": "The first chest is located at the end of the Tombship jumping area, next to the forcefield that must be lowered to pass. To the left of this forcefield is a long spar running up the wall that is reachable from the passing tombship with a carefully timed jump. Walking up the spar will lead Guardians to a small door which is only open while the forcefield is being held down by the plates. Through the door is a chest and an opportunity to jump to the landing platform on the opposite side.",
+        "icon": "",
+        "rewards": [
+          "2 Moldering Shards",
+          "3-7 Wormspore",
+          "1 Antiquated Rune",
+          "1 Mote of Light",
+          "2 Special Ammo Synthesis",
+          "2 Heavy Ammo Synthesis"
+        ]
+      },
+      {
+        "name": 2,
+        "description": "The second chest is found in the dark maze before the fight with Golgoroth. Hidden in the maze are four large circular floor plates, which must be stepped on in the proper sequence. If the direction from the entrance to the exit is taken to be north, the plates must be stepped on in this order: west, southeast, southwest, northeast. This will open a door (found by traveling to the exit and heading south) revealing the chest.",
+        "icon": "",
+        "rewards": [
+          "2 Moldering Shards",
+          "3-7 Wormspore",
+          "1 Antiquated Rune",
+          "1 Mote of Light",
+          "2 Special Ammo Synthesis",
+          "2 Heavy Ammo Synthesis"
+        ]
+      },
+      {
+        "name": 3,
+        "description": "The third chest is found in the platforming section immediately following Golgoroth. When reaching the first activation plate, a small ledge can be seen on a nearby freestanding column. If Guardians jump to this ledge, they may use their Ghost to reveal a set of nearby invisible platforms. This will lead to a new jumping path, across several sets of platforms and revisiting the freestanding column, that eventually leads to a door set into the sloping hull on the far side of the area. The chest is in the room through this door.",
+        "icon": "",
+        "rewards": [
+          "2 Moldering Shards",
+          "3-7 Wormspore",
+          "1 Antiquated Rune",
+          "1 Hadium Flakes",
+          "2 Special Ammo Synthesis",
+          "2 Heavy Ammo Synthesis",
+          "Exotic weapon or armor"
+        ]
+      }
+    ],
+    "tips": [
+      {
+        "name": "Golgorth's Cellar",
+        "description": "In the picture below you can see the maze and the order the plates need to be activated in, to get the secret chest.",
+        "icon": "https://external-preview.redd.it/5Ps1USWocC9ziP8PXJbR6cchuWvypjwSrpLM7uxiSQs.jpg?auto=webp&s=ef3019d2195b4a4369d1297c6f1fbf7c75a8a9e7"
+      }
+    ],
+    "hardMode": [
+      "**Revival is disabled:** While inside darkness zones, fallen Guardians cannot be revived by their teammates. Anyone who dies will stay dead until the remaining team members complete the current raid phase or wipe and revert to the last checkpoint. Sunsinger Warlocks can still use Radiance to self-revive."
+    ],
+    "challenges": [
+      "**Warpriest Challenge:** A different guardian must take the Aura for each damage phase and cannot hold it a second time. The Warpriest has a higher fire rate and spawns stronger enemies throughout the fight.",
+      "**Golgoroth Challenge:** All six players must capture and hold Golgoroth's gaze in each cycle (unless he dies before the cycle is complete).",
+      "**Oryx Challenge:** Oryx must be fully damaged (from 100% health to 0%) in a single run; this can be done by detonating 16 Corrupted Light spheres at once. After Oryx has been staggered, the orbs should not be detonated but instead must be allowed to remain until enough ogres have been killed to produce 16 orbs."
+    ],
+    "rewards": [
+      "Darkhollow Mask (Hunter)",
+      "Darkhollow Grasps (Hunter)",
+      "Darkhollow Chiton (Hunter)",
+      "Darkhollow Treads (Hunter)",
+      "Darkhollow Mantle (Hunter)",
+      "War Numen's Crown (Titan)",
+      "War Numen's Fist (Titan)",
+      "War Numen's Chest (Titan)",
+      "War Numen's Boots (Titan)",
+      "War Numen's Mark (Titan)",
+      "Mouth of Ur (Warlock)",
+      "Grasp of Eir (Warlock)",
+      "Chasm of Yuul (Warlock)",
+      "Path of Xol (Warlock)",
+      "Bond of the Wormlore (Warlock)",
+      "Anguish of Drystan",
+      "Smite of Merain",
+      "Doom of Chelchis",
+      "Zaouli's Bane",
+      "Midha's Reckoning",
+      "Defiance of Yasmin",
+      "Silence of A'arn",
+      "Qullim's Terminus",
+      "Elulim's Frenzy",
+      "Kingslayer Shell",
+      "Kingsbane emblem",
+      "Moldering Shards",
+      "Harrowed Darkhollow Mask (Hunter) (Hard)",
+      "Harrowed Darkhollow Grasps (Hunter) (Hard)",
+      "Harrowed Darkhollow Chiton (Hunter) (Hard)",
+      "Harrowed Darkhollow Treads (Hunter) (Hard)",
+      "Harrowed Darkhollow Mantle (Hunter) (Hard)",
+      "Harrowed War Numen's Crown (Titan) (Hard)",
+      "Harrowed War Numen's Fist (Titan) (Hard)",
+      "Harrowed War Numen's Chest (Titan) (Hard)",
+      "Harrowed War Numen's Boots (Titan) (Hard)",
+      "Harrowed War Numen's Mark (Titan) (Hard)",
+      "Harrowed Mouth of Ur (Warlock) (Hard)",
+      "Harrowed Grasp of Eir (Warlock) (Hard)",
+      "Harrowed Chasm of Yuul (Warlock) (Hard)",
+      "Harrowed Path of Xol (Warlock) (Hard)",
+      "Harrowed Bond of the Wormlore (Warlock) (Hard)",
+      "Harrowed Anguish of Drystan (Hard)",
+      "Harrowed Smite of Merain (Hard)",
+      "Harrowed Doom of Chelchis (Hard)",
+      "Harrowed Zaouli's Bane (Hard)",
+      "Harrowed Midha's Reckoning (Hard)",
+      "Harrowed Defiance of Yasmin (Hard)",
+      "Harrowed Silence of A'arn (Hard)",
+      "Harrowed Qullim's Terminus (Hard)",
+      "Harrowed Elulim's Frenzy (Hard)",
+      "The Ascendant",
+      "Worm Gods' Servant",
+      "Calcified Fragment XLIII",
+      "Devourer of Light",
+      "Calcified Fragment XLIV",
+      "Of Light and Hunger",
+      "Calcified Fragment XLV",
+      "Agonarch Karve (Hard)"
     ]
   },
   {
@@ -2181,6 +2553,7 @@
     "rank": "Exotic",
     "class": "Scout Rifle",
     "tag": "Weapon",
+    "slot": "Primary",
     "requirements": ["Level 40"],
     "obtainable": ["Exotic Engram", "Exotic chest in King's Fall", "Nightfall"],
     "baseLight": [280],
@@ -2622,6 +2995,7 @@
     "rank": "Exotic",
     "class": "Auto Rifle",
     "tag": "Weapon",
+    "slot": "Primary",
     "requirements": ["Level 40"],
     "obtainable": ["Exotic Engram", "Exotic chest in King's Fall"],
     "baseLight": [280],
@@ -2665,6 +3039,7 @@
     "rank": "Legendary",
     "class": "Hand Cannon",
     "tag": "Weapon",
+    "slot": "Primary",
     "requirements": ["Level 40"],
     "obtainable": ["Crucible Match Reward"],
     "baseLight": [220],
@@ -2749,6 +3124,7 @@
     "rank": "Legendary",
     "class": "Hand Cannon",
     "tag": "Weapon",
+    "slot": "Primary",
     "requirements": ["Level 40"],
     "obtainable": ["New Monarchy rank up reward", "Bought from New Monarchy"],
     "baseLight": [220],
@@ -2834,6 +3210,7 @@
     "rank": "Legendary",
     "class": "Hand Cannon",
     "tag": "Weapon",
+    "slot": "Primary",
     "requirements": ["Level 40"],
     "obtainable": [
       "Legendary engrams",
@@ -2923,6 +3300,7 @@
     "rank": "Legendary",
     "class": "Hand Cannon",
     "tag": "Weapon",
+    "slot": "Primary",
     "requirements": ["Level 40"],
     "obtainable": [
       "Vanguard rank up reward",
@@ -2997,6 +3375,37 @@
     "speed": "66-116"
   },
   {
+    "name": "Fate Bringer",
+    "description": "Delivering the inevitable, one pull at a time.",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/e/e9/ROI_Fatebringer.png/revision/latest/scale-to-width-down/1000?cb=20160923033536",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/3/3c/Fatebringer_icon.jpg/revision/latest/scale-to-width-down/96?cb=20150912143128",
+    "rank": "Legendary",
+    "class": "Hand Cannon",
+    "tag": "Weapon",
+    "slot": "Primary",
+    "requirements": ["Level 20"],
+    "obtainable": ["Vault of Glass"],
+    "baseLight": [130],
+    "maxLight": [170],
+    "basePerks": ["Arc Damage", "Ascend"],
+    "firstTierPerks": ["Steadyhand IS", "Sureshot IS", "Quickdraw IS"],
+    "secondTierPerk": ["Firefly"],
+    "thirdTierPerks": ["Field Scout", "Single Point Sling", "Explosive Rounds"],
+    "fourthTierPerk": ["Outlaw"],
+    "bestUsePVP": ["Sureshot IS", "Firefly", "Explosive Rounds", "Outlaw"],
+    "bestUsePVE": ["Sureshot IS", "Firefly", "Explosive Rounds", "Outlaw"],
+    "rof": 22,
+    "impact": 81,
+    "range": 40,
+    "stability": "32-38",
+    "reload": "33-43",
+    "magazine": "12",
+    "zoom": 15,
+    "aim": "61-66",
+    "recoil": 95,
+    "speed": "36-51"
+  },
+  {
     "name": "Auto Rifle",
     "icon": "https://static.wikia.nocookie.net/destinypedia/images/d/d0/Destiny_Assault_Rifle_1.jpg/revision/latest?cb=20140731021025",
     "description": "Auto Rifles can be equipped in the primary weapon slot and are fully automatic weapons with high fire rate and low damage.",
@@ -3019,7 +3428,242 @@
     ],
     "tag": "Mechanic"
   },
-
+  {
+    "name": "Finnala's Peril",
+    "description": "A personal firearm, forged in fire by the Lords of the Iron Banner.",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/6/6b/ROI_Finnala%27s_Peril.png/revision/latest/scale-to-width-down/1000?cb=20170114013112",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/7/78/Finnala%27s_Peril_icon.jpg/revision/latest/scale-to-width-down/96?cb=20170628054441",
+    "rank": "Legendary",
+    "class": "Hand Cannon",
+    "tag": "Weapon",
+    "slot": "Primary",
+    "requirements": ["Level 40"],
+    "obtainable": ["Iron Banner Reward"],
+    "baseLight": [300],
+    "maxLight": [335],
+    "basePerks": ["Kinetic Damage", "Infuse"],
+    "firstTierPerks": [
+      "Steadyhand IS",
+      "Truesight IS",
+      "Fastdraw IS",
+      "Sureshot IS",
+      "Quickdraw IS"
+    ],
+    "secondTierPerk": [
+      "Partial Refund",
+      "Underdog",
+      "Rescue Mag",
+      "Danger Close",
+      "Surrounded",
+      "Exhumed",
+      "Relentless Tracker",
+      "Spray and Play",
+      "Rangefinder",
+      "Triple Tap",
+      "Hot Swap",
+      "Last Resort"
+    ],
+    "thirdTierPerks": [
+      "Extended Mag",
+      "Hand Loaded",
+      "Hammer Forged",
+      "Snapshot",
+      "Lightweight",
+      "Braced Frame",
+      "Smallbore",
+      "Explosive Rounds",
+      "Casket Mage",
+      "Reinforced Barrel",
+      "Riffled Barrel",
+      "Injection Mold",
+      "High Caliber Rounds",
+      "Feather Mag",
+      "Oiled Frame"
+    ],
+    "fourthTierPerk": [
+      "Mulligan",
+      "Life Support",
+      "Third Eye",
+      "Grenadier",
+      "Reactive Reload",
+      "Icarus",
+      "Army of One",
+      "Hidden Hand",
+      "Luck in the Chamber"
+    ],
+    "bestUsePVP": [
+      "Truesight IS",
+      "Rangefinder",
+      "Riffled Barrel",
+      "Luck in the Chamber"
+    ],
+    "bestUsePVE": [
+      "Truesight IS",
+      "Triple Tap",
+      "Extended Mag",
+      "Life Support"
+    ],
+    "note": ["This weapon was only obtainable in year 2 Iron Banner event."],
+    "rof": 22,
+    "impact": 81,
+    "range": "25-61",
+    "stability": "17-81",
+    "reload": "22-70",
+    "magazine": "9-11",
+    "zoom": 15,
+    "aim": "71-76",
+    "recoil": 94,
+    "speed": "61-111"
+  },
+  {
+    "name": "Gaheris-D",
+    "description": "Balanced and dependable, the Häkke Gaheris-D is a true warrior's weapon.",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/5/53/ROI_Gaheris-D.png/revision/latest/scale-to-width-down/1000?cb=20160924232516",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/d/da/Gaheris-D_icon.jpg/revision/latest/scale-to-width-down/96?cb=20150909154751",
+    "rank": "Legendary",
+    "class": "Hand Cannon",
+    "tag": "Weapon",
+    "slot": "Primary",
+    "requirements": ["Level 40"],
+    "obtainable": ["Gunsmith"],
+    "baseLight": [250],
+    "maxLight": [335],
+    "basePerks": ["Kinetic Damage", "Infuse"],
+    "firstTierPerks": [
+      "Steadyhand IS",
+      "Truesight IS",
+      "Fastdraw IS",
+      "Sureshot IS",
+      "Quickdraw IS"
+    ],
+    "secondTierPerk": [
+      "Triple Tap",
+      "Danger Close",
+      "Surrounded",
+      "Last Resort",
+      "Relentless Tracker",
+      "Hot Swap",
+      "Army of One",
+      "Crowd Control"
+    ],
+    "thirdTierPerks": [
+      "Outlaw",
+      "Who's Next",
+      "Final Round",
+      "Reactive Reload",
+      "Rangefinder",
+      "Spray and Play",
+      "Feeding Frenzy",
+      "Zen Meteor"
+    ],
+    "fourthTierPerk": [
+      "Snapshot",
+      "Hand Loaded",
+      "Speed Reload",
+      "Armor Piercing Rounds",
+      "High Caliber Rounds",
+      "Explosive Rounds",
+      "Oiled Frame",
+      "Smallbore",
+      "Reinforced Barrel"
+    ],
+    "bestUsePVP": [
+      "Truesight IS",
+      "Last Resort",
+      "Rangefinder",
+      "Reinforced Barrel"
+    ],
+    "bestUsePVE": ["Truesight IS", "Triple Tap", "Outlaw", "Reinforced Barrel"],
+    "note": [
+      "This weapon is made by Häkke. Häkke doesn't follow the traditional perk system."
+    ],
+    "rof": 22,
+    "impact": 81,
+    "range": "11-47",
+    "stability": "36-76",
+    "reload": "34-70",
+    "magazine": "6-7",
+    "zoom": 15,
+    "aim": "80-85",
+    "recoil": 90,
+    "speed": "55-80"
+  },
+  {
+    "name": "Zaouli's Bane",
+    "description": "\"Go, child! Run! Don't look back! Don't—\"",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/0/00/ZaoulisBane.jpg/revision/latest/scale-to-width-down/350?cb=20151001180224",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/6/66/Zaouli%27s_Bane_icon.jpg/revision/latest/scale-to-width-down/96?cb=20170627212749",
+    "rank": "Legendary",
+    "class": "Hand Cannon",
+    "tag": "Weapon",
+    "slot": "Primary",
+    "requirements": ["Level 40"],
+    "obtainable": ["King's Fall (Hard)"],
+    "baseLight": [250],
+    "maxLight": [335],
+    "basePerks": ["Kinetic Damage", "Will of Light", "Infuse"],
+    "firstTierPerks": [
+      "Smart Drift Control",
+      "Accurized Ballistics",
+      "Field Choke"
+    ],
+    "secondTierPerk": ["Cocoon"],
+    "thirdTierPerks": ["Hand Loaded", "Leightweight", "Reinforced Barrel"],
+    "fourthTierPerk": ["Firefly", "Hip Fire", "Surrounded", "Life Leech"],
+    "bestUsePVP": ["Field Choke", "Cocoon", "Reinforced Barrel", "Hip Fire"],
+    "bestUsePVE": ["Field Choke", "Cocoon", "Reinforced Barrel", "Firefly"],
+    "note": [
+      "This weapon is made by the Hive. It does not follow the traditional perk system."
+    ],
+    "rof": 32,
+    "impact": "71-73",
+    "range": "9-42",
+    "stability": "11-54",
+    "reload": 29,
+    "magazine": 11,
+    "zoom": 15,
+    "aim": "80-90",
+    "recoil": 95,
+    "speed": 95
+  },
+  {
+    "name": "Harrowed Zaouli's Bane",
+    "description": "\"Go, child! Run! Don't look back! Don't—\"",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/0/09/ROI_Harrowed_Zaouli%27s_Bane.png/revision/latest/scale-to-width-down/350?cb=20161216035632",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/7/7a/ROI_Harrowed_Zaouli%27s_Bane_icon.jpg/revision/latest/scale-to-width-down/96?cb=20170115070726",
+    "rank": "Legendary",
+    "class": "Hand Cannon",
+    "tag": "Weapon",
+    "slot": "Primary",
+    "requirements": ["Level 40"],
+    "obtainable": ["King's Fall (Hard)"],
+    "baseLight": [250],
+    "maxLight": [335],
+    "basePerks": ["Kinetic Damage", "Will of Light", "Infuse"],
+    "firstTierPerks": [
+      "Smart Drift Control",
+      "Accurized Ballistics",
+      "Field Choke"
+    ],
+    "secondTierPerk": ["Cocoon"],
+    "thirdTierPerks": ["Hand Loaded", "Leightweight", "Reinforced Barrel"],
+    "fourthTierPerk": ["Firefly", "Hip Fire", "Surrounded", "Life Leech"],
+    "bestUsePVP": ["Field Choke", "Cocoon", "Reinforced Barrel", "Hip Fire"],
+    "bestUsePVE": ["Field Choke", "Cocoon", "Reinforced Barrel", "Firefly"],
+    "note": [
+      "This weapon is made by the Hive. It does not follow the traditional perk system."
+    ],
+    "rof": 32,
+    "impact": "71-73",
+    "range": "9-42",
+    "stability": "11-54",
+    "reload": 29,
+    "magazine": 11,
+    "zoom": 15,
+    "aim": "80-90",
+    "recoil": 95,
+    "speed": 95
+  },
   {
     "name": "Pulse Rifle",
     "icon": "https://static.wikia.nocookie.net/destinypedia/images/6/6c/Destiny_Assault_Rifle_2.jpg/revision/latest/scale-to-width-down/1000?cb=20140731015728",

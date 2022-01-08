@@ -1,5 +1,5 @@
 const Discord = require('discord.js')
-const { haste } = require("../funcs.js")
+const { getHaste } = require("../funcs.js")
 const { inspect, promisify } = require("util")
 const { prefix } = require('../data/config/config.json')
 const { exec } = require('child_process')
@@ -27,16 +27,16 @@ module.exports = {
             output = await clean(output);
             embed
                 .setTitle('✅ Evaled code successfully')
-                .addField('📥 Input', code.length > 1012 ? 'Too large to display. Hastebin: ' + (await haste(code)) : '```js\n' + code + '```')
-                .addField('📤 Output', output.length > 1012 ? 'Too large to display. Hastebin: ' + (await haste(output)) : '```js\n' + output + '```')
+                .addField('📥 Input', code.length > 1012 ? 'Too large to display. Hastebin: ' + (await getHaste(code)) : '```js\n' + code + '```')
+                .addField('📤 Output', output.length > 1012 ? 'Too large to display. Hastebin: ' + (await getHaste(output)) : '```js\n' + output + '```')
                 .setColor('#66FF00')
                 .setFooter({ text: message.author.username, iconURL: message.author.displayAvatarURL({ dynamic: true }) })
                 .setTimestamp();
         } catch (e) {
             embed
                 .setTitle('❌ Code was not able to be evaled')
-                .addField('📥 Input', code.length > 1012 ? 'Too large to display. Hastebin: ' + (await haste(code)) : '```js\n' + code + '```')
-                .addField('📤 Output', e.length > 1012 ? 'Too large to display. Hastebin: ' + (await haste(e)) : '```js\n' + e + '```Full stack: ' + (await haste(e.stack)))
+                .addField('📥 Input', code.length > 1012 ? 'Too large to display. Hastebin: ' + (await getHaste(code)) : '```js\n' + code + '```')
+                .addField('📤 Output', e.length > 1012 ? 'Too large to display. Hastebin: ' + (await getHaste(e)) : '```js\n' + e + '```Full stack: ' + (await getHaste(e.stack)))
                 .setColor('#FF0000')
                 .setFooter({ text: message.author.username, iconURL: message.author.displayAvatarURL({ dynamic: true }) })
                 .setTimestamp();

@@ -22,8 +22,7 @@ module.exports = {
         catch (e) {
             return await message.reply("Not a valid file path")
         }
-        let str = String(b)
-        str.replace(/```/g, "\`\`\`").replace(token, "Haha you thought you could get my token.")
+        let str = String(b).replace(/```/g, "\`\`\`").replace(token, "Haha you thought you could get my token.")
         const { body } = await got.post(`${base}/documents`, {
             body: str
         });
@@ -32,7 +31,7 @@ module.exports = {
             .setColor(color)
             .setURL(`${base}/${JSON.parse(body).key}`)
         if (b.length > 4080) {
-            embed.setDescription('Code is too long to display in an embed, click the link in the title!')
+            embed.setDescription(`Code is ${b.length} characters, couldn't display in an embed, click the url for the full stack.`)
         }
         else {
             embed.setDescription('```js\n' + str + '```')

@@ -1,6 +1,6 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const trivia = require('../data/game/trivia.json');
-const { capitalize } = require('../funcs.js');
+const { getCapitalize } = require('../funcs.js');
 const fs = require('fs');
 
 module.exports = {
@@ -57,7 +57,7 @@ module.exports = {
         ),
 
     async execute(interaction) {
-        let question = capitalize(interaction.options.getString('question'))
+        let question = getCapitalize(interaction.options.getString('question'))
         let correctAnswer = interaction.options.getString('correct-answer')
         let incorrectAnswer1 = interaction.options.getString('incorrect-answer-1')
         let incorrectAnswer2 = interaction.options.getString('incorrect-answer-2')

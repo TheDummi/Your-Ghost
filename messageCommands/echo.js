@@ -1,4 +1,4 @@
-const { randColor } = require('../funcs.js')
+const { getRandomColor } = require('../funcs.js')
 
 const Discord = require('discord.js')
 module.exports = {
@@ -12,7 +12,7 @@ module.exports = {
     async execute(message) {
         if (message.content.includes("--embed")) {
             let embed = new Discord.MessageEmbed()
-                .setColor(randColor())
+                .setColor(getRandomColor())
                 .setDescription(message.content.slice(6).replace('--embed', ""))
             await message.channel.send({ embeds: [embed] });
         }

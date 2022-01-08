@@ -2,7 +2,7 @@ const { SlashCommandBuilder } = require('@discordjs/builders');
 const Discord = require('discord.js');
 
 const trivia = require('../data/game/trivia.json');
-const { randomNumber } = require('../funcs.js');
+const { getRandomNumber } = require('../funcs.js');
 const { color } = require('../data/config/config.json')
 
 
@@ -21,13 +21,13 @@ module.exports = {
             return;
         }
         cooldown.add(interaction.channel.id)
-        let obj = trivia[randomNumber(trivia.length)];
+        let obj = trivia[getRandomNumber(trivia.length)];
         let allAnswers = Object.values(obj).slice(1, 4)
         let answers = {};
         let lets = "ABC";
 
         for (let i = 0; allAnswers.length > 0; i++) {
-            let ind = randomNumber(allAnswers.length);
+            let ind = getRandomNumber(allAnswers.length);
             answers[lets[i]] = allAnswers[ind];
             allAnswers.splice(ind, 1);
         }

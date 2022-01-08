@@ -1,12 +1,12 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const Discord = require('discord.js');
-const { color, owners, contributors } = require('../data/config/config.json');
+const { color, owners, contributors, guildID } = require('../data/config/config.json');
 
 const Package = require('../package.json');
 const destiny = require('../data/game/destiny.json');
 const options = require('../data/config/options.json');
 
-const { getColor } = require('../funcs.js')
+const { getColor, getUptime } = require('../funcs.js')
 
 module.exports = {
     category: "Destiny",
@@ -22,6 +22,28 @@ module.exports = {
         ),
     async execute(interaction) {
         let item = interaction.options.getString('item').toLowerCase();
+        if (item == 'bot' || item == 'ghost' || item == `<@!${interaction.client.id}>` || item == `<@!${interaction.client.id}>`) {
+            let leadDev = await interaction.client.users.fetch(owners[0]);
+            let devArray = [];
+            for (let dev of owners) {
+                let thedev = await interaction.client.users.fetch(dev);
+                devArray.push(thedev.tag)
+            }
+            let guilds = await interaction.client.guilds.fetch();
+            let memberCount = 0;
+            for (let guild of guilds.values()) {
+                memberCount += (await guild.fetch()).approximateMemberCount;
+            }
+            let infoEmbed = new Discord.MessageEmbed()
+                .setAuthor({ name: `Info on ${interaction.client.user.username}`, iconURL: interaction.client.user.avatarURL({ dynamic: true }) })
+                .setDescription(`Official ${interaction.client.user.username} info, Join [${interaction.client.guilds.cache.get(guildID)}](https://discord.gg/apKmGsM9mb) for help.`)
+                .addField('Credits', `Lead Developer: ${leadDev.tag}\nDevelopers: ${devArray.join(', ')}\nDirector: ${leadDev.tag}\nGroup: [Dummi Studios](https://discord.gg/apKmGsM9mb})`)
+                .addField('Technical Info', `Version: ${Package.version}\nLanguage: JavaScript\nLibrary: Discord.js\nLibrary Version: ${Discord.version}`)
+                .addField('Bot Info', `Users: ${memberCount}\nServers: ${guilds.size}\nPing: ${String(interaction.client.ws.ping)}ms\nUptime: ${getUptime(interaction.client).noSecUptime}\nDocumentation: [here]()`)
+                .setFooter({ text: '© 2021 Dummi Studios. All rights reserved.' })
+                .setColor(color)
+            return await interaction.reply({ embeds: [infoEmbed] })
+        }
         let embed;
         let changeEmbed;
         let embeds = [];
@@ -50,6 +72,7 @@ module.exports = {
                     .setDescription('Use the dropdown menu below for info categories.')
                     .setImage(d.icon)
                     .setColor(getColor(d.rank))
+                    .setFooter({ text: `You searched for \`${item}\`, if this wasn't what you were looking for please be more specific.`, iconURL: interaction.user.avatarURL({ dynamic: true }) })
 
                 if (d.description) {
                     let descriptionEmbed = new Discord.MessageEmbed()
@@ -62,7 +85,7 @@ module.exports = {
                     title.push('Description')
                     embeds.push(descriptionEmbed)
                 }
-                if (d.rank || d.tag || d.class || d.tag || d.modes) {
+                if (d.rank || d.tag || d.class || d.tag || d.modes || d.slot) {
                     let infoEmbed = new Discord.MessageEmbed()
                         .setTitle('General Info')
                         .setDescription(`General info of ${d.name}`)
@@ -71,6 +94,7 @@ module.exports = {
                     if (d.class) infoEmbed.addField('Class', d.class, true)
                     if (d.max) infoEmbed.addField('Max', String(d.max), true)
                     if (d.modes) infoEmbed.addField('Modes', Array.from(d.modes).join('\n'), true)
+                    if (d.slot) infoEmbed.addField('Slot', d.slot, true)
                     title.push('General Info')
                     embeds.push(infoEmbed)
                 }
@@ -80,8 +104,7 @@ module.exports = {
                         .setDescription(`How to obtain ${d.name} and it's requirements.`)
                     if (d.obtainable) obtainEmbed.addField('How to obtain', Array.from(d.obtainable).join('\n'), true)
                     if (d.requirements) obtainEmbed.addField('Requirements', Array.from(d.requirements).join('\n'), true)
-                    if (d.baseLight) obtainEmbed.addField('Base light', Array.from(d.baseLight).join('\n'))
-                    if (d.maxLight) obtainEmbed.addField('Max light', Array.from(d.maxLight).join('\n'))
+
                     title.push('How to Obtain')
                     embeds.push(obtainEmbed)
                 }
@@ -94,6 +117,8 @@ module.exports = {
                     if (d.rof && d.impact && d.range && d.stability && d.reload) statsEmbed.addField('In-Game stats', `**Rate of Fire:** ${d.rof}\n**Impact:** ${d.impact}\n**Range:** ${d.range}\n**Stability:** ${d.stability}\n**Reload:** ${d.reload}`, true)
                     if (d.magazine && d.zoom && d.aim && d.recoil && d.speed) statsEmbed.addField('Extra stats', `**Magazine:** ${d.magazine}\n**Zoom:** ${d.zoom}\n**Aim Assist:** ${d.aim}\n**Recoil:** ${d.recoil}\n**Equip Speed:** ${d.speed}`, true)
                     if (d.baseLight || d.maxLight) statsEmbed.addField('\u200b', '\u200b')
+                    if (d.baseLight) statsEmbed.addField('Base light', Array.from(d.baseLight).join('\n'), true)
+                    if (d.maxLight) statsEmbed.addField('Max light', Array.from(d.maxLight).join('\n'), true)
                     title.push('Stats')
                     embeds.push(statsEmbed)
                 }
@@ -166,11 +191,26 @@ module.exports = {
                         for (let i = 0; i < d.chapters.length; i++) {
                             chapterEmbeds[i] = new Discord.MessageEmbed()
                                 .setTitle("Chapter " + d.chapters[i].chapter + ": " + d.chapters[i].name)
-                                .setDescription(d.chapters[i].description)
-                                .setImage(d.chapters[i].icon)
-                                .addField('Required Players', String(d.chapters[i].requiredPlayers))
+                            if (d.chapters[i].description) chapterEmbeds[i].setDescription(d.chapters[i].description)
+                            if (d.chapters[i].icon) chapterEmbeds[i].setImage(d.chapters[i].icon)
+                            if (d.chapters[i].hardMode) chapterEmbeds[i].addField('Hard mode', d.chapters[i].hardMode)
+                            if (d.chapters[i].rewards) chapterEmbeds[i].addField('Rewards', Array.from(d.chapters[i].rewards).join('\n'), true)
+                            if (d.chapters[i].requiredPlayers) chapterEmbeds[i].addField('Required Players', String(d.chapters[i].requiredPlayers), true)
+
                             title.push("Chapter " + d.chapters[i].chapter + ": " + d.chapters[i].name)
                             embeds.push(chapterEmbeds[i])
+                        }
+                    }
+                    if (d.chests) {
+                        let chestsEmbed = [];
+                        for (let i = 0; i < d.chests.length; i++) {
+                            chestsEmbed[i] = new Discord.MessageEmbed()
+                                .setTitle("Chest " + d.chests[i].name)
+                                .setDescription(d.chests[i].description)
+                                .setImage(d.chests[i].icon)
+                                .addField('Rewards', Array.from(d.chests[i].rewards).join('\n'), true)
+                            title.push("Chest " + d.chests[i].name)
+                            embeds.push(chestsEmbed[i])
                         }
                     }
                     if (d.tips) {
@@ -193,6 +233,28 @@ module.exports = {
                         embeds.push(challengeEmbed)
                     }
                 }
+                if (d.tag == "Species") {
+                    let enemies = []
+                    let vehicles = [];
+                    let detachments = [];
+                    let ultras = [];
+                    let armyEmbed = new Discord.MessageEmbed()
+                        .setTitle('Army')
+                        .setDescription(`The army of ${d.name}`)
+                    for (const data in destiny) {
+                        if (destiny[data].tag == "Enemy" && d.name == "The " + destiny[data].species) enemies.push(destiny[data].name)
+                        if (destiny[data].tag == "Vehicle" && d.name == "The " + destiny[data].species) vehicles.push(destiny[data].name)
+                        if (destiny[data].tag == "Detachment" && d.name == "The " + destiny[data].species) detachments.push(destiny[data].name)
+                        if (destiny[data].tag == "Ultra" && d.name == "The " + destiny[data].species) ultras.push(destiny[data].name)
+                    }
+                    armyEmbed.addField('Ranks', Array.from(enemies).join('\n') || "None", true)
+                    armyEmbed.addField('Vehicles', Array.from(vehicles).join('\n') || "None", true)
+                    armyEmbed.addField('\u200b', '\u200b')
+                    armyEmbed.addField('Detachments', Array.from(detachments).join('\n') || "None", true)
+                    armyEmbed.addField('Ultras', Array.from(ultras).join('\n') || "None", true)
+                    title.push('Army')
+                    embeds.push(armyEmbed)
+                }
 
                 if (d.hardMode || d.modes) {
                     let hardModeEmbed = new Discord.MessageEmbed()
@@ -208,7 +270,14 @@ module.exports = {
                     let rewardEmbed = new Discord.MessageEmbed()
                         .setTitle('Rewards')
                         .setDescription('Possible rewards you can obtain.')
-                    if (d.rewards) rewardEmbed.addField('Rewards', Array.from(d.rewards).join('\n'), true)
+                    if (d.rewards) {
+                        if (String(Array.from(d.rewards.join('\n')).length > 1024)) {
+                            rewardEmbed
+                                .addField('Rewards 1', Array.from(d.rewards.slice(0, (d.rewards.length / 2))).join('\n'), true)
+                                .addField('Rewards 2', Array.from(d.rewards.slice((d.rewards.length / 2))).join('\n'), true)
+                        }
+                        else rewardEmbed.addField('Rewards', Array.from(d.rewards).join('\n'), true)
+                    }
                     title.push('Rewards')
                     embeds.push(rewardEmbed)
                 }
@@ -235,7 +304,8 @@ module.exports = {
             }
             changeEmbed
                 .setColor(getColor(d.rank))
-                .setFooter({ text: "All info is based on the latest Update of The Taken King DLC" })
+                .setFooter({ text: "All info is based on the latest Update of The Taken King DLC.", iconURL: interaction.user.avatarURL({ dynamic: true }) })
+            if (d.logo) changeEmbed.setThumbnail(d.logo)
             await newInteraction.update({ embeds: [changeEmbed], components: [row] })
         })
 

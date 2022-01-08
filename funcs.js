@@ -10,13 +10,22 @@ const hasteURLs = [
     "https://haste.tyman.tech"
 ]
 
+function getRandomNumber(min, max) {
+    if (max == undefined) {
+        max = min
+        min = 0
+    }
+    let random = Math.floor(Math.random() * Math.floor(max) + min);
+    return random;
+}
 
 module.exports = {
-    randColor() {
+    getRandomNumber: getRandomNumber,
+    getRandomColor() {
         let letters = '0123456789ABCDEF';
         let color = '';
         for (let i = 0; i < 6; i++) {
-            color += letters[Math.floor(Math.random() * 16)];
+            color += letters[getRandomNumber(16)];
         }
         return color;
     },
@@ -30,39 +39,31 @@ module.exports = {
             if (rank == "Common") return newColor = '#FFFFFF';
             return newColor;
         }
-        else return config.color
+        else return config.color;
     },
-    randomNumber(min, max) {
-        if (max == undefined) {
-            max = min
-            min = 0
-        }
-        let random = Math.floor(Math.random() * Math.floor(max) + min);
-        return random;
-    },
-    exotics(tag, slot, rank) {
-        let exotics = [];
+    getItem(tag, slot, rank) {
+        let items = [];
         for (const data in destiny) {
             let des = destiny[data];
             if (des.tag == tag && des.slot == slot && des.rank == rank) {
-                exotics.push(des.name)
+                items.push(des.name)
             }
             else continue;
         }
-        return exotics;
+        return items;
     },
-    setPresence(client, argType, argName, argStatus) {
+    getPresence(client, type, name, status) {
         client.user.setPresence({
-            status: String(argStatus),
+            status: String(status),
             activities: [{
-                type: String(argType),
-                name: String(argName),
+                type: String(type),
+                name: String(name),
                 url: "https://www.youtube.com/watch?v=ciqUEV9F0OY&list=RDRbslF7GISf0&index=28"
             }],
 
         })
     },
-    toArray(args) {
+    getArray(args) {
         let tempArray = [];
         for (const data in destiny) {
             if (destiny[data].tag == args) {
@@ -72,7 +73,7 @@ module.exports = {
         }
         return tempArray;
     },
-    randomUser(client) {
+    getRandomUser(client) {
         let users = client.users.cache;
         let usersArray = [];
         users.forEach(user => {
@@ -81,10 +82,10 @@ module.exports = {
                 usersArray.push(user.username)
             }
         })
-        let randomUser = usersArray[randomNumber(usersArray.length)];
+        let randomUser = usersArray[getRandomNumber(usersArray.length)];
         return randomUser;
     },
-    randomEmojis(args) {
+    getRandomEmojis(args) {
         let choices = new Discord.Collection()
         let choicesLeft = message.guild.emojis.cache.filter(e => e.animated)
         let curChoice = "";
@@ -95,7 +96,7 @@ module.exports = {
         }
         return choices
     },
-    shuffle(array) {
+    getShuffleArray(array) {
         let shuffled = [];
         array = Array.from(array);
         while (array.length > 0) {
@@ -111,11 +112,11 @@ module.exports = {
         totalSeconds %= 3600;
         let minutes = Math.floor(totalSeconds / 60);
         let seconds = Math.floor(totalSeconds % 60);
-        let uptime = `${days} days, ${hours} hours, ${minutes} minutes and ${seconds} seconds`;
-        let noSecUptime = `${days} days, ${hours} hours and ${minutes} minutes`;
+        let uptime = `${days}d, ${hours}h, ${minutes}m, ${seconds}s`;
+        let noSecUptime = `${days}d, ${hours}h, ${minutes}m`;
         return { uptime: uptime, noSecUptime: noSecUptime };
     },
-    async haste(text) {
+    async getHaste(text) {
         for (const url of hasteURLs) {
             try {
                 const resp = await got.post(url + "/documents", {
@@ -129,27 +130,27 @@ module.exports = {
         }
         throw new Error("Haste failure")
     },
-    capitalize(name) {
+    getCapitalize(name) {
         name = name.toLowerCase();
         return name.charAt(0).toUpperCase() + name.slice(1)
     },
-    commandError(action, error) {
+    getCommandError(action, error) {
         action.client.channels.fetch('916283556928557056')
             .then(channel => {
                 let embed = new Discord.MessageEmbed()
                     .setTitle("ERROR")
                     .setDescription(`\`\`\`js\n${error.stack}\`\`\``)
                     .setColor(config.color)
-                    .addField('Extra info', `Server: ${action.guild.name}\nChannel: ${action.channel}\nUser: ${action.author.tag || action.user.tag}\nCommand: ${String(action).length < 200 ? action : String(action).slice(200)}`, true)
+                    .addField('Extra info', `Server: ${action.guild.name}\nChannel: ${action.channel}\nUser: ${action.author == undefined ? action.user.tag : action.author.tag}\nCommand: ${String(action).length < 200 ? action : String(action).slice(200)}`, true)
                 channel.send({ embeds: [embed] })
             }).catch((err) => {
                 console.error(err, error)
             })
     },
-    sleep(ms) {
+    getDelay(ms) {
         return new Promise(resolve => setTimeout(resolve, ms));
     },
-    validURL(str) {
+    getValidURL(str) {
         var pattern = new RegExp('^(https?:\\/\\/)?' + // protocol
             '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|' + // domain name
             '((\\d{1,3}\\.){3}\\d{1,3}))' + // OR ip (v4) address
@@ -158,7 +159,7 @@ module.exports = {
             '(\\#[-a-z\\d_]*)?$', 'i'); // fragment locator
         return !!pattern.test(str);
     },
-    async paginate(message, embeds) {
+    async getPaginate(message, embeds) {
         embeds.forEach((e, i) => {
             embeds[i] = embeds[i].setFooter(`Page ${i + 1}/${embeds.length} | Click ❔ for help!`)
         })
