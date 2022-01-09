@@ -1,8 +1,12 @@
 const Discord = require('discord.js')
-const { getHaste } = require("../funcs.js")
+const { getRandomNumber, getColor, getItem, getPresence, getArray, getRandomUser, getRandomEmojis, getShuffleArray, getUptime, getHaste, getCapitalize, getCommandError, getDelay, getValidURL, getPaginate } = require("../funcs.js")
 const { inspect, promisify } = require("util")
-const { prefix } = require('../data/config/config.json')
 const { exec } = require('child_process')
+const config = require('../data/config/config.json')
+const trivia = require('../data/game/trivia.json')
+const destiny = require('../data/game/destiny.json')
+const options = require('../data/config/options.json')
+
 let sh = promisify(exec)
 const clean = (text) => {
     if (typeof text === 'string') return text.replace(/`/g, '`' + String.fromCharCode(8203)).replace(/@/g, '@' + String.fromCharCode(8203));
@@ -16,9 +20,20 @@ module.exports = {
     detailedDescription: "Evaluate any code given to the JavaScript Language.",
     description: "e",
     async execute(message, args) {
+
         const embed = new Discord.MessageEmbed();
-        let code = message.content.replace(prefix + "eval", "");
+        let code = message.content.replace(config.prefix + "eval", "");
         try {
+            const member = message.member,
+                client = message.client,
+                bot = message.client,
+                guild = message.guild,
+                channel = message.channel,
+                members = message.guild.members,
+                roles = message.guild.roles,
+                channels = message.client.channels,
+                users = message.client.users,
+                commands = message.client.commands;
             let output;
             output = await eval(code);
             output = await output;

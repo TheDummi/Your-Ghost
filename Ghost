@@ -1061,3 +1061,351 @@ Unhandled promise rejection: DiscordAPIError: 404: Not Found
   httpStatus: 404,
   requestData: { json: undefined, files: [] }
 }
+DiscordAPIError: Invalid Form Body
+embeds[0].description: This field is required
+    at RequestHandler.execute (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:350:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:51:14)
+    at async InteractionWebhook.editMessage (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\structures\Webhook.js:325:15)
+    at async CommandInteraction.editReply (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:139:21) {
+  method: 'patch',
+  path: '/webhooks/859005506361360445/aW50ZXJhY3Rpb246OTI5NDA0NjI1Mzk4OTQ3ODkwOnNtVlo1NjdFdkE1anpwUW0wdVpINFpKZUVNQm1RM3dldkRLb2QxS3JjOWhCNE0zR0JMdmE2NEt0cW8wa2RMSkVSMVE2MHc2WHF6TjVkNVpaTFFTWkhPYlBzUU43djFlY1h5MEtXMDh3WGVFb1h1WFJ0TUFUSlhtZ2xMM1NCY2JR/messages/@original',
+  code: 50035,
+  httpStatus: 400,
+  requestData: {
+    json: {
+      content: undefined,
+      tts: false,
+      nonce: undefined,
+      embeds: [Array],
+      components: [],
+      username: undefined,
+      avatar_url: undefined,
+      allowed_mentions: undefined,
+      flags: undefined,
+      message_reference: undefined,
+      attachments: undefined,
+      sticker_ids: undefined
+    },
+    files: []
+  }
+}
+Unhandled promise rejection: DiscordAPIError: Invalid Form Body
+embeds[0].description: This field is required
+    at RequestHandler.execute (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:350:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:51:14)
+    at async InteractionWebhook.editMessage (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\structures\Webhook.js:325:15)
+    at async CommandInteraction.editReply (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:139:21) {
+  method: 'patch',
+  path: '/webhooks/859005506361360445/aW50ZXJhY3Rpb246OTI5NDA0NjI1Mzk4OTQ3ODkwOnNtVlo1NjdFdkE1anpwUW0wdVpINFpKZUVNQm1RM3dldkRLb2QxS3JjOWhCNE0zR0JMdmE2NEt0cW8wa2RMSkVSMVE2MHc2WHF6TjVkNVpaTFFTWkhPYlBzUU43djFlY1h5MEtXMDh3WGVFb1h1WFJ0TUFUSlhtZ2xMM1NCY2JR/messages/@original',
+  code: 50035,
+  httpStatus: 400,
+  requestData: {
+    json: {
+      content: undefined,
+      tts: false,
+      nonce: undefined,
+      embeds: [Array],
+      components: [],
+      username: undefined,
+      avatar_url: undefined,
+      allowed_mentions: undefined,
+      flags: undefined,
+      message_reference: undefined,
+      attachments: undefined,
+      sticker_ids: undefined
+    },
+    files: []
+  }
+}
+DiscordAPIError: Invalid Form Body
+embeds[0].description: This field is required
+    at RequestHandler.execute (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:350:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:51:14)
+    at async InteractionWebhook.editMessage (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\structures\Webhook.js:325:15)
+    at async CommandInteraction.editReply (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:139:21) {
+  method: 'patch',
+  path: '/webhooks/859005506361360445/aW50ZXJhY3Rpb246OTI5NDA0Nzc3NzQ4NjYwMjc1OnhzM1Y1S05JM3l1NktvZUxQZDlpekppa25GenY4ZmdGUTJQdU40OTVqVFlxUFlzeUtqMG5SeTlpNVVSb1g4bTltUVZwaVpCNGlQMDZ0SHlGaDRudHdHeU9rYm1DQTBldXh2VkY1M3ZYRFVQZmczVEtYSjZ3em5TUVR6ZXhjbmFy/messages/@original',
+  code: 50035,
+  httpStatus: 400,
+  requestData: {
+    json: {
+      content: undefined,
+      tts: false,
+      nonce: undefined,
+      embeds: [Array],
+      components: [],
+      username: undefined,
+      avatar_url: undefined,
+      allowed_mentions: undefined,
+      flags: undefined,
+      message_reference: undefined,
+      attachments: undefined,
+      sticker_ids: undefined
+    },
+    files: []
+  }
+}
+Unhandled promise rejection: DiscordAPIError: Invalid Form Body
+embeds[0].description: This field is required
+    at RequestHandler.execute (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:350:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:51:14)
+    at async InteractionWebhook.editMessage (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\structures\Webhook.js:325:15)
+    at async CommandInteraction.editReply (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:139:21) {
+  method: 'patch',
+  path: '/webhooks/859005506361360445/aW50ZXJhY3Rpb246OTI5NDA0Nzc3NzQ4NjYwMjc1OnhzM1Y1S05JM3l1NktvZUxQZDlpekppa25GenY4ZmdGUTJQdU40OTVqVFlxUFlzeUtqMG5SeTlpNVVSb1g4bTltUVZwaVpCNGlQMDZ0SHlGaDRudHdHeU9rYm1DQTBldXh2VkY1M3ZYRFVQZmczVEtYSjZ3em5TUVR6ZXhjbmFy/messages/@original',
+  code: 50035,
+  httpStatus: 400,
+  requestData: {
+    json: {
+      content: undefined,
+      tts: false,
+      nonce: undefined,
+      embeds: [Array],
+      components: [],
+      username: undefined,
+      avatar_url: undefined,
+      allowed_mentions: undefined,
+      flags: undefined,
+      message_reference: undefined,
+      attachments: undefined,
+      sticker_ids: undefined
+    },
+    files: []
+  }
+}
+DiscordAPIError: Invalid Form Body
+embeds[0].description: This field is required
+    at RequestHandler.execute (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:350:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:51:14)
+    at async InteractionWebhook.editMessage (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\structures\Webhook.js:325:15)
+    at async CommandInteraction.editReply (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:139:21) {
+  method: 'patch',
+  path: '/webhooks/859005506361360445/aW50ZXJhY3Rpb246OTI5NDA0ODQwNjEyODg0NTEwOkU3aVFWQVVBU1ZqdmNlRTFHMmQxNzdsSlBhaXJYRzFFVzRMVHh1R0Y5RHBhb1dBZnltamZ6RUtJaE5KUFhYZXJQTEpGZXU0QnlHMXpZOTJSVHlpNVFoQndHWjFTbDV4bDRIekNFZW9OSmtQUFZWUGdtRXVxNm5ydjYzU1N6aFp1/messages/@original',
+  code: 50035,
+  httpStatus: 400,
+  requestData: {
+    json: {
+      content: undefined,
+      tts: false,
+      nonce: undefined,
+      embeds: [Array],
+      components: [],
+      username: undefined,
+      avatar_url: undefined,
+      allowed_mentions: undefined,
+      flags: undefined,
+      message_reference: undefined,
+      attachments: undefined,
+      sticker_ids: undefined
+    },
+    files: []
+  }
+}
+Unhandled promise rejection: DiscordAPIError: Invalid Form Body
+embeds[0].description: This field is required
+    at RequestHandler.execute (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:350:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:51:14)
+    at async InteractionWebhook.editMessage (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\structures\Webhook.js:325:15)
+    at async CommandInteraction.editReply (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:139:21) {
+  method: 'patch',
+  path: '/webhooks/859005506361360445/aW50ZXJhY3Rpb246OTI5NDA0ODQwNjEyODg0NTEwOkU3aVFWQVVBU1ZqdmNlRTFHMmQxNzdsSlBhaXJYRzFFVzRMVHh1R0Y5RHBhb1dBZnltamZ6RUtJaE5KUFhYZXJQTEpGZXU0QnlHMXpZOTJSVHlpNVFoQndHWjFTbDV4bDRIekNFZW9OSmtQUFZWUGdtRXVxNm5ydjYzU1N6aFp1/messages/@original',
+  code: 50035,
+  httpStatus: 400,
+  requestData: {
+    json: {
+      content: undefined,
+      tts: false,
+      nonce: undefined,
+      embeds: [Array],
+      components: [],
+      username: undefined,
+      avatar_url: undefined,
+      allowed_mentions: undefined,
+      flags: undefined,
+      message_reference: undefined,
+      attachments: undefined,
+      sticker_ids: undefined
+    },
+    files: []
+  }
+}
+DiscordAPIError: Invalid message type
+    at RequestHandler.execute (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:350:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:51:14)
+    at async MessageManager.crosspost (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\managers\MessageManager.js:152:18) {
+  method: 'post',
+  path: '/channels/738912384269287434/messages/929419625807093780/crosspost',
+  code: 50068,
+  httpStatus: 400,
+  requestData: { json: undefined, files: [] }
+}
+Unhandled promise rejection: DiscordAPIError: Invalid message type
+    at RequestHandler.execute (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:350:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:51:14)
+    at async MessageManager.crosspost (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\managers\MessageManager.js:152:18) {
+  method: 'post',
+  path: '/channels/738912384269287434/messages/929419625807093780/crosspost',
+  code: 50068,
+  httpStatus: 400,
+  requestData: { json: undefined, files: [] }
+}
+C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\messageCommands\eval.js:2
+const { getRandomNumber, getHaste, getColor, getItem, getPresence, getArray, getRandomUser, getRandomEmojis, getShuffleArray, getUptime, getHaste, getCapitalize, getCommandError, getDelay, getValidURL, getPaginate } = require("../funcs.js")
+                                                                                                                                         ^
+
+SyntaxError: Identifier 'getHaste' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1026:15)
+    at Module._compile (node:internal/modules/cjs/loader:1061:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1149:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:999:19)
+    at Module.Hook._require.Module.require (C:\Users\RayDeCrom\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\main.js:39:21)
+C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\messageCommands\eval.js:2
+const { getRandomNumber, getHaste, getColor, getItem, getPresence, getArray, getRandomUser, getRandomEmojis, getShuffleArray, getUptime, getHaste, getCapitalize, getCommandError, getDelay, getValidURL, getPaginate } = require("../funcs.js")
+                                                                                                                                         ^
+
+SyntaxError: Identifier 'getHaste' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1026:15)
+    at Module._compile (node:internal/modules/cjs/loader:1061:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1149:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:999:19)
+    at Module.Hook._require.Module.require (C:\Users\RayDeCrom\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\main.js:39:21)
+C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\messageCommands\eval.js:2
+const { getRandomNumber, getHaste, getColor, getItem, getPresence, getArray, getRandomUser, getRandomEmojis, getShuffleArray, getUptime, getHaste, getCapitalize, getCommandError, getDelay, getValidURL, getPaginate } = require("../funcs.js")
+                                                                                                                                         ^
+
+SyntaxError: Identifier 'getHaste' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1026:15)
+    at Module._compile (node:internal/modules/cjs/loader:1061:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1149:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:999:19)
+    at Module.Hook._require.Module.require (C:\Users\RayDeCrom\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\main.js:39:21)
+C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\messageCommands\eval.js:2
+const { getRandomNumber, getHaste, getColor, getItem, getPresence, getArray, getRandomUser, getRandomEmojis, getShuffleArray, getUptime, getHaste, getCapitalize, getCommandError, getDelay, getValidURL, getPaginate } = require("../funcs.js")
+                                                                                                                                         ^
+
+SyntaxError: Identifier 'getHaste' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1026:15)
+    at Module._compile (node:internal/modules/cjs/loader:1061:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1149:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:999:19)
+    at Module.Hook._require.Module.require (C:\Users\RayDeCrom\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\main.js:39:21)
+C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\messageCommands\eval.js:2
+const { getRandomNumber, getHaste, getColor, getItem, getPresence, getArray, getRandomUser, getRandomEmojis, getShuffleArray, getUptime, getHaste, getCapitalize, getCommandError, getDelay, getValidURL, getPaginate } = require("../funcs.js")
+                                                                                                                                         ^
+
+SyntaxError: Identifier 'getHaste' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1026:15)
+    at Module._compile (node:internal/modules/cjs/loader:1061:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1149:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:999:19)
+    at Module.Hook._require.Module.require (C:\Users\RayDeCrom\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\main.js:39:21)
+C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\messageCommands\eval.js:2
+const { getRandomNumber, getHaste, getColor, getItem, getPresence, getArray, getRandomUser, getRandomEmojis, getShuffleArray, getUptime, getHaste, getCapitalize, getCommandError, getDelay, getValidURL, getPaginate } = require("../funcs.js")
+                                                                                                                                         ^
+
+SyntaxError: Identifier 'getHaste' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1026:15)
+    at Module._compile (node:internal/modules/cjs/loader:1061:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1149:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:999:19)
+    at Module.Hook._require.Module.require (C:\Users\RayDeCrom\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\main.js:39:21)
+C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\messageCommands\eval.js:2
+const { getRandomNumber, getHaste, getColor, getItem, getPresence, getArray, getRandomUser, getRandomEmojis, getShuffleArray, getUptime, getHaste, getCapitalize, getCommandError, getDelay, getValidURL, getPaginate } = require("../funcs.js")
+                                                                                                                                         ^
+
+SyntaxError: Identifier 'getHaste' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1026:15)
+    at Module._compile (node:internal/modules/cjs/loader:1061:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1149:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:999:19)
+    at Module.Hook._require.Module.require (C:\Users\RayDeCrom\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\main.js:39:21)
+C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\messageCommands\eval.js:2
+const { getRandomNumber, getHaste, getColor, getItem, getPresence, getArray, getRandomUser, getRandomEmojis, getShuffleArray, getUptime, getHaste, getCapitalize, getCommandError, getDelay, getValidURL, getPaginate } = require("../funcs.js")
+                                                                                                                                         ^
+
+SyntaxError: Identifier 'getHaste' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1026:15)
+    at Module._compile (node:internal/modules/cjs/loader:1061:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1149:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:999:19)
+    at Module.Hook._require.Module.require (C:\Users\RayDeCrom\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\main.js:39:21)
+C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\messageCommands\eval.js:2
+const { getRandomNumber, getHaste, getColor, getItem, getPresence, getArray, getRandomUser, getRandomEmojis, getShuffleArray, getUptime, getHaste, getCapitalize, getCommandError, getDelay, getValidURL, getPaginate } = require("../funcs.js")
+                                                                                                                                         ^
+
+SyntaxError: Identifier 'getHaste' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1026:15)
+    at Module._compile (node:internal/modules/cjs/loader:1061:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1149:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:999:19)
+    at Module.Hook._require.Module.require (C:\Users\RayDeCrom\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\main.js:39:21)
+C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\messageCommands\eval.js:2
+const { getRandomNumber, getHaste, getColor, getItem, getPresence, getArray, getRandomUser, getRandomEmojis, getShuffleArray, getUptime, getHaste, getCapitalize, getCommandError, getDelay, getValidURL, getPaginate } = require("../funcs.js")
+                                                                                                                                         ^
+
+SyntaxError: Identifier 'getHaste' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1026:15)
+    at Module._compile (node:internal/modules/cjs/loader:1061:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1149:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:999:19)
+    at Module.Hook._require.Module.require (C:\Users\RayDeCrom\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\main.js:39:21)
