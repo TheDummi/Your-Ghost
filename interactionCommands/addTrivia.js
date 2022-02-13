@@ -5,7 +5,7 @@ const fs = require('fs');
 
 module.exports = {
     contributor: true,
-    category: "Info",
+    category: "Contributor",
     detailedDescription: "hi",
     data: new SlashCommandBuilder()
         .setName('addtrivia')

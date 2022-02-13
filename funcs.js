@@ -3,6 +3,9 @@ const config = require('./data/config/config.json')
 const Discord = require('discord.js');
 const destiny = require('./data/game/destiny.json');
 const got = require('got')
+const Sequelize = require('sequelize');
+const moment = require('moment')
+
 const hasteURLs = [
     "https://hst.sh",
     "https://hastebin.com",
@@ -20,6 +23,52 @@ function getRandomNumber(min, max) {
 }
 
 module.exports = {
+    getDataBase() {
+        const sequelize = new Sequelize('database', 'username', 'password', {
+            host: 'localhost',
+            dialect: 'sqlite',
+            logging: false,
+            // SQLite only
+            storage: 'data/database/database.sqlite',
+        });
+        const Guilds = sequelize.define('guilds', {
+            name: {
+                type: Sequelize.STRING,
+                unique: true
+            },
+            guildName: Sequelize.STRING,
+        })
+        const Users = sequelize.define('users', {
+            name: {
+                type: Sequelize.STRING,
+                unique: true
+            },
+            username: Sequelize.STRING,
+            characterOne: {
+                type: Sequelize.STRING,
+                light: Sequelize.NUMBER,
+                level: Sequelize.NUMBER,
+                raid: Sequelize.BOOLEAN,
+            },
+            characterTwo: {
+                type: Sequelize.STRING,
+                light: Sequelize.NUMBER,
+                level: Sequelize.NUMBER,
+                raid: Sequelize.BOOLEAN,
+            },
+            characterThree: {
+                type: Sequelize.STRING,
+                light: Sequelize.NUMBER,
+                level: Sequelize.NUMBER,
+                raid: Sequelize.BOOLEAN,
+            },
+            synced: Sequelize.BOOLEAN
+        })
+        return { guilds: Guilds, users: Users }
+    },
+    getTime(date) {
+        return moment(Number(date)).format("H:mm:ss");
+    },
     getRandomNumber: getRandomNumber,
     getRandomColor() {
         let letters = '0123456789ABCDEF';
@@ -135,7 +184,7 @@ module.exports = {
         return name.charAt(0).toUpperCase() + name.slice(1)
     },
     getCommandError(action, error) {
-        action.client.channels.fetch('916283556928557056')
+        action.client.channels.fetch('930922016926761091')
             .then(channel => {
                 let embed = new Discord.MessageEmbed()
                     .setTitle("ERROR")

@@ -1,11 +1,12 @@
-const Discord = require('discord.js')
+const Discord = require('discord.js');
 const { getRandomNumber, getColor, getItem, getPresence, getArray, getRandomUser, getRandomEmojis, getShuffleArray, getUptime, getHaste, getCapitalize, getCommandError, getDelay, getValidURL, getPaginate } = require("../funcs.js")
-const { inspect, promisify } = require("util")
-const { exec } = require('child_process')
-const config = require('../data/config/config.json')
-const trivia = require('../data/game/trivia.json')
-const destiny = require('../data/game/destiny.json')
-const options = require('../data/config/options.json')
+const { inspect, promisify } = require("util");
+const { exec } = require('child_process');
+const config = require('../data/config/config.json');
+const trivia = require('../data/game/trivia.json');
+const destiny = require('../data/game/destiny.json');
+const options = require('../data/config/options.json');
+const got = require('got');
 
 let sh = promisify(exec)
 const clean = (text) => {
@@ -20,7 +21,6 @@ module.exports = {
     detailedDescription: "Evaluate any code given to the JavaScript Language.",
     description: "e",
     async execute(message, args) {
-
         const embed = new Discord.MessageEmbed();
         let code = message.content.replace(config.prefix + "eval", "");
         try {
@@ -41,7 +41,7 @@ module.exports = {
             output = await output.replace(new RegExp(message.client.token, 'g'), '[token omitted]');
             output = await clean(output);
             embed
-                .setTitle('✅ Evaled code successfully')
+                .setTitle('✅ Evaluated code successfully')
                 .addField('📥 Input', code.length > 1012 ? 'Too large to display. Hastebin: ' + (await getHaste(code)) : '```js\n' + code + '```')
                 .addField('📤 Output', output.length > 1012 ? 'Too large to display. Hastebin: ' + (await getHaste(output)) : '```js\n' + output + '```')
                 .setColor('#66FF00')
@@ -49,7 +49,7 @@ module.exports = {
                 .setTimestamp();
         } catch (e) {
             embed
-                .setTitle('❌ Code was not able to be evaled')
+                .setTitle('❌ Code was not able to be evaluated')
                 .addField('📥 Input', code.length > 1012 ? 'Too large to display. Hastebin: ' + (await getHaste(code)) : '```js\n' + code + '```')
                 .addField('📤 Output', e.length > 1012 ? 'Too large to display. Hastebin: ' + (await getHaste(e)) : '```js\n' + e + '```Full stack: ' + (await getHaste(e.stack)))
                 .setColor('#FF0000')

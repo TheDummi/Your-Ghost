@@ -5,7 +5,7 @@ module.exports = {
     owner: true,
     name: "clear",
     aliases: [""],
-    category: "Dev",
+    category: "Developer",
     description: "Clear given amount of messages",
     detailedDescription: "hi",
 

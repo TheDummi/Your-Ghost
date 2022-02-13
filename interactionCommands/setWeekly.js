@@ -3,7 +3,7 @@ const { color } = require('../data/config/config.json');
 const Discord = require('discord.js')
 
 module.exports = {
-    category: "Config",
+    category: "Contributor",
     detailedDescription: "Set the new weekly content\n\nNightfall: set the nightfall\nModifiers: set the modifiers of the nightfall\nHeroic: set the heroic strikes modifiers\nCrucible: set the 2 weekly Crucible gamemodes\nCoE: set the modifiers for Challenge of the Elders\nPoE: set the playlist names for the Prison of Elders\nKf: set the Challenge for King's Fall",
     contributor: true,
     homeGuild: true,

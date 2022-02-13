@@ -1409,3 +1409,525 @@ SyntaxError: Identifier 'getHaste' has already been declared
     at Module.Hook._require.Module.require (C:\Users\RayDeCrom\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
     at require (node:internal/modules/cjs/helpers:102:18)
     at Object.<anonymous> (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\main.js:39:21)
+HTTPError: Response code 404 (Not Found)
+    at Request.<anonymous> (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\got\dist\source\as-promise\index.js:117:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ERR_NON_2XX_3XX_RESPONSE',
+  timings: {
+    start: 1641736022028,
+    socket: 1641736022029,
+    lookup: 1641736022035,
+    connect: 1641736022052,
+    secureConnect: 1641736022077,
+    upload: 1641736022077,
+    response: 1641736022198,
+    end: 1641736022201,
+    error: undefined,
+    abort: undefined,
+    phases: {
+      wait: 1,
+      dns: 6,
+      tcp: 17,
+      tls: 25,
+      request: 0,
+      firstByte: 121,
+      download: 3,
+      total: 173
+    }
+  }
+}
+Unhandled promise rejection: HTTPError: Response code 404 (Not Found)
+    at Request.<anonymous> (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\got\dist\source\as-promise\index.js:117:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ERR_NON_2XX_3XX_RESPONSE',
+  timings: {
+    start: 1641736022028,
+    socket: 1641736022029,
+    lookup: 1641736022035,
+    connect: 1641736022052,
+    secureConnect: 1641736022077,
+    upload: 1641736022077,
+    response: 1641736022198,
+    end: 1641736022201,
+    error: undefined,
+    abort: undefined,
+    phases: {
+      wait: 1,
+      dns: 6,
+      tcp: 17,
+      tls: 25,
+      request: 0,
+      firstByte: 121,
+      download: 3,
+      total: 173
+    }
+  }
+}
+HTTPError: Response code 404 (Not Found)
+    at Request.<anonymous> (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\got\dist\source\as-promise\index.js:117:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ERR_NON_2XX_3XX_RESPONSE',
+  timings: {
+    start: 1641736052297,
+    socket: 1641736052297,
+    lookup: 1641736052304,
+    connect: 1641736052323,
+    secureConnect: 1641736052340,
+    upload: 1641736052340,
+    response: 1641736052381,
+    end: 1641736052382,
+    error: undefined,
+    abort: undefined,
+    phases: {
+      wait: 0,
+      dns: 7,
+      tcp: 19,
+      tls: 17,
+      request: 0,
+      firstByte: 41,
+      download: 1,
+      total: 85
+    }
+  }
+}
+Unhandled promise rejection: HTTPError: Response code 404 (Not Found)
+    at Request.<anonymous> (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\got\dist\source\as-promise\index.js:117:42)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ERR_NON_2XX_3XX_RESPONSE',
+  timings: {
+    start: 1641736052297,
+    socket: 1641736052297,
+    lookup: 1641736052304,
+    connect: 1641736052323,
+    secureConnect: 1641736052340,
+    upload: 1641736052340,
+    response: 1641736052381,
+    end: 1641736052382,
+    error: undefined,
+    abort: undefined,
+    phases: {
+      wait: 0,
+      dns: 7,
+      tcp: 19,
+      tls: 17,
+      request: 0,
+      firstByte: 41,
+      download: 1,
+      total: 85
+    }
+  }
+}
+HTTPError [FetchError]: request to https://discord.com/api/v9/guilds/689260593080696833/roles/806418917941182484 failed, reason: getaddrinfo ENOTFOUND discord.com
+    at RequestHandler.execute (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:201:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:51:14)
+    at async RoleManager.edit (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\managers\RoleManager.js:215:15)
+    at async Timeout._onTimeout (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\events\ready.js:31:13) {
+  code: 500,
+  method: 'patch',
+  path: '/guilds/689260593080696833/roles/806418917941182484',
+  requestData: {
+    json: {
+      name: undefined,
+      color: 9758393,
+      hoist: undefined,
+      permissions: undefined,
+      mentionable: undefined,
+      icon: undefined,
+      unicode_emoji: undefined
+    },
+    files: []
+  }
+}
+Unhandled promise rejection: HTTPError [FetchError]: request to https://discord.com/api/v9/guilds/689260593080696833/roles/806418917941182484 failed, reason: getaddrinfo ENOTFOUND discord.com
+    at RequestHandler.execute (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:201:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:51:14)
+    at async RoleManager.edit (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\managers\RoleManager.js:215:15)
+    at async Timeout._onTimeout (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\events\ready.js:31:13) {
+  code: 500,
+  method: 'patch',
+  path: '/guilds/689260593080696833/roles/806418917941182484',
+  requestData: {
+    json: {
+      name: undefined,
+      color: 9758393,
+      hoist: undefined,
+      permissions: undefined,
+      mentionable: undefined,
+      icon: undefined,
+      unicode_emoji: undefined
+    },
+    files: []
+  }
+}
+HTTPError [FetchError]: request to https://discord.com/api/v9/guilds/689260593080696833/roles/806418905467584553 failed, reason: getaddrinfo ENOTFOUND discord.com
+    at RequestHandler.execute (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:201:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:51:14)
+    at async RoleManager.edit (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\managers\RoleManager.js:215:15)
+    at async Timeout._onTimeout (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\events\ready.js:38:13) {
+  code: 500,
+  method: 'patch',
+  path: '/guilds/689260593080696833/roles/806418905467584553',
+  requestData: {
+    json: {
+      name: undefined,
+      color: 4604508,
+      hoist: undefined,
+      permissions: undefined,
+      mentionable: undefined,
+      icon: undefined,
+      unicode_emoji: undefined
+    },
+    files: []
+  }
+}
+Unhandled promise rejection: HTTPError [FetchError]: request to https://discord.com/api/v9/guilds/689260593080696833/roles/806418905467584553 failed, reason: getaddrinfo ENOTFOUND discord.com
+    at RequestHandler.execute (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:201:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:51:14)
+    at async RoleManager.edit (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\managers\RoleManager.js:215:15)
+    at async Timeout._onTimeout (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\events\ready.js:38:13) {
+  code: 500,
+  method: 'patch',
+  path: '/guilds/689260593080696833/roles/806418905467584553',
+  requestData: {
+    json: {
+      name: undefined,
+      color: 4604508,
+      hoist: undefined,
+      permissions: undefined,
+      mentionable: undefined,
+      icon: undefined,
+      unicode_emoji: undefined
+    },
+    files: []
+  }
+}
+HTTPError [FetchError]: request to https://discord.com/api/v9/guilds/689260593080696833/roles/806418917941182484 failed, reason: getaddrinfo ENOTFOUND discord.com
+    at RequestHandler.execute (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:201:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:51:14)
+    at async RoleManager.edit (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\managers\RoleManager.js:215:15)
+    at async Timeout._onTimeout (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\events\ready.js:31:13) {
+  code: 500,
+  method: 'patch',
+  path: '/guilds/689260593080696833/roles/806418917941182484',
+  requestData: {
+    json: {
+      name: undefined,
+      color: 1377928,
+      hoist: undefined,
+      permissions: undefined,
+      mentionable: undefined,
+      icon: undefined,
+      unicode_emoji: undefined
+    },
+    files: []
+  }
+}
+Unhandled promise rejection: HTTPError [FetchError]: request to https://discord.com/api/v9/guilds/689260593080696833/roles/806418917941182484 failed, reason: getaddrinfo ENOTFOUND discord.com
+    at RequestHandler.execute (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:201:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:51:14)
+    at async RoleManager.edit (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\managers\RoleManager.js:215:15)
+    at async Timeout._onTimeout (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\events\ready.js:31:13) {
+  code: 500,
+  method: 'patch',
+  path: '/guilds/689260593080696833/roles/806418917941182484',
+  requestData: {
+    json: {
+      name: undefined,
+      color: 1377928,
+      hoist: undefined,
+      permissions: undefined,
+      mentionable: undefined,
+      icon: undefined,
+      unicode_emoji: undefined
+    },
+    files: []
+  }
+}
+HTTPError [FetchError]: request to https://discord.com/api/v9/guilds/689260593080696833/roles/806418905467584553 failed, reason: getaddrinfo ENOTFOUND discord.com
+    at RequestHandler.execute (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:201:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:51:14)
+    at async RoleManager.edit (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\managers\RoleManager.js:215:15)
+    at async Timeout._onTimeout (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\events\ready.js:38:13) {
+  code: 500,
+  method: 'patch',
+  path: '/guilds/689260593080696833/roles/806418905467584553',
+  requestData: {
+    json: {
+      name: undefined,
+      color: 13698687,
+      hoist: undefined,
+      permissions: undefined,
+      mentionable: undefined,
+      icon: undefined,
+      unicode_emoji: undefined
+    },
+    files: []
+  }
+}
+Unhandled promise rejection: HTTPError [FetchError]: request to https://discord.com/api/v9/guilds/689260593080696833/roles/806418905467584553 failed, reason: getaddrinfo ENOTFOUND discord.com
+    at RequestHandler.execute (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:201:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:51:14)
+    at async RoleManager.edit (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\managers\RoleManager.js:215:15)
+    at async Timeout._onTimeout (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\events\ready.js:38:13) {
+  code: 500,
+  method: 'patch',
+  path: '/guilds/689260593080696833/roles/806418905467584553',
+  requestData: {
+    json: {
+      name: undefined,
+      color: 13698687,
+      hoist: undefined,
+      permissions: undefined,
+      mentionable: undefined,
+      icon: undefined,
+      unicode_emoji: undefined
+    },
+    files: []
+  }
+}
+HTTPError [FetchError]: request to https://discord.com/api/v9/guilds/689260593080696833/roles/806418917941182484 failed, reason: getaddrinfo ENOTFOUND discord.com
+    at RequestHandler.execute (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:201:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:51:14)
+    at async RoleManager.edit (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\managers\RoleManager.js:215:15)
+    at async Timeout._onTimeout (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\events\ready.js:31:13) {
+  code: 500,
+  method: 'patch',
+  path: '/guilds/689260593080696833/roles/806418917941182484',
+  requestData: {
+    json: {
+      name: undefined,
+      color: 12639165,
+      hoist: undefined,
+      permissions: undefined,
+      mentionable: undefined,
+      icon: undefined,
+      unicode_emoji: undefined
+    },
+    files: []
+  }
+}
+Unhandled promise rejection: HTTPError [FetchError]: request to https://discord.com/api/v9/guilds/689260593080696833/roles/806418917941182484 failed, reason: getaddrinfo ENOTFOUND discord.com
+    at RequestHandler.execute (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:201:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:51:14)
+    at async RoleManager.edit (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\managers\RoleManager.js:215:15)
+    at async Timeout._onTimeout (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\events\ready.js:31:13) {
+  code: 500,
+  method: 'patch',
+  path: '/guilds/689260593080696833/roles/806418917941182484',
+  requestData: {
+    json: {
+      name: undefined,
+      color: 12639165,
+      hoist: undefined,
+      permissions: undefined,
+      mentionable: undefined,
+      icon: undefined,
+      unicode_emoji: undefined
+    },
+    files: []
+  }
+}
+HTTPError [FetchError]: request to https://discord.com/api/v9/guilds/689260593080696833/roles/806418905467584553 failed, reason: getaddrinfo ENOTFOUND discord.com
+    at RequestHandler.execute (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:201:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:51:14)
+    at async RoleManager.edit (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\managers\RoleManager.js:215:15)
+    at async Timeout._onTimeout (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\events\ready.js:38:13) {
+  code: 500,
+  method: 'patch',
+  path: '/guilds/689260593080696833/roles/806418905467584553',
+  requestData: {
+    json: {
+      name: undefined,
+      color: 11951128,
+      hoist: undefined,
+      permissions: undefined,
+      mentionable: undefined,
+      icon: undefined,
+      unicode_emoji: undefined
+    },
+    files: []
+  }
+}
+Unhandled promise rejection: HTTPError [FetchError]: request to https://discord.com/api/v9/guilds/689260593080696833/roles/806418905467584553 failed, reason: getaddrinfo ENOTFOUND discord.com
+    at RequestHandler.execute (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:201:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:51:14)
+    at async RoleManager.edit (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\managers\RoleManager.js:215:15)
+    at async Timeout._onTimeout (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\events\ready.js:38:13) {
+  code: 500,
+  method: 'patch',
+  path: '/guilds/689260593080696833/roles/806418905467584553',
+  requestData: {
+    json: {
+      name: undefined,
+      color: 11951128,
+      hoist: undefined,
+      permissions: undefined,
+      mentionable: undefined,
+      icon: undefined,
+      unicode_emoji: undefined
+    },
+    files: []
+  }
+}
+HTTPError [FetchError]: request to https://discord.com/api/v9/guilds/689260593080696833/roles/806418917941182484 failed, reason: getaddrinfo ENOTFOUND discord.com
+    at RequestHandler.execute (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:201:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:51:14)
+    at async RoleManager.edit (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\managers\RoleManager.js:215:15)
+    at async Timeout._onTimeout (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\events\ready.js:31:13) {
+  code: 500,
+  method: 'patch',
+  path: '/guilds/689260593080696833/roles/806418917941182484',
+  requestData: {
+    json: {
+      name: undefined,
+      color: 1365244,
+      hoist: undefined,
+      permissions: undefined,
+      mentionable: undefined,
+      icon: undefined,
+      unicode_emoji: undefined
+    },
+    files: []
+  }
+}
+Unhandled promise rejection: HTTPError [FetchError]: request to https://discord.com/api/v9/guilds/689260593080696833/roles/806418917941182484 failed, reason: getaddrinfo ENOTFOUND discord.com
+    at RequestHandler.execute (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:201:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:51:14)
+    at async RoleManager.edit (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\managers\RoleManager.js:215:15)
+    at async Timeout._onTimeout (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\events\ready.js:31:13) {
+  code: 500,
+  method: 'patch',
+  path: '/guilds/689260593080696833/roles/806418917941182484',
+  requestData: {
+    json: {
+      name: undefined,
+      color: 1365244,
+      hoist: undefined,
+      permissions: undefined,
+      mentionable: undefined,
+      icon: undefined,
+      unicode_emoji: undefined
+    },
+    files: []
+  }
+}
+HTTPError [FetchError]: request to https://discord.com/api/v9/guilds/689260593080696833/roles/806418905467584553 failed, reason: getaddrinfo ENOTFOUND discord.com
+    at RequestHandler.execute (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:201:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:51:14)
+    at async RoleManager.edit (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\managers\RoleManager.js:215:15)
+    at async Timeout._onTimeout (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\events\ready.js:38:13) {
+  code: 500,
+  method: 'patch',
+  path: '/guilds/689260593080696833/roles/806418905467584553',
+  requestData: {
+    json: {
+      name: undefined,
+      color: 8192686,
+      hoist: undefined,
+      permissions: undefined,
+      mentionable: undefined,
+      icon: undefined,
+      unicode_emoji: undefined
+    },
+    files: []
+  }
+}
+Unhandled promise rejection: HTTPError [FetchError]: request to https://discord.com/api/v9/guilds/689260593080696833/roles/806418905467584553 failed, reason: getaddrinfo ENOTFOUND discord.com
+    at RequestHandler.execute (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:201:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:51:14)
+    at async RoleManager.edit (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\managers\RoleManager.js:215:15)
+    at async Timeout._onTimeout (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\events\ready.js:38:13) {
+  code: 500,
+  method: 'patch',
+  path: '/guilds/689260593080696833/roles/806418905467584553',
+  requestData: {
+    json: {
+      name: undefined,
+      color: 8192686,
+      hoist: undefined,
+      permissions: undefined,
+      mentionable: undefined,
+      icon: undefined,
+      unicode_emoji: undefined
+    },
+    files: []
+  }
+}
+HTTPError [FetchError]: request to https://discord.com/api/v9/guilds/689260593080696833/roles/806418917941182484 failed, reason: getaddrinfo ENOTFOUND discord.com
+    at RequestHandler.execute (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:201:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:51:14)
+    at async RoleManager.edit (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\managers\RoleManager.js:215:15)
+    at async Timeout._onTimeout (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\events\ready.js:31:13) {
+  code: 500,
+  method: 'patch',
+  path: '/guilds/689260593080696833/roles/806418917941182484',
+  requestData: {
+    json: {
+      name: undefined,
+      color: 191248,
+      hoist: undefined,
+      permissions: undefined,
+      mentionable: undefined,
+      icon: undefined,
+      unicode_emoji: undefined
+    },
+    files: []
+  }
+}
+Unhandled promise rejection: HTTPError [FetchError]: request to https://discord.com/api/v9/guilds/689260593080696833/roles/806418917941182484 failed, reason: getaddrinfo ENOTFOUND discord.com
+    at RequestHandler.execute (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:201:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\rest\RequestHandler.js:51:14)
+    at async RoleManager.edit (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\node_modules\discord.js\src\managers\RoleManager.js:215:15)
+    at async Timeout._onTimeout (C:\Users\RayDeCrom\Programming Projects\Discord Bots\Ghost\events\ready.js:31:13) {
+  code: 500,
+  method: 'patch',
+  path: '/guilds/689260593080696833/roles/806418917941182484',
+  requestData: {
+    json: {
+      name: undefined,
+      color: 191248,
+      hoist: undefined,
+      permissions: undefined,
+      mentionable: undefined,
+      icon: undefined,
+      unicode_emoji: undefined
+    },
+    files: []
+  }
+}

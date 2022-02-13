@@ -1,17 +1,18 @@
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
 const { clientID, guildID, token, prefix, global } = require('../data/config/config.json');
+const { getTime, getDataBase } = require('../funcs.js')
+
 const moment = require('moment');
+const Sequelize = require('sequelize');
+
 
 module.exports = {
     name: 'ready',
     once: true,
     async execute(client, commands) {
-        let time = moment(Number(new Date())).format("H:mm:ss")
-        console.log(`${time} | ${client.user.username} is online`);
-
+        console.log(`${getTime(new Date())} | ${client.user.username} is online`);
         const rest = new REST({ version: '9' }).setToken(token);
-
         (async () => {
             try {
                 if (global == true) {
@@ -19,21 +20,21 @@ module.exports = {
                         body: commands
                     })
                     let guilds = await client.guilds.fetch()
-                    let time = moment(Number(new Date())).format("H:mm:ss")
-                    await console.log(`${time} | Succesfully loaded application commands globally in ${guilds.size} guilds.`)
+                    await console.log(`${getTime(new Date())} | Successfully loaded application commands globally in ${guilds.size} guilds.`)
                 }
                 else {
                     rest.put(Routes.applicationGuildCommands(clientID, guildID), {
                         body: commands
                     })
-                    let time = moment(Number(new Date())).format("H:mm:ss")
-                    await console.log(`${time} | Succesfully loaded application commands locally.`)
+                    await console.log(`${getTime(new Date())} | Successfully loaded application commands locally.`)
                 }
             }
             catch (error) {
-                let time = moment(Number(new Date())).format("H:mm:ss")
-                await console.log(`${time} | Loading application commands failed.`, error)
+                await console.log(`${getTime(new Date())} | Loading application commands failed.`, error)
             }
         })();
+
+        getDataBase().guilds.sync().then(() => console.log(`${getTime(new Date())} | Successfully synced guilds`)).catch(error => console.log(error))
+        getDataBase().users.sync().then(() => console.log(`${getTime(new Date())} | Successfully synced users`)).catch(error => console.log(error))
     }
 }

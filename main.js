@@ -3,12 +3,6 @@ const fs = require('fs')
 const moment = require('moment')
 const { clientID, guildID, token, prefix } = require('./data/config/config.json');
 
-const Database = require('./config/database.js')
-
-const db = new Database()
-
-db.connect()
-
 const client = new Discord.Client({
     intents: [
         Discord.Intents.FLAGS.GUILDS,

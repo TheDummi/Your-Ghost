@@ -1,19 +1,24 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
-const { color } = require('../data/config/config.json')
-const Discord = require('discord.js')
+const { color } = require('../data/config/config.json');
+const Discord = require('discord.js');
+
 module.exports = {
+    detailedDescription: "ping",
     category: "Info",
-    detailedDescription: "Get the bot's latency. To say it user friendly, how long the bot takes to get your command, til it replies to you.",
     data: new SlashCommandBuilder()
         .setName('ping')
-        .setDescription('Replies with Pong!'),
-
+        .setDescription('ping'),
     async execute(interaction) {
+        let m = await interaction.channel.send('calculating...')
+        m.delete()
         let ping = String(interaction.client.ws.ping);
+        let api = String(m.createdTimestamp - interaction.createdTimestamp)
         let embed = new Discord.MessageEmbed()
-            .setTitle('🏓 PONG!')
+            .setTitle("PONG")
             .setColor(color)
-            .setDescription('My ping: ' + ping + "ms")
-        await interaction.reply({ embeds: [embed] });
+            .setDescription(`API: ${api}ms.\nBot: ${ping}ms.`)
+            .setTimestamp()
+            .setFooter({ text: interaction.user.username, iconURL: interaction.user.avatarURL({ dynamic: true }) })
+        interaction.reply({ embeds: [embed] });
     },
 };

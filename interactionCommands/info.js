@@ -285,13 +285,12 @@ module.exports = {
                 for (let i = 0; i < title.length; i++) {
                     comp.addOptions({ label: (title[i] || "Error title not provided: " + options[i]), value: options[i] })
                 }
-
                 break;
             }
         }
-
-        if (comp.options.length <= 1) return interaction.reply({ embeds: [embed] })
-        else interaction.reply({ embeds: [embed], components: [row] })
+        changeEmbed = embed;
+        if (comp.options.length <= 1) return interaction.reply({ embeds: [changeEmbed] })
+        else interaction.reply({ embeds: [changeEmbed], components: [row] })
         let filter = (inter) => inter.isSelectMenu();
         let collector = interaction.channel.createMessageComponentCollector({ filter, time: 300000 });
 

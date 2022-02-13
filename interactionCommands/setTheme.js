@@ -5,7 +5,7 @@ const fs = require('fs')
 module.exports = {
     homeGuild: true,
     owner: true,
-    category: "Info",
+    category: "Developer",
     detailedDescription: "Change the them of the server with a simple command",
     data: new SlashCommandBuilder()
         .setName('settheme')

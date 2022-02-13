@@ -10,7 +10,7 @@ module.exports = {
         if (message.channel.type === 'GUILD_NEWS') {
             message.crosspost()
                 .then(() => message.react('📣'))
-                .catch(message.react('❌'));
+                .catch(() => message.react('❌'));
         }
 
         if (!message.content.startsWith(prefix) || message.author.bot) return;

@@ -6,7 +6,7 @@ module.exports = {
     name: "echo",
     aliases: ['say'],
     description: '',
-    category: "Info",
+    category: "Developer",
     detailedDescription: "Get the bot's latency. To say it user friendly, how long the bot takes to get your command, til it replies to you.",
 
     async execute(message) {
