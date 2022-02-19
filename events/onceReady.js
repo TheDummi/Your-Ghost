@@ -1,7 +1,7 @@
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
 const { clientID, guildID, token, prefix, global } = require('../data/config/config.json');
-const { getTime, getDataBase } = require('../funcs.js')
+const { getTime, getDatabase } = require('../funcs.js')
 
 const moment = require('moment');
 const Sequelize = require('sequelize');
@@ -34,7 +34,7 @@ module.exports = {
             }
         })();
 
-        getDataBase().guilds.sync().then(() => console.log(`${getTime(new Date())} | Successfully synced guilds`)).catch(error => console.log(error))
-        getDataBase().users.sync().then(() => console.log(`${getTime(new Date())} | Successfully synced users`)).catch(error => console.log(error))
+        getDatabase().guilds.sync().then(() => console.log(`${getTime(new Date())} | Successfully synced guilds`)).catch(error => console.log(error))
+        getDatabase().users.sync().then(() => console.log(`${getTime(new Date())} | Successfully synced users`)).catch(error => console.log(error))
     }
 }

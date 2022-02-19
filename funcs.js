@@ -23,7 +23,7 @@ function getRandomNumber(min, max) {
 }
 
 module.exports = {
-    getDataBase() {
+    getDatabase() {
         const sequelize = new Sequelize('database', 'username', 'password', {
             host: 'localhost',
             dialect: 'sqlite',

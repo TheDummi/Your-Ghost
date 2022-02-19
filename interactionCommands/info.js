@@ -40,7 +40,7 @@ module.exports = {
                 .addField('Credits', `Lead Developer: ${leadDev.tag}\nDevelopers: ${devArray.join(', ')}\nDirector: ${leadDev.tag}\nGroup: [Dummi Studios](https://discord.gg/apKmGsM9mb})`)
                 .addField('Technical Info', `Version: ${Package.version}\nLanguage: JavaScript\nLibrary: Discord.js\nLibrary Version: ${Discord.version}`)
                 .addField('Bot Info', `Users: ${memberCount}\nServers: ${guilds.size}\nPing: ${String(interaction.client.ws.ping)}ms\nUptime: ${getUptime(interaction.client).noSecUptime}\nDocumentation: [here]()`)
-                .setFooter({ text: '© 2021 Dummi Studios. All rights reserved.' })
+                .setFooter({ text: '© 2022 Dummi Studios. All rights reserved.' })
                 .setColor(color)
             return await interaction.reply({ embeds: [infoEmbed] })
         }
@@ -85,66 +85,206 @@ module.exports = {
                     title.push('Description')
                     embeds.push(descriptionEmbed)
                 }
-                if (d.rank || d.tag || d.class || d.tag || d.modes || d.slot) {
+                if (d.rank || d.tag || d.class || d.tag || d.modes || d.slot || d.character) {
                     let infoEmbed = new Discord.MessageEmbed()
                         .setTitle('General Info')
                         .setDescription(`General info of ${d.name}`)
                     if (d.rank) infoEmbed.addField('Rank', d.rank, true)
                     if (d.tag) infoEmbed.addField('Tag', d.tag, true)
-                    if (d.class) infoEmbed.addField('Class', d.class, true)
+                    if (typeof d.class == 'string') infoEmbed.addField('Class', d.class, true)
                     if (d.max) infoEmbed.addField('Max', String(d.max), true)
                     if (d.modes) infoEmbed.addField('Modes', Array.from(d.modes).join('\n'), true)
                     if (d.slot) infoEmbed.addField('Slot', d.slot, true)
+                    if (d.character) infoEmbed.addField('Character', d.character, true)
                     title.push('General Info')
                     embeds.push(infoEmbed)
                 }
-                if (d.obtainable || d.requirements || d.baseLight || d.maxLight) {
+                if (d.obtainable || d.requirements) {
                     let obtainEmbed = new Discord.MessageEmbed()
                         .setTitle('How to obtain')
                         .setDescription(`How to obtain ${d.name} and it's requirements.`)
-                    if (d.obtainable) obtainEmbed.addField('How to obtain', Array.from(d.obtainable).join('\n'), true)
-                    if (d.requirements) obtainEmbed.addField('Requirements', Array.from(d.requirements).join('\n'), true)
-
+                    if (d?.obtainable.year1 || d?.requirements.year1) obtainEmbed.addField('Year 1', '\u200b')
+                    if (d?.obtainable.year1) obtainEmbed.addField('How to obtain', ">>> " + Array.from(d.obtainable.year1).join('\n'), true)
+                    if (d?.requirements.year1) obtainEmbed.addField('Requirements', ">>> " + Array.from(d.requirements.year1).join('\n'), true)
+                    if (d?.obtainable.year2 || d?.requirements.year2) obtainEmbed.addField('Year 2', '\u200b')
+                    if (d?.obtainable.year2) obtainEmbed.addField('How to obtain', ">>> " + Array.from(d.obtainable.year2).join('\n'), true)
+                    if (d?.requirements.year2) obtainEmbed.addField('Requirements', ">>> " + Array.from(d.requirements.year2).join('\n'), true)
                     title.push('How to Obtain')
                     embeds.push(obtainEmbed)
                 }
 
-                if ((d.magazine && d.zoom && d.aim && d.recoil && d.speed) || (d.rof && d.impact && d.range && d.stability && d.reload) || d.baseLight || d.maxLight) {
+                if (d.name == "Warlock" || d.name == "Hunter" || d.name == "Titan") {
+                    let subclassEmbed = new Discord.MessageEmbed()
+                        .setTitle('Subclasses')
+                        .setDescription(`Subclasses of ${d.name}.`)
+                    for (const data in destiny) {
+                        let e = destiny[data];
+                        if (e.character == d.name && e.tag == "Subclass") {
+                            subclassEmbed.addField(e.name, ">>> " + e.description)
+                        }
+                    }
+                    title.push('Subclasses')
+                    embeds.push(subclassEmbed)
+                }
+
+                if (d.tag == "Subclass") {
+                    if (d.grenade) {
+                        let embed = new Discord.MessageEmbed()
+                            .setTitle('Grenades')
+                            .setDescription(`Grenades of ${d.name}.`)
+                            .addField(d.grenade.one.name, d.grenade.one.description)
+                            .addField(d.grenade.two.name, d.grenade.two.description)
+                            .addField(d.grenade.three.name, d.grenade.three.description)
+                        embeds.push(embed)
+                        title.push('Grenade')
+                    }
+                    if (d.movement) {
+                        let obtainEmbed = new Discord.MessageEmbed()
+                            .setTitle(d.movement.name)
+                            .setDescription(d.movement.description)
+                            .addField(d.movement.modifiers.one.name, d.movement.modifiers.one.description)
+                            .addField(d.movement.modifiers.two.name, d.movement.modifiers.two.description)
+                            .addField(d.movement.modifiers.three.name, d.movement.modifiers.three.description)
+                        embeds.push(obtainEmbed)
+                        title.push('Movement')
+                    }
+                    if (d.super) {
+                        let embed = new Discord.MessageEmbed()
+                            .setTitle(d.super.name)
+                            .setDescription(d.super.description)
+                            .addField(d.super.modifiers.one.name, d.super.modifiers.one.description)
+                            .addField(d.super.modifiers.two.name, d.super.modifiers.two.description)
+                            .addField(d.super.modifiers.three.name, d.super.modifiers.three.description)
+                        embeds.push(embed)
+                        title.push('Super')
+                    }
+                    if (d.melee) {
+                        let embed = new Discord.MessageEmbed()
+                            .setTitle(d.melee.name)
+                            .setDescription(d.melee.description)
+                            .addField(d.melee.modifiers.one.name, d.melee.modifiers.one.description)
+                            .addField(d.melee.modifiers.two.name, d.melee.modifiers.two.description)
+                            .addField(d.melee.modifiers.three.name, d.melee.modifiers.three.description)
+                        embeds.push(embed)
+                        title.push('Melee')
+                    }
+                    if (d.class) {
+                        let embed = new Discord.MessageEmbed()
+                            .setTitle("Class")
+                            .setDescription(`Class upgrades for ${d.name}`)
+                            .addField(d.class.one.name, d.class.one.description)
+                            .addField(d.class.two.name, d.class.two.description)
+                            .addField(d.class.three.name, d.class.three.description)
+                        embeds.push(embed)
+                        title.push('Class')
+                    }
+                    if (d.ability) {
+                        let embed = new Discord.MessageEmbed()
+                            .setTitle("Ability")
+                            .setDescription(`Ability upgrades for ${d.name}`)
+                            .addField(d.ability.one.name, d.ability.one.description)
+                            .addField(d.ability.two.name, d.ability.two.description)
+                            .addField(d.ability.three.name, d.ability.three.description)
+                        embeds.push(embed)
+                        title.push('Ability')
+                    }
+                    if (d.attribute) {
+                        let embed = new Discord.MessageEmbed()
+                            .setTitle("Attribute")
+                            .setDescription(`Attribute upgrades for ${d.name}`)
+                            .addField(d.attribute.one.name, d.attribute.one.description)
+                            .addField(d.attribute.two.name, d.attribute.two.description)
+                            .addField(d.attribute.three.name, d.attribute.three.description)
+                        embeds.push(embed)
+                        title.push('Attribute')
+                    }
+                    if (d.abilityTwo) {
+                        let embed = new Discord.MessageEmbed()
+                            .setTitle("Ability")
+                            .setDescription(`Ability upgrades for ${d.name}`)
+                            .addField(d.abilityTwo.one.name, d.abilityTwo.one.description)
+                            .addField(d.abilityTwo.two.name, d.abilityTwo.two.description)
+                            .addField(d.abilityTwo.three.name, d.abilityTwo.three.description)
+                        embeds.push(embed)
+                        title.push('Ability')
+                    }
+                }
+
+                if (d.stats || d.light) {
                     let statsEmbed = new Discord.MessageEmbed()
                         .setTitle('Stats')
-                        .setDescription(`Stats fro ${d.name}.`)
-
-                    if (d.rof && d.impact && d.range && d.stability && d.reload) statsEmbed.addField('In-Game stats', `**Rate of Fire:** ${d.rof}\n**Impact:** ${d.impact}\n**Range:** ${d.range}\n**Stability:** ${d.stability}\n**Reload:** ${d.reload}`, true)
-                    if (d.magazine && d.zoom && d.aim && d.recoil && d.speed) statsEmbed.addField('Extra stats', `**Magazine:** ${d.magazine}\n**Zoom:** ${d.zoom}\n**Aim Assist:** ${d.aim}\n**Recoil:** ${d.recoil}\n**Equip Speed:** ${d.speed}`, true)
-                    if (d.baseLight || d.maxLight) statsEmbed.addField('\u200b', '\u200b')
-                    if (d.baseLight) statsEmbed.addField('Base light', Array.from(d.baseLight).join('\n'), true)
-                    if (d.maxLight) statsEmbed.addField('Max light', Array.from(d.maxLight).join('\n'), true)
+                        .setDescription(`Stats for ${d.name}`)
+                    if (d?.light?.min || d?.light?.max) statsEmbed.addField('Light', '\u200b')
+                    if (d?.light?.min) statsEmbed.addField('Base', ">>> " + Array.from(d.light.min).join('\n'), true)
+                    if (d?.light?.max) statsEmbed.addField('Max', ">>> " + Array.from(d.light.max).join('\n'), true)
+                    if (d?.stats) {
+                        statsEmbed.addField('Stats', '\u200b')
+                        if (d?.stats?.intellect) statsEmbed.addField('Intellect', ">>> " + d.stats.intellect, true)
+                        if (d?.stats?.discipline) statsEmbed.addField('Discipline', ">>> " + d.stats.discipline, true)
+                        if (d?.stats?.strength) statsEmbed.addField('Strength', ">>> " + d.stats.strength, true)
+                        let str = ">>> ";
+                        if (d?.stats?.rof) str += "**Rate of Fire**: " + d.stats.rof + "\n";
+                        if (d?.stats?.impact) str += "**Impact**: " + d.stats.impact + "\n";
+                        if (d?.stats?.range) str += "**Range**: " + d.stats.range + "\n";
+                        if (d?.stats?.stability) str += "**Stability**: " + d.stats.stability + "\n";
+                        if (d?.stats?.reload) str += "**Reload**: " + d.stats.reload;
+                        if (d?.stats?.rof || d?.stats?.impact || d?.stats?.range || d?.stats?.stability || d?.stats?.reload) statsEmbed.addField('In-game Stats', str, true)
+                        str = ">>> ";
+                        if (d?.stats?.magazine) str += "**Magazine**: " + d.stats.magazine + "\n";
+                        if (d?.stats?.zoom) str += "**Zoom**: " + d.stats.zoom + "\n";
+                        if (d?.stats?.aim) str += "**Aim Assist**: " + d.stats.aim + "\n";
+                        if (d?.stats?.recoil) str += "**Recoil Control**: " + d.stats.recoil + "\n";
+                        if (d?.stats?.speed) str += "**Equip Speed**: " + d.stats.speed;
+                        if (d?.stats?.magazine || d?.stats?.zoom || d?.stats?.aim || d?.stats?.recoil || d?.stats?.speed) statsEmbed.addField('Other Stats', str, true)
+                        str = ">>> ";
+                        if (d?.stats?.defense) str += "**Defense**: " + d.stats.defense + "\n"
+                        if (d?.stats?.efficiency) str += "**Efficiency**: " + d.stats.efficiency + "\n"
+                        if (d?.stats?.defense || d?.stats?.efficiency) statsEmbed.addField('Stats only for this weapon', str, true)
+                    }
                     title.push('Stats')
                     embeds.push(statsEmbed)
                 }
 
-                if ((d.basePerks && d.firstTierPerks && d.secondTierPerk && d.thirdTierPerks && d.fourthTierPerk) || d.bestUsePVE || d.bestUsePVP) {
-                    let perksEmbed = new Discord.MessageEmbed()
-                        .setTitle('Perks')
-                        .setDescription(`Perks of ${d.name}.`)
-                    if (d.basePerks && d.firstTierPerks && d.secondTierPerk && d.thirdTierPerks && d.fourthTierPerk) {
-                        if (d.rank == "Exotic") {
-                            perksEmbed.addField('Perks', `**Base:** ${Array.from(d.basePerks).join(', ')}\n**Tier 1:** ${Array.from(d.firstTierPerks).join(', ')}\n**Tier 2:** ${Array.from(d.secondTierPerk).join(', ')}\n**Tier 3:** ${Array.from(d.thirdTierPerks).join(', ')}\n**Tier 4:** ${Array.from(d.fourthTierPerk).join(', ')}`)
-                        }
-                        else {
-                            perksEmbed
-                                .addField('Base', Array.from(d.basePerks).join('\n'), true)
-                                .addField('Tier 1', Array.from(d.firstTierPerks).join('\n'), true)
-                                .addField('Tier 2', Array.from(d.secondTierPerk).join('\n'), true)
-                                .addField('\u200b', '\u200b')
-                                .addField('Tier 3', Array.from(d.thirdTierPerks).join('\n'), true)
-                                .addField('Tier 4', Array.from(d.fourthTierPerk).join('\n'), true)
-                                .addField('\u200b', '\u200b')
-                        }
+                if (d.perks) {
+                    if (d.perks.year1) {
+                        let yearOnePerks = new Discord.MessageEmbed()
+                            .setTitle('Year 1 Perks')
+                            .setDescription(`year 1 perks of ${d.name}.`)
+                        if (d.perks.year1.base) yearOnePerks.addField('Base', ">>> " + Array.from(d.perks.year1.base).join("\n"));
+                        if (d.perks.year1.one) yearOnePerks.addField('Tier 1', ">>> " + Array.from(d.perks.year1.one).join('\n'), true);
+                        if (d.perks.year1.two) yearOnePerks.addField('Tier 2', ">>> " + Array.from(d.perks.year1.two).join("\n"), true);
+                        if (d.perks.year1.three) yearOnePerks.addField('Tier 3', ">>> " + Array.from(d.perks.year1.three).join("\n"), true);
+                        if (d.perks.year1.four) yearOnePerks.addField('Tier 4', ">>> " + Array.from(d.perks.year1.four).join("\n"), true);
+                        if (d.perks.year1.five) yearOnePerks.addField('Tier 5', ">>> " + Array.from(d.perks.year1.five).join("\n"), true);
+                        if (d.perks.year1.six) yearOnePerks.addField('Tier 6', ">>> " + Array.from(d.perks.year1.six).join("\n"), true);
+                        if (d.perks.year1.seven) yearOnePerks.addField('Tier 7', ">>> " + Array.from(d.perks.year1.seven).join("\n"), true);
+                        title.push('Perks (Y1)')
+                        embeds.push(yearOnePerks)
                     }
-                    if (d.bestUsePVE) perksEmbed.addField('Best PVE perks', Array.from(d.bestUsePVE).join('\n'), true)
-                    if (d.bestUsePVP) perksEmbed.addField('Best crucible perks', Array.from(d.bestUsePVP).join('\n'), true)
-                    title.push('Perks')
+                    if (d.perks.year2) {
+                        let yearTwoPerks = new Discord.MessageEmbed()
+                            .setTitle('Year 2 Perks')
+                            .setDescription(`Year 2 perks of ${d.name}.`)
+                        if (d.perks.year2.base) yearTwoPerks.addField('Base', ">>> " + Array.from(d.perks.year2.base).join("\n"));
+                        if (d.perks.year2.one) yearTwoPerks.addField('Tier 1', ">>> " + Array.from(d.perks.year2.one).join('\n'), true);
+                        if (d.perks.year2.two) yearTwoPerks.addField('Tier 2', ">>> " + Array.from(d.perks.year2.two).join("\n"), true);
+                        if (d.perks.year2.three) yearTwoPerks.addField('Tier 3', ">>> " + Array.from(d.perks.year2.three).join("\n"), true);
+                        if (d.perks.year2.four) yearTwoPerks.addField('Tier 4', ">>> " + Array.from(d.perks.year2.four).join("\n"), true);
+                        if (d.perks.year2.five) yearTwoPerks.addField('Tier 5', ">>> " + Array.from(d.perks.year2.five).join("\n"), true);
+                        if (d.perks.year2.six) yearTwoPerks.addField('Tier 6', ">>> " + Array.from(d.perks.year2.six).join("\n"), true);
+                        if (d.perks.year2.seven) yearTwoPerks.addField('Tier 7', ">>> " + Array.from(d.perks.year2.seven).join("\n"), true);
+                        title.push('Perks (Y2)')
+                        embeds.push(yearTwoPerks)
+                    }
+                }
+
+                if (d.bestUsePVE || d.bestUsePVP) {
+                    let perksEmbed = new Discord.MessageEmbed()
+                        .setTitle('Best Perks')
+                        .setDescription(`Perks of ${d.name}.`)
+                    if (d.bestUsePVE) perksEmbed.addField('Best PVE perks', ">>> " + Array.from(d.bestUsePVE).join('\n'), true)
+                    if (d.bestUsePVP) perksEmbed.addField('Best crucible perks', ">>> " + Array.from(d.bestUsePVP).join('\n'), true)
+                    title.push('Best perks')
                     embeds.push(perksEmbed)
                 }
 

@@ -6,6 +6,818 @@
     "tag": "Game"
   },
   {
+    "name": "Warlock",
+    "description": "Warlocks have long studied the Traveler, mastering some of its arcane energies. Its true purpose still remains a great mystery, but discovering truth has always driven you into the unknown. Now, our enemies are the only thing that stands between you and the lost wonders of our Golden Age.",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/5/51/Warlock.png/revision/latest/scale-to-width-down/350?cb=20140206231845",
+    "logo": "https://www.pngkit.com/png/full/145-1453375_path-of-the-voidwalker-destiny-warlock-logo.png",
+    "tag": "Character"
+  },
+  {
+    "name": "Voidwalker",
+    "description": "Voidwalker focuses on the manipulation and use of Void energy to obliterate enemies. It has been described by Bungie as a glass cannon, offering a strong offense but taking away from defense. This is also the starter subclass for warlock.",
+    "tag": "Subclass",
+    "character": "Warlock",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/5/59/Voidwalker_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314202050",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/5/59/Voidwalker_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314202050",
+    "element": "Void",
+    "grenade": {
+      "one": {
+        "name": "Vortex Grenade",
+        "description": "A grenade that creates a vortex which continually damages enemies inside the sphere."
+      },
+      "two": {
+        "name": "Scatter Grenade",
+        "description": "A grenade that splits into many submunitions and covers a large area with explosions."
+      },
+      "three": {
+        "name": "Axion Bolt",
+        "description": "A bolt of Void light which forks into smaller bolts on impact which seek toward enemies."
+      }
+    },
+    "movement": {
+      "name": "Glide",
+      "description": "Double jump in mid-air to activate Glide.",
+      "modifiers": {
+        "one": {
+          "name": "Focused Control",
+          "description": "Upgrades Glide for better directional control while in mid-air."
+        },
+        "two": {
+          "name": "Focused Burst",
+          "description": "Upgrades Glide to provide an initial burst of speed."
+        },
+        "three": {
+          "name": "Blink",
+          "description": "A short distance teleport that replaces Glide."
+        }
+      }
+    },
+    "super": {
+      "name": "Nova Bomb",
+      "description": "Hurl an explosive bolt of Void light at the enemy, disintegrating those caught within its blast.",
+      "modifiers": {
+        "one": {
+          "name": "Vortex",
+          "description": "Nova Bomb creates a vortex which continually damages enemies trapped inside. Lasts 3.5 seconds."
+        },
+        "two": {
+          "name": "Shatter",
+          "description": "Nova Bomb splits into three projectiles."
+        },
+        "three": {
+          "name": "Lance",
+          "description": "Nova Bomb travels farther and faster, and does more damage."
+        }
+      }
+    },
+    "melee": {
+      "name": "Energy Drain",
+      "description": "A powerful melee attack which drains energy from enemies and uses it to reduce the cooldown of your grenade.",
+      "modifiers": {
+        "one": {
+          "name": "Surge",
+          "description": "Damaging an enemy with Energy Drain increases your weapon and movement speed."
+        },
+        "two": {
+          "name": "Life Steal",
+          "description": "Damaging an enemy with Energy Drain immediately restores a significant portion of your health."
+        },
+        "three": {
+          "name": "Soul Rip",
+          "description": "Damaging an enemy with Energy Drain reduces the cooldown of Nova Bomb."
+        }
+      }
+    },
+    "class": {
+      "one": {
+        "name": "Arcane Wisdom",
+        "description": "Training focused on battle recovery and speed."
+      },
+      "two": {
+        "name": "Arcane Spirit",
+        "description": "Training focused on battle recovery and toughness."
+      },
+      "three": {
+        "name": "Arcane Force",
+        "description": "Training focused on toughness and speed."
+      }
+    },
+    "ability": {
+      "one": {
+        "name": "Annihilate",
+        "description": "Increases the size of the explosion created by Nova Bomb and Vortex grenade."
+      },
+      "two": {
+        "name": "Angry Magic",
+        "description": "Nova Bomb tracks enemies."
+      },
+      "three": {
+        "name": "The Hunger",
+        "description": "Increases the duration of the Energy Drain effect."
+      }
+    },
+    "attribute": {
+      "one": {
+        "name": "Ancestral Order",
+        "description": "Training focused on all attributes."
+      },
+      "two": {
+        "name": "Chaos Order",
+        "description": "Training focused on raw speed."
+      },
+      "three": {
+        "name": "Divine Order",
+        "description": "Training focused on toughness at all costs."
+      }
+    },
+    "abilityTwo": {
+      "one": {
+        "name": "Vortex Mastery",
+        "description": "Increases the range of Axion Bolt seekers and the duration of the Vortex effect of Nova Bomb and Vortex Grenade."
+      },
+      "two": {
+        "name": "Bloom",
+        "description": "Enemies killed with any of your abilities explode."
+      },
+      "three": {
+        "name": "Embrace the Void",
+        "description": "Killing enemies with Nova Bomb or any grenade triggers the Energy Drain effect."
+      }
+    }
+  },
+  {
+    "name": "Sunsinger",
+    "description": "Sunsinger's super ability, Radiance, allows the player to deal more area damage by reducing the cooldown of grenades while active. Radiance's modifiers can allow a player to revive themselves after death, reduce incoming damage or reduce the cooldowns of a fireteam while active. Sunsinger subclass is unlocked when any of a player's characters reach level 15.",
+    "tag": "Subclass",
+    "character": "Warlock",
+    "icon": "",
+    "logo": "",
+    "element": "Solar",
+    "grenade": {
+      "one": {
+        "name": "Solar Grenade",
+        "description": "A grenade that creates a flare of Solar Light which continually damages enemies trapped inside."
+      },
+      "two": {
+        "name": "Firebolt Grenade",
+        "description": "A grenade that unleashes bolts of Solar Light at nearby enemies."
+      },
+      "three": {
+        "name": "Fusion Grenade",
+        "description": "A grenade that causes bonus damage when attached to its target."
+      }
+    },
+    "movement": {
+      "name": "Glide",
+      "description": "Double jump in mid-air to activate Glide.",
+      "modifiers": {
+        "one": {
+          "name": "Focused Control",
+          "description": "Upgrades Glide for better directional control while in mid-air."
+        },
+        "two": {
+          "name": "Focused Burst",
+          "description": "Upgrades Glide to provide an initial burst of speed."
+        },
+        "three": {
+          "name": "Balanced Glide",
+          "description": "Upgrades Glide to provide bonuses to both speed and control."
+        }
+      }
+    },
+    "super": {
+      "name": "Radiance",
+      "description": "Fill yourself with Solar light, dramatically increasing the effectiveness of all your abilities.",
+      "modifiers": {
+        "one": {
+          "name": "Song of Flame",
+          "description": "While active, Radiance reduces all cooldowns for nearby allies."
+        },
+        "two": {
+          "name": "Radiant Skin",
+          "description": "While active, Radiance reduces incoming damage."
+        },
+        "three": {
+          "name": "Fireborn",
+          "description": "Radiance can now be activated from beyond the grave. Doing so returns you to life."
+        }
+      }
+    },
+    "melee": {
+      "name": "Scorch",
+      "description": "A powerful melee attack that ignites enemies, causing damage over time.",
+      "modifiers": {
+        "one": {
+          "name": "Flame Shield",
+          "description": "Damaging enemies with Scorch reduces incoming damage for a short time."
+        },
+        "two": {
+          "name": "Solar Wind",
+          "description": "Reduces the cooldown of Scorch. Hitting an enemy with Scorch knocks them back."
+        },
+        "three": {
+          "name": "Brimstone",
+          "description": "Reduces the cooldown of Scorch. Killing enemies with Scorch causes them to explode."
+        }
+      }
+    },
+    "class": {
+      "one": {
+        "name": "Arcane Wisdom",
+        "description": "Training focused on battle recovery and speed."
+      },
+      "two": {
+        "name": "Arcane Spirit",
+        "description": "Training focused on battle recovery and toughness."
+      },
+      "three": {
+        "name": "Arcane Force",
+        "description": "Training focused on toughness and speed."
+      }
+    },
+    "ability": {
+      "one": {
+        "name": "Radiant Will",
+        "description": "Increases the duration of Radiance."
+      },
+      "two": {
+        "name": "Viking Funeral",
+        "description": "Enemies you ignite burn take more damage from all sources. Stacks up to 3 times."
+      },
+      "three": {
+        "name": "Sunburst",
+        "description": "Killing an enemy with Scorch generates an Orb of Light."
+      }
+    },
+    "attribute": {
+      "one": {
+        "name": "Ancestral Order",
+        "description": "Training focused on all attributes."
+      },
+      "two": {
+        "name": "Chaos Order",
+        "description": "Training focused on raw speed."
+      },
+      "three": {
+        "name": "Divine Order",
+        "description": "Training focused on toughness at all costs."
+      }
+    },
+    "abilityTwo": {
+      "one": {
+        "name": "Touch of Flame",
+        "description": "All grenades ignite enemies, causing damage over time."
+      },
+      "two": {
+        "name": "Angel of Light",
+        "description": "Aiming your weapon while in the air will hold you in place for a short time."
+      },
+      "three": {
+        "name": "Gift of the Sun",
+        "description": "Gain an additional grenade."
+      }
+    }
+  },
+  {
+    "name": "Stormcaller",
+    "description": "Stormcallers directly manipulate Arc energy, focusing body and mind to channel and chain the lightning. Their enemies are given fair warning— flee from battle, or face the storm. This subclass can be obtained when doing the level 26 mission `Phobos`.",
+    "tag": "Subclass",
+    "character": "Warlock",
+    "icon": "",
+    "logo": "",
+    "element": "Arc",
+    "grenade": {
+      "one": {
+        "name": "Pulse Grenade",
+        "description": "A grenade that periodically damages enemies inside its explosive radius."
+      },
+      "two": {
+        "name": "Storm Grenade",
+        "description": "This grenade calls down a localized lightning storm."
+      },
+      "three": {
+        "name": "Arcbolt",
+        "description": "A grenade that chains bolts of lightning to nearby enemies."
+      }
+    },
+    "movement": {
+      "name": "Glide",
+      "description": "Double jump in mid-air to activate Glide.",
+      "modifiers": {
+        "one": {
+          "name": "Focused Control",
+          "description": "Upgrades Glide for better directional control while in mid-air."
+        },
+        "two": {
+          "name": "Focused Burst",
+          "description": "Upgrades Glide to provide an initial burst of speed."
+        },
+        "three": {
+          "name": "Balanced Glide",
+          "description": "Upgrades Glide to provide bonuses to both speed and control."
+        }
+      }
+    },
+    "super": {
+      "name": "Stormtrance",
+      "description": "Fire Arc lightning from your hands.",
+      "modifiers": {
+        "one": {
+          "name": "Landfall",
+          "description": "On casting Stormtrance, fire a bolt of lightning into the ground, creating a devastating shockwave under you."
+        },
+        "two": {
+          "name": "Superconductor",
+          "description": "Doubles your Stormtrance lightning's chaining capabilities."
+        },
+        "three": {
+          "name": "Ionic Blink",
+          "description": "Press L3 to teleport during Stormtrance."
+        }
+      }
+    },
+    "melee": {
+      "name": "Thunderstrike",
+      "description": "Deliver an electrocuting melee strike to close-range targets.",
+      "modifiers": {
+        "one": {
+          "name": "Chain Lighting",
+          "description": "Your Thunderstrike chains from the struck target to another nearby enemy."
+        },
+        "two": {
+          "name": "Amplitude",
+          "description": "Your Thunderstrike has a greater range."
+        },
+        "three": {
+          "name": "Rising Storm",
+          "description": "Hits with Thunderstrike charge your Super Ability and Melee energy."
+        }
+      }
+    },
+    "class": {
+      "one": {
+        "name": "Arcane Wisdom",
+        "description": "Training focused on battle recovery and speed."
+      },
+      "two": {
+        "name": "Arcane Spirit",
+        "description": "Training focused on battle recovery and toughness."
+      },
+      "three": {
+        "name": "Arcane Force",
+        "description": "Training focused on toughness and speed."
+      }
+    },
+    "ability": {
+      "one": {
+        "name": "Pulse Wave",
+        "description": "When critically wounded, trigger a Pulsewave that boosts speed for you and your allies."
+      },
+      "two": {
+        "name": "Feedback",
+        "description": "Incoming melee attacks fully recharge and intensify your Thunderstrike."
+      },
+      "three": {
+        "name": "Transcendence",
+        "description": "When cast with full grenade and melee energy, Stormtrance restores your health to full and drains slower."
+      }
+    },
+    "attribute": {
+      "one": {
+        "name": "Ancestral Order",
+        "description": "Training focused on all attributes."
+      },
+      "two": {
+        "name": "Chaos Order",
+        "description": "Training focused on raw speed."
+      },
+      "three": {
+        "name": "Divine Order",
+        "description": "Training focused on toughness at all costs."
+      }
+    },
+    "abilityTwo": {
+      "one": {
+        "name": "Electrostatic Mind",
+        "description": "Stormtrance charges faster when allies are near. When Stormtrance is active, nearby enemies take damage."
+      },
+      "two": {
+        "name": "Arc Web",
+        "description": "Enemies damaged by your grenades chain deadly lightning to other nearby enemies."
+      },
+      "three": {
+        "name": "Perpetuai Charge",
+        "description": "Getting a grenade kill recharges your melee. Getting a melee kill recharges your grenade."
+      }
+    }
+  },
+  {
+    "name": "Hunter",
+    "description": "Hunters once prowled the wilderness and wastelands, taking big risks for even bigger rewards. You're no outlaw—at least, not anymore—but making your own luck has always meant bending the rules. Your unique brand of daring and ingenuity is needed now more than ever.",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/4/46/DTG_Guardian_Hunter.png/revision/latest?cb=20140423231407",
+    "logo": "https://freepikpsd.com/file/2019/10/destiny-hunter-logo-png-Transparent-Images.png",
+    "tag": "Character"
+  },
+  {
+    "name": "Nightstalker",
+    "description": "Draw from the Void. Light the way.",
+    "element": "Void",
+    "tag": "Subclass",
+    "character": "Hunter",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/3/39/Nightstalker_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314201340",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/3/39/Nightstalker_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314201340",
+    "grenade": {
+      "one": {
+        "name": "Spike Grenade",
+        "description": "A grenade that attaches to any surface and emits a torrent of damaging void light."
+      },
+      "two": {
+        "name": "Void Wall Grenade",
+        "description": "A Grenade that creates a horizontal wall of burning void light."
+      },
+      "three": {
+        "name": "Vortex Grenade",
+        "description": "A grenade that creates a vortex which continually damages enemies inside the sphere."
+      }
+    },
+    "movement": {
+      "name": "Double Jump",
+      "description": "Jump a second time after leaving the ground.",
+      "modifiers": {
+        "one": {
+          "name": "Better Control",
+          "description": "Upgrades Double Jump for better directional control while in the air."
+        },
+        "two": {
+          "name": "Triple Jump",
+          "description": "Upgrades Double Jump with a third jump."
+        },
+        "three": {
+          "name": "Higher Jump",
+          "description": "Upgrades Double Jump for even greater height."
+        }
+      }
+    },
+    "super": {
+      "name": "Shadowshot",
+      "description": "Tether a large group of foes to a Void Anchor, slowing and silencing them for your fireteam.",
+      "modifiers": {
+        "one": {
+          "name": "Blood Bound",
+          "description": "Tethered enemies explode when killed. Damage to tethered enemies is shared to all."
+        },
+        "two": {
+          "name": "Black Hole",
+          "description": "The Void Anchor has increased range, lasts significantly longer, and can tether more targets."
+        },
+        "three": {
+          "name": "Quiver",
+          "description": "Fire Shadowshot up to three times. Void Anchors have reduced range."
+        }
+      }
+    },
+    "melee": {
+      "name": "Smoke",
+      "description": "Throw smoke to slow and disorient those within its cloud.",
+      "modifiers": {
+        "one": {
+          "name": "Envenomed",
+          "description": "Adds a toxin that damages enemies within the smoke."
+        },
+        "two": {
+          "name": "Vanish in Smoke",
+          "description": "You and allies near Smoke explosions vanish from sight."
+        },
+        "three": {
+          "name": "Snare",
+          "description": "Allows smoke to stick to surfaces, detonating when enemies are near."
+        }
+      }
+    },
+    "class": {
+      "one": {
+        "name": "Path Forgotten",
+        "description": "Training focused on toughness and speed."
+      },
+      "two": {
+        "name": "Path Forbidden",
+        "description": "Training focused on battle recovery and speed."
+      },
+      "three": {
+        "name": "Path Unknown",
+        "description": "Training focused on battle recovery and toughness."
+      }
+    },
+    "ability": {
+      "one": {
+        "name": "Courage of the PAck",
+        "description": "Killing tethered targets increases Recovery and Armor for you and nearby allies. Stacks up to 5 times."
+      },
+      "two": {
+        "name": "Light of the Pack",
+        "description": "Killing tethered targets creates Orbs of Light for your allies."
+      },
+      "three": {
+        "name": "Lockdown",
+        "description": "Grenade and Smoke effects last twice as long, allowing strong territory control."
+      }
+    },
+    "attributes": {
+      "one": {
+        "name": "Way of the Drifter",
+        "description": "Training focused on all attributes."
+      },
+      "two": {
+        "name": "Way of the Fearless",
+        "description": "Training focused on toughness at all costs."
+      },
+      "three": {
+        "name": "Way of the Nomad",
+        "description": "Training focused on maximum battle recovery."
+      }
+    },
+    "abilityTwo": {
+      "one": {
+        "name": "Keen Scout",
+        "description": "Sprint and Sneak faster, gain Enhanced Tracker, and ability to Mark targets you damage."
+      },
+      "two": {
+        "name": "Predator",
+        "description": "The Void Anchors fired from Shadowshot become traps that stick to surfaces and wait for prey."
+      },
+      "three": {
+        "name": "Shadestep",
+        "description": "Press Crouch, Crouch twice to evade."
+      }
+    }
+  },
+  {
+    "name": "Gunslinger",
+    "description": "",
+    "tag": "Subclass",
+    "character": "Hunter",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/3/39/Nightstalker_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314201340",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/3/39/Nightstalker_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314201340",
+    "element": "Solar",
+    "grenade": {
+      "one": {
+        "name": "",
+        "description": ""
+      },
+      "two": {
+        "name": "",
+        "description": ""
+      },
+      "three": {
+        "name": "",
+        "description": ""
+      }
+    },
+    "movement": {
+      "name": "",
+      "description": "",
+      "modifiers": {
+        "one": {
+          "name": "",
+          "description": ""
+        },
+        "two": {
+          "name": "",
+          "description": ""
+        },
+        "three": {
+          "name": "",
+          "description": ""
+        }
+      }
+    },
+    "super": {
+      "name": "",
+      "description": "",
+      "modifiers": {
+        "one": {
+          "name": "",
+          "description": ""
+        },
+        "two": {
+          "name": "",
+          "description": ""
+        },
+        "three": {
+          "name": "",
+          "description": ""
+        }
+      }
+    },
+    "melee": {
+      "name": "",
+      "description": "",
+      "modifiers": {
+        "one": {
+          "name": "",
+          "description": ""
+        },
+        "two": {
+          "name": "",
+          "description": ""
+        },
+        "three": {
+          "name": "",
+          "description": ""
+        }
+      }
+    },
+    "class": {
+      "one": {
+        "name": "",
+        "description": ""
+      },
+      "two": {
+        "name": "",
+        "description": ""
+      },
+      "three": {
+        "name": "",
+        "description": ""
+      }
+    },
+    "ability": {
+      "one": {
+        "name": "",
+        "description": ""
+      },
+      "two": {
+        "name": "",
+        "description": ""
+      },
+      "three": {
+        "name": "",
+        "description": ""
+      }
+    },
+    "attributes": {
+      "one": {
+        "name": "",
+        "description": ""
+      },
+      "two": {
+        "name": "",
+        "description": ""
+      },
+      "three": {
+        "name": "",
+        "description": ""
+      }
+    },
+    "abilityTwo": {
+      "one": {
+        "name": "",
+        "description": ""
+      },
+      "two": {
+        "name": "",
+        "description": ""
+      },
+      "three": {
+        "name": "",
+        "description": ""
+      }
+    }
+  },
+  {
+    "name": "Bladedancer",
+    "description": "",
+    "tag": "Subclass",
+    "character": "Hunter",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/3/39/Nightstalker_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314201340",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/3/39/Nightstalker_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314201340",
+    "element": "",
+    "grenade": {
+      "one": {
+        "name": "",
+        "description": ""
+      },
+      "two": {
+        "name": "",
+        "description": ""
+      },
+      "three": {
+        "name": "",
+        "description": ""
+      }
+    },
+    "movement": {
+      "name": "",
+      "description": "",
+      "modifiers": {
+        "one": {
+          "name": "",
+          "description": ""
+        },
+        "two": {
+          "name": "",
+          "description": ""
+        },
+        "three": {
+          "name": "",
+          "description": ""
+        }
+      }
+    },
+    "super": {
+      "name": "",
+      "description": "",
+      "modifiers": {
+        "one": {
+          "name": "",
+          "description": ""
+        },
+        "two": {
+          "name": "",
+          "description": ""
+        },
+        "three": {
+          "name": "",
+          "description": ""
+        }
+      }
+    },
+    "melee": {
+      "name": "",
+      "description": "",
+      "modifiers": {
+        "one": {
+          "name": "",
+          "description": ""
+        },
+        "two": {
+          "name": "",
+          "description": ""
+        },
+        "three": {
+          "name": "",
+          "description": ""
+        }
+      }
+    },
+    "class": {
+      "one": {
+        "name": "",
+        "description": ""
+      },
+      "two": {
+        "name": "",
+        "description": ""
+      },
+      "three": {
+        "name": "",
+        "description": ""
+      }
+    },
+    "ability": {
+      "one": {
+        "name": "",
+        "description": ""
+      },
+      "two": {
+        "name": "",
+        "description": ""
+      },
+      "three": {
+        "name": "",
+        "description": ""
+      }
+    },
+    "attributes": {
+      "one": {
+        "name": "",
+        "description": ""
+      },
+      "two": {
+        "name": "",
+        "description": ""
+      },
+      "three": {
+        "name": "",
+        "description": ""
+      }
+    },
+    "abilityTwo": {
+      "one": {
+        "name": "",
+        "description": ""
+      },
+      "two": {
+        "name": "",
+        "description": ""
+      },
+      "three": {
+        "name": "",
+        "description": ""
+      }
+    }
+  },
+  {
     "name": "Glimmer",
     "description": "The currency of the City. A programmable matter used as a source of power before the Collapse.",
     "icon": "https://static.wikia.nocookie.net/destinypedia/images/c/c5/Glimmer.png/revision/latest?cb=20150426060802",
@@ -882,24 +1694,42 @@
     "name": "4th Horseman",
     "description": "It's not a holdout weapon, it's a pathfinder.",
     "icon": "https://imgur.com/m7byFYl.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/9/98/The_4th_Horseman_%28Year_1%29_icon.jpg/revision/latest/scale-to-width-down/96?cb=20150912165253",
     "rank": "Exotic",
     "class": "Shotgun",
     "tag": "Weapon",
     "slot": "Special",
-    "requirements": ["Level 40 (Y2)", "Level 20 (Y1)"],
-    "obtainable": [
-      "Exotic Engram (Y2)",
-      "Nightfall (Y2)",
-      "Crota's End (Y1)",
-      "Legacy Exotic Engram (Y1)"
-    ],
-    "baseLight": ["280 (Y2)", "155 (Y1)"],
-    "maxLight": ["335 (Y2)", "170 (Y1)"],
-    "basePerks": ["Thunderer", "Arc Damage", "Infuse (Y2)", "Ascend (Y1)"],
-    "firstTierPerks": ["CQB Ballistics", "Accurized Ballistics", "Field Choke"],
-    "secondTierPerk": ["Final Round"],
-    "thirdTierPerks": ["Fitted Stock", "Hand Loaded", "Speed Reload"],
-    "fourthTierPerk": ["Return to Sender"],
+    "requirements": {
+      "year1": ["Level 20"],
+      "year2": ["Level 40", "The Taken King DLC"]
+    },
+    "obtainable": {
+      "year1": ["Crota's End", "Legacy Exotic Engram", "Prison of Elders"],
+      "year2": ["Exotic Engram", "Nightfall"]
+    },
+    "light": {
+      "min": ["280 (Y2)", "155 (Y1)"],
+      "max": ["335 (Y2)", "170 (Y1)"]
+    },
+    "perks": {
+      "year1": {
+        "base": ["Arc Damage", "Thunderer", "Ascend"],
+        "one": ["CQB Ballistics", "Accurized Ballistics", "Field Choke"],
+        "two": ["Final Round"],
+        "three": ["Upgrade Damage"],
+        "four": ["Fitted Stock", "Hand Loaded", "Speed Reload"],
+        "five": ["Return to Sender"],
+        "six": ["Upgrade Damage"],
+        "seven": ["Upgrade Damage", "Upgrade Damage", "Upgrade Damage"]
+      },
+      "year2": {
+        "base": ["Thunderer", "Arc Damage", "Infuse"],
+        "one": ["CQB Ballistics", "Accurized Ballistics", "Field Choke"],
+        "two": ["Final Round"],
+        "three": ["Fitted Stock", "Hand Loaded", "Speed Reload"],
+        "four": ["Return to Sender"]
+      }
+    },
     "bestUsePVP": [
       "Field Choke",
       "Final Round",
@@ -913,38 +1743,51 @@
       "Return to Sender"
     ],
     "note": ["This weapon has 2 variants. Year 1 (Y1) and year 2 (Y2)."],
-    "rof": 34,
-    "impact": "42-43",
-    "range": "3-10",
-    "stability": "54-85",
-    "reload": "16-22",
-    "magazine": 5,
-    "zoom": 12,
-    "aim": "70-80",
-    "recoil": 60,
-    "speed": 20
+    "stats": {
+      "rof": 34,
+      "impact": "42-43",
+      "range": "3-10",
+      "stability": "54-85",
+      "reload": "16-22",
+      "magazine": 5,
+      "zoom": 12,
+      "aim": "70-80",
+      "recoil": 60,
+      "speed": 20
+    }
   },
   {
     "name": "Vex Mythoclast",
     "description": "...a causal loop within the weapon's mechanism, suggesting that the firing process somehow binds space and time into...",
     "icon": "https://imgur.com/HhrVcyT.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/b/b8/Vex_Mythoclast_icon.jpg/revision/latest/scale-to-width-down/96?cb=20150912171908",
     "rank": "Exotic",
     "class": "Fusion Rifle",
     "tag": "Weapon",
     "slot": "Primary",
-    "requirements": ["Level 20"],
-    "obtainable": ["Vault of Glass (HARD)"],
-    "baseLight": [147],
-    "maxLight": [177],
-    "basePerks": ["Solar Damage", "Timeless Mythoclast", "Ascend"],
-    "firstTierPerks": [
-      "Aggressive Ballistics",
-      "Linear Compensator",
-      "Smart Drift Control"
-    ],
-    "secondTierPerk": ["Zen Moment"],
-    "thirdTierPerks": ["Extended Mag", "Send It", "Lightweight"],
-    "fourthTierPerk": ["Crowd Control"],
+    "requirements": {
+      "year1": ["Level 20"]
+    },
+    "obtainable": {
+      "year1": ["Vault of Glass (HARD)"]
+    },
+    "light": { "min": [147], "max": [177] },
+    "perks": {
+      "year1": {
+        "base": ["Solar Damage", "Timeless Mythoclast", "Ascend"],
+        "one": [
+          "Aggressive Ballistics",
+          "Linear Compensator",
+          "Smart Drift Control"
+        ],
+        "two": ["Zen Moment"],
+        "three": ["Upgrade Damage"],
+        "four": ["Extended Mag", "Send It", "Lightweight"],
+        "five": ["Crowd Control"],
+        "six": ["Upgrade Damage"],
+        "seven": ["Upgrade Damage", "Upgrade Damage", "Upgrade Damage"]
+      }
+    },
     "bestUsePVP": [
       "Aggressive Ballistics",
       "Zen Moment",
@@ -962,79 +1805,105 @@
       "This is the only Fusion Rifle that can be equipped in the primary slot.",
       "This weapon is the Vault of Glass raid weapon."
     ],
-    "rof": 40,
-    "impact": "35-38",
-    "range": "49-70",
-    "stability": "60-79",
-    "reload": 72,
-    "magazine": "21-28",
-    "zoom": 15,
-    "aim": "85-100",
-    "recoil": "80-100",
-    "speed": "35-100"
+    "stats": {
+      "rof": 40,
+      "impact": "35-38",
+      "range": "49-70",
+      "stability": "60-79",
+      "reload": 72,
+      "magazine": "21-28",
+      "zoom": 15,
+      "aim": "85-100",
+      "recoil": "80-100",
+      "speed": "35-100"
+    }
   },
   {
     "name": "Ace of Spades",
     "description": "Don't play your hand unless you're sure you have that ace in the hole.",
     "icon": "https://imgur.com/xDn0vLD.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/2/2f/Ace_of_Spades_icon.jpg/revision/latest/scale-to-width-down/96?cb=20150908195502",
     "rank": "Exotic",
     "class": "Hand Cannon",
     "tag": "Weapon",
     "slot": "Primary",
-    "requirements": ["Level 40"],
-    "obtainable": ["Hunter Quest from Banshee-44"],
-    "baseLight": [280],
-    "maxLight": [335],
-    "basePerks": ["Third Eye", "Kinetic Damage", "Infuse"],
-    "firstTierPerks": ["Truesight IS", "Quickdraw IS", "Steadyhand IS"],
-    "secondTierPerk": ["Firefly"],
-    "thirdTierPerks": [
-      "High Caliber Rounds",
-      "Perfect Balance",
-      "Reinforced Barrel"
-    ],
-    "fourthTierPerk": ["Maverick"],
+    "character": "Hunter",
+    "requirements": {
+      "year2": ["Level 40"]
+    },
+    "obtainable": {
+      "year2": ["Hunter Quest from Banshee-44"]
+    },
+    "light": {
+      "min": [280],
+      "max": [335]
+    },
+    "perks": {
+      "year2": {
+        "base": ["Third Eye", "Kinetic Damage", "Infuse"],
+        "one": ["Truesight IS", "Quickdraw IS", "Steadyhand IS"],
+        "two": ["Firefly"],
+        "three": [
+          "High Caliber Rounds",
+          "Perfect Balance",
+          "Reinforced Barrel"
+        ],
+        "four": ["Maverick"]
+      }
+    },
     "bestUsePVP": ["Truesight IS", "Firefly", "Reinforced Barrel", "Maverick"],
     "bestUsePVE": ["Truesight IS", "Firefly", "Reinforced Barrel", "Maverick"],
     "note": ["This is a Hunter exclusive weapon."],
-    "rof": 22,
-    "impact": 81,
-    "range": "40-62",
-    "stability": "13-58",
-    "reload": "33-43",
-    "magazine": 12,
-    "zoom": 15,
-    "aim": "61-66",
-    "recoil": 95,
-    "speed": "31-51"
+    "stats": {
+      "rof": 22,
+      "impact": 81,
+      "range": "40-62",
+      "stability": "13-58",
+      "reload": "33-43",
+      "magazine": 12,
+      "zoom": 15,
+      "aim": "61-66",
+      "recoil": 95,
+      "speed": "31-51"
+    }
   },
   {
     "name": "Bad Juju",
     "description": "\"If you believe your weapon wants to end all existence, then so it will.\" —Toland, the Shattered",
     "icon": "https://imgur.com/qb2fa7z.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/b/bb/Bad_Juju_%28Year_1%29_icon.jpg/revision/latest/scale-to-width-down/96?cb=20150912135323",
     "rank": "Exotic",
     "class": "Pulse Rifle",
     "tag": "Weapon",
     "slot": "Primary",
-    "requirements": ["Level 40 (Y2)", "Level 20 (Y1)"],
-    "obtainable": [
-      "Exotic Engram (Y2)",
-      "Exotic chest in King's Fall (Y2)",
-      "Nightfall (Y2)",
-      "Crota's End (Y1)",
-      "Legacy Exotic Engram (Y1)"
-    ],
-    "baseLight": ["280 (Y2)", "150 (Y1)"],
-    "maxLight": ["335 (Y2)", "170 (Y1)"],
-    "basePerks": ["Kinetic Damage", "Full Auto", "Infuse (Y2)", "Ascend (Y1)"],
-    "firstTierPerks": [
-      "Smooth Ballistics",
-      "Soft Ballistics",
-      "Smart Drift Control"
-    ],
-    "secondTierPerk": ["Hip Fire"],
-    "thirdTierPerks": ["Armor Piercing Rounds", "Send It", "Perfect Balance"],
-    "fourthTierPerk": ["String of Curses"],
+    "requirements": { "year1": ["Level 20"], "year2": ["Level 40"] },
+    "obtainable": {
+      "year1": ["Crota's End", "Legacy Exotic Engram"],
+      "year2": ["Exotic Engram", "Exotic chest in King's Fall", "Nightfall"]
+    },
+    "light": {
+      "min": ["280 (Y2)", "150 (Y1)"],
+      "max": ["335 (Y2)", "170 (Y1)"]
+    },
+    "perks": {
+      "year1": {
+        "base": ["Kinetic Damage", "Full Auto", "Ascend"],
+        "one": ["Smooth Ballistics", "Soft Ballistics", "Smart Drift Control"],
+        "two": ["Hip Fire"],
+        "three": ["Upgrade Damage"],
+        "four": ["Armor Piercing Rounds", "Send It", "Perfect Balance"],
+        "five": ["String of Curses"],
+        "six": ["Upgrade Damage"],
+        "seven": ["Upgrade Damage", "Upgrade Damage", "Upgrade Damage"]
+      },
+      "year2": {
+        "base": ["Kinetic Damaga", "Full Auto", "Infuse"],
+        "one": ["Smooth Ballistics", "Soft Ballistics", "Smart Drift Control"],
+        "two": ["Hip Fire"],
+        "three": ["Armor Piercing Rounds", "Send It", "Perfect Balance"],
+        "four": ["String of Curses"]
+      }
+    },
     "bestUsePVP": [
       "Smooth Ballistics",
       "Hip Fire",
@@ -1048,64 +1917,79 @@
       "String of Curses"
     ],
     "note": ["This weapon has 2 variants. Year 1 (Y1) and year 2 (Y2)."],
-    "rof": 73,
-    "impact": "6-9",
-    "range": "27-57",
-    "stability": "58-84",
-    "reload": 65,
-    "magazine": 27,
-    "zoom": 17,
-    "aim": "60-70",
-    "recoil": "85-105",
-    "speed": "35-50"
+    "stats": {
+      "rof": 73,
+      "impact": "6-9",
+      "range": "27-57",
+      "stability": "58-84",
+      "reload": 65,
+      "magazine": 27,
+      "zoom": 17,
+      "aim": "60-70",
+      "recoil": "85-105",
+      "speed": "35-50"
+    }
   },
   {
     "name": "Black Spindle",
     "description": "Your only existence shall be that which I weave for you out of sorrow and woe.",
     "icon": "https://imgur.com/sFnojxK.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/c/cf/Black_Spindle_icon.jpg/revision/latest?cb=20170628031039",
     "rank": "Exotic",
     "class": "Sniper Rifle",
     "tag": "Weapon",
     "slot": "Special",
-    "requirements": ["Level 40"],
-    "obtainable": ["Alternate version of Lost to Light on HARD"],
-    "baseLight": ["280"],
-    "maxLight": ["335"],
-    "basePerks": ["Solar Damage", "Infuse"],
-    "firstTierPerks": ["Smooth Ballistics", "Field Choke", "CQB Ballistics"],
-    "secondTierPerk": ["White Nail"],
-    "thirdTierPerks": ["Snapshot", "Flared Magwell", "Perfect Balance"],
-    "fourthTierPerk": ["Mulligan"],
+    "requirements": { "year2": ["Level 40"] },
+    "obtainable": { "year2": ["Alternate version of Lost to Light on HARD"] },
+    "light": { "min": ["280"], "max": ["335"] },
+    "perks": {
+      "year2": {
+        "base": ["Solar Damage", "Infuse"],
+        "one": ["Smooth Ballistics", "Field Choke", "CQB Ballistics"],
+        "two": ["White Nail"],
+        "three": ["Snapshot", "Flared Magwell", "Perfect Balance"],
+        "four": ["Mulligan"]
+      }
+    },
     "bestUsePVP": ["Smooth Ballistics", "White Nail", "Snapshot", "Mulligan"],
     "bestUsePVE": ["CQB Ballistics", "White Nail", "Snapshot", "Mulligan"],
-    "rof": 12,
-    "impact": "37-38",
-    "range": "84-92",
-    "stability": "25-61",
-    "reload": "55-69",
-    "magazine": 3,
-    "zoom": "40-50",
-    "aim": "29-44",
-    "recoil": 74,
-    "speed": 28
+    "note": [
+      "Most King's fall raiders prefer you own this weapon to participate!"
+    ],
+    "stats": {
+      "rof": 12,
+      "impact": "37-38",
+      "range": "84-92",
+      "stability": "25-61",
+      "reload": "55-69",
+      "magazine": 3,
+      "zoom": "40-50",
+      "aim": "29-44",
+      "recoil": 74,
+      "speed": 28
+    }
   },
   {
     "name": "Bolt-Caster",
     "description": "With your own hands you forged the mighty Bolt-Caster. Now take it in hand and unleash its thunder.",
     "icon": "https://imgur.com/a2fX6fS.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/a/a9/Bolt-Caster_icon.jpg/revision/latest/scale-to-width-down/96?cb=20150909114540",
     "rank": "Exotic",
     "class": "Sword",
     "tag": "Weapon",
     "slot": "Heavy",
-    "requirements": ["Level 40"],
-    "obtainable": ["Quest from Lord Shaxx and Eris Morn"],
-    "baseLight": [280],
-    "maxLight": [335],
-    "basePerks": ["Sword Strike", "Arc-Forged Guard", "Infuse", "Arc Edge"],
-    "firstTierPerks": ["Tempered Light"],
-    "secondTierPerk": ["Scabbard", "Live by the Sword"],
-    "thirdTierPerks": ["Sword of Thunder"],
-    "fourthTierPerk": ["Scabbard", "Warrior of Light"],
+    "requirements": { "year2": ["Level 40"] },
+    "obtainable": { "year2": ["Quest from Lord Shaxx and Eris Morn"] },
+    "light": { "min": [280], "max": [335] },
+    "perks": {
+      "year2": {
+        "base": ["Sword Strike", "Arc-Forged Guard", "Infuse", "Arc Edge"],
+        "one": ["Tempered Light"],
+        "two": ["Scabbard", "Live by the Sword"],
+        "three": ["Sword of Thunder"],
+        "four": ["Scabbard", "Warrior of Light"]
+      }
+    },
     "bestUsePVP": [
       "Tempered Light",
       "Scabbard",
@@ -1118,45 +2002,40 @@
       "Sword of Thunder",
       "Scabbard"
     ],
-    "note": [
-      "Stats that only apply to swords: \n**Defense:** 20\n**Efficiency:** 75"
-    ],
-    "rof": "N/A",
-    "impact": 60,
-    "range": 25,
-    "stability": "N/A",
-    "reload": "N/A",
-    "magazine": "56-81",
-    "zoom": "N/A",
-    "aim": "N/A",
-    "recoil": "N/A",
-    "speed": 45
+    "stats": {
+      "impact": 60,
+      "range": 25,
+      "magazine": "56-81",
+      "speed": 45,
+      "defense": 20,
+      "efficiency": 75
+    }
   },
   {
     "name": "Boolean gemini",
     "description": "Fight your way!",
     "icon": "https://imgur.com/LOFugZz.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/f/f9/Boolean_Gemini_%28Year_3%29_icon.jpg/revision/latest/scale-to-width-down/96?cb=20180324004040",
     "rank": "Exotic",
     "class": "Scout Rifle",
     "tag": "Weapon",
     "slot": "Primary",
-    "requirements": ["Level 30"],
-    "obtainable": ["Petra Venj Quest"],
-    "baseLight": [280],
-    "maxLight": [335],
-    "basePerks": ["High Caliber Rounds", "Infuse"],
-    "firstTierPerks": [
-      "Accurized Ballistics",
-      "Smooth Ballistics",
-      "Aggressive Ballistics"
-    ],
-    "secondTierPerk": ["Unflinching"],
-    "thirdTierPerks": [
-      "Single Point Sling",
-      "Hammer Forged",
-      "Perfect Balance"
-    ],
-    "fourthTierPerk": ["One Way", "Or Another"],
+    "requirements": { "year2": ["Level 30"] },
+    "obtainable": { "year2": ["Petra Venj Quest"] },
+    "light": { "min": [280], "max": [335] },
+    "perks": {
+      "year2": {
+        "base": ["High Caliber Rounds", "Infuse"],
+        "one": [
+          "Accurized Ballistics",
+          "Smooth Ballistics",
+          "Aggressive Ballistics"
+        ],
+        "two": ["Unflinching"],
+        "three": ["Single Point Sling", "Hammer Forged", "Perfect Balance"],
+        "four": ["One Way", "Or Another"]
+      }
+    },
     "bestUsePVP": [
       "Aggressive Ballistics",
       "Unflinching",
@@ -1169,16 +2048,18 @@
       "Hammer Forged",
       "Or Another"
     ],
-    "rof": 37,
-    "impact": "48-51",
-    "range": "55-79",
-    "stability": "36-70",
-    "reload": 68,
-    "magazine": 19,
-    "zoom": 20,
-    "aim": "60-80",
-    "recoil": "80-100",
-    "speed": 60
+    "stats": {
+      "rof": 37,
+      "impact": "48-51",
+      "range": "55-79",
+      "stability": "36-70",
+      "reload": 68,
+      "magazine": 19,
+      "zoom": 20,
+      "aim": "60-80",
+      "recoil": "80-100",
+      "speed": 60
+    }
   },
   {
     "name": "Dark-Drinker",
@@ -2864,13 +3745,13 @@
       "Warhead Verniers",
       "Grenades and horseshoes",
       "Javelin",
-      "Prototyp Trueseeker"
+      "Prototype Trueseeker"
     ],
     "bestUsePVE": [
       "Warhead Verniers",
       "Grenades and horseshoes",
       "Javelin",
-      "Prototyp Trueseeker"
+      "Prototype Trueseeker"
     ],
     "note": ["This weapon has 2 variants. Year 1 (Y1) and year 2 (Y2)."],
     "rof": 11,
@@ -3383,50 +4264,37 @@
     "class": "Hand Cannon",
     "tag": "Weapon",
     "slot": "Primary",
-    "requirements": ["Level 20"],
-    "obtainable": ["Vault of Glass"],
-    "baseLight": [130],
-    "maxLight": [170],
-    "basePerks": ["Arc Damage", "Ascend"],
-    "firstTierPerks": ["Steadyhand IS", "Sureshot IS", "Quickdraw IS"],
-    "secondTierPerk": ["Firefly"],
-    "thirdTierPerks": ["Field Scout", "Single Point Sling", "Explosive Rounds"],
-    "fourthTierPerk": ["Outlaw"],
+    "requirements": {
+      "year1": ["Level 20"]
+    },
+    "obtainable": { "year1": ["Vault of Glass"] },
+    "light": {
+      "min": [130],
+      "max": [170]
+    },
+    "perks": {
+      "year1": {
+        "base": ["Arc Damage", "Ascend"],
+        "one": ["Steadyhand IS", "Sureshot IS", "Quickdraw IS"],
+        "two": ["Firefly"],
+        "three": ["Field Scout", "Single Point Sling", "Explosive Rounds"],
+        "four": ["Outlaw"]
+      }
+    },
     "bestUsePVP": ["Sureshot IS", "Firefly", "Explosive Rounds", "Outlaw"],
     "bestUsePVE": ["Sureshot IS", "Firefly", "Explosive Rounds", "Outlaw"],
-    "rof": 22,
-    "impact": 81,
-    "range": 40,
-    "stability": "32-38",
-    "reload": "33-43",
-    "magazine": "12",
-    "zoom": 15,
-    "aim": "61-66",
-    "recoil": 95,
-    "speed": "36-51"
-  },
-  {
-    "name": "Auto Rifle",
-    "icon": "https://static.wikia.nocookie.net/destinypedia/images/d/d0/Destiny_Assault_Rifle_1.jpg/revision/latest?cb=20140731021025",
-    "description": "Auto Rifles can be equipped in the primary weapon slot and are fully automatic weapons with high fire rate and low damage.",
-    "note": [
-      "Best statistics for Auto Rifles are High Fire rate, High Stability and Big Magazine."
-    ],
-    "slot": "Primary",
-    "bestUsePVP": [
-      "Persistance",
-      "Counter Balance",
-      "Glass Half Full",
-      "rangefinder"
-    ],
-    "bestUsePVE": ["Counter Balance", "Rangefinder", "Glass Half Full"],
-    "bestWeapons": [
-      "Doctrine of Passing",
-      "Soulstealers Claw",
-      "Atheon's Epilogue",
-      "Truth Serum"
-    ],
-    "tag": "Mechanic"
+    "stats": {
+      "rof": 22,
+      "impact": 81,
+      "range": 40,
+      "stability": "32-38",
+      "reload": "33-43",
+      "magazine": "12",
+      "zoom": 15,
+      "aim": "61-66",
+      "recoil": 95,
+      "speed": "36-51"
+    }
   },
   {
     "name": "Finnala's Peril",
@@ -3663,6 +4531,93 @@
     "aim": "80-90",
     "recoil": 95,
     "speed": 95
+  },
+  {
+    "name": "Auto Rifle",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/d/d0/Destiny_Assault_Rifle_1.jpg/revision/latest?cb=20140731021025",
+    "description": "Auto Rifles can be equipped in the primary weapon slot and are fully automatic weapons with high fire rate and low damage.",
+    "note": [
+      "Best statistics for Auto Rifles are High Fire rate, High Stability and Big Magazine."
+    ],
+    "slot": "Primary",
+    "bestUsePVP": [
+      "Persistance",
+      "Counter Balance",
+      "Glass Half Full",
+      "rangefinder"
+    ],
+    "bestUsePVE": ["Counter Balance", "Rangefinder", "Glass Half Full"],
+    "bestWeapons": [
+      "Doctrine of Passing",
+      "Soulstealers Claw",
+      "Atheon's Epilogue",
+      "Truth Serum"
+    ],
+    "tag": "Mechanic"
+  },
+  {
+    "name": "Sunbreakers",
+    "description": "\"When one can wield the fire of stars, what use is flesh and bone?\"",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/e/e3/ROI_Sunbreakers.png/revision/latest/scale-to-width-down/1000?cb=20161216041630",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/2/20/Sunbreakers_%28Year_2%29_icon.jpg/revision/latest/scale-to-width-down/96?cb=20150912164234",
+    "class": "",
+    "character": "Warlock",
+    "rank": "Exotic",
+    "slot": "Gauntlets",
+    "tag": "Armor",
+    "requirements": {
+      "year1": ["Level 20", "Warlock"],
+      "year2": ["Level 40", "Warlock", "The Taken King DLC"]
+    },
+    "obtainable": {
+      "year1": [
+        "Bought from Xûr",
+        "Exotic Chest in Vault of Glass",
+        "Legacy Exotic Engram"
+      ],
+      "year2": ["Nightfall (Y2)", "Challenge of the Elders", "Exotic Engram"]
+    },
+    "light": {
+      "min": ["280 (Y2)", "150 (Y1)"],
+      "max": ["335 (Y2)", "170 (Y1)"]
+    },
+    "stats": {
+      "intellect": "30-60",
+      "discipline": "30-94",
+      "strength": "30-60"
+    },
+    "perks": {
+      "year1": {
+        "base": ["Ascend"],
+        "one": ["Special Weapon Loader"],
+        "two": ["Upgrade Defense"],
+        "three": ["Serpent's Tail"],
+        "four": ["Helium Cycle"],
+        "five": ["Upgrade Defense"],
+        "six": ["Upgrade Defense", "Upgrade Defense"]
+      },
+      "year2": {
+        "base": ["Helium Cycle", "Infuse"],
+        "one": [
+          "Increase Discipline",
+          "Increase Intellect",
+          "Increase Strength"
+        ],
+        "two": ["Energy Protection", "Momentum Transfer", "Impact Induction"],
+        "three": [
+          "Auto Rifle Loader",
+          "Pulse Rifle Loader",
+          "Scout Rifle Loader",
+          "Hand Cannon Loader",
+          "Fusion Rifle Loader",
+          "Sidearm Loader",
+          "Shotgun Loader",
+          "Sniper Rifle Loader",
+          "Machine Gun Loader",
+          "Rocket Launcher Loader"
+        ]
+      }
+    }
   },
   {
     "name": "Pulse Rifle",
