@@ -239,7 +239,9 @@ module.exports = {
                         str = ">>> ";
                         if (d?.stats?.defense) str += "**Defense**: " + d.stats.defense + "\n"
                         if (d?.stats?.efficiency) str += "**Efficiency**: " + d.stats.efficiency + "\n"
-                        if (d?.stats?.defense || d?.stats?.efficiency) statsEmbed.addField('Stats only for this weapon', str, true)
+                        if (d?.stats?.blast) str += "**Blast Radius**: " + d.stats.blast + "\n"
+                        if (d?.stats?.velocity) str += "** Velocity**: " + d.stats.velocity + "\n";
+                        if (d?.stats?.defense || d?.stats?.efficiency || d?.stats?.blast || d?.stats?.velocity) statsEmbed.addField('Stats only for this weapon', str, true)
                     }
                     title.push('Stats')
                     embeds.push(statsEmbed)

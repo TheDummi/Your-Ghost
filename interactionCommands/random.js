@@ -70,8 +70,8 @@ module.exports = {
         if (type == null && slot == null && type == null) embed.setTitle('Please select an option.');
         function randomize() {
             let items = []
-            let characters = ["Warlock", "Hunter", "Titan"];
-            let subclasses = { "Warlock": ["Voidwalker", "Sunsinger", "Stormcaller"], "Hunter": ["Nightstalker", "Gunslinger", "Bladedancer"], "Titan": ["Defender", "Sunbreaker", "Striker"] };
+            let characters = [];
+            let subclasses = [];
             let weapons = [];
             let armor = [];
             let mods = [
@@ -87,8 +87,8 @@ module.exports = {
             }
             let handicap;
             let mod;
-            let char = characters[getRandomNumber(characters.length)];
-            let subclass = subclasses[char][getRandomNumber(subclasses[char].length)];
+            let char;
+            let subclass;
             for (const data in destiny) {
                 let d = destiny[data]
                 if (d.tag == type && d.rank == rank && d.slot == slot) items.push(d.name);
@@ -101,16 +101,24 @@ module.exports = {
                 if (type == null && rank == null && slot == null) items = [];
                 if (type?.toLowerCase().includes('loadout')) {
                     if (d.tag == "Character") characters.push(d.name)
+                    if (d.tag == "Subclass") { subclasses.push({ [d.character.toString()]: d.name }); }
+                    subclass = subclasses[getRandomNumber(subclasses.length)];
                     if (d.tag == "Weapon" && d.rank == "Exotic") weapons.push(d.name)
-                    if (d.tag == 'Armor') armor.push(d.name)
+                    if (d.tag == 'Armor' && d.character == char) armor.push(d.name)
                 }
-                if (type?.includes('mod') || type?.toLowerCase().includes('full')) {
-                    mod = mods[getRandomNumber(mods.length)]
-                }
-                if (type?.includes('handicap') || type?.toLowerCase().includes('full')) {
-                    handicap = handicaps[char][subclass][getRandomNumber(handicaps[char][subclass].length)]
-                }
+
             }
+            if (type?.includes('mod') || type?.toLowerCase().includes('full')) {
+                mod = mods[getRandomNumber(mods.length)]
+            }
+            if (type?.includes('handicap') || type?.toLowerCase().includes('full')) {
+                handicap = "soon"
+            }
+            char = characters[getRandomNumber(characters.length)];
+
+            let newSubclasses = [];
+            subclasses.map(s => { if (s[char] != undefined) newSubclasses.push(s[char]) })
+            subclass = newSubclasses[getRandomNumber(newSubclasses.length)];
             let weapon = weapons[getRandomNumber(weapons.length)];
             if ((weapon == 'Tlaloc' && char != "Warlock") || (weapon == 'Ace of Spades' && char != "Hunter") || (weapon == 'The Fabian Strategy' && char != "Titan")) weapon = weapons[getRandomNumber(weapons.length)]
             if (type?.toLowerCase()?.includes('loadout')) return `Character: ${char || 'none'}\nSubclass: ${subclass || 'none'}\nWeapon: ${weapon || 'none'}\nArmor piece: ${armor[getRandomNumber(armor.length)] || 'none'} (soon) ${mod ? (`\nModifier: ` + mod) : ""} ${handicap ? `\nHandicap ` + handicap : ""}`;

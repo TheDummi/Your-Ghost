@@ -510,7 +510,7 @@
     },
     "ability": {
       "one": {
-        "name": "Courage of the PAck",
+        "name": "Courage of the Pack",
         "description": "Killing tethered targets increases Recovery and Armor for you and nearby allies. Stacks up to 5 times."
       },
       "two": {
@@ -689,6 +689,412 @@
     "description": "",
     "tag": "Subclass",
     "character": "Hunter",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/3/39/Nightstalker_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314201340",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/3/39/Nightstalker_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314201340",
+    "element": "",
+    "grenade": {
+      "one": {
+        "name": "",
+        "description": ""
+      },
+      "two": {
+        "name": "",
+        "description": ""
+      },
+      "three": {
+        "name": "",
+        "description": ""
+      }
+    },
+    "movement": {
+      "name": "",
+      "description": "",
+      "modifiers": {
+        "one": {
+          "name": "",
+          "description": ""
+        },
+        "two": {
+          "name": "",
+          "description": ""
+        },
+        "three": {
+          "name": "",
+          "description": ""
+        }
+      }
+    },
+    "super": {
+      "name": "",
+      "description": "",
+      "modifiers": {
+        "one": {
+          "name": "",
+          "description": ""
+        },
+        "two": {
+          "name": "",
+          "description": ""
+        },
+        "three": {
+          "name": "",
+          "description": ""
+        }
+      }
+    },
+    "melee": {
+      "name": "",
+      "description": "",
+      "modifiers": {
+        "one": {
+          "name": "",
+          "description": ""
+        },
+        "two": {
+          "name": "",
+          "description": ""
+        },
+        "three": {
+          "name": "",
+          "description": ""
+        }
+      }
+    },
+    "class": {
+      "one": {
+        "name": "",
+        "description": ""
+      },
+      "two": {
+        "name": "",
+        "description": ""
+      },
+      "three": {
+        "name": "",
+        "description": ""
+      }
+    },
+    "ability": {
+      "one": {
+        "name": "",
+        "description": ""
+      },
+      "two": {
+        "name": "",
+        "description": ""
+      },
+      "three": {
+        "name": "",
+        "description": ""
+      }
+    },
+    "attributes": {
+      "one": {
+        "name": "",
+        "description": ""
+      },
+      "two": {
+        "name": "",
+        "description": ""
+      },
+      "three": {
+        "name": "",
+        "description": ""
+      }
+    },
+    "abilityTwo": {
+      "one": {
+        "name": "",
+        "description": ""
+      },
+      "two": {
+        "name": "",
+        "description": ""
+      },
+      "three": {
+        "name": "",
+        "description": ""
+      }
+    }
+  },
+  {
+    "name": "Titan",
+    "description": "The first Titans built the Wall, and gave their lives to defend it. Now, you stand in the same high place, steadfast and sure, protecting all who shelter in your shadow. You hail from a long line of heroes, forged from strength and sacrifice. Our enemies may be deadly and merciless, but so are you.",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/8/88/Titan.png/revision/latest/scale-to-width-down/350?cb=20140206231822",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/c/c5/Legend_of_the_titan_quest_icon.png/revision/latest?cb=20151024235541",
+    "tag": "Character"
+  },
+  {
+    "name": "Defender",
+    "description": "",
+    "tag": "Subclass",
+    "character": "Titan",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/3/39/Nightstalker_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314201340",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/3/39/Nightstalker_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314201340",
+    "element": "",
+    "grenade": {
+      "one": {
+        "name": "",
+        "description": ""
+      },
+      "two": {
+        "name": "",
+        "description": ""
+      },
+      "three": {
+        "name": "",
+        "description": ""
+      }
+    },
+    "movement": {
+      "name": "",
+      "description": "",
+      "modifiers": {
+        "one": {
+          "name": "",
+          "description": ""
+        },
+        "two": {
+          "name": "",
+          "description": ""
+        },
+        "three": {
+          "name": "",
+          "description": ""
+        }
+      }
+    },
+    "super": {
+      "name": "",
+      "description": "",
+      "modifiers": {
+        "one": {
+          "name": "",
+          "description": ""
+        },
+        "two": {
+          "name": "",
+          "description": ""
+        },
+        "three": {
+          "name": "",
+          "description": ""
+        }
+      }
+    },
+    "melee": {
+      "name": "",
+      "description": "",
+      "modifiers": {
+        "one": {
+          "name": "",
+          "description": ""
+        },
+        "two": {
+          "name": "",
+          "description": ""
+        },
+        "three": {
+          "name": "",
+          "description": ""
+        }
+      }
+    },
+    "class": {
+      "one": {
+        "name": "",
+        "description": ""
+      },
+      "two": {
+        "name": "",
+        "description": ""
+      },
+      "three": {
+        "name": "",
+        "description": ""
+      }
+    },
+    "ability": {
+      "one": {
+        "name": "",
+        "description": ""
+      },
+      "two": {
+        "name": "",
+        "description": ""
+      },
+      "three": {
+        "name": "",
+        "description": ""
+      }
+    },
+    "attributes": {
+      "one": {
+        "name": "",
+        "description": ""
+      },
+      "two": {
+        "name": "",
+        "description": ""
+      },
+      "three": {
+        "name": "",
+        "description": ""
+      }
+    },
+    "abilityTwo": {
+      "one": {
+        "name": "",
+        "description": ""
+      },
+      "two": {
+        "name": "",
+        "description": ""
+      },
+      "three": {
+        "name": "",
+        "description": ""
+      }
+    }
+  },
+  {
+    "name": "Sunbreaker",
+    "description": "",
+    "tag": "Subclass",
+    "character": "Titan",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/3/39/Nightstalker_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314201340",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/3/39/Nightstalker_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314201340",
+    "element": "",
+    "grenade": {
+      "one": {
+        "name": "",
+        "description": ""
+      },
+      "two": {
+        "name": "",
+        "description": ""
+      },
+      "three": {
+        "name": "",
+        "description": ""
+      }
+    },
+    "movement": {
+      "name": "",
+      "description": "",
+      "modifiers": {
+        "one": {
+          "name": "",
+          "description": ""
+        },
+        "two": {
+          "name": "",
+          "description": ""
+        },
+        "three": {
+          "name": "",
+          "description": ""
+        }
+      }
+    },
+    "super": {
+      "name": "",
+      "description": "",
+      "modifiers": {
+        "one": {
+          "name": "",
+          "description": ""
+        },
+        "two": {
+          "name": "",
+          "description": ""
+        },
+        "three": {
+          "name": "",
+          "description": ""
+        }
+      }
+    },
+    "melee": {
+      "name": "",
+      "description": "",
+      "modifiers": {
+        "one": {
+          "name": "",
+          "description": ""
+        },
+        "two": {
+          "name": "",
+          "description": ""
+        },
+        "three": {
+          "name": "",
+          "description": ""
+        }
+      }
+    },
+    "class": {
+      "one": {
+        "name": "",
+        "description": ""
+      },
+      "two": {
+        "name": "",
+        "description": ""
+      },
+      "three": {
+        "name": "",
+        "description": ""
+      }
+    },
+    "ability": {
+      "one": {
+        "name": "",
+        "description": ""
+      },
+      "two": {
+        "name": "",
+        "description": ""
+      },
+      "three": {
+        "name": "",
+        "description": ""
+      }
+    },
+    "attributes": {
+      "one": {
+        "name": "",
+        "description": ""
+      },
+      "two": {
+        "name": "",
+        "description": ""
+      },
+      "three": {
+        "name": "",
+        "description": ""
+      }
+    },
+    "abilityTwo": {
+      "one": {
+        "name": "",
+        "description": ""
+      },
+      "two": {
+        "name": "",
+        "description": ""
+      },
+      "three": {
+        "name": "",
+        "description": ""
+      }
+    }
+  },
+  {
+    "name": "Striker",
+    "description": "",
+    "tag": "Subclass",
+    "character": "Titan",
     "icon": "https://static.wikia.nocookie.net/destinypedia/images/3/39/Nightstalker_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314201340",
     "logo": "https://static.wikia.nocookie.net/destinypedia/images/3/39/Nightstalker_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314201340",
     "element": "",
@@ -1066,7 +1472,7 @@
       {
         "chapter": 5,
         "name": "Crota, Son of Oryx",
-        "description": "The crystal in Ir Yût's chamber may be used to spawn Crota, Son of Oryx by having every player stand very close to it. Once started, the shielded doorways will come up, sealing the team within the room while Knights and Acolytes spawn outside and surround it. Crota will spawn on the platform across from the crystal chamber. Once Crota has spawned, the shielded doors will drop and the horde will attack.\n\nDuring this entire fight, a debuff will be active called \"Presence of Crota\" which prevents normal health regeneration. Health may be regenerated by claiming the Chalice of Light, an item which spawns in the arena below Crota and may be held by one player at a time. Picking up the Chalice or taking it from another player will immediately trigger regeneration and holding it will allow regeneration to work normally. Any weapon perks, armor perks, or subclass abilities that grant health regeneration will still work.\n\nCrota possesses a shield which can be damaged by normal weapons, but which will recharge almost immediately if not continuously fired upon. Once the shield is down, Crota will kneel for about five seconds. During these five seconds, his health is vulnerable to damage by a Hive Cleaver, which the players must obtain by killing a Swordbearer in the arena below his walkway. The team must precisely match the arrival of the player carrying the sword at Crota with the fall of his shield so that the sword may be used to do as much damage to his health as possible.\n\nWhen Crota gets back up from kneeling, he will be briefly immune to weapons, indicated by an orange glow. He will also \"summon his oversoul\", which causes the gray sphere behind him to expand. The fireteam must fire their weapons at it until it disappears. If this is not done within ten seconds, the entire team will be killed.\n\nAfter two Swordbearers are killed, two Hallowed Ogres will spawn underneath the towers housing the Knights using Boomers. They must be killed before another Swordbearer will spawn.\n\nCrota will enrage if not killed within twelve minutes. While enraged, Crota will use the Oversoul repeatedly, and Ogres will spawn constantly.",
+        "description": "The crystal in Ir Yût's chamber may be used to spawn Crota, Son of Oryx by having every player stand very close to it. Once started, the shielded doorways will come up, sealing the team within the room while Knights and Acolytes spawn outside and surround it. Crota will spawn on the platform across from the crystal chamber. Once Crota has spawned, the shielded doors will drop and the horde will attack.\n\nDuring this entire fight, a debuff will be active called \"Presence of Crota\" which prevents normal health regeneration. Health may be regenerated by claiming the Chalice of Light, an item which spawns in the arena below Crota and may be held by one player at a time. Picking up the Chalice or taking it from another player will immediately trigger regeneration and holding it will allow regeneration to work normally. Any weapon perks,: armor perks,: or subclass abilities that grant health regeneration will still work.\n\nCrota possesses a shield which can be damaged by normal weapons, but which will recharge almost immediately if not continuously fired upon. Once the shield is down, Crota will kneel for about five seconds. During these five seconds, his health is vulnerable to damage by a Hive Cleaver, which the players must obtain by killing a Swordbearer in the arena below his walkway. The team must precisely match the arrival of the player carrying the sword at Crota with the fall of his shield so that the sword may be used to do as much damage to his health as possible.\n\nWhen Crota gets back up from kneeling, he will be briefly immune to weapons, indicated by an orange glow. He will also \"summon his oversoul\", which causes the gray sphere behind him to expand. The fireteam must fire their weapons at it until it disappears. If this is not done within ten seconds, the entire team will be killed.\n\nAfter two Swordbearers are killed, two Hallowed Ogres will spawn underneath the towers housing the Knights using Boomers. They must be killed before another Swordbearer will spawn.\n\nCrota will enrage if not killed within twelve minutes. While enraged, Crota will use the Oversoul repeatedly, and Ogres will spawn constantly.",
         "icon": "https://i.pinimg.com/originals/52/32/67/523267caeb105b012b7ed68117eb661b.png",
         "requiredPlayers": 1
       }
@@ -1744,16 +2150,18 @@
     ],
     "note": ["This weapon has 2 variants. Year 1 (Y1) and year 2 (Y2)."],
     "stats": {
-      "rof": 34,
-      "impact": "42-43",
-      "range": "3-10",
-      "stability": "54-85",
-      "reload": "16-22",
-      "magazine": 5,
-      "zoom": 12,
-      "aim": "70-80",
-      "recoil": 60,
-      "speed": 20
+      "stats": {
+        "rof": 34,
+        "impact": "42-43",
+        "range": "3-10",
+        "stability": "54-85",
+        "reload": "16-22",
+        "magazine": 5,
+        "zoom": 12,
+        "aim": "70-80",
+        "recoil": 60,
+        "speed": 20
+      }
     }
   },
   {
@@ -1864,7 +2272,7 @@
       "zoom": 15,
       "aim": "61-66",
       "recoil": 95,
-      "speed": "31-51"
+      "speed": "31}-51"
     }
   },
   {
@@ -1927,7 +2335,7 @@
       "zoom": 17,
       "aim": "60-70",
       "recoil": "85-105",
-      "speed": "35-50"
+      "speed": "35}-50"
     }
   },
   {
@@ -1957,16 +2365,18 @@
       "Most King's fall raiders prefer you own this weapon to participate!"
     ],
     "stats": {
-      "rof": 12,
-      "impact": "37-38",
-      "range": "84-92",
-      "stability": "25-61",
-      "reload": "55-69",
-      "magazine": 3,
-      "zoom": "40-50",
-      "aim": "29-44",
-      "recoil": 74,
-      "speed": 28
+      "stats": {
+        "rof": 12,
+        "impact": "37-38",
+        "range": "84-92",
+        "stability": "25-61",
+        "reload": "55-69",
+        "magazine": 3,
+        "zoom": "40-50",
+        "aim": "29-44",
+        "recoil": 74,
+        "speed": 28
+      }
     }
   },
   {
@@ -2049,35 +2459,41 @@
       "Or Another"
     ],
     "stats": {
-      "rof": 37,
-      "impact": "48-51",
-      "range": "55-79",
-      "stability": "36-70",
-      "reload": 68,
-      "magazine": 19,
-      "zoom": 20,
-      "aim": "60-80",
-      "recoil": "80-100",
-      "speed": 60
+      "stats": {
+        "rof": 37,
+        "impact": "48-51",
+        "range": "55-79",
+        "stability": "36-70",
+        "reload": 68,
+        "magazine": 19,
+        "zoom": 20,
+        "aim": "60-80",
+        "recoil": "80-100",
+        "speed": 60
+      }
     }
   },
   {
     "name": "Dark-Drinker",
     "description": "With your own hands you forged the mighty Dark-Drinker. Now take it in hand and slake its thirst.",
     "icon": "https://imgur.com/uh3dwuk.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/3/3c/Dark-Drinker_icon.jpg/revision/latest/scale-to-width-down/96?cb=20150909153122",
     "rank": "Exotic",
     "class": "Sword",
     "tag": "Weapon",
     "slot": "Heavy",
-    "requirements": ["Level 40"],
-    "obtainable": ["Quest from Lord Shaxx and Eris Morn"],
-    "baseLight": [280],
-    "maxLight": [335],
-    "basePerks": ["Sword Strike", "Void-Forged Guard", "Infuse", "Void Edge"],
-    "firstTierPerks": ["Tempered Light"],
-    "secondTierPerk": ["Scabbard", "Die by the Sword"],
-    "thirdTierPerks": ["Supermassive Vortex"],
-    "fourthTierPerk": ["Scabbard", "Warrior of Light"],
+    "requirements": { "year2": ["Level 40"] },
+    "obtainable": { "year2": ["Quest from Lord Shaxx and Eris Morn"] },
+    "light": { "min": [280], "max": [335] },
+    "perks": {
+      "year2": {
+        "base": ["Sword Strike", "Void-Forged Guard", "Infuse", "Void Edge"],
+        "one": ["Tempered Light"],
+        "two": ["Scabbard", "Die by the Sword"],
+        "three": ["Supermassive Vortex"],
+        "four": ["Scabbard", "Warrior of Light"]
+      }
+    },
     "bestUsePVP": [
       "Tempered Light",
       "Scabbard",
@@ -2090,47 +2506,55 @@
       "Supermassive Vortex",
       "Scabbard"
     ],
-    "note": [
-      "Stats that only apply to swords:\n**Defense:** 20\n**Efficiency:** 75"
-    ],
-    "rof": "N/A",
-    "impact": 60,
-    "range": 25,
-    "stability": "N/A",
-    "reload": "N/A",
-    "magazine": "56-81",
-    "zoom": "N/A",
-    "aim": "N/A",
-    "recoil": "N/A",
-    "speed": 45
+    "stats": {
+      "impact": 60,
+      "range": 25,
+      "magazine": "56-81",
+      "speed": 45,
+      "defense": 20,
+      "efficiency": 75
+    }
   },
   {
     "name": "Dragon's Breath",
     "description": "Burn the world. Burn it all.",
     "icon": "https://imgur.com/gnJUUtk.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/6/69/Dragon%27s_Breath_%28Year_2%29_icon.jpg/revision/latest/scale-to-width-down/96?cb=20170406044931",
     "rank": "Exotic",
     "class": "Rocket Launcher",
     "tag": "Weapon",
     "slot": "Heavy",
-    "requirements": ["Level 40 (Y2)", "Level 20 (Y1)"],
-    "obtainable": [
-      "Exotic Engram (Y2)",
-      "Exotic chest in King's Fall (Y2)",
-      "Nightfall (Y2)",
-      "Crota's End (Y1)",
-      "Legacy Exotic Engram (Y1)"
-    ],
-    "baseLight": ["280 (Y2)", "150 (Y1)"],
-    "maxLight": ["335 (Y2)", "170 (Y1)"],
-    "basePerks": ["Solar Damage", "Infuse (Y2)", "Ascend (Y1)", "Napalm"],
-    "firstTierPerks": [
-      "Smart Drift Control",
-      "Linear Compensator",
-      "Comfined Launch"
-    ],
-    "secondTierPerk": ["Surplus"],
-    "thirdTierPerks": ["Quickdraw", "Javelin", "Speed Reload"],
-    "fourthTierPerk": ["Who's Next"],
+    "requirements": {
+      "year1": ["Level 20"],
+      "year2": ["Level 40"]
+    },
+    "obtainable": {
+      "year1": ["Crota's End", "Legacy Exotic Engram"],
+      "year2": ["Exotic Engram", "Exotic chest in King's Fall", "Nightfall"]
+    },
+    "light": {
+      "min": ["280 (Y2)", "150 (Y1)"],
+      "max": ["335 (Y2)", "170 (Y1)"]
+    },
+    "perks": {
+      "year1": {
+        "base": ["Solar Damage", "Ascend"],
+        "one": ["Smart Drift Control", "Linear Compensator", "Comfined Launch"],
+        "two": ["Tripod"],
+        "three": ["Upgrade Damage"],
+        "four": ["Quickdraw", "Javelin", "Heavy Payload"],
+        "five": ["Pyromancer"],
+        "six": ["Upgrade Damage"],
+        "seven": ["Upgrade Damage", "Upgrade Damage", "Upgrade Damage"]
+      },
+      "year2": {
+        "base": ["Solar Damage", "Infuse", "Napalm"],
+        "one": ["Smart Drift Control", "Linear Compensator", "Comfined Launch"],
+        "two": ["Surplus"],
+        "three": ["Quickdraw", "Javelin", "Speed Reload"],
+        "four": ["Who's Next"]
+      }
+    },
     "bestUsePVP": ["Smart Drift Control", "Surplus", "Quickdraw", "Who's Next"],
     "bestUsePVE": [
       "Smart Drift Control",
@@ -2138,45 +2562,55 @@
       "Speed Reload",
       "Who's Next"
     ],
-    "note": [
-      "This weapon has 2 variants. Year 1 (Y1) and year 2 (Y2).",
-      "Stats that only apply to Rocket Launchers:\n**Blast Radius:** 60\n**Velocity:** 30-45"
-    ],
-    "rof": 18,
-    "impact": "N/A",
-    "range": "N/A",
-    "stability": "58-76",
-    "reload": "42-59",
-    "magazine": 1,
-    "zoom": 20,
-    "aim": "N/A",
-    "recoil": "50-70",
-    "speed": 25
+    "note": ["This weapon has 2 variants. Year 1 (Y1) and year 2 (Y2)."],
+    "stats": {
+      "stats": {
+        "rof": 18,
+        "stability": "58-76",
+        "reload": "42-59",
+        "magazine": 1,
+        "zoom": 20,
+        "recoil": "50-70",
+        "speed": 25,
+        "blast": 60,
+        "velocity": "30-45"
+      }
+    }
   },
   {
     "name": "Dreg's Promise",
     "description": "I am a marvel with ten thousand arms.",
     "icon": "https://imgur.com/rfnb8gd.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/1/1c/Dreg%27s_Promise_icon.jpg/revision/latest/scale-to-width-down/96?cb=20150912142127",
     "rank": "Exotic",
     "class": "Sidearm",
     "tag": "Weapon",
     "slot": "Special",
-    "requirements": ["Level 40 (Y2)", "Level 20 (Y1)"],
-    "obtainable": [
-      "Challenge of the Elders (Y2)",
-      "Level 28 Prison of The Elders (Y1)"
-    ],
-    "baseLight": ["280 (Y2)", "150 (Y1)"],
-    "maxLight": ["335 (Y2)", "170 (Y1)"],
-    "basePerks": ["Reserve Ammo", "Infuse (Y2)", "Ascend (Y1)"],
-    "firstTierPerks": [
-      "Soft Ballistics",
-      "CQB Ballistics",
-      "Aggressive Ballistics"
-    ],
-    "secondTierPerk": ["Grave Robber"],
-    "thirdTierPerks": ["Snapshot", "Field Scout", "Perfect Balance"],
-    "fourthTierPerk": ["Shock Rounds"],
+    "requirements": { "year1": ["Level 20"], "year2": ["Level 40"] },
+    "obtainable": {
+      "year1": ["Level 28 Prison of The Elders"],
+      "year2": ["Challenge of the Elders"]
+    },
+    "light": {
+      "min": ["280 (Y2)", "150 (Y1)"],
+      "max": ["335 (Y2)", "170 (Y1)"]
+    },
+    "perks": {
+      "year1": {
+        "base": ["Arc Damage", "Reserve Ammo"],
+        "one": ["Soft Ballistics", "CQB Ballistics", "Aggressive Ballistics"],
+        "two": ["Grave Robber"],
+        "three": ["Snapshot", "Field Scout", "Perfect Balance"],
+        "four": ["Shock Rounds"]
+      },
+      "year2": {
+        "base": ["Arc Damage", "Reserve Ammo", "Infuse"],
+        "one": ["Soft Ballistics", "CQB Ballistics", "Aggressive Ballistics"],
+        "two": ["Grave Robber"],
+        "three": ["Snapshot", "Field Scout", "Perfect Balance"],
+        "four": ["Shock Rounds"]
+      }
+    },
     "bestUsePVP": [
       "Soft Ballistsics",
       "Grave Robber",
@@ -2193,16 +2627,18 @@
       "This weapon has 2 variants. Year 1 (Y1) and year 2 (Y2).",
       "This weapon shoots in bursts of 3 bullets."
     ],
-    "rof": 100,
-    "impact": "10-12",
-    "range": "28-30",
-    "stability": "64-84",
-    "reload": 86,
-    "magazine": 21,
-    "zoom": 12,
-    "aim": "55-100",
-    "recoil": "80-100",
-    "speed": 50
+    "stats": {
+      "rof": 100,
+      "impact": "10-12",
+      "range": "28-30",
+      "stability": "64-84",
+      "reload": 86,
+      "magazine": 21,
+      "zoom": 12,
+      "aim": "55-100",
+      "recoil": "80-100",
+      "speed": 50
+    }
   },
   {
     "name": "Fabian Strategy",
@@ -2212,19 +2648,19 @@
     "class": "Auto Rifle",
     "tag": "Weapon",
     "slot": "Primary",
-    "requirements": ["Level 40"],
-    "obtainable": ["Quest From Banshee-44"],
-    "baseLight": [280],
-    "maxLight": [335],
-    "basePerks": ["Crowd Control", "Infuse"],
-    "firstTierPerks": [
-      "Smooth Ballistics",
-      "CQB Ballistics",
-      "Linear Compensator"
-    ],
-    "secondTierPerk": ["Life Support"],
-    "thirdTierPerks": ["Flared Magwell", "Lightweight", "Riffled Barrel"],
-    "fourthTierPerk": ["Front Lines"],
+    "character": "Titan",
+    "requirements": { "year2": ["Level 40"] },
+    "obtainable": { "year2": ["Quest From Banshee-44"] },
+    "light": { "min": [280], "max": [335] },
+    "perks": {
+      "year2": {
+        "base": ["Crowd Control", "Infuse"],
+        "one": ["Smooth Ballistics", "CQB Ballistics", "Linear Compensator"],
+        "two": ["Life Support"],
+        "three": ["Flared Magwell", "Lightweight", "Riffled Barrel"],
+        "four": ["Front Lines"]
+      }
+    },
     "bestUsePVP": [
       "CQB Ballistics",
       "Life Support",
@@ -2238,38 +2674,49 @@
       "Front Lines"
     ],
     "note": ["This is a Titan exclusive weapon."],
-    "rof": 88,
-    "impact": "8-10",
-    "range": "20-55",
-    "stability": "60-78",
-    "reload": "48-76",
-    "magazine": 40,
-    "zoom": 15,
-    "aim": "40-55",
-    "recoil": "80-100",
-    "speed": 26
+    "stats": {
+      "rof": 88,
+      "impact": "8-10",
+      "range": "20-55",
+      "stability": "60-78",
+      "reload": "48-76",
+      "magazine": 40,
+      "zoom": 15,
+      "aim": "40-55",
+      "recoil": "80-100",
+      "speed": 26
+    }
   },
   {
     "name": "Gjallahorn",
     "description": "\"If there is beauty in destruction, why not also in its delivery?\" - Feizel Crux",
     "icon": "https://imgur.com/hhX2D5n.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/c/c9/Gjallarhorn_%28Year_1%29_icon.jpg/revision/latest/scale-to-width-down/96?cb=20150912144136",
     "rank": "Exotic",
     "class": "Rocket Launcher",
     "tag": "Weapon",
     "slot": "Heavy",
-    "requirements": ["Level 20"],
-    "obtainable": [
-      "Exotic Chest in Vault of Glass",
-      "Legacy Exotic Engram",
-      "Level 28 Prison of The Elders"
-    ],
-    "baseLight": [155],
-    "maxLight": [170],
-    "basePerks": ["Solar Damage", "Ascend"],
-    "firstTierPerks": ["Soft Launch", "Comfined Launch", "Smart Drift Control"],
-    "secondTierPerk": ["Tracking"],
-    "thirdTierPerks": ["Quickdraw", "Snapshot", "Speed Reload"],
-    "fourthTierPerk": ["Wolfpack Rounds"],
+    "requirements": { "year1": ["Level 20"] },
+    "obtainable": {
+      "year1": [
+        "Exotic Chest in Vault of Glass",
+        "Legacy Exotic Engram",
+        "Level 28 Prison of The Elders"
+      ]
+    },
+    "light": { "min": [155], "max": [170] },
+    "perks": {
+      "year1": {
+        "base": ["Solar Damage", "Ascend"],
+        "one": ["Soft Launch", "Comfined Launch", "Smart Drift Control"],
+        "two": ["Tracking"],
+        "three": ["Upgrade Damage"],
+        "four": ["Quickdraw", "Snapshot", "Speed Reload"],
+        "five": ["Wolfpack Rounds"],
+        "six": ["Upgrade Damage"],
+        "seven": ["Upgrade Damage", "Upgrade Damage", "Upgrade Damage"]
+      }
+    },
     "bestUsePVP": ["Soft Launch", "Tracking", "Quickdraw", "Wolfpack Rounds"],
     "bestUsePVE": [
       "Soft Launch",
@@ -2278,47 +2725,66 @@
       "Wolfpack Rounds"
     ],
     "note": [
-      "This weapon is exclusive to year 1. There is no year 2 version of this weapon.",
-      "Stats that only apply to Rocket Launchers:\n**Blast Radius:** 76\n**Velocity:** 84-90"
+      "This weapon is exclusive to year 1. There is no year 2 version of this weapon."
     ],
-    "rof": 11,
-    "impact": "N/A",
-    "range": "N/A",
-    "stability": "53-60",
-    "reload": "68-76",
-    "magazine": 2,
-    "zoom": 20,
-    "aim": 50,
-    "recoil": "80-100",
-    "speed": 50
+    "stats": {
+      "rof": 11,
+      "stability": "53-60",
+      "reload": "68-76",
+      "magazine": 2,
+      "zoom": 20,
+      "aim": 50,
+      "recoil": "80-100",
+      "speed": 50,
+      "blast": 76,
+      "velocity": "94-90"
+    }
   },
   {
     "name": "Hard Light",
     "description": "Ionized polymer synballistic attack platform. The system's lethality is dynamically robust across tactical spaces.",
     "icon": "https://imgur.com/U865PNR.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/d/d0/Hard_Light_%28Year_1%29_icon.jpg/revision/latest/scale-to-width-down/96?cb=20150912144612",
     "rank": "Exotic",
     "class": "Auto Rifle",
     "tag": "Weapon",
     "slot": "Primary",
-    "requirements": ["Level 40 (Y2)", "Level 20 (Y1)"],
-    "obtainable": [
-      "Exotic Engram (Y2)",
-      "Exotic chest in King's Fall (Y2)",
-      "Nightfall (Y2)",
-      "Legacy Exotic Engram (Y1)",
-      "Crota's End (Y1)"
-    ],
-    "baseLight": ["280 (Y2)", "150 (Y1)"],
-    "maxLight": ["335 (Y2)", "170 (Y1)"],
-    "basePerks": ["Kinetic Damage", "Infuse"],
-    "firstTierPerks": [
-      "Accurized Ballistics",
-      "CQB Ballistics",
-      "Aggressive Ballistics"
-    ],
-    "secondTierPerk": ["Volatile Light"],
-    "thirdTierPerks": ["Quickdraw", "Fitted Stock"],
-    "fourthTierPerk": ["Glass Half Full", "Fitted Stock"],
+    "requirements": { "year1": ["Level 20"], "year2": ["Level 40"] },
+    "obtainable": {
+      "year1": ["Legacy Exotic Engram", "Crota's End"],
+      "year2": ["Exotic Engram", "Exotic chest in King's Fall", "Nightfall"]
+    },
+    "light": {
+      "min": ["280 (Y2)", "150 (Y1)"],
+      "max": ["335 (Y2)", "170 (Y1)"]
+    },
+    "perks": {
+      "year1": {
+        "base": ["Kinetic Damage", "Ascend"],
+        "one": [
+          "Accurized Ballistics",
+          "CQB Ballistics",
+          "Aggressive Ballistics"
+        ],
+        "two": ["Glass Half Full"],
+        "three": ["Upgrade Damage"],
+        "four": ["Quickdraw, Fitted Stock", "Field Scout"],
+        "five": ["Volatile Light"],
+        "six": ["Upgrade Damage"],
+        "seven": ["Upgrade Damage", "Upgrade Damage", "Upgrade Damage"]
+      },
+      "year2": {
+        "base": ["Kinetic Damage", "Infuse"],
+        "one": [
+          "Accurized Ballistics",
+          "CQB Ballistics",
+          "Aggressive Ballistics"
+        ],
+        "two": ["Volatile Light"],
+        "three": ["Quickdraw", "Fitted Stock"],
+        "four": ["Glass Half Full", "Fitted Stock"]
+      }
+    },
     "bestUsePVP": [
       "Aggressive Ballistics",
       "Volatile Light",
@@ -2332,45 +2798,60 @@
       "Glass Half Full"
     ],
     "note": ["This weapon has 2 variants. Year 1 (Y1) and year 2 (Y2)."],
-    "rof": 88,
-    "impact": "8-12",
-    "range": "22-31",
-    "stability": "64-100",
-    "reload": 86,
-    "magazine": 40,
-    "zoom": 15,
-    "aim": "85-100",
-    "recoil": "100-120",
-    "speed": 90
+    "stats": {
+      "rof": 88,
+      "impact": "8-12",
+      "range": "22-31",
+      "stability": "64-100",
+      "reload": 86,
+      "magazine": 40,
+      "zoom": 15,
+      "aim": "85-100",
+      "recoil": "100-120",
+      "speed": 90
+    }
   },
   {
     "name": "Hawkmoon",
     "description": "Stalk thy prey and let loose thy talons upon the Darkness.",
     "icon": "https://imgur.com/Ak9sD9g.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/4/4c/Hawkmoon_%28Year_3%29_icon.jpg/revision/latest/scale-to-width-down/96?cb=20180324003125",
     "rank": "Exotic",
     "class": "Hand Cannon",
     "tag": "Weapon",
     "slot": "Primary",
-    "requirements": ["Level 40 (Y2)", "Level 20 (Y1)"],
-    "obtainable": [
-      "Exotic Engram (Y2)",
-      "Exotic chest in King's Fall (Y2)",
-      "Nightfall (Y2)",
-      "Level 28 Prison of The Elders (Y1)",
-      "Crota's End (Y1)",
-      "Legacy Exotic Engram (Y1)"
-    ],
-    "baseLight": ["280 (Y2)", "150 (Y1)"],
-    "maxLight": ["335 (Y2)", "170 (Y1)"],
-    "basePerks": ["Kinetic Damage", "Infuse (Y2)", "Ascend (Y1)"],
-    "firstTierPerks": [
-      "Accurized Ballistics",
-      "Field Choke",
-      "Aggressive Ballistics"
-    ],
-    "secondTierPerk": ["Luck in the Chamber"],
-    "thirdTierPerks": ["Hammer Forged", "Quickdraw", "Speed Reload"],
-    "fourthTierPerk": ["Holding Aces"],
+    "requirements": { "year1": ["Level 20"], "year2": ["Level 40 "] },
+    "obtainable": {
+      "year1": [
+        "Level 28 Prison of The Elders",
+        "Crota's End",
+        "Legacy Exotic Engram"
+      ],
+      "year2": ["Exotic Engram", "Exotic chest in King's Fall", "Nightfall"]
+    },
+    "light": {
+      "min": ["280 (Y2)", "150 (Y1)"],
+      "max": ["335 (Y2)", "170 (Y1)"]
+    },
+    "perks": {
+      "year1": {
+        "base": ["Kinetic Damage", "Ascend"],
+        "one": ["Accurized Ballistics", "Field Choke", "Aggressive Ballistics"],
+        "two": ["Luck in the Chamber"],
+        "three": ["Upgrade Damage"],
+        "four": ["Hammer Forged", "Quickdraw", "Speed Reload"],
+        "five": ["Holding Aces"],
+        "six": ["Upgrade Damage"],
+        "seven": ["Upgrade Damage", "Upgrade Damage", "Upgrade Damage"]
+      },
+      "year2": {
+        "base": ["Kinetic Damage", "Infuse"],
+        "one": ["Accurized Ballistics", "Field Choke", "Aggressive Ballistics"],
+        "two": ["Luck in the Chamber"],
+        "three": ["Hammer Forged", "Quickdraw", "Speed Reload"],
+        "four": ["Holding Aces"]
+      }
+    },
     "bestUsePVP": [
       "Aggressive Ballistics",
       "Luck in the Chamber",
@@ -2384,38 +2865,46 @@
       "Holding Aces"
     ],
     "note": ["This weapon has 2 variants. Year 1 (Y1) and year 2 (Y2)."],
-    "rof": 22,
-    "impact": "81-84",
-    "range": "26-47",
-    "stability": "26-46",
-    "reload": "39-46",
-    "magazine": 13,
-    "zoom": 15,
-    "aim": "35-50",
-    "recoil": "60-80",
-    "speed": 60
+    "stats": {
+      "rof": 22,
+      "impact": "81-84",
+      "range": "26-47",
+      "stability": "26-46",
+      "reload": "39-46",
+      "magazine": 13,
+      "zoom": 15,
+      "aim": "35-50",
+      "recoil": "60-80",
+      "speed": 60
+    }
   },
   {
     "name": "Hereafter",
     "description": "\"Huddled at the mountain's base, we had no choice but to beat our ploughshares into swords once more.\"",
     "icon": "https://imgur.com/KQJyCjH.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/1/14/Hereafter_%28Year_3%29_icon.jpg/revision/latest/scale-to-width-down/96?cb=20180324004236",
     "rank": "Exotic",
     "class": "Sniper Rifle",
     "tag": "Weapon",
     "slot": "Special",
-    "requirements": ["Level 40"],
-    "obtainable": ["Exotic Engram", "Exotic chest in King's Fall"],
-    "baseLight": [280],
-    "maxLight": [335],
-    "basePerks": ["The Hereafter", "Infuse", "Arc Damage"],
-    "firstTierPerks": [
-      "Smooth Ballistics",
-      "Linear Compensator",
-      "Aggressive Ballistics"
-    ],
-    "secondTierPerk": ["Perfectionist"],
-    "thirdTierPerks": ["Snapshot", "Injection Mold", "Speed Reload"],
-    "fourthTierPerk": ["Binding Light"],
+    "requirements": { "year2": ["Level 40"] },
+    "obtainable": {
+      "year2": ["Exotic Engram", "Exotic chest in King's Fall", "Nightfall"]
+    },
+    "light": { "min": [280], "max": [335] },
+    "perks": {
+      "year2": {
+        "base": ["The Hereafter", "Infuse", "Arc Damage"],
+        "one": [
+          "Smooth Ballistics",
+          "Linear Compensator",
+          "Aggressive Ballistics"
+        ],
+        "two": ["Perfectionist"],
+        "three": ["Snapshot", "Injection Mold", "Speed Reload"],
+        "four": ["Binding Light"]
+      }
+    },
     "bestUsePVP": [
       "Smooth Ballistics",
       "Perfectionist",
@@ -2428,43 +2917,50 @@
       "Snapshot",
       "Binding Light"
     ],
-    "rof": 26,
-    "impact": "25-28",
-    "range": "65-85",
-    "stability": "32-66",
-    "reload": "51-58",
-    "magazine": 4,
-    "zoom": "40-50",
-    "aim": "60-80",
-    "recoil": "80-100",
-    "speed": "70-100"
+    "stats": {
+      "rof": 26,
+      "impact": "25-28",
+      "range": "65-85",
+      "stability": "32-66",
+      "reload": "51-58",
+      "magazine": 4,
+      "zoom": "40-50",
+      "aim": "60-80",
+      "recoil": "80-100",
+      "speed": "70-100"
+    }
   },
   {
     "name": "Ice Breaker",
     "description": "Please replace these components if use causes fatal damage: HEAT SINK. MAGAZINE. OPERATOR",
     "icon": "https://imgur.com/tiTaBV3.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/4/46/Ice_Breaker_icon.jpg/revision/latest/scale-to-width-down/96?cb=20150912145416",
     "rank": "Exotic",
     "class": "Sniper Rifle",
     "tag": "Weapon",
     "slot": "Special",
-    "requirements": ["Level 20"],
-    "obtainable": [
-      "Level 28 Prison of The Elders",
-      "Legacy Exotic Engram",
-      "Crota's End",
-      "Exotic Chest in Vault of Glass"
-    ],
-    "baseLight": [150],
-    "maxLight": [170],
-    "basePerks": ["Solar Damage", "No Backpack", "Ascend"],
-    "firstTierPerks": [
-      "Accurized Ballistics",
-      "Field Choke",
-      "Linear Compensator"
-    ],
-    "secondTierPerk": ["Mulligan"],
-    "thirdTierPerks": ["Quickdraw", "Lightweight", "Snapshot"],
-    "fourthTierPerk": ["Ice Breaker"],
+    "requirements": { "year1": ["Level 20"] },
+    "obtainable": {
+      "year1": [
+        "Level 28 Prison of The Elders",
+        "Legacy Exotic Engram",
+        "Crota's End",
+        "Exotic Chest in Vault of Glass"
+      ]
+    },
+    "light": { "min": [150], "max": [170] },
+    "perks": {
+      "year1": {
+        "base": ["Solar Damage", "No Backpack", "Ascend"],
+        "one": ["Accurized Ballistics", "Field Choke", "Linear Compensator"],
+        "two": ["Mulligan"],
+        "three": ["Upgrade Damage"],
+        "four": ["Quickdraw", "Lightweight", "Snapshot"],
+        "five": ["Ice Breaker"],
+        "six": ["Upgrade Damage"],
+        "seven": ["Upgrade Damage", "Upgrade Damage", "Upgrade Damage"]
+      }
+    },
     "bestUsePVP": [
       "Accurized Ballistics",
       "Mulligan",
@@ -2481,44 +2977,60 @@
       "This weapon is exclusive to year 1. There is no year 2 version.",
       "This weapon requires no special ammo, it regenerates ammo over time."
     ],
-    "rof": 19,
-    "impact": "31-32",
-    "range": 100,
-    "stability": "15-24",
-    "reload": 62,
-    "magazine": 6,
-    "zoom": 50,
-    "aim": "40-50",
-    "recoil": "90-110",
-    "speed": 40
+    "stats": {
+      "rof": 19,
+      "impact": "31-32",
+      "range": 100,
+      "stability": "15-24",
+      "reload": 62,
+      "magazine": 6,
+      "zoom": 50,
+      "aim": "40-50",
+      "recoil": "90-110",
+      "speed": 40
+    }
   },
   {
     "name": "Invective",
     "description": "\"I tried to talk them down. They made a grab for my Ghost. After that it was a short conversation.\" —Ikora Rey",
     "icon": "https://imgur.com/MmrZXfA.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/e/ee/Invective_%28Year_3%29_icon.jpg/revision/latest/scale-to-width-down/96?cb=20180324000703",
     "rank": "Exotic",
     "class": "Shotgun",
     "tag": "Weapon",
     "slot": "Special",
-    "requirements": ["Level 40 (Y2)", "Level 20 (Y1)"],
-    "obtainable": [
-      "Exotic chest in King's Fall (Y2)",
-      "Exotic Engram (Y2)",
-      "Exotic Chest in Vault of Glass (Y1)",
-      "Crota's End (Y1)",
-      "Legacy Exotic Engram (Y1)"
-    ],
-    "baseLight": ["280 (Y2)", "150 (Y1)"],
-    "maxLight": ["335 (Y2)", "170 (Y1)"],
-    "basePerks": ["Solar Damage", "Full Auto", "Infuse (Y2)", "Ascend (Y1)"],
-    "firstTierPerks": [
-      "Accurized Ballistics",
-      "Field Choke",
-      "Linear Compensator"
-    ],
-    "secondTierPerk": ["Final Round"],
-    "thirdTierPerks": ["Quickdraw", "Fitted Stock", "Send It"],
-    "fourthTierPerk": ["Invective"],
+    "requirements": { "year1": ["Level 20"], "year2": ["Level 40"] },
+    "obtainable": {
+      "year1": [
+        "Exotic Chest in Vault of Glass",
+        "Crota's End",
+        "Legacy Exotic Engram"
+      ],
+      "year2": ["Exotic chest in King's Fall", "Exotic Engram", "Nightfall"]
+    },
+    "light": {
+      "min": ["280 (Y2)", "150 (Y1)"],
+      "max": ["335 (Y2)", "170 (Y1)"]
+    },
+    "perks": {
+      "year1": {
+        "base": ["Solar Damage", "Full Auto", "Ascend"],
+        "one": ["Accurized Ballistics", "Field Choke", "Linear Compensator"],
+        "two": ["Final Round"],
+        "three": ["Upgrade Damage"],
+        "four": ["Quickdraw", "Fitted Stock", "Send It"],
+        "five": ["Invective"],
+        "six": ["Upgrade Damage"],
+        "seven": ["Upgrade Damage", "Upgrade Damage", "Upgrade Damage"]
+      },
+      "year2": {
+        "base": ["Solar Damage", "Full Auto", "Infuse"],
+        "one": ["Accurized Ballistics", "Field Choke", "Linear Compensator"],
+        "two": ["Final Round"],
+        "three": ["Quickdraw", "Fitted Stock", "Send It"],
+        "four": ["Invective"]
+      }
+    },
     "bestUsePVP": [
       "Accurized Ballistics",
       "Final Round",
@@ -2533,46 +3045,63 @@
     ],
     "note": [
       "This weapon has 2 variants. Year 1 (Y1) and year 2 (Y2).",
-      "This is the only weapon to rgenerate ammo and be able to pick up ammo."
+      "This is the only weapon to regenerate ammo and be able to pick up ammo."
     ],
-    "rof": 30,
-    "impact": "46-48",
-    "range": "23-32",
-    "stability": "39-61",
-    "reload": 39,
-    "magazine": 4,
-    "zoom": 12,
-    "aim": "50-60",
-    "recoil": "70-90",
-    "speed": "15-30"
+    "stats": {
+      "rof": 30,
+      "impact": "46-48",
+      "range": "23-32",
+      "stability": "39-61",
+      "reload": 39,
+      "magazine": 4,
+      "zoom": 12,
+      "aim": "50-60",
+      "recoil": "70-90",
+      "speed": "15-30"
+    }
   },
   {
     "name": "Lord of Wolves",
     "description": "By this right alone do I rule.",
     "icon": "https://imgur.com/bD2BQvX.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/e/ee/Lord_of_Wolves_icon.jpg/revision/latest/scale-to-width-down/96?cb=20150912151050",
     "rank": "Exotic",
     "class": "Shotgun",
     "tag": "Weapon",
     "slot": "Special",
-    "requirements": ["Level 40 (Y2)", "Level 20 (Y1)"],
-    "obtainable": [
-      "Exotic Engram (Y2)",
-      "Exotic chest in King's Fall (Y2)",
-      "Nightfall (Y2)",
-      "Challenge of the Elders (Y2)",
-      "Level 28 Prison of The Elders (Y1)"
-    ],
-    "baseLight": ["280 (Y2)", "150 (Y1)"],
-    "maxLight": ["335 (Y2)", "170 (Y1)"],
-    "basePerks": ["Solar Damage", "Infuse (Y2)", "Ascend (Y1)"],
-    "firstTierPerks": [
-      "Smart Drift Control",
-      "Soft Ballistics",
-      "Linear Compensator"
-    ],
-    "secondTierPerk": ["Hip Fire"],
-    "thirdTierPerks": ["Speed Reload", "Extended Mag", "Perfect Balance"],
-    "fourthTierPerk": ["Devil's Touch"],
+    "requirements": { "year1": ["Level 20"], "year2": ["Level 40"] },
+    "obtainable": {
+      "year1": ["Level 28 Prison of The Elders"],
+      "year2": [
+        "Exotic Engram",
+        "Exotic chest in King's Fall",
+        "Nightfall",
+        "Challenge of the Elders"
+      ]
+    },
+    "light": {
+      "min": ["280 (Y2)", "150 (Y1)"],
+      "max": ["335 (Y2)", "170 (Y1)"]
+    },
+    "perks": {
+      "year1": {
+        "base": ["Solar Damage", "Ascend"],
+        "one": ["Smart Drift Control", "Soft Ballistics", "Linear Compensator"],
+        "two": ["Hip Fire"],
+        "three": ["Upgrade Damage"],
+        "four": ["Speed Reload", "Extended Mag", "Perfect Balance"],
+        "five": ["Devil's Touch"],
+        "six": ["Upgrade Damage"],
+        "seven": ["Upgrade Damage", "Upgrade Damage", "Upgrade Damage"]
+      },
+      "year2": {
+        "base": ["Solar Damage", "Infuse"],
+        "one": ["Smart Drift Control", "Soft Ballistics", "Linear Compensator"],
+        "two": ["Hip Fire"],
+        "three": ["Speed Reload", "Extended Mag", "Perfect Balance"],
+        "four": ["Devil's Touch"]
+      }
+    },
     "bestUsePVP": [
       "Linear Compensator",
       "Hip Fire",
@@ -2589,46 +3118,61 @@
       "This weapon has 2 variants. Year 1 (Y1) and year 2 (Y2).",
       "This weapon shoots in bursts of 3 bullets."
     ],
-    "rof": 11,
-    "impact": "62-66",
-    "range": "2-6",
-    "stability": "2-43",
-    "reload": "22-29",
-    "magazine": "5-6",
-    "zoom": 12,
-    "aim": "60-80",
-    "recoil": "50-70",
-    "speed": 40
+    "stats": {
+      "rof": 11,
+      "impact": "62-66",
+      "range": "2-6",
+      "stability": "2-43",
+      "reload": "22-29",
+      "magazine": "5-6",
+      "zoom": 12,
+      "aim": "60-80",
+      "recoil": "50-70",
+      "speed": 40
+    }
   },
   {
     "name": "MIDA Multi-Tool",
     "description": "Select application: Ballistic engagement. Entrenching tool. Avionics trawl. Troll smasher. Stellar sextant. List continues.",
     "icon": "https://imgur.com/Lvy47LC.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/5/56/MIDA_Multi-Tool_%28Year_3%29_icon.jpg/revision/latest/scale-to-width-down/96?cb=20180324001301",
     "rank": "Exotic",
     "class": "Scout Rifle",
     "tag": "Weapon",
     "slot": "Primary",
-    "requirements": ["Level 40 (Y2)", "Level 20 (Y1)"],
-    "obtainable": [
-      "Exotic Engram (Y2)",
-      "Exotic chest in King's Fall (Y2)",
-      "Nightfall (Y2)",
-      "Crota's End (Y1)",
-      "Exotic Chest in Vault of Glass (Y1)",
-      "Legacy Exotic Engram (Y1)",
-      "Level 28 Prison of The Elders (Y1)"
-    ],
-    "baseLight": ["280 (Y2)", "150 (Y1)"],
-    "maxLight": ["335 (Y2)", "170 (Y1)"],
-    "basePerks": ["Kinetic Damage", "Infuse (Y2)", "Ascend (Y1)"],
-    "firstTierPerks": [
-      "Soft Ballistics",
-      "CQB Ballistics",
-      "Smart Drift Control"
-    ],
-    "secondTierPerk": ["Third Eye"],
-    "thirdTierPerks": ["Lightweight", "Quickdraw", "Field Scout"],
-    "fourthTierPerk": ["MIDA Multi-Tool"],
+    "requirements": { "year1": ["Level 20"], "year2": ["Level 40"] },
+    "obtainable": {
+      "year1": [
+        "Crota's End",
+        "Exotic Chest in Vault of Glass",
+        "Legacy Exotic Engram",
+        "Level 28 Prison of The Elders"
+      ],
+      "year2": ["Exotic Engram", "Exotic chest in King's Fall", "Nightfall"]
+    },
+    "light": {
+      "min": ["280 (Y2)", "150 (Y1)"],
+      "max": ["335 (Y2)", "170 (Y1)"]
+    },
+    "perks": {
+      "year1": {
+        "base": ["Kinetic Damage", "Ascend"],
+        "one": ["Soft Ballistics", "CQB Ballistics", "Smart Drift Control"],
+        "two": ["Third Eye"],
+        "three": ["Upgrade Damage"],
+        "four": ["Lightweight", "Quickdraw", "Field Scout"],
+        "five": ["MIDA Multi-Tool"],
+        "six": ["Upgrade Damage"],
+        "seven": ["Upgrade Damage", "Upgrade Damage", "Upgrade Damage"]
+      },
+      "year2": {
+        "base": ["Kinetic Damage", "Infuse"],
+        "one": ["Soft Ballistics", "CQB Ballistics", "Smart Drift Control"],
+        "two": ["Third Eye"],
+        "three": ["Lightweight", "Quickdraw", "Field Scout"],
+        "four": ["MIDA Multi-Tool"]
+      }
+    },
     "bestUsePVP": [
       "Smart Drift Control",
       "Third Eye",
@@ -2642,46 +3186,69 @@
       "MIDA Multi-Tool"
     ],
     "note": ["This weapon has 2 variants. Year 1 (Y1) and year 2 (Y2)."],
-    "rof": 42,
-    "impact": "37-38",
-    "range": "52-58",
-    "stability": "49-59",
-    "reload": 100,
-    "magazine": 21,
-    "zoom": 20,
-    "aim": "90-100",
-    "recoil": "80-100",
-    "speed": 100
+    "stats": {
+      "rof": 42,
+      "impact": "37-38",
+      "range": "52-58",
+      "stability": "49-59",
+      "reload": 100,
+      "magazine": 21,
+      "zoom": 20,
+      "aim": "90-100",
+      "recoil": "80-100",
+      "speed": 100
+    }
   },
   {
     "name": "Monte Carlo",
     "description": "There will always be paths to tread and methods to try. Roll with it.",
     "icon": "https://imgur.com/bFdLAil.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/3/37/Monte_Carlo_%28Year_1%29_icon.jpg/revision/latest/scale-to-width-down/96?cb=20151228062245",
     "rank": "Exotic",
     "class": "Auto Rifle",
     "tag": "Weapon",
     "slot": "Primary",
-    "requirements": ["Level 40 (Y2)", "Level 20 (Y1)"],
-    "obtainable": [
-      "Exotic Engram (Y2)",
-      "Exotic chest in King's Fall (Y2)",
-      "Nightfall (Y2)",
-      "Level 28 Prison of The Elders (Y1)",
-      "Crota's End (Y1)",
-      "Exotic Chest in Vault of Glass (Y1)",
-      "Legacy Exotic Engram (Y1)"
-    ],
-    "baseLight": ["280 (Y2)", "150 (Y1)"],
-    "maxLight": ["335 (Y2)", "170 (Y1)"],
-    "basePerks": ["Kinetic Damage", "Infuse (Y2)", "Ascend (Y1)"],
-    "firstTierPerks": [
-      "CQB Ballistics",
-      "Smart Drift Control",
-      "Aggressive Ballistics"
-    ],
-    "secondTierPerk": ["Hip Fire"],
-    "thirdTierPerks": ["High Caliber Rounds", "Send It", "Field Scout"],
-    "fourthTierPerk": ["Monte Carlo Method"],
+    "requirements": { "year1": ["Level 20"], "year2": ["Level 40"] },
+    "obtainable": {
+      "year1": [
+        "Level 28 Prison of The Elders",
+        "Crota's End",
+        "Exotic Chest in Vault of Glass",
+        "Legacy Exotic Engram"
+      ],
+      "year2": ["Exotic Engram", "Exotic chest in King's Fall", "Nightfall"]
+    },
+    "light": {
+      "min": ["280 (Y2)", "150 (Y1)"],
+      "max": ["335 (Y2)", "170 (Y1)"]
+    },
+    "perks": {
+      "year1": {
+        "base": ["Kinetic Damage", "Ascend"],
+        "one": [
+          "CQB Ballistics",
+          "Smart Drift Control",
+          "Aggressive Ballistics"
+        ],
+        "two": ["Hip Fire"],
+        "three": ["Upgrade Damage"],
+        "four": ["High Caliber Rounds", "Send It", "Field Scout"],
+        "five": ["Monte Carlo Method"],
+        "six": ["Upgrade Damage"],
+        "seven": ["Upgrade Damage", "Upgrade Damage", "Upgrade Damage"]
+      },
+      "year2": {
+        "base": ["Kinetic Damage", "Infuse"],
+        "one": [
+          "CQB Ballistics",
+          "Smart Drift Control",
+          "Aggressive Ballistics"
+        ],
+        "two": ["Hip Fire"],
+        "three": ["High Caliber Rounds", "Send It", "Field Scout"],
+        "four": ["Monte Carlo Method"]
+      }
+    },
     "bestUsePVP": [
       "Aggressive Ballistics",
       "Hip Fire",
@@ -2695,38 +3262,47 @@
       "Monte Carlo method"
     ],
     "note": ["This weapon has 2 variants. Year 1 (Y1) and year 2 (Y2)."],
-    "rof": 88,
-    "impact": "8-12",
-    "range": "40-64",
-    "stability": "55-75",
-    "reload": 79,
-    "magazine": 36,
-    "zoom": 15,
-    "aim": "35-50",
-    "recoil": "80-100",
-    "speed": "45-60"
+    "stats": {
+      "rof": 88,
+      "impact": "8-12",
+      "range": "40-64",
+      "stability": "55-75",
+      "reload": 79,
+      "magazine": 36,
+      "zoom": 15,
+      "aim": "35-50",
+      "recoil": "80-100",
+      "speed": "45-60"
+    }
   },
   {
     "name": "Necrochasm",
     "description": "Eternity is very close. Can you feel yourself slipping?",
     "icon": "https://imgur.com/8QYYQ60.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/1/1a/Necrochasm_icon.jpg/revision/latest/scale-to-width-down/96?cb=20150912152046",
     "rank": "Exotic",
     "class": "Auto Rifle",
     "tag": "Weapon",
     "slot": "Primary",
-    "requirements": ["Level 20"],
-    "obtainable": ["Fully upgrade the Eidolon Ally"],
-    "baseLight": [145],
-    "maxLight": [172],
-    "basePerks": ["Arc Damage", "Cascade", "Ascend"],
-    "firstTierPerks": [
-      "Accurized Ballistics",
-      "CQB Ballistics",
-      "Aggressive Ballistics"
-    ],
-    "secondTierPerk": ["Cursebringer"],
-    "thirdTierPerks": ["Single Point Sling", "Flared Magwell", "Fitted Stock"],
-    "fourthTierPerk": ["Zen Moment"],
+    "requirements": { "year1": ["Level 20"] },
+    "obtainable": { "year1": ["Fully upgrade the Eidolon Ally"] },
+    "light": { "min": [145], "max": [172] },
+    "perks": {
+      "year1": {
+        "base": ["Arc Damage", "Cascade", "Ascend"],
+        "one": [
+          "Accurized Ballistics",
+          "CQB Ballistics",
+          "Aggressive Ballistics"
+        ],
+        "two": ["Cursebringer"],
+        "three": ["Upgrade Damage"],
+        "four": ["Single Point Sling", "Flared Magwell", "Fitted Stock"],
+        "five": ["Zen Moment"],
+        "six": ["Upgrade Damage"],
+        "seven": ["Upgrade Damage", "Upgrade Damage", "Upgrade Damage"]
+      }
+    },
     "bestUsePVP": [
       "Aggressive Ballistics",
       "Cursebringer",
@@ -2743,51 +3319,61 @@
       "This weapon is exclusive to year 1. There is no year 2 version.",
       "This weapon is the Crota's End raid weapon."
     ],
-    "rof": 100,
-    "impact": "2-5",
-    "range": "13-22",
-    "stability": "55-82",
-    "reload": "76-90",
-    "magazine": 54,
-    "zoom": 15,
-    "aim": "60-75",
-    "recoil": "65-85",
-    "speed": 55
+    "stats": {
+      "rof": 100,
+      "impact": "2-5",
+      "range": "13-22",
+      "stability": "55-82",
+      "reload": "76-90",
+      "magazine": 54,
+      "zoom": 15,
+      "aim": "60-75",
+      "recoil": "65-85",
+      "speed": 55
+    }
   },
   {
     "name": "No Land Beyond",
     "description": "Every hit blazes the path to our reclamation.",
     "icon": "https://imgur.com/SXuWc7e.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/0/0c/No_Land_Beyond_%28Year_3%29_icon.jpg/revision/latest/scale-to-width-down/96?cb=20170405030919",
     "rank": "Exotic",
     "class": "Sniper Rifle",
     "tag": "Weapon",
     "slot": "Primary",
-    "requirements": ["Level 40 (Y2)", "Level 20 (Y1)"],
-    "obtainable": [
-      "Exotic Engram (Y2)",
-      "Exotic chest in King's Fall (Y2)",
-      "Nightfall (Y2)",
-      "Level 28 Prison of The Elders (Y1)",
-      "Exotic Chest in Vault of Glass (Y1)",
-      "Crota's End (Y1)",
-      "Legacy Exotic Engram (Y1)"
-    ],
-    "baseLight": ["280 (Y2)", "150 (Y1)"],
-    "maxLight": ["335 (Y2)", "170 (Y1)"],
-    "basePerks": [
-      "Kinetic Damage",
-      "Primary Care",
-      "Infuse (Y2)",
-      "Ascend (Y1)"
-    ],
-    "firstTierPerks": [
-      "CQB Ballistics",
-      "Soft Ballistics",
-      "Accurized Ballistics"
-    ],
-    "secondTierPerk": ["Mulligan"],
-    "thirdTierPerks": ["Lightweight", "Snapshot", "Flared Magwell"],
-    "fourthTierPerk": ["The Master"],
+    "requirements": { "year1": ["Level 20"], "year2": ["Level 40"] },
+    "obtainable": {
+      "year1": [
+        "Level 28 Prison of The Elders",
+        "Exotic Chest in Vault of Glass",
+        "Crota's End",
+        "Legacy Exotic Engram"
+      ],
+      "year2": ["Exotic Engram", "Exotic chest in King's Fall", "Nightfall"]
+    },
+    "light": {
+      "min": ["280 (Y2)", "150 (Y1)"],
+      "max": ["335 (Y2)", "170 (Y1)"]
+    },
+    "perks": {
+      "year1": {
+        "base": ["Kinetic Damage", "Primary Care", "Ascend"],
+        "one": ["CQB Ballistics", "Soft Ballistics", "Accurized Ballistics"],
+        "two": ["Mulligan"],
+        "three": ["Upgrade Damage"],
+        "four": ["Lightweight", "Snapshot", "Flared Magwell"],
+        "five": ["The Master"],
+        "six": ["Upgrade Damage"],
+        "seven": ["Upgrade Damage", "Upgrade Damage", "Upgrade Damage"]
+      },
+      "year2": {
+        "base": ["Kinetic Damage", "Primary Care", "Infuse (Y2)"],
+        "one": ["CQB Ballistics", "Soft Ballistics", "Accurized Ballistics"],
+        "two": ["Mulligan"],
+        "three": ["Lightweight", "Snapshot", "Flared Magwell"],
+        "four": ["The Master"]
+      }
+    },
     "bestUsePVP": [
       "Accurized Ballistics",
       "Mulligan",
@@ -2804,38 +3390,44 @@
       "This weapon has 2 variants. Year 1 (Y1) and year 2 (Y2).",
       "This is the only Sniper Rifle that can be equipped in the primary slot."
     ],
-    "rof": 19,
-    "impact": "30-32",
-    "range": "96-100",
-    "stability": "15-32",
-    "reload": "62-76",
-    "magazine": 6,
-    "zoom": 40,
-    "aim": "40-60",
-    "recoil": 90,
-    "speed": 80
+    "stats": {
+      "rof": 19,
+      "impact": "30-32",
+      "range": "96-100",
+      "stability": "15-32",
+      "reload": "62-76",
+      "magazine": 6,
+      "zoom": 40,
+      "aim": "40-60",
+      "recoil": 90,
+      "speed": 80
+    }
   },
   {
     "name": "No Time to Explain",
     "description": "A single word is etched onto the inside of the weapon's casing: \"Soon.\"",
     "icon": "https://imgur.com/aclSLA4.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/8/8e/No_Time_to_Explain_icon.jpg/revision/latest/scale-to-width-down/96?cb=20170719091218",
     "rank": "Exotic",
     "class": "Pulse Rifle",
     "tag": "Weapon",
     "slot": "Primary",
-    "requirements": ["Level 40"],
-    "obtainable": ["Paradox alternate mission on HARD"],
-    "baseLight": [280],
-    "maxLight": [335],
-    "basePerks": ["Head Seeker", "Infuse"],
-    "firstTierPerks": [
-      "Smooth Ballistics",
-      "Accurized Ballistics",
-      "Smart Drift Control"
-    ],
-    "secondTierPerk": ["Full Auto"],
-    "thirdTierPerks": ["Speed Reload", "Hand Loaded", "Fitted Stock"],
-    "fourthTierPerk": ["Rewind Again"],
+    "requirements": { "year2": ["Level 40"] },
+    "obtainable": { "year2": ["Paradox alternate mission on HARD"] },
+    "light": { "min": [280], "max": [335] },
+    "perks": {
+      "year2": {
+        "base": ["Head Seeker", "Infuse"],
+        "one": [
+          "Smooth Ballistics",
+          "Accurized Ballistics",
+          "Smart Drift Control"
+        ],
+        "two": ["Full Auto"],
+        "three": ["Speed Reload", "Hand Loaded", "Fitted Stock"],
+        "four": ["Rewind Again"]
+      }
+    },
     "bestUsePVP": [
       "Smooth Ballistics",
       "Full Auto",
@@ -2848,46 +3440,61 @@
       "Hand Loaded",
       "Speed Reload"
     ],
-    "rof": 66,
-    "impact": "14-15",
-    "range": "45-63",
-    "stability": "54-77",
-    "reload": "65-72",
-    "magazine": 21,
-    "zoom": 17,
-    "aim": "30-45",
-    "recoil": "90-110",
-    "speed": 80
+    "stats": {
+      "rof": 66,
+      "impact": "14-15",
+      "range": "45-63",
+      "stability": "54-77",
+      "reload": "65-72",
+      "magazine": 21,
+      "zoom": 17,
+      "aim": "30-45",
+      "recoil": "90-110",
+      "speed": 80
+    }
   },
   {
     "name": "Patience and Time",
     "description": "If you've got it, they'll never see it coming.",
     "icon": "https://imgur.com/dch9yV9.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/f/f4/Patience_and_Time_%28Year_3%29_icon.jpg/revision/latest/scale-to-width-down/96?cb=20180323235653",
     "rank": "Exotic",
     "class": "Sniper Rifle",
     "tag": "Weapon",
     "slot": "Primary",
-    "requirements": ["Level 40 (Y2)", "Level 20 (Y1)"],
-    "obtainable": [
-      "Exotic Engram (Y2)",
-      "Nightfall (Y2)",
-      "Exotic chest in King's Fall (Y2)",
-      "Legacy Exotic Engram (Y1)",
-      "Exotic Chest in Vault of Glass (Y1)",
-      "Crota's End (Y1)",
-      "Level 28 Prison of The Elders (Y1)"
-    ],
-    "baseLight": ["280 (Y2)", "150 (Y1)"],
-    "maxLight": ["335 (Y2)", "170 (Y1)"],
-    "basePerks": ["Arc Damage", "Infuse (Y2)", "Ascend (Y1)"],
-    "firstTierPerks": [
-      "Field Choke",
-      "CQB Ballistics",
-      "Aggressive Ballistics"
-    ],
-    "secondTierPerk": ["Third Eye"],
-    "thirdTierPerks": ["Custom Optics", "Fitted Stock", "Field Scout"],
-    "fourthTierPerk": ["Patience and Time"],
+    "requirements": { "year1": ["Level 20"], "year2": ["Level 40"] },
+    "obtainable": {
+      "year1": [
+        "Legacy Exotic Engram",
+        "Exotic Chest in Vault of Glass",
+        "Crota's End",
+        "Level 28 Prison of The Elders"
+      ],
+      "year2": ["Exotic Engram", "Nightfall", "Exotic chest in King's Fall"]
+    },
+    "light": {
+      "min": ["280 (Y2)", "150 (Y1)"],
+      "max": ["335 (Y2)", "170 (Y1)"]
+    },
+    "perks": {
+      "year1": {
+        "base": ["Arc Damage", "Ascend"],
+        "one": ["Field Choke", "CQB Ballistics", "Aggressive Ballistics"],
+        "two": ["Third Eye"],
+        "three": ["Upgrade Damage"],
+        "four": ["Custom Optics", "Fitted Stock", "Field Scout"],
+        "five": ["Patience and Time"],
+        "six": ["Upgrade Damage"],
+        "seven": ["Upgrade Damage", "Upgrade Damage", "Upgrade Damage"]
+      },
+      "year2": {
+        "base": ["Arc Damage", "Infuse"],
+        "one": ["Field Choke", "CQB Ballistics", "Aggressive Ballistics"],
+        "two": ["Third Eye"],
+        "three": ["Custom Optics", "Fitted Stock", "Field Scout"],
+        "four": ["Patience and Time"]
+      }
+    },
     "bestUsePVP": [
       "Field Choke",
       "Third Eye",
@@ -2901,81 +3508,107 @@
       "Patience and Time"
     ],
     "note": ["This weapon has 2 variants. Year 1 (Y1) and year 2 (Y2)."],
-    "rof": 26,
-    "impact": "22-25",
-    "range": "70-78",
-    "stability": "81-100",
-    "reload": 58,
-    "magazine": 4,
-    "zoom": "70-75",
-    "aim": "50-65",
-    "recoil": "50-70",
-    "speed": 20
+    "stats": {
+      "rof": 26,
+      "impact": "22-25",
+      "range": "70-78",
+      "stability": "81-100",
+      "reload": 58,
+      "magazine": 4,
+      "zoom": "70-75",
+      "aim": "50-65",
+      "recoil": "50-70",
+      "speed": 20
+    }
   },
   {
     "name": "Plan C",
     "description": "Good fighters have contingency plans. Great fighters don't need them.",
     "icon": "https://imgur.com/m3lUqGb.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/e/ee/Plan_C_%28Year_3%29_icon.jpg/revision/latest/scale-to-width-down/96?cb=20180324000538",
     "rank": "Exotic",
     "class": "Fusion Rifle",
     "tag": "Weapon",
     "slot": "Special",
-    "requirements": ["Level 40 (Y2)", "Level 20 (Y1)"],
-    "obtainable": [
-      "Exotic Engram (Y2)",
-      "Exotic chest in King's Fall (Y2)",
-      "Nightfall (Y2)",
-      "Level 28 Prison of The Elders (Y1)",
-      "Crota's End (Y1)",
-      "Exotic Chest in Vault of Glass (Y1)",
-      "Legacy Exotic Engram (Y1)"
-    ],
-    "baseLight": ["280 (Y2)", "150 (Y1)"],
-    "maxLight": ["335 (Y2)", "170 (Y1)"],
-    "basePerks": ["Arc Damage", "Infuse (Y2)", "Ascend (Y1)"],
-    "firstTierPerks": ["Field Choke", "CQB Ballistics", "Smart Drift Control"],
-    "secondTierPerk": ["Hip Fire"],
-    "thirdTierPerks": ["Accelerated Coils", "Hammer Forged", "Perfect Balance"],
-    "fourthTierPerk": ["Plan C"],
+    "requirements": { "year1": ["Level 20"], "year2": ["Level 40"] },
+    "obtainable": {
+      "year1": [
+        "Level 28 Prison of The Elders",
+        "Crota's End",
+        "Exotic Chest in Vault of Glass",
+        "Legacy Exotic Engram"
+      ],
+      "year2": ["Exotic Engram", "Exotic chest in King's Fall", "Nightfall"]
+    },
+    "light": {
+      "min": ["280 (Y2)", "150 (Y1)"],
+      "max": ["335 (Y2)", "170 (Y1)"]
+    },
+    "perks": {
+      "year1": {
+        "base": ["Arc Damage", "Infuse (Y2)", "Ascend (Y1)"],
+        "one": ["Field Choke", "CQB Ballistics", "Smart Drift Control"],
+        "two": ["Hip Fire"],
+        "three": ["Upgrade Damage"],
+        "four": ["Accelerated Coils", "Hammer Forged", "Perfect Balance"],
+        "five": ["Plan C"],
+        "six": ["Upgrade Damage"],
+        "seven": ["Upgrade Damage", "Upgrade Damage", "Upgrade Damage"]
+      },
+      "year2": {
+        "base": ["Arc Damage", "Infuse (Y2)", "Ascend (Y1)"],
+        "one": ["Field Choke", "CQB Ballistics", "Smart Drift Control"],
+        "two": ["Hip Fire"],
+        "three": ["Accelerated Coils", "Hammer Forged", "Perfect Balance"],
+        "four": ["Plan C"]
+      }
+    },
     "bestUsePVP": ["Field Choke", "Hip Fire", "Accelerated Coils", "Plan C"],
     "bestUsePVE": ["Field Choke", "Hip Fire", "Accelerated Coils", "Plan C"],
-    "rof": "22-28",
-    "impact": "87-89",
-    "range": "48-65",
-    "stability": "40-79",
-    "reload": 100,
-    "magazine": 5,
-    "zoom": 15,
-    "aim": "40-50",
-    "recoil": "85-105",
-    "speed": 100
+    "stats": {
+      "rof": "22-28",
+      "impact": "87-89",
+      "range": "48-65",
+      "stability": "40-79",
+      "reload": 100,
+      "magazine": 5,
+      "zoom": 15,
+      "aim": "40-50",
+      "recoil": "85-105",
+      "speed": 100
+    }
   },
   {
     "name": "Pocket Infinity",
     "description": "You cannot shake the feeling that this is less a weapon than a doorway.",
     "icon": "https://imgur.com/0yOw7cY.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/5/5d/Pocket_Infinity_icon.jpg/revision/latest/scale-to-width-down/96?cb=20150912160801",
     "rank": "Exotic",
     "class": "Fusion Rifle",
     "tag": "Weapon",
     "slot": "Special",
-    "requirements": ["Level 20"],
-    "obtainable": [
-      "Legacy Exotic Engram",
-      "Level 28 Prison of The Elders",
-      "Crota's End",
-      "Exotic Chest in Vault of Glass"
-    ],
-    "baseLight": [150],
-    "maxLight": [170],
-    "basePerks": ["Solar Damage"],
-    "firstTierPerks": [
-      "Smooth Ballistics",
-      "Soft Ballistics",
-      "Linear Compensator"
-    ],
-    "secondTierPerk": ["Surplus"],
-    "thirdTierPerks": ["Hand Loaded", "Extended Mag", "Perfect Balance"],
-    "fourthTierPerk": ["Pocket Infinity"],
+    "requirements": { "year1": ["Level 20"] },
+    "obtainable": {
+      "year1": [
+        "Legacy Exotic Engram",
+        "Level 28 Prison of The Elders",
+        "Crota's End",
+        "Exotic Chest in Vault of Glass"
+      ]
+    },
+    "light": { "min": [150], "max": [170] },
+    "perks": {
+      "year1": {
+        "base": ["Solar Damage"],
+        "one": ["Smooth Ballistics", "Soft Ballistics", "Linear Compensator"],
+        "two": ["Surplus"],
+        "three": ["Upgrade Damage"],
+        "four": ["Hand Loaded", "Extended Mag", "Perfect Balance"],
+        "five": ["Pocket Infinity"],
+        "six": ["Upgrade Damage"],
+        "seven": ["Upgrade Damage", "Upgrade Damage", "Upgrade Damage"]
+      }
+    },
     "bestUsePVP": [
       "Smooth Ballistics",
       "Surplus",
@@ -2988,37 +3621,56 @@
       "Extended Mag",
       "Pocket Infinity"
     ],
-    "rof": 10,
-    "impact": "76-79",
-    "range": "28-38",
-    "stability": "10-46",
-    "reload": 86,
-    "magazine": "3-4",
-    "zoom": 15,
-    "aim": "20-40",
-    "recoil": "70-90",
-    "speed": 70
+    "stats": {
+      "rof": 10,
+      "impact": "76-79",
+      "range": "28-38",
+      "stability": "10-46",
+      "reload": 86,
+      "magazine": "3-4",
+      "zoom": 15,
+      "aim": "20-40",
+      "recoil": "70-90",
+      "speed": 70
+    }
   },
   {
-    "name": "Queenbreaker's Bow",
+    "name": "Queenbreakers' Bow",
     "description": "Despite the Breakers' treachery, Her Majesty still stands.",
     "icon": "https://imgur.com/Y5shymX.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/0/05/Queenbreakers%27_Bow_icon.jpg/revision/latest/scale-to-width-down/96?cb=20150912161748",
     "rank": "Exotic",
     "class": "Fusion Rifle",
     "tag": "Weapon",
     "slot": "Primary",
-    "requirements": ["Level 40 (Y2)", "Level 20 (Y1)"],
-    "obtainable": [
-      "Challenge of the Elders (Y2)",
-      "Level 28 Prison of The Elders (Y1)"
-    ],
-    "baseLight": ["280 (Y2)", "150 (Y1)"],
-    "maxLight": ["335 (Y2)", "170 (Y1)"],
-    "basePerks": ["Arc Damage", "Infuse (Y2)", "Ascend (Y1)"],
-    "firstTierPerks": ["Marksman Sights", "Combat Sights"],
-    "secondTierPerk": ["Hip Fire"],
-    "thirdTierPerks": ["Single Point Sling", "Flared Magwell", "Send It"],
-    "fourthTierPerk": ["Hidden Hand"],
+    "requirements": { "year1": ["Level 20"], "year2": ["Level 40"] },
+    "obtainable": {
+      "year1": ["Challenge of the Elders"],
+      "year2": ["Level 28 Prison of The Elders"]
+    },
+    "light": {
+      "min": ["280 (Y2)", "150 (Y1)"],
+      "max": ["335 (Y2)", "170 (Y1)"]
+    },
+    "perks": {
+      "year1": {
+        "base": ["Arc Damage", "Ascend"],
+        "one": ["Marksman Sights", "Combat Sights"],
+        "two": ["Hip Fire"],
+        "three": ["Upgrade Damage"],
+        "four": ["Single Point Sling", "Flared Magwell", "Send It"],
+        "five": ["Hidden Hand"],
+        "six": ["Upgrade Damage"],
+        "seven": ["Upgrade Damage", "Upgrade Damage", "Upgrade Damage"]
+      },
+      "year2": {
+        "base": ["Arc Damage", "Infuse"],
+        "one": ["Marksman Sights", "Combat Sights"],
+        "two": ["Hip Fire"],
+        "three": ["Single Point Sling", "Flared Magwell", "Send It"],
+        "four": ["Hidden Hand"]
+      }
+    },
     "bestUsePVP": [
       "Marksman Sights",
       "Hip Fire",
@@ -3029,34 +3681,40 @@
     "note": [
       "This weapon shoots like a sniper instead of the traditional burst."
     ],
-    "rof": "22-31",
-    "impact": "19-25",
-    "range": "60-70",
-    "stability": 30,
-    "reload": "65-90",
-    "magazine": 6,
-    "zoom": "25-40",
-    "aim": "30-90",
-    "recoil": 60,
-    "speed": "35-85"
+    "stats": {
+      "rof": "22-31",
+      "impact": "19-25",
+      "range": "60-70",
+      "stability": 30,
+      "reload": "65-90",
+      "magazine": 6,
+      "zoom": "25-40",
+      "aim": "30-90",
+      "recoil": 60,
+      "speed": "35-85"
+    }
   },
   {
     "name": "Raze-Lighter",
     "description": "With your own hands you forged the mighty Raze-Lighter. Now take it in hand and feed its flames.",
     "icon": "https://imgur.com/uAhXkgZ.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/8/80/Raze-Lighter_icon.jpg/revision/latest/scale-to-width-down/96?cb=20151228062311",
     "rank": "Exotic",
     "class": "Sword",
     "tag": "Weapon",
     "slot": "Heavy",
-    "requirements": ["Level 40"],
-    "obtainable": ["Quest from Lord Shaxx and Eris Morn"],
-    "baseLight": [280],
-    "maxLight": [335],
-    "basePerks": ["Solar Edge", "Sword Strike", "Solar-Forged Guard", "Infuse"],
-    "firstTierPerks": ["Tempered Light"],
-    "secondTierPerk": ["Scabbard", "Thrive by the Sword"],
-    "thirdTierPerks": ["Phoenix Uppercut"],
-    "fourthTierPerk": ["Scabbard", "Warrior of Light"],
+    "requirements": { "year2": ["Level 40"] },
+    "obtainable": { "year2": ["Quest from Lord Shaxx and Eris Morn"] },
+    "light": { "min": [280], "max": [335] },
+    "perks": {
+      "year2": {
+        "base": ["Solar Edge", "Sword Strike", "Solar-Forged Guard", "Infuse"],
+        "one": ["Tempered Light"],
+        "two": ["Scabbard", "Thrive by the Sword"],
+        "three": ["Phoenix Uppercut"],
+        "four": ["Scabbard", "Warrior of Light"]
+      }
+    },
     "bestUsePVP": [
       "Tempered Light",
       "Scabbard",
@@ -3069,19 +3727,14 @@
       "Phoenix Uppercut",
       "Scabbard"
     ],
-    "note": [
-      "Stats that only apply to swords:\n**Defense:** 20\n**Efficiency:** 75"
-    ],
-    "rof": "N/A",
-    "impact": 60,
-    "range": 25,
-    "stability": "N/A",
-    "reload": "N/A",
-    "magazine": "56-81",
-    "zoom": "N/A",
-    "aim": "N/A",
-    "recoil": "N/A",
-    "speed": 45
+    "stats": {
+      "impact": 60,
+      "range": 25,
+      "magazine": "56-81",
+      "speed": 45,
+      "defense": 20,
+      "efficiency": 75
+    }
   },
   {
     "name": "Red Death",
@@ -3091,27 +3744,39 @@
     "class": "Pulse Rifle",
     "tag": "Weapon",
     "slot": "Primary",
-    "requirements": ["Level 40"],
-    "obtainable": [
-      "Exotic Engram (Y2)",
-      "Nightfall (Y2)",
-      "Exotic chest in King's Fall (Y2)",
-      "Level 28 Prison of The Elders (Y1)",
-      "Crota's End (Y1)",
-      "Exotic Chest in Vault of Glass (Y1)",
-      "Legacy Exotic Engram (Y1)"
-    ],
-    "baseLight": ["280 (Y2)", "150 (Y1)"],
-    "maxLight": ["335 (Y2)", "170 (Y1)"],
-    "basePerks": ["Kinetic Damage", "Infuse (Y2)", "Ascend (Y1)"],
-    "firstTierPerks": [
-      "Accurized Ballistics",
-      "Field Choke",
-      "Aggressive Ballistics"
-    ],
-    "secondTierPerk": ["Unflinching"],
-    "thirdTierPerks": ["Snapshot", "High Caliber Rounds", "Single Point Sling"],
-    "fourthTierPerk": ["Red Death"],
+    "requirements": { "year1": ["Level 20"], "year2": ["Level 40"] },
+    "obtainable": {
+      "year1": [
+        "Level 28 Prison of The Elders",
+        "Crota's End",
+        "Exotic Chest in Vault of Glass",
+        "Legacy Exotic Engram"
+      ],
+      "year2": ["Exotic Engram", "Nightfall", "Exotic chest in King's Fall"]
+    },
+    "light": {
+      "min": ["280 (Y2)", "150 (Y1)"],
+      "max": ["335 (Y2)", "170 (Y1)"]
+    },
+    "perks": {
+      "year1": {
+        "base": ["Kinetic Damage", "Ascend"],
+        "one": ["Accurized Ballistics", "Field Choke", "Aggressive Ballistics"],
+        "two": ["Unflinching"],
+        "three": ["Upgrade Damage"],
+        "four": ["Snapshot", "High Caliber Rounds", "Single Point Sling"],
+        "five": ["Red Death"],
+        "six": ["Upgrade Damage"],
+        "seven": ["Upgrade Damage", "Upgrade Damage", "Upgrade Damage"]
+      },
+      "year2": {
+        "base": ["Kinetic Damage", "Infuse"],
+        "one": ["Accurized Ballistics", "Field Choke", "Aggressive Ballistics"],
+        "two": ["Unflinching"],
+        "three": ["Snapshot", "High Caliber Rounds", "Single Point Sling"],
+        "four": ["Red Death"]
+      }
+    },
     "bestUsePVP": [
       "Aggressive Ballistics",
       "Unflinching",
@@ -3125,34 +3790,40 @@
       "Red Death"
     ],
     "note": ["This weapon has 2 variants. Year 1 (Y1) and year 2 (Y2)."],
-    "rof": 66,
-    "impact": "14-17",
-    "range": "27-38",
-    "stability": "37-51",
-    "reload": 76,
-    "magazine": 30,
-    "zoom": 17,
-    "aim": "35-50",
-    "recoil": "65-85",
-    "speed": "65-70"
+    "stats": {
+      "rof": 66,
+      "impact": "14-17",
+      "range": "27-38",
+      "stability": "37-51",
+      "reload": 76,
+      "magazine": 30,
+      "zoom": 17,
+      "aim": "35-50",
+      "recoil": "65-85",
+      "speed": "65-70"
+    }
   },
   {
     "name": "Sleeper Simulant",
     "description": "Subroutine IKELOS: Status=complete.\nMIDNIGHT EXIGENT: Status=still in progress.",
     "icon": "https://imgur.com/gnVe450.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/2/2e/Sleeper_Simulant_icon.jpg/revision/latest/scale-to-width-down/96?cb=20151228062319",
     "rank": "Exotic",
     "class": "Fusion Rifle",
     "tag": "Weapon",
     "slot": "Heavy",
-    "requirements": ["Level 40"],
-    "obtainable": ["Quest From Banshee-44"],
-    "baseLight": [280],
-    "maxLight": [335],
-    "basePerks": ["Sleeper Simulant", "Infuse"],
-    "firstTierPerks": ["CQB Ballistics", "Smooth Ballistics"],
-    "secondTierPerk": ["Hip Fire"],
-    "thirdTierPerks": ["Speed Reload", "Custom Optics", "Injection Mold"],
-    "fourthTierPerk": ["Activate IKELOS"],
+    "requirements": { "year2": ["Level 40"] },
+    "obtainable": { "year2": ["Quest From Banshee-44"] },
+    "light": { "min": [280], "max": [335] },
+    "perks": {
+      "year2": {
+        "base": ["Sleeper Simulant", "Infuse"],
+        "one": ["CQB Ballistics", "Smooth Ballistics"],
+        "two": ["Hip Fire"],
+        "three": ["Speed Reload", "Custom Optics", "Injection Mold"],
+        "four": ["Activate IKELOS"]
+      }
+    },
     "bestUsePVP": [
       "Smooth Ballistics",
       "Hip Fire",
@@ -3166,48 +3837,63 @@
       "Activate IKELOS"
     ],
     "note": [
-      "This weapon shoots like a sniper instead of the traditional burst."
+      "This weapon shoots like a sniper instead of the traditional burst a fusion has."
     ],
-    "rof": 10,
-    "impact": 100,
-    "range": "56-70",
-    "stability": "10-37",
-    "reload": "65-72",
-    "magazine": 3,
-    "zoom": "17-22",
-    "aim": "70-75",
-    "recoil": 20,
-    "speed": "20-50"
+    "stats": {
+      "rof": 10,
+      "impact": 100,
+      "range": "56-70",
+      "stability": "10-37",
+      "reload": "65-72",
+      "magazine": 3,
+      "zoom": "17-22",
+      "aim": "70-75",
+      "recoil": 20,
+      "speed": "20-50"
+    }
   },
   {
     "name": "Super Good Advice",
     "description": "This weapon is full of it.",
     "icon": "https://imgur.com/4HcVH51.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/4/47/Super_Good_Advice_%28Year_2%29_icon.jpg/revision/latest/scale-to-width-down/96?cb=20170428013227",
     "rank": "Exotic",
     "class": "Machine Gun",
     "tag": "Weapon",
     "slot": "Heavy",
-    "requirements": ["Level 40 (Y2)", "Level 20 (Y1)"],
-    "obtainable": [
-      "Exotic Engram (Y2)",
-      "Nightfall (Y2)",
-      "Exotic chest in King's Fall (Y2)",
-      "Level 28 Prison of The Elders (Y1)",
-      "Crota's End (Y1)",
-      "Exotic Chest in Vault of Glass (Y1)",
-      "Legacy Exotic Engram (Y1)"
-    ],
-    "baseLight": ["280 (Y2)", "150 (Y1)"],
-    "maxLight": ["335 (Y2)", "170 (Y1)"],
-    "basePerks": ["Solar Damage", "Infuse (Y2)", "Ascend (Y1)"],
-    "firstTierPerks": [
-      "Smooth Ballistics",
-      "Soft Ballistics",
-      "CQB Ballistics"
-    ],
-    "secondTierPerk": ["Crowd Control"],
-    "thirdTierPerks": ["Single Point Sling", "Hand Loaded", "Flared Magwell"],
-    "fourthTierPerk": ["Super Good Advice"],
+    "requirements": { "year1": ["Level 20"], "year2": ["Level 40"] },
+    "obtainable": {
+      "year1": [
+        "Level 28 Prison of The Elders",
+        "Crota's End",
+        "Exotic Chest in Vault of Glass",
+        "Legacy Exotic Engram"
+      ],
+      "year2": ["Exotic Engram", "Nightfall", "Exotic chest in King's Fall"]
+    },
+    "light": {
+      "min": ["280 (Y2)", "150 (Y1)"],
+      "max": ["335 (Y2)", "170 (Y1)"]
+    },
+    "perks": {
+      "year1": {
+        "base": ["Solar Damage", "Ascend"],
+        "one": ["Smooth Ballistics", "Soft Ballistics", "CQB Ballistics"],
+        "two": ["Crowd Control"],
+        "three": ["Upgrade Damage"],
+        "four": ["Single Point Sling", "Hand Loaded", "Flared Magwell"],
+        "five": ["Super Good Advice"],
+        "six": ["Upgrade Damage"],
+        "seven": ["Upgrade Damage", "Upgrade Damage", "Upgrade Damage"]
+      },
+      "year2": {
+        "base": ["Solar Damage", "Infuse"],
+        "one": ["Smooth Ballistics", "Soft Ballistics", "CQB Ballistics"],
+        "two": ["Crowd Control"],
+        "three": ["Single Point Sling", "Hand Loaded", "Flared Magwell"],
+        "four": ["Super Good Advice"]
+      }
+    },
     "bestUsePVP": [
       "Smooth Ballistics",
       "Crowd Control",
@@ -3221,46 +3907,61 @@
       "Super Good Advice"
     ],
     "note": ["This weapon has 2 variants. Year 1 (Y1) and year 2 (Y2)."],
-    "rof": 88,
-    "impact": "27-29",
-    "range": "10-24",
-    "stability": "36-51",
-    "reload": "22-36",
-    "magazine": 35,
-    "zoom": 15,
-    "aim": "30-40",
-    "recoil": 80,
-    "speed": 30
+    "stats": {
+      "rof": 88,
+      "impact": "27-29",
+      "range": "10-24",
+      "stability": "36-51",
+      "reload": "22-36",
+      "magazine": 35,
+      "zoom": 15,
+      "aim": "30-40",
+      "recoil": 80,
+      "speed": 30
+    }
   },
   {
     "name": "SUROS Regime",
     "description": "Nostalgia as a weapon of war. Style as a hallmark of victory.",
     "icon": "https://imgur.com/lIhh8JR.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/6/61/SUROS_Regime_%28Year_2%29_icon.jpg/revision/latest/scale-to-width-down/96?cb=20170406043807",
     "rank": "Exotic",
     "class": "Auto Rifle",
     "tag": "Weapon",
     "slot": "Primary",
-    "requirements": ["Level 40 (Y2)", "Level 20 (Y1)"],
-    "obtainable": [
-      "Exotic Engram (Y2)",
-      "Nightfall (Y2)",
-      "Exotic chest in King's Fall (Y2)",
-      "Level 28 Prison of The Elders (Y1)",
-      "Crota's End (Y1)",
-      "Exotic Chest in Vault of Glass (Y1)",
-      "Legacy Exotic Engram (Y1)"
-    ],
-    "baseLight": ["280 (Y2)", "150 (Y1)"],
-    "maxLight": ["335 (Y2)", "170 (Y1)"],
-    "basePerks": ["Kinetic Damage", "Infuse (Y2)", "Ascend (Y1)"],
-    "firstTierPerks": [
-      "Field Choke",
-      "Linear Compensator",
-      "Smart Drift Control"
-    ],
-    "secondTierPerk": ["Focused Fire"],
-    "thirdTierPerks": ["High Caliber Rounds", "Hammer Forged", "Lightweight"],
-    "fourthTierPerk": ["SUROS Regime"],
+    "requirements": { "year1": ["Level 20"], "year2": ["Level 40"] },
+    "obtainable": {
+      "year1": [
+        "Level 28 Prison of The Elders",
+        "Crota's End",
+        "Exotic Chest in Vault of Glass",
+        "Legacy Exotic Engram"
+      ],
+      "year2": ["Exotic Engram", "Nightfall", "Exotic chest in King's Fall"]
+    },
+    "light": {
+      "min": ["280 (Y2)", "150 (Y1)"],
+      "max": ["335 (Y2)", "170 (Y1)"]
+    },
+    "perks": {
+      "year1": {
+        "base": ["Kinetic Damage", "Infuse (Y2)", "Ascend (Y1)"],
+        "one": ["Field Choke", "Linear Compensator", "Smart Drift Control"],
+        "two": ["Focused Fire"],
+        "three": ["Upgrade Damage"],
+        "four": ["High Caliber Rounds", "Hammer Forged", "Lightweight"],
+        "five": ["SUROS Regime"],
+        "six": ["Upgrade Damage"],
+        "seven": ["Upgrade Damage", "Upgrade Damage", "Upgrade Damage"]
+      },
+      "year2": {
+        "base": ["Kinetic Damage", "Infuse"],
+        "one": ["Field Choke", "Linear Compensator", "Smart Drift Control"],
+        "two": ["Focused Fire"],
+        "three": ["High Caliber Rounds", "Hammer Forged", "Lightweight"],
+        "four": ["SUROS Regime"]
+      }
+    },
     "bestUsePVP": [
       "Field Choke",
       "Focused Fire",
@@ -3274,42 +3975,42 @@
       "SUROS Regime"
     ],
     "note": ["This weapon has 2 variants. Year 1 (Y1) and year 2 (Y2)."],
-    "rof": 77,
-    "impact": "28-30",
-    "range": "22-61",
-    "stability": "35-57",
-    "reload": 65,
-    "magazine": 33,
-    "zoom": 15,
-    "aim": "30-40",
-    "recoil": "80-100",
-    "speed": "25-30"
+    "stats": {
+      "rof": 77,
+      "impact": "28-30",
+      "range": "22-61",
+      "stability": "35-57",
+      "reload": 65,
+      "magazine": 33,
+      "zoom": 15,
+      "aim": "30-40",
+      "recoil": "80-100",
+      "speed": "25-30"
+    }
   },
   {
     "name": "Telesto",
     "description": "Vestiges of the Queen's Harbingers yet linger among Saturn's moons.",
     "icon": "https://imgur.com/nQPLjsc.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/a/a5/Telesto_%28Year_3%29_icon.jpg/revision/latest/scale-to-width-down/96?cb=20180324000254",
     "rank": "Exotic",
     "class": "Fusion Rifle",
     "tag": "Weapon",
     "slot": "Special",
-    "requirements": ["Level 40"],
-    "obtainable": [
-      "Exotic Engram (Y2)",
-      "Exotic chest in King's Fall (Y2)",
-      "Nightfall (Y2)"
-    ],
-    "baseLight": [280],
-    "maxLight": [335],
-    "basePerks": ["Unplanned Reprieve", "Infuse", "Void Damage"],
-    "firstTierPerks": [
-      "Smart Drift Control",
-      "CQB Ballistics",
-      "Smooth Ballistics"
-    ],
-    "secondTierPerk": ["Battle Runner"],
-    "thirdTierPerks": ["Lightweight", "Enhanced Battery", "Flared Magwell"],
-    "fourthTierPerk": ["Harbinger's Spark"],
+    "requirements": { "year2": ["Level 40"] },
+    "obtainable": {
+      "year2": ["Exotic Engram", "Exotic chest in King's Fall", "Nightfall"]
+    },
+    "light": { "min": [280], "max": [335] },
+    "perks": {
+      "year2": {
+        "base": ["Unplanned Reprieve", "Infuse", "Void Damage"],
+        "one": ["Smart Drift Control", "CQB Ballistics", "Smooth Ballistics"],
+        "two": ["Battle Runner"],
+        "three": ["Lightweight", "Enhanced Battery", "Flared Magwell"],
+        "four": ["Harbinger's Spark"]
+      }
+    },
     "bestUsePVP": [
       "Smooth Ballistics",
       "Battle Runner",
@@ -3325,38 +4026,40 @@
     "note": [
       "This weapon shoots particles that deal low damage on impact and explode on delay."
     ],
-    "rof": 37,
-    "impact": 71,
-    "range": "30-40",
-    "stability": "78-93",
-    "reload": "79-93",
-    "magazine": "4-5",
-    "zoom": 15,
-    "aim": "40-45",
-    "recoil": "85-105",
-    "speed": 65
+    "stats": {
+      "rof": 37,
+      "impact": 71,
+      "range": "30-40",
+      "stability": "78-93",
+      "reload": "79-93",
+      "magazine": "4-5",
+      "zoom": 15,
+      "aim": "40-45",
+      "recoil": "85-105",
+      "speed": 65
+    }
   },
   {
     "name": "The Chaperone",
     "description": "\"My mother had a shotgun we called the Chaperone. Kept us alive out there, before we got to the City.\" —Amanda Holliday",
     "icon": "https://imgur.com/psZHrRt.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/e/ee/The_Chaperone_icon.jpg/revision/latest/scale-to-width-down/96?cb=20170505174540",
     "rank": "Exotic",
     "class": "Shotgun",
     "tag": "Weapon",
     "slot": "Special",
-    "requirements": ["Level 40"],
-    "obtainable": ["Quest from Amanda Holiday"],
-    "baseLight": [280],
-    "maxLight": [335],
-    "basePerks": ["The Chaperone", "Infuse", "Solar Damage"],
-    "firstTierPerks": [
-      "Linear Compensator",
-      "Accurized Ballistics",
-      "Field Choke"
-    ],
-    "secondTierPerk": ["The Roadborn"],
-    "thirdTierPerks": ["Single Point Sling", "Snapshot", "Field Scout"],
-    "fourthTierPerk": ["The Survivor"],
+    "requirements": { "year2": ["Level 40"] },
+    "obtainable": { "year2": ["Quest from Amanda Holiday"] },
+    "light": { "min": [280], "max": [335] },
+    "perks": {
+      "year2": {
+        "base": ["The Chaperone", "Infuse", "Solar Damage"],
+        "one": ["Linear Compensator", "Accurized Ballistics", "Field Choke"],
+        "two": ["The Roadborn"],
+        "three": ["Single Point Sling", "Snapshot", "Field Scout"],
+        "four": ["The Survivor"]
+      }
+    },
     "bestUsePVP": [
       "Field Choke",
       "The RoadBorn",
@@ -3372,38 +4075,40 @@
     "note": [
       "This weapon shoots slug rounds instead of traditional pump shots."
     ],
-    "rof": 35,
-    "impact": "40-42",
-    "range": "26-28",
-    "stability": "88-100",
-    "reload": 29,
-    "magazine": 5,
-    "zoom": 12,
-    "aim": "60-70",
-    "recoil": "30-50",
-    "speed": 50
+    "stats": {
+      "rof": 35,
+      "impact": "40-42",
+      "range": "26-28",
+      "stability": "88-100",
+      "reload": 29,
+      "magazine": 5,
+      "zoom": 12,
+      "aim": "60-70",
+      "recoil": "30-50",
+      "speed": 50
+    }
   },
   {
     "name": "The First Curse",
     "description": "\"...is when death becomes an afterthought.\"",
     "icon": "https://imgur.com/l0RZjSm.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/0/03/The_First_Curse_%28Year_3%29_icon.jpg/revision/latest/scale-to-width-down/96?cb=20180324001546",
     "rank": "Exotic",
     "class": "Hand Cannon",
     "tag": "Weapon",
     "slot": "Primary",
-    "requirements": ["Level 40"],
-    "obtainable": ["Quest From Banshee-44"],
-    "baseLight": [280],
-    "maxLight": [335],
-    "basePerks": ["Dead Eye", "Infuse"],
-    "firstTierPerks": [
-      "CQB Ballistics",
-      "Smooth Ballistics",
-      "Soft Ballistics"
-    ],
-    "secondTierPerk": ["Triple Tap"],
-    "thirdTierPerks": ["Quickdraw", "Lightweight", "Speed Reload"],
-    "fourthTierPerk": ["The First Curse"],
+    "requirements": { "year2": ["Level 40"] },
+    "obtainable": { "year2": ["Quest From Banshee-44"] },
+    "light": { "min": [280], "max": [335] },
+    "perks": {
+      "year2": {
+        "base": ["Dead Eye", "Infuse"],
+        "one": ["CQB Ballistics", "Smooth Ballistics", "Soft Ballistics"],
+        "two": ["Triple Tap"],
+        "three": ["Quickdraw", "Lightweight", "Speed Reload"],
+        "four": ["The First Curse"]
+      }
+    },
     "bestUsePVP": [
       "Smooth Ballistics",
       "Triple Tap",
@@ -3416,38 +4121,43 @@
       "Quickdraw",
       "The First Curse"
     ],
-    "rof": 15,
-    "impact": "93-94",
-    "range": "42-53",
-    "stability": "7-22",
-    "reload": "22-29",
-    "magazine": 8,
-    "zoom": 15,
-    "aim": "90-100",
-    "recoil": 90,
-    "speed": 20
+    "stats": {
+      "rof": 15,
+      "impact": "93-94",
+      "range": "42-53",
+      "stability": "7-22",
+      "reload": "22-29",
+      "magazine": 8,
+      "zoom": 15,
+      "aim": "90-100",
+      "recoil": 90,
+      "speed": 20
+    }
   },
   {
     "name": "The Jade Rabbit",
     "description": "\"What kind of harebrained scheme have you got in mind this time?\"",
     "icon": "https://imgur.com/6G6xXbo.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/0/05/The_Jade_Rabbit_%28Year_3%29_icon.jpg/revision/latest/scale-to-width-down/96?cb=20180324001143",
     "rank": "Exotic",
     "class": "Scout Rifle",
     "tag": "Weapon",
     "slot": "Primary",
-    "requirements": ["Level 40"],
-    "obtainable": ["Exotic Engram", "Exotic chest in King's Fall", "Nightfall"],
-    "baseLight": [280],
-    "maxLight": [335],
-    "basePerks": ["The Fate of All Fools", "Infuse"],
-    "firstTierPerks": [
-      "Soft Ballistics",
-      "CQB Ballistics",
-      "Smart Drift Control"
-    ],
-    "secondTierPerk": ["Spray and Play"],
-    "thirdTierPerks": ["Extended Mag", "Speed Reload", "Custom Optics"],
-    "fourthTierPerk": ["Zen Moment"],
+    "requirements": { "year2": ["Level 40"] },
+    "obtainable": {
+      "year1": [],
+      "year2": ["Exotic Engram", "Exotic chest in King's Fall", "Nightfall"]
+    },
+    "light": { "min": [280], "max": [335] },
+    "perks": {
+      "year2": {
+        "base": ["The Fate of All Fools", "Infuse"],
+        "one": ["Soft Ballistics", "CQB Ballistics", "Smart Drift Control"],
+        "two": ["Spray and Play"],
+        "three": ["Extended Mag", "Speed Reload", "Custom Optics"],
+        "four": ["Zen Moment"]
+      }
+    },
     "bestUsePVP": [
       "CQB Ballistics",
       "Spray and Play",
@@ -3460,51 +4170,78 @@
       "Extended Mag",
       "Zen Moment"
     ],
-    "note": ["Fun fact! This weapon is a playstation exclusive!"],
-    "rof": "75-85",
-    "impact": "59-61",
-    "range": "88-94",
-    "stability": "24-34",
-    "reload": "65-72",
-    "magazine": "7-11",
-    "zoom": "20-25",
-    "aim": "75-85",
-    "recoil": "100-120",
-    "speed": 40
+    "note": ["This weapon is a playstation exclusive!"],
+    "stats": {
+      "rof": "75-85",
+      "impact": "59-61",
+      "range": "88-94",
+      "stability": "24-34",
+      "reload": "65-72",
+      "magazine": "7-11",
+      "zoom": "20-25",
+      "aim": "75-85",
+      "recoil": "100-120",
+      "speed": 40
+    }
   },
   {
     "name": "The Last Word",
     "description": "\"Yours…not mine.\" - Renegade Hunter Shin Malphur to Dredgen Yor",
     "icon": "https://imgur.com/Q1LctiB.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/c/c7/ROI_The_Last_Word_icon.jpg/revision/latest/scale-to-width-down/96?cb=20161224005746",
     "rank": "Exotic",
     "class": "Hand Cannon",
     "tag": "Weapon",
     "slot": "Primary",
-    "requirements": ["Level 40 (Y2)", "Level 20 (Y1)"],
-    "obtainable": [
-      "Exotic Engram (Y2)",
-      "Nightfall (Y2)",
-      "Exotic chest in King's Fall (Y2)",
-      "Level 28 Prison of The Elders (Y1)",
-      "Crota's End (Y1)",
-      "Exotic Chest in Vault of Glass (Y1)",
-      "Legacy Exotic Engram (Y1)"
-    ],
-    "baseLight": ["280 (Y2)", "150 (Y1)"],
-    "maxLight": ["335 (Y2)", "170 (Y1)"],
-    "basePerks": ["Kinetic Damage", "Infuse (Y2)", "Ascend (Y1)", "Fan Fire"],
-    "firstTierPerks": [
-      "Soft Ballistics",
-      "Smart Drift Control",
-      "Aggressive Ballistics"
-    ],
-    "secondTierPerk": ["Hip Fire"],
-    "thirdTierPerks": [
-      "Single Point Sling",
-      "High Caliber Rounds",
-      "Perfect Balance"
-    ],
-    "fourthTierPerk": ["Last Word"],
+    "requirements": { "year1": ["Level 20"], "year2": ["Level 40"] },
+    "obtainable": {
+      "year1": [
+        "Level 28 Prison of The Elders",
+        "Crota's End",
+        "Exotic Chest in Vault of Glass",
+        "Legacy Exotic Engram"
+      ],
+      "year2": ["Exotic Engram", "Nightfall", "Exotic chest in King's Fall"]
+    },
+    "light": {
+      "min": ["280 (Y2)", "150 (Y1)"],
+      "max": ["335 (Y2)", "170 (Y1)"]
+    },
+    "perks": {
+      "year1": {
+        "base": ["Kinetic Damage", "Ascend", "Fan Fire"],
+        "one": [
+          "Soft Ballistics",
+          "Smart Drift Control",
+          "Aggressive Ballistics"
+        ],
+        "two": ["Hip Fire"],
+        "three": ["Upgrade Damage"],
+        "four": [
+          "Single Point Sling",
+          "High Caliber Rounds",
+          "Perfect Balance"
+        ],
+        "five": ["Last Word"],
+        "six": ["Upgrade Damage"],
+        "seven": ["Upgrade Damage", "Upgrade Damage", "Upgrade Damage"]
+      },
+      "year2": {
+        "base": ["Kinetic Damage", "Infuse", "Fan Fire"],
+        "one": [
+          "Soft Ballistics",
+          "Smart Drift Control",
+          "Aggressive Ballistics"
+        ],
+        "two": ["Hip Fire"],
+        "three": [
+          "Single Point Sling",
+          "High Caliber Rounds",
+          "Perfect Balance"
+        ],
+        "four": ["Last Word"]
+      }
+    },
     "bestUsePVP": [
       "Aggressive Ballistics",
       "Hip Fire",
@@ -3518,86 +4255,118 @@
       "Last Word"
     ],
     "note": ["This weapon has 2 variants. Year 1 (Y1) and year 2 (Y2)."],
-    "rof": 32,
-    "impact": "68-72",
-    "range": "2-8",
-    "stability": "12-53",
-    "reload": 56,
-    "magazine": 8,
-    "zoom": 15,
-    "aim": "15-40",
-    "recoil": "100-120",
-    "speed": "15-20"
+    "stats": {
+      "rof": 32,
+      "impact": "68-72",
+      "range": "2-8",
+      "stability": "12-53",
+      "reload": 56,
+      "magazine": 8,
+      "zoom": 15,
+      "aim": "15-40",
+      "recoil": "100-120",
+      "speed": "15-20"
+    }
   },
   {
     "name": "Thorn",
     "description": "\"To rend one's enemies is to see them not as equals, but objects—hollow of spirit and meaning.\" - 13th Understanding, 7th Book of Sorrow",
     "icon": "https://imgur.com/fqLr3sf.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/d/d6/Thorn_icon.jpg/revision/latest/scale-to-width-down/96?cb=20150912170726",
     "rank": "Exotic",
     "class": "Hand Cannon",
     "tag": "Weapon",
     "slot": "Primary",
-    "requirements": ["Level 20"],
-    "obtainable": [
-      "Legacy Exotic Engram (Y1)",
-      "Level 28 Prison of The Elders (Y1)",
-      "Crota's End (Y1)",
-      "Exotic Chest in Vault of Glass (Y1)"
+    "requirements": { "year1": ["Level 20"] },
+    "obtainable": {
+      "year1": [
+        "Legacy Exotic Engram",
+        "Level 28 Prison of The Elders",
+        "Crota's End",
+        "Exotic Chest in Vault of Glass"
+      ]
+    },
+    "light": { "min": [150], "max": [170] },
+    "perks": {
+      "year1": {
+        "base": ["Kinetic Damage", "Ascend"],
+        "one": ["Accurized Ballistics", "Field Choke", "Aggressive Ballistics"],
+        "two": ["Final Round"],
+        "three": ["Upgrade Damage"],
+        "four": ["Snapshot", "Send It", "Perfect Balance"],
+        "five": ["Mark of the Devourer"],
+        "six": ["Upgrade Damage"],
+        "seven": ["Upgrade Damage", "Upgrade Damage", "Upgrade Damage"]
+      }
+    },
+    "bestUsePVP": [
+      "Aggressive Ballistics",
+      "Final Round",
+      "Snapshot",
+      "Mark of the Devourer"
     ],
-    "baseLight": [150],
-    "maxLight": [170],
-    "basePerks": ["Kinetic Damage", "Ascend"],
-    "firstTierPerks": [
-      "Accurized Ballistics",
-      "Field Choke",
-      "Aggressive Ballistics"
+    "bestUsePVE": [
+      "Aggressive Ballistics",
+      "Final Round",
+      "Snapshot",
+      "Mark of the Devourer"
     ],
-    "secondTierPerk": ["Final Round"],
-    "thirdTierPerks": ["Snapshot", "Send It", "Perfect Balance"],
-    "fourthTierPerk": ["Mark of the Devourer"],
-    "bestUsePVP": ["Yet to be set!"],
-    "bestUsePVE": ["Yet to be set!"],
     "note": ["This weapon is exclusive to year 1. There is no year 2 version."],
-    "rof": 32,
-    "impact": "68-71",
-    "range": "32-59",
-    "stability": "29-61",
-    "reload": 43,
-    "magazine": 9,
-    "zoom": 15,
-    "aim": "45-60",
-    "recoil": "80-100",
-    "speed": "15-30"
+    "stats": {
+      "rof": 32,
+      "impact": "68-71",
+      "range": "32-59",
+      "stability": "29-61",
+      "reload": 43,
+      "magazine": 9,
+      "zoom": 15,
+      "aim": "45-60",
+      "recoil": "80-100",
+      "speed": "15-30"
+    }
   },
   {
     "name": "Thunderlord",
     "description": "\"They rest quiet on fields afar...for this is no ending, but the eye.\"",
     "icon": "https://imgur.com/P1Ss53v.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/c/c2/Thunderlord_%28Year_2%29_icon.jpg/revision/latest/scale-to-width-down/96?cb=20150912170825",
     "rank": "Exotic",
     "class": "Machine Gun",
     "tag": "Weapon",
     "slot": "Heavy",
-    "requirements": "Level 40",
-    "obtainable": [
-      "Exotic Engram (Y2)",
-      "Nightfall (Y2)",
-      "Exotic chest in King's Fall (Y2)",
-      "Level 28 Prison of The Elders (Y1)",
-      "Crota's End (Y1)",
-      "Exotic Chest in Vault of Glass (Y1)",
-      "Legacy Exotic Engram (Y1)"
-    ],
-    "baseLight": ["280 (Y2)", "150 (Y1)"],
-    "maxLight": ["335 (Y2)", "170 (Y1)"],
-    "basePerks": ["Arc Damage", "Infuse (Y2)", "Ascend (Y1)"],
-    "firstTierPerks": [
-      "Accurized Ballistics",
-      "Field Choke",
-      "Linear Compensator"
-    ],
-    "secondTierPerk": ["Feeding Frenzy"],
-    "thirdTierPerks": ["Perfect Balance", "Field Scout", "Flared Magwell"],
-    "fourthTierPerk": ["Ligthning Rounds"],
+    "requirements": { "year1": ["Level 20"], "year2": ["Level 40"] },
+    "obtainable": {
+      "year1": [
+        "Level 28 Prison of The Elders (Y1)",
+        "Crota's End (Y1)",
+        "Exotic Chest in Vault of Glass (Y1)",
+        "Legacy Exotic Engram (Y1)"
+      ],
+      "year2": ["Exotic Engram", "Nightfall", "Exotic chest in King's Fall"]
+    },
+    "light": {
+      "min": ["280 (Y2)", "150 (Y1)"],
+      "max": ["335 (Y2)", "170 (Y1)"]
+    },
+    "perks": {
+      "year1": {
+        "base": ["Arc Damage", "Infuse (Y2)", "Ascend (Y1)"],
+        "one": ["Accurized Ballistics", "Field Choke", "Linear Compensator"],
+        "two": ["Feeding Frenzy"],
+        "three": ["Upgrade Damage"],
+        "four": ["Perfect Balance", "Field Scout", "Flared Magwell"],
+        "five": ["Ligthning Rounds"],
+        "six": ["Upgrade Damage"],
+        "seven": ["Upgrade Damage", "Upgrade Damage", "Upgrade Damage"]
+      },
+      "year2": {
+        "base": ["Arc Damage", "Infuse (Y2)", "Ascend (Y1)"],
+        "one": ["Accurized Ballistics", "Field Choke", "Linear Compensator"],
+        "two": ["Feeding Frenzy"],
+        "three": ["Perfect Balance", "Field Scout", "Flared Magwell"],
+        "four": ["Ligthning Rounds"]
+      }
+    },
     "bestUsePVP": [
       "Field Choke",
       "Feeding Frenzy",
@@ -3611,42 +4380,41 @@
       "Lightning Rounds"
     ],
     "note": ["This weapon has 2 variants. Year 1 (Y1) and year 2 (Y2)."],
-    "rof": 66,
-    "impact": "53-55",
-    "range": "32-34",
-    "stability": "39-71",
-    "reload": "46-60",
-    "magazine": 38,
-    "zoom": 15,
-    "aim": "80-90",
-    "recoil": "70-90",
-    "speed": 60
+    "stats": {
+      "rof": 66,
+      "impact": "53-55",
+      "range": "32-34",
+      "stability": "39-71",
+      "reload": "46-60",
+      "magazine": 38,
+      "zoom": 15,
+      "aim": "80-90",
+      "recoil": "70-90",
+      "speed": 60
+    }
   },
   {
     "name": "Tlaloc",
     "description": "Release the storm. Hold nothing back.",
     "icon": "https://imgur.com/yXCF7IO.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/e/e6/Tlaloc_icon.jpg/revision/latest/scale-to-width-down/96?cb=20151228062350",
     "rank": "Exotic",
+    "character": "Warlock",
     "class": "Scout Rifle",
     "tag": "Weapon",
     "slot": "Primary",
-    "requirements": ["Level 40"],
-    "obtainable": ["Quest From Banshee-44"],
-    "baseLight": [280],
-    "maxLight": [335],
-    "basePerks": ["Grenadier", "Infuse"],
-    "firstTierPerks": [
-      "Smooth Ballistics",
-      "Accurized Ballistics",
-      "Soft Ballistics"
-    ],
-    "secondTierPerk": ["Eye of the Storm"],
-    "thirdTierPerks": [
-      "Hand Loaded",
-      "Armor Piercing Rounds",
-      "Injection Mold"
-    ],
-    "fourthTierPerk": ["Overflow"],
+    "requirements": { "year2": ["Level 40"] },
+    "obtainable": { "year2": ["Quest From Banshee-44"] },
+    "light": { "min": [280], "max": [335] },
+    "perks": {
+      "year2": {
+        "base": ["Grenadier", "Infuse"],
+        "one": ["Smooth Ballistics", "Accurized Ballistics", "Soft Ballistics"],
+        "two": ["Eye of the Storm"],
+        "three": ["Hand Loaded", "Armor Piercing Rounds", "Injection Mold"],
+        "four": ["Overflow"]
+      }
+    },
     "bestUsePVP": [
       "Accurized Ballistics",
       "Eye of the Storm",
@@ -3660,38 +4428,40 @@
       "Overflow"
     ],
     "note": ["This is a Warlock exclusive weapon."],
-    "rof": 37,
-    "impact": "46-49",
-    "range": "47-71",
-    "stability": 8,
-    "reload": "32-66",
-    "magazine": 52,
-    "zoom": 20,
-    "aim": "45-65",
-    "recoil": 80,
-    "speed": "41-75"
+    "stats": {
+      "rof": 37,
+      "impact": "46-49",
+      "range": "47-71",
+      "stability": 8,
+      "reload": "32-66",
+      "magazine": 52,
+      "zoom": 20,
+      "aim": "45-65",
+      "recoil": 80,
+      "speed": "41-75"
+    }
   },
   {
     "name": "Touch of malice",
     "description": "\"Let them feel every lash, every curse, every touch of malice that they first dealt to me.\" —Eris Morn",
     "icon": "https://imgur.com/46ePdsg.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/e/e0/Touch_of_Malice_icon.jpg/revision/latest/scale-to-width-down/96?cb=20170406044410",
     "rank": "Exotic",
     "class": "Scout Rifle",
     "tag": "Weapon",
     "slot": "Primary",
-    "requirements": ["Level 40"],
-    "obtainable": ["Quest from Eris Morn"],
-    "baseLight": [280],
-    "maxLight": [335],
-    "basePerks": ["Touch of Malice", "Infuse", "Kinetic Damage"],
-    "firstTierPerks": [
-      "Soft Ballistics",
-      "Smooth Ballistics",
-      "Smart Drift Control"
-    ],
-    "secondTierPerk": ["Eye of the Storm"],
-    "thirdTierPerks": ["Snapshot", "Hammer Forged", "Flared Magwell"],
-    "fourthTierPerk": ["Touch of Mercy"],
+    "requirements": { "year2": ["Level 40"] },
+    "obtainable": { "year2": ["Quest from Eris Morn"] },
+    "light": { "min": [280], "max": [335] },
+    "perks": {
+      "year2": {
+        "base": ["Touch of Malice", "Infuse", "Kinetic Damage"],
+        "one": ["Soft Ballistics", "Smooth Ballistics", "Smart Drift Control"],
+        "two": ["Eye of the Storm"],
+        "three": ["Snapshot", "Hammer Forged", "Flared Magwell"],
+        "four": ["Touch of Mercy"]
+      }
+    },
     "bestUsePVP": [
       "Smooth Ballistics",
       "Eye of the Storm",
@@ -3705,42 +4475,61 @@
       "Touch of Mercy"
     ],
     "note": ["This is the King's Fall raid weapon."],
-    "rof": 52,
-    "impact": 35,
-    "range": "58-82",
-    "stability": "36-51",
-    "reload": "51-65",
-    "magazine": 11,
-    "zoom": 20,
-    "aim": "40-50",
-    "recoil": "80-100",
-    "speed": 45
+    "stats": {
+      "rof": 52,
+      "impact": 35,
+      "range": "58-82",
+      "stability": "36-51",
+      "reload": "51-65",
+      "magazine": 11,
+      "zoom": 20,
+      "aim": "40-50",
+      "recoil": "80-100",
+      "speed": 45
+    }
   },
   {
     "name": "Truth",
     "description": "\"…is where you seek it.\" — Lomar",
     "icon": "https://imgur.com/r8jKTer.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/0/0c/ROI_Truth_icon.jpg/revision/latest/scale-to-width-down/96?cb=20170105011411",
     "rank": "Exotic",
     "class": "Rocket Launcher",
     "tag": "Weapon",
     "slot": "Heavy",
-    "requirements": ["Level 40 (Y2)", "Level 20 (Y1)"],
-    "obtainable": [
-      "Exotic Engram (Y2)",
-      "Nightfall (Y2)",
-      "Exotic chest in King's Fall (Y2)",
-      "Level 28 Prison of The Elders (Y1)",
-      "Crota's End (Y1)",
-      "Exotic Chest in Vault of Glass (Y1)",
-      "Legacy Exotic Engram (Y1)"
-    ],
-    "baseLight": ["280 (Y2)", "150 (Y1)"],
-    "maxLight": ["335 (Y2)", "170 (Y1)"],
-    "basePerks": ["Void Damage", "Infuse (Y2)", "Ascend (Y1)"],
-    "firstTierPerks": ["Hard Launch", "Warhead Verniers", "Confined Launch"],
-    "secondTierPerk": ["Grenades and Horseshoes"],
-    "thirdTierPerks": ["Javelin", "Heavy Payload", "Flared Magwell"],
-    "fourthTierPerk": ["Prototype Trueseeker"],
+    "requirements": { "year1": ["Level 20"], "year2": ["Level 40"] },
+    "obtainable": {
+      "year1": [
+        "Level 28 Prison of The Elders",
+        "Crota's End",
+        "Exotic Chest in Vault of Glass",
+        "Legacy Exotic Engram"
+      ],
+      "year2": ["Exotic Engram", "Nightfall", "Exotic chest in King's Fall"]
+    },
+    "light": {
+      "min": ["280 (Y2)", "150 (Y1)"],
+      "max": ["335 (Y2)", "170 (Y1)"]
+    },
+    "perks": {
+      "year1": {
+        "base": ["Void Damage", "Ascend"],
+        "one": ["Hard Launch", "Warhead Verniers", "Confined Launch"],
+        "two": ["Grenades and Horseshoes"],
+        "three": ["Upgrade Damage"],
+        "four": ["Javelin", "Heavy Payload", "Flared Magwell"],
+        "five": ["Prototype Trueseeker"],
+        "six": ["Upgrade Damage"],
+        "seven": ["Upgrade Damage", "Upgrade Damage", "Upgrade Damage"]
+      },
+      "year2": {
+        "base": ["Void Damage", "Infuse"],
+        "one": ["Hard Launch", "Warhead Verniers", "Confined Launch"],
+        "two": ["Grenades and Horseshoes"],
+        "three": ["Javelin", "Heavy Payload", "Flared Magwell"],
+        "four": ["Prototype Trueseeker"]
+      }
+    },
     "bestUsePVP": [
       "Warhead Verniers",
       "Grenades and horseshoes",
@@ -3754,47 +4543,62 @@
       "Prototype Trueseeker"
     ],
     "note": ["This weapon has 2 variants. Year 1 (Y1) and year 2 (Y2)."],
-    "rof": 11,
-    "impact": "96-100",
-    "range": "43-63",
-    "stability": "73-92",
-    "reload": "79-93",
-    "magazine": 1,
-    "zoom": 20,
-    "aim": "60-70",
-    "recoil": 50,
-    "speed": 80
+    "stats": {
+      "rof": 11,
+      "impact": "96-100",
+      "range": "43-63",
+      "stability": "73-92",
+      "reload": "79-93",
+      "magazine": 1,
+      "zoom": 20,
+      "aim": "60-70",
+      "recoil": 50,
+      "speed": 80
+    }
   },
   {
     "name": "Universal Remote",
     "description": "To the untrained eye this beast is a junker. To the trained eye, however, this junker…is a beast.",
     "icon": "https://imgur.com/kiavtZZ.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/d/dc/Universal_Remote_%28Year_3%29_icon.jpg/revision/latest/scale-to-width-down/96?cb=20180324000815",
     "rank": "Exotic",
     "class": "Shotgun",
     "tag": "Weapon",
     "slot": "Primary",
-    "requirements": ["Level 40 (Y2)", "Level 20 (Y1)"],
-    "obtainable": [
-      "Exotic Engram (Y2)",
-      "Nightfall (Y2)",
-      "Exotic chest in King's Fall (Y2)",
-      "Level 28 Prison of The Elders (Y1)",
-      "Crota's End (Y1)",
-      "Exotic Chest in Vault of Glass (Y1)",
-      "Legacy Exotic Engram (Y1)"
-    ],
-    "baseLight": ["280 (Y2)", "150 (Y1)"],
-    "maxLight": ["335 (Y2)", "170 (Y1)"],
-    "basePerks": ["Kinetic Damage", "Infuse (Y2)", "Ascend (Y1)"],
-    "firstTierPerks": [
-      "Smooth Ballistics",
-      "Soft Ballistics",
-      "CQB Ballistics"
-    ],
-    "secondTierPerk": ["Crowd Control"],
-    "thirdTierPerks": ["Hammer Forged", "Lightweight", "Snapshot"],
-    "fourthTierPerk": ["Universal Remote"],
-    "bestUsePVP": [
+    "requirements": { "year1": ["Level 20"], "year2": ["Level 40"] },
+    "obtainable": {
+      "year1": [
+        "Level 28 Prison of The Elders",
+        "Crota's End",
+        "Exotic Chest in Vault of Glass",
+        "Legacy Exotic Engram"
+      ],
+      "year2": ["Exotic Engram", "Nightfall", "Exotic chest in King's Fall"]
+    },
+    "light": {
+      "min": ["280 (Y2)", "150 (Y1)"],
+      "max": ["335 (Y2)", "170 (Y1)"]
+    },
+    "perks": {
+      "year1": {
+        "base": ["Kinetic Damage", "Ascend"],
+        "one": ["Smooth Ballistics", "Soft Ballistics", "CQB Ballistics"],
+        "two": ["Crowd Control"],
+        "three": ["Upgrade Damage"],
+        "four": ["Hammer Forged", "Lightweight", "Snapshot"],
+        "five": ["Universal Remote"],
+        "six": ["Upgrade Damage"],
+        "seven": ["Upgrade Damage", "Upgrade Damage", "Upgrade Damage"]
+      },
+      "year2": {
+        "base": ["Kinetic Damage", "Infuse"],
+        "one": ["Smooth Ballistics", "Soft Ballistics", "CQB Ballistics"],
+        "two": ["Crowd Control"],
+        "three": ["Hammer Forged", "Lightweight", "Snapshot"],
+        "four": ["Universal Remote"]
+      }
+    },
+    "bes}tUsePVP": [
       "Smooth Ballistics",
       "Crowd Control",
       "Hammer Forged",
@@ -3810,42 +4614,42 @@
       "This weapon has 2 variants. Year 1 (Y1) and year 2 (Y2).",
       "This weapon can be equipped in the primary slot."
     ],
-    "rof": 17,
-    "impact": 40,
-    "range": "12-23",
-    "stability": "36-51",
-    "reload": 29,
-    "magazine": 3,
-    "zoom": 12,
-    "aim": "0-10",
-    "recoil": 60,
-    "speed": 60
+    "stats": {
+      "rof": 17,
+      "impact": 40,
+      "range": "12-23",
+      "stability": "36-51",
+      "reload": 29,
+      "magazine": 3,
+      "zoom": 12,
+      "aim": "0-10",
+      "recoil": 60,
+      "speed": 60
+    }
   },
   {
     "name": "Zen Meteor",
     "description": "Complete awareness, complete focus. A mind sharpened by diligence to a single deadly point.",
     "icon": "https://imgur.com/AMJk6uw.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/9/95/Zen_Meteor_icon.jpg/revision/latest/scale-to-width-down/96?cb=20170628010714",
     "rank": "Exotic",
     "class": "Sniper Rifle",
     "tag": "Weapon",
     "slot": "Special",
-    "requirements": ["Level 40"],
-    "obtainable": [
-      "Exotic Engram (Y2)",
-      "Exotic chest in King's Fall (Y2)",
-      "Nightfall (Y2)"
-    ],
-    "baseLight": [280],
-    "maxLight": [335],
-    "basePerks": ["Solar Damage", "Dynamite", "Infuse"],
-    "firstTierPerks": [
-      "CQB Ballistics",
-      "Soft Ballistics",
-      "Smart Drift Control"
-    ],
-    "secondTierPerk": ["Underdog"],
-    "thirdTierPerks": ["Fitted Stock", "Field Scout", "Injection Mold"],
-    "fourthTierPerk": ["With a Laser Beam"],
+    "requirements": { "year2": ["Level 40"] },
+    "obtainable": {
+      "year2": ["Exotic Engram", "Exotic chest in King's Fall", "Nightfall"]
+    },
+    "light": { "min": [280], "max": [335] },
+    "perks": {
+      "year2": {
+        "base": ["Solar Damage", "Dynamite", "Infuse"],
+        "one": ["CQB Ballistics", "Soft Ballistics", "Smart Drift Control"],
+        "two": ["Underdog"],
+        "three": ["Fitted Stock", "Field Scout", "Injection Mold"],
+        "four": ["With a Laser Beam"]
+      }
+    },
     "bestUsePVP": [
       "Smart Drift Control",
       "Underdog",
@@ -3858,38 +4662,44 @@
       "Field Scout",
       "With a Laser Beam"
     ],
-    "rof": 19,
-    "impact": "36-37",
-    "range": "74-90",
-    "stability": "24-52",
-    "reload": 52,
-    "magazine": 3,
-    "zoom": 50,
-    "aim": "80-90",
-    "recoil": "80-100",
-    "speed": "35-65"
+    "stats": {
+      "rof": 19,
+      "impact": "36-37",
+      "range": "74-90",
+      "stability": "24-52",
+      "reload": 52,
+      "magazine": 3,
+      "zoom": 50,
+      "aim": "80-90",
+      "recoil": "80-100",
+      "speed": "35-65"
+    }
   },
   {
     "name": "Zhalo Supercell",
     "description": "An upcycled torrent of righteous thunder",
     "icon": "https://imgur.com/hrKZOf9.png",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/5/55/Zhalo_Supercell_%28Year_3%29_icon.jpg/revision/latest/scale-to-width-down/96?cb=20180324002809",
     "rank": "Exotic",
     "class": "Auto Rifle",
     "tag": "Weapon",
     "slot": "Primary",
-    "requirements": ["Level 40"],
-    "obtainable": ["Exotic Engram", "Exotic chest in King's Fall"],
-    "baseLight": [280],
-    "maxLight": [335],
-    "basePerks": ["Arc Burn", "Infuse"],
-    "firstTierPerks": [
-      "CQB Ballistics",
-      "Smart Drift Control",
-      "Aggressive Ballistics"
-    ],
-    "secondTierPerk": ["Persistance"],
-    "thirdTierPerks": ["Hammer Forged", "Rifled Barrel", "Braced Frame"],
-    "fourthTierPerk": ["Bolts From The Blue"],
+    "requirements": { "year2": ["Level 40"] },
+    "obtainable": { "year2": ["Exotic Engram", "Exotic chest in King's Fall"] },
+    "light": { "min": [280], "max": [335] },
+    "perks": {
+      "year2": {
+        "base": ["Arc Burn", "Infuse"],
+        "one": [
+          "CQB Ballistics",
+          "Smart Drift Control",
+          "Aggressive Ballistics"
+        ],
+        "two": ["Persistance"],
+        "three": ["Hammer Forged", "Rifled Barrel", "Braced Frame"],
+        "four": ["Bolts From The Blue"]
+      }
+    },
     "bestUsePVP": [
       "Aggressive Ballistics",
       "Persitance",
@@ -3902,79 +4712,85 @@
       "Riffled Barrel",
       "Bolts From The Blue"
     ],
-    "rof": 88,
-    "impact": "8-12",
-    "range": "22-52",
-    "stability": "28-93",
-    "reload": "58-72",
-    "magazine": "28-36",
-    "zoom": 15,
-    "aim": "65-80",
-    "recoil": "80-100",
-    "speed": 90
+    "stats": {
+      "rof": 88,
+      "impact": "8-12",
+      "range": "22-52",
+      "stability": "28-93",
+      "reload": "58-72",
+      "magazine": "28-36",
+      "zoom": 15,
+      "aim": "65-80",
+      "recoil": "80-100",
+      "speed": 90
+    }
   },
   {
     "name": "Eyasluna",
     "description": "One day, young hawk, thou shalt sail beneath the silvered moon.",
     "icon": "https://static.wikia.nocookie.net/destinypedia/images/b/b7/ROI_Eyasluna.png/revision/latest/scale-to-width-down/1000?cb=20170219191921",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/3/3a/Eyasluna_icon.jpg/revision/latest/scale-to-width-down/96?cb=20170627213912",
     "rank": "Legendary",
     "class": "Hand Cannon",
     "tag": "Weapon",
     "slot": "Primary",
-    "requirements": ["Level 40"],
-    "obtainable": ["Crucible Match Reward"],
-    "baseLight": [220],
-    "maxLight": [335],
-    "basePerks": ["Kinetic Damage", "Infuse"],
-    "firstTierPerks": [
-      "Steadyhand IS",
-      "Truesight IS",
-      "Fastdraw IS",
-      "Sureshot IS",
-      "Quickdraw IS"
-    ],
-    "secondTierPerk": [
-      "Partial Refund",
-      "Underdog",
-      "Rescue Mag",
-      "Danger Close",
-      "Surrounded",
-      "Exhumed",
-      "Relentless Tracker",
-      "Spray and Play",
-      "Rangefinder",
-      "Triple Tap",
-      "Hot Swap",
-      "Last Resort"
-    ],
-    "thirdTierPerks": [
-      "Extended Mag",
-      "Hand Loaded",
-      "Hammer Forged",
-      "Snapshot",
-      "Lightweight",
-      "Braced Frame",
-      "Smallbore",
-      "Explosive Rounds",
-      "Casket Mage",
-      "Reinforced Barrel",
-      "Riffled Barrel",
-      "Injection Mold",
-      "High Caliber Rounds",
-      "Feather Mag",
-      "Oiled Frame"
-    ],
-    "fourthTierPerk": [
-      "Mulligan",
-      "Life Support",
-      "Third Eye",
-      "Grenadier",
-      "Reactive Reload",
-      "Icarus",
-      "Army of One",
-      "Hidden Hand",
-      "Luck in the Chamber"
-    ],
+    "requirements": { "year2": ["Level 40"] },
+    "obtainable": { "year2": ["Crucible Match Reward"] },
+    "light": { "min": [220], "max": [335] },
+    "perks": {
+      "year2": {
+        "base": ["Kinetic Damage", "Infuse"],
+        "one": [
+          "Steadyhand IS",
+          "Truesight IS",
+          "Fastdraw IS",
+          "Sureshot IS",
+          "Quickdraw IS"
+        ],
+        "two": [
+          "Partial Refund",
+          "Underdog",
+          "Rescue Mag",
+          "Danger Close",
+          "Surrounded",
+          "Exhumed",
+          "Relentless Tracker",
+          "Spray and Play",
+          "Rangefinder",
+          "Triple Tap",
+          "Hot Swap",
+          "Last Resort"
+        ],
+        "three": [
+          "Extended Mag",
+          "Hand Loaded",
+          "Hammer Forged",
+          "Snapshot",
+          "Lightweight",
+          "Braced Frame",
+          "Smallbore",
+          "Explosive Rounds",
+          "Casket Mage",
+          "Reinforced Barrel",
+          "Riffled Barrel",
+          "Injection Mold",
+          "High Caliber Rounds",
+          "Feather Mag",
+          "Oiled Frame"
+        ],
+        "four": [
+          "Mulligan",
+          "Life Support",
+          "Third Eye",
+          "Grenadier",
+          "Reactive Reload",
+          "Icarus",
+          "Army of One",
+          "Hidden Hand",
+          "Luck in the Chamber"
+        ]
+      }
+    },
     "bestUsePVP": [
       "Truesight IS",
       "Rangefinder",
@@ -3987,80 +4803,88 @@
       "Extended Mag",
       "Life Support"
     ],
-    "rof": 22,
-    "impact": 81,
-    "range": "26-62",
-    "stability": "31-96",
-    "reload": "26-70",
-    "magazine": "9-11",
-    "zoom": 15,
-    "aim": "50-55",
-    "recoil": 80,
-    "speed": "55-105"
+    "stats": {
+      "rof": 22,
+      "impact": 81,
+      "range": "26-62",
+      "stability": "31-96",
+      "reload": "26-70",
+      "magazine": "9-11",
+      "zoom": 15,
+      "aim": "50-55",
+      "recoil": 80,
+      "speed": "55-105"
+    }
   },
   {
     "name": "Appelant III",
     "description": "Executor-issued hand cannon for loyal supporters of the New Monarchy.",
     "icon": "https://static.wikia.nocookie.net/destinypedia/images/2/23/AppellantIII.jpg/revision/latest/scale-to-width-down/1000?cb=20151005022236",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/1/1a/Appellant_III_icon.jpg/revision/latest/scale-to-width-down/96?cb=20150909081859",
     "rank": "Legendary",
     "class": "Hand Cannon",
     "tag": "Weapon",
     "slot": "Primary",
     "requirements": ["Level 40"],
-    "obtainable": ["New Monarchy rank up reward", "Bought from New Monarchy"],
-    "baseLight": [220],
-    "maxLight": [335],
-    "basePerks": ["Kinetic Damage", "Infuse"],
-    "firstTierPerks": [
-      "Steadyhand IS",
-      "Truesight IS",
-      "Fastdraw IS",
-      "Sureshot IS",
-      "Quickdraw IS"
-    ],
-    "secondTierPerk": [
-      "Partial Refund",
-      "Underdog",
-      "Rescue Mag",
-      "Danger Close",
-      "Surrounded",
-      "Exhumed",
-      "Relentless Tracker",
-      "outlaw",
-      "Spray and Play",
-      "Rangefinder",
-      "Triple Tap",
-      "Hot Swap",
-      "Last Resort"
-    ],
-    "thirdTierPerks": [
-      "Extended Mag",
-      "Hand Loaded",
-      "Hammer Forged",
-      "Snapshot",
-      "Lightweight",
-      "Braced Frame",
-      "Smallbore",
-      "Explosive Rounds",
-      "Casket Mage",
-      "Reinforced Barrel",
-      "Riffled Barrel",
-      "Injection Mold",
-      "High Caliber Rounds",
-      "Feather Mag",
-      "Oiled Frame"
-    ],
-    "fourthTierPerk": [
-      "Mulligan",
-      "Life Support",
-      "Third Eye",
-      "Grenadier",
-      "Reactive Reload",
-      "Icarus",
-      "Army of One",
-      "Hidden Hand",
-      "Luck in the Chamber"
-    ],
+    "obtainable": {
+      "year2": ["New Monarchy rank up reward", "Bought from New Monarchy"]
+    },
+    "light": { "min": [220], "max": [335] },
+    "perks": {
+      "year2": {
+        "base": ["Kinetic Damage", "Infuse"],
+        "one": [
+          "Steadyhand IS",
+          "Truesight IS",
+          "Fastdraw IS",
+          "Sureshot IS",
+          "Quickdraw IS"
+        ],
+        "two": [
+          "Partial Refund",
+          "Underdog",
+          "Rescue Mag",
+          "Danger Close",
+          "Surrounded",
+          "Exhumed",
+          "Relentless Tracker",
+          "outlaw",
+          "Spray and Play",
+          "Rangefinder",
+          "Triple Tap",
+          "Hot Swap",
+          "Last Resort"
+        ],
+        "three": [
+          "Extended Mag",
+          "Hand Loaded",
+          "Hammer Forged",
+          "Snapshot",
+          "Lightweight",
+          "Braced Frame",
+          "Smallbore",
+          "Explosive Rounds",
+          "Casket Mage",
+          "Reinforced Barrel",
+          "Riffled Barrel",
+          "Injection Mold",
+          "High Caliber Rounds",
+          "Feather Mag",
+          "Oiled Frame"
+        ],
+        "four": [
+          "Mulligan",
+          "Life Support",
+          "Third Eye",
+          "Grenadier",
+          "Reactive Reload",
+          "Icarus",
+          "Army of One",
+          "Hidden Hand",
+          "Luck in the Chamber"
+        ]
+      }
+    },
     "bestUsePVP": [
       "Truesight IS",
       "Rangefinder",
@@ -4073,16 +4897,18 @@
       "Extended Mag",
       "Life Support"
     ],
-    "rof": 32,
-    "impact": 61,
-    "range": "13-49",
-    "stability": "8-73",
-    "reload": "42-70",
-    "magazine": "7-11",
-    "zoom": 15,
-    "aim": "76-81",
-    "recoil": 100,
-    "speed": "66-116"
+    "stats": {
+      "rof": 32,
+      "impact": 61,
+      "range": "13-49",
+      "stability": "8-73",
+      "reload": "42-70",
+      "magazine": "7-11",
+      "zoom": 15,
+      "aim": "76-81",
+      "recoil": 100,
+      "speed": "66-116"
+    }
   },
   {
     "name": "Byronic Hero",
@@ -4100,57 +4926,61 @@
     ],
     "baseLight": [220],
     "maxLight": [335],
-    "basePerks": ["Kinetic Damage", "Infuse"],
-    "firstTierPerks": [
-      "Steadyhand IS",
-      "Truesight IS",
-      "Fastdraw IS",
-      "Sureshot IS",
-      "Quickdraw IS"
-    ],
-    "secondTierPerk": [
-      "Partial Refund",
-      "Underdog",
-      "Rescue Mag",
-      "Danger Close",
-      "Surrounded",
-      "Exhumed",
-      "Relentless Tracker",
-      "outlaw",
-      "Spray and Play",
-      "Rangefinder",
-      "Triple Tap",
-      "Hot Swap",
-      "Last Resort"
-    ],
-    "thirdTierPerks": [
-      "Extended Mag",
-      "Hand Loaded",
-      "Hammer Forged",
-      "Snapshot",
-      "Lightweight",
-      "Braced Frame",
-      "Smallbore",
-      "Explosive Rounds",
-      "Casket Mage",
-      "Reinforced Barrel",
-      "Riffled Barrel",
-      "Injection Mold",
-      "High Caliber Rounds",
-      "Feather Mag",
-      "Oiled Frame"
-    ],
-    "fourthTierPerk": [
-      "Mulligan",
-      "Life Support",
-      "Third Eye",
-      "Grenadier",
-      "Reactive Reload",
-      "Icarus",
-      "Army of One",
-      "Hidden Hand",
-      "Luck in the Chamber"
-    ],
+    "perks": {
+      "year2": {
+        "base": ["Kinetic Damage", "Infuse"],
+        "one": [
+          "Steadyhand IS",
+          "Truesight IS",
+          "Fastdraw IS",
+          "Sureshot IS",
+          "Quickdraw IS"
+        ],
+        "two": [
+          "Partial Refund",
+          "Underdog",
+          "Rescue Mag",
+          "Danger Close",
+          "Surrounded",
+          "Exhumed",
+          "Relentless Tracker",
+          "outlaw",
+          "Spray and Play",
+          "Rangefinder",
+          "Triple Tap",
+          "Hot Swap",
+          "Last Resort"
+        ],
+        "three": [
+          "Extended Mag",
+          "Hand Loaded",
+          "Hammer Forged",
+          "Snapshot",
+          "Lightweight",
+          "Braced Frame",
+          "Smallbore",
+          "Explosive Rounds",
+          "Casket Mage",
+          "Reinforced Barrel",
+          "Riffled Barrel",
+          "Injection Mold",
+          "High Caliber Rounds",
+          "Feather Mag",
+          "Oiled Frame"
+        ],
+        "four": [
+          "Mulligan",
+          "Life Support",
+          "Third Eye",
+          "Grenadier",
+          "Reactive Reload",
+          "Icarus",
+          "Army of One",
+          "Hidden Hand",
+          "Luck in the Chamber"
+        ]
+      }
+    },
     "bestUsePVP": [
       "Truesight IS",
       "Rangefinder",
@@ -4163,16 +4993,18 @@
       "Extended Mag",
       "Life Support"
     ],
-    "rof": 22,
-    "impact": 81,
-    "range": "13-49",
-    "stability": "22-86",
-    "reload": "16-67",
-    "magazine": "7-11",
-    "zoom": 15,
-    "aim": "71-76",
-    "recoil": 100,
-    "speed": "54-104"
+    "stats": {
+      "rof": 22,
+      "impact": 81,
+      "range": "13-49",
+      "stability": "22-86",
+      "reload": "16-67",
+      "magazine": "7-11",
+      "zoom": 15,
+      "aim": "71-76",
+      "recoil": 100,
+      "speed": "54-104"
+    }
   },
   {
     "name": "Down and Doubt 0-0",
@@ -4191,47 +5023,51 @@
     ],
     "baseLight": [220],
     "maxLight": [335],
-    "basePerks": ["Kinetic Damage", "Infuse"],
-    "firstTierPerks": [
-      "Steadyhand IS",
-      "Truesight IS",
-      "Fastdraw IS",
-      "Sureshot IS",
-      "Quickdraw IS"
-    ],
-    "secondTierPerk": [
-      "Third Eye",
-      "Mulligan",
-      "Grenadier",
-      "Luck in the Chamber",
-      "Army of One",
-      "Zn Moment"
-    ],
-    "thirdTierPerks": [
-      "Snapshot",
-      "Quikcdraw",
-      "Single Point Sling",
-      "Extended Mag",
-      "Lightweight",
-      "Oiled Frame",
-      "Braced Frame",
-      "Reinforced Barrel",
-      "Riffled Barrel",
-      "Injection Mold"
-    ],
-    "fourthTierPerk": [
-      "Triple Tap",
-      "Icarus",
-      "Firefly",
-      "Rescue Mag",
-      "Life Support",
-      "Outlaw",
-      "Underdog",
-      "Eye of the Storm",
-      "Exhumed",
-      "Surrounded",
-      "Danger Close"
-    ],
+    "perks": {
+      "year2": {
+        "base": ["Kinetic Damage", "Infuse"],
+        "one": [
+          "Steadyhand IS",
+          "Truesight IS",
+          "Fastdraw IS",
+          "Sureshot IS",
+          "Quickdraw IS"
+        ],
+        "two": [
+          "Third Eye",
+          "Mulligan",
+          "Grenadier",
+          "Luck in the Chamber",
+          "Army of One",
+          "Zn Moment"
+        ],
+        "three": [
+          "Snapshot",
+          "Quikcdraw",
+          "Single Point Sling",
+          "Extended Mag",
+          "Lightweight",
+          "Oiled Frame",
+          "Braced Frame",
+          "Reinforced Barrel",
+          "Riffled Barrel",
+          "Injection Mold"
+        ],
+        "four": [
+          "Triple Tap",
+          "Icarus",
+          "Firefly",
+          "Rescue M}ag",
+          "Life Support",
+          "Outlaw",
+          "Underdog",
+          "Eye of the Storm",
+          "Exhumed",
+          "Surrounded",
+          "Danger Close"
+        ]
+      }
+    },
     "bestUsePVP": [
       "Truesight IS",
       "Rangefinder",
@@ -4244,16 +5080,18 @@
       "Extended Mag",
       "Life Support"
     ],
-    "rof": 32,
-    "impact": 61,
-    "range": "13-49",
-    "stability": "8-73",
-    "reload": "42-70",
-    "magazine": "7-11",
-    "zoom": 15,
-    "aim": "76-81",
-    "recoil": 100,
-    "speed": "66-116"
+    "stats": {
+      "rof": 32,
+      "impact": 61,
+      "range": "13-49",
+      "stability": "8-73",
+      "reload": "42-70",
+      "magazine": "7-11",
+      "zoom": 15,
+      "aim": "76-81",
+      "recoil": 100,
+      "speed": "66-116"
+    }
   },
   {
     "name": "Fate Bringer",
@@ -4309,56 +5147,60 @@
     "obtainable": ["Iron Banner Reward"],
     "baseLight": [300],
     "maxLight": [335],
-    "basePerks": ["Kinetic Damage", "Infuse"],
-    "firstTierPerks": [
-      "Steadyhand IS",
-      "Truesight IS",
-      "Fastdraw IS",
-      "Sureshot IS",
-      "Quickdraw IS"
-    ],
-    "secondTierPerk": [
-      "Partial Refund",
-      "Underdog",
-      "Rescue Mag",
-      "Danger Close",
-      "Surrounded",
-      "Exhumed",
-      "Relentless Tracker",
-      "Spray and Play",
-      "Rangefinder",
-      "Triple Tap",
-      "Hot Swap",
-      "Last Resort"
-    ],
-    "thirdTierPerks": [
-      "Extended Mag",
-      "Hand Loaded",
-      "Hammer Forged",
-      "Snapshot",
-      "Lightweight",
-      "Braced Frame",
-      "Smallbore",
-      "Explosive Rounds",
-      "Casket Mage",
-      "Reinforced Barrel",
-      "Riffled Barrel",
-      "Injection Mold",
-      "High Caliber Rounds",
-      "Feather Mag",
-      "Oiled Frame"
-    ],
-    "fourthTierPerk": [
-      "Mulligan",
-      "Life Support",
-      "Third Eye",
-      "Grenadier",
-      "Reactive Reload",
-      "Icarus",
-      "Army of One",
-      "Hidden Hand",
-      "Luck in the Chamber"
-    ],
+    "perks": {
+      "year2": {
+        "base": ["Kinetic Damage", "Infuse"],
+        "one": [
+          "Steadyhand IS",
+          "Truesight IS",
+          "Fastdraw IS",
+          "Sureshot IS",
+          "Quickdraw IS"
+        ],
+        "two": [
+          "Partial Refund",
+          "Underdog",
+          "Rescue Mag",
+          "Danger Close",
+          "Surrounded",
+          "Exhumed",
+          "Relentless Tracker",
+          "Spray and Play",
+          "Rangefinder",
+          "Triple Tap",
+          "Hot Swap",
+          "Last Resort"
+        ],
+        "three": [
+          "Extended Mag",
+          "Hand Loaded",
+          "Hammer Forged",
+          "Snapshot",
+          "Lightweight",
+          "Braced Frame",
+          "Smallbore",
+          "Explosive Rounds",
+          "Casket Mage",
+          "Reinforced Barrel",
+          "Riffled Barrel",
+          "Injection Mold",
+          "High Caliber Rounds",
+          "Feather Mag",
+          "Oiled Frame"
+        ],
+        "four": [
+          "Mulligan",
+          "Life Support",
+          "Third Eye",
+          "Grenadier",
+          "Reactive Reload",
+          "Icarus",
+          "Army of One",
+          "Hidden Hand",
+          "Luck in the Chamber"
+        ]
+      }
+    },
     "bestUsePVP": [
       "Truesight IS",
       "Rangefinder",
@@ -4372,16 +5214,18 @@
       "Life Support"
     ],
     "note": ["This weapon was only obtainable in year 2 Iron Banner event."],
-    "rof": 22,
-    "impact": 81,
-    "range": "25-61",
-    "stability": "17-81",
-    "reload": "22-70",
-    "magazine": "9-11",
-    "zoom": 15,
-    "aim": "71-76",
-    "recoil": 94,
-    "speed": "61-111"
+    "stats": {
+      "rof": 22,
+      "impact": 81,
+      "range": "25-61",
+      "stability": "17-81",
+      "reload": "22-70",
+      "magazine": "9-11",
+      "zoom": 15,
+      "aim": "71-76",
+      "recoil": 94,
+      "speed": "61-111"
+    }
   },
   {
     "name": "Gaheris-D",
@@ -4396,45 +5240,49 @@
     "obtainable": ["Gunsmith"],
     "baseLight": [250],
     "maxLight": [335],
-    "basePerks": ["Kinetic Damage", "Infuse"],
-    "firstTierPerks": [
-      "Steadyhand IS",
-      "Truesight IS",
-      "Fastdraw IS",
-      "Sureshot IS",
-      "Quickdraw IS"
-    ],
-    "secondTierPerk": [
-      "Triple Tap",
-      "Danger Close",
-      "Surrounded",
-      "Last Resort",
-      "Relentless Tracker",
-      "Hot Swap",
-      "Army of One",
-      "Crowd Control"
-    ],
-    "thirdTierPerks": [
-      "Outlaw",
-      "Who's Next",
-      "Final Round",
-      "Reactive Reload",
-      "Rangefinder",
-      "Spray and Play",
-      "Feeding Frenzy",
-      "Zen Meteor"
-    ],
-    "fourthTierPerk": [
-      "Snapshot",
-      "Hand Loaded",
-      "Speed Reload",
-      "Armor Piercing Rounds",
-      "High Caliber Rounds",
-      "Explosive Rounds",
-      "Oiled Frame",
-      "Smallbore",
-      "Reinforced Barrel"
-    ],
+    "perks": {
+      "year2": {
+        "base": ["Kinetic Damage", "Infuse"],
+        "one": [
+          "Steadyhand IS",
+          "Truesight IS",
+          "Fastdraw IS",
+          "Sureshot IS",
+          "Quickdraw IS"
+        ],
+        "two": [
+          "Triple Tap",
+          "Danger Close",
+          "Surrounded",
+          "Last Resort",
+          "Relentless Tracker",
+          "Hot Swap",
+          "Army of One",
+          "Crowd Control"
+        ],
+        "three": [
+          "Outlaw",
+          "Who's Next",
+          "Final Round",
+          "Reactive Reload",
+          "Rangefinder",
+          "Spray and Play",
+          "Feeding Frenzy",
+          "Zen Meteor"
+        ],
+        "four": [
+          "Snapshot",
+          "Hand Loaded",
+          "Speed Reload",
+          "Armor Piercing Rounds",
+          "High Caliber Rounds",
+          "Explosive Rounds",
+          "Oiled Frame",
+          "Smallbore",
+          "Reinforced Barrel"
+        ]
+      }
+    },
     "bestUsePVP": [
       "Truesight IS",
       "Last Resort",
@@ -4445,16 +5293,18 @@
     "note": [
       "This weapon is made by Häkke. Häkke doesn't follow the traditional perk system."
     ],
-    "rof": 22,
-    "impact": 81,
-    "range": "11-47",
-    "stability": "36-76",
-    "reload": "34-70",
-    "magazine": "6-7",
-    "zoom": 15,
-    "aim": "80-85",
-    "recoil": 90,
-    "speed": "55-80"
+    "stats": {
+      "rof": 22,
+      "impact": 81,
+      "range": "11-47",
+      "stability": "36-76",
+      "reload": "34-70",
+      "magazine": "6-7",
+      "zoom": 15,
+      "aim": "80-85",
+      "recoil": 90,
+      "speed": "55-80"
+    }
   },
   {
     "name": "Zaouli's Bane",
@@ -4469,30 +5319,32 @@
     "obtainable": ["King's Fall (Hard)"],
     "baseLight": [250],
     "maxLight": [335],
-    "basePerks": ["Kinetic Damage", "Will of Light", "Infuse"],
-    "firstTierPerks": [
-      "Smart Drift Control",
-      "Accurized Ballistics",
-      "Field Choke"
-    ],
-    "secondTierPerk": ["Cocoon"],
-    "thirdTierPerks": ["Hand Loaded", "Leightweight", "Reinforced Barrel"],
-    "fourthTierPerk": ["Firefly", "Hip Fire", "Surrounded", "Life Leech"],
+    "perks": {
+      "year2": {
+        "base": ["Kinetic Damage", "Will of Light", "Infuse"],
+        "one": ["Smart Drift Control", "Accurized Ballistics", "Field Choke"],
+        "two": ["Cocoon"],
+        "three": ["Hand Loaded", "Leightweight", "Reinforced Barrel"],
+        "four": ["Firefly", "Hip Fire", "Surrounded", "Life Leech"]
+      }
+    },
     "bestUsePVP": ["Field Choke", "Cocoon", "Reinforced Barrel", "Hip Fire"],
     "bestUsePVE": ["Field Choke", "Cocoon", "Reinforced Barrel", "Firefly"],
     "note": [
       "This weapon is made by the Hive. It does not follow the traditional perk system."
     ],
-    "rof": 32,
-    "impact": "71-73",
-    "range": "9-42",
-    "stability": "11-54",
-    "reload": 29,
-    "magazine": 11,
-    "zoom": 15,
-    "aim": "80-90",
-    "recoil": 95,
-    "speed": 95
+    "stats": {
+      "rof": 32,
+      "impact": "71-73",
+      "range": "9-42",
+      "stability": "11-54",
+      "reload": 29,
+      "magazine": 11,
+      "zoom": 15,
+      "aim": "80-90",
+      "recoil": 95,
+      "speed": 95
+    }
   },
   {
     "name": "Harrowed Zaouli's Bane",
@@ -4507,30 +5359,32 @@
     "obtainable": ["King's Fall (Hard)"],
     "baseLight": [250],
     "maxLight": [335],
-    "basePerks": ["Kinetic Damage", "Will of Light", "Infuse"],
-    "firstTierPerks": [
-      "Smart Drift Control",
-      "Accurized Ballistics",
-      "Field Choke"
-    ],
-    "secondTierPerk": ["Cocoon"],
-    "thirdTierPerks": ["Hand Loaded", "Leightweight", "Reinforced Barrel"],
-    "fourthTierPerk": ["Firefly", "Hip Fire", "Surrounded", "Life Leech"],
+    "perks": {
+      "year2": {
+        "base": ["Kinetic Damage", "Will of Light", "Infuse"],
+        "one": ["Smart Drift Control", "Accurized Ballistics", "Field Choke"],
+        "two": ["Cocoon"],
+        "three": ["Hand Loaded", "Leightweight", "Reinforced Barrel"],
+        "four": ["Firefly", "Hip Fire", "Surrounded", "Life Leech"]
+      }
+    },
     "bestUsePVP": ["Field Choke", "Cocoon", "Reinforced Barrel", "Hip Fire"],
     "bestUsePVE": ["Field Choke", "Cocoon", "Reinforced Barrel", "Firefly"],
     "note": [
       "This weapon is made by the Hive. It does not follow the traditional perk system."
     ],
-    "rof": 32,
-    "impact": "71-73",
-    "range": "9-42",
-    "stability": "11-54",
-    "reload": 29,
-    "magazine": 11,
-    "zoom": 15,
-    "aim": "80-90",
-    "recoil": 95,
-    "speed": 95
+    "stats": {
+      "rof": 32,
+      "impact": "71-73",
+      "range": "9-42",
+      "stability": "11-54",
+      "reload": 29,
+      "magazine": 11,
+      "zoom": 15,
+      "aim": "80-90",
+      "recoil": 95,
+      "speed": 95
+    }
   },
   {
     "name": "Auto Rifle",
