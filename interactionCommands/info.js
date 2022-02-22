@@ -85,7 +85,7 @@ module.exports = {
                     title.push('Description')
                     embeds.push(descriptionEmbed)
                 }
-                if (d.rank || d.tag || d.class || d.tag || d.modes || d.slot || d.character) {
+                if (d.rank || d.tag || d.class || d.tag || d.modes || d.slot || d.character || d.element) {
                     let infoEmbed = new Discord.MessageEmbed()
                         .setTitle('General Info')
                         .setDescription(`General info of ${d.name}`)
@@ -96,6 +96,7 @@ module.exports = {
                     if (d.modes) infoEmbed.addField('Modes', Array.from(d.modes).join('\n'), true)
                     if (d.slot) infoEmbed.addField('Slot', d.slot, true)
                     if (d.character) infoEmbed.addField('Character', d.character, true)
+                    if (d.element) infoEmbed.addField('Element', Array.from(d.element).join('\n'), true)
                     title.push('General Info')
                     embeds.push(infoEmbed)
                 }

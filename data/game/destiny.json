@@ -14,12 +14,12 @@
   },
   {
     "name": "Voidwalker",
-    "description": "Voidwalker focuses on the manipulation and use of Void energy to obliterate enemies. It has been described by Bungie as a glass cannon, offering a strong offense but taking away from defense. This is also the starter subclass for warlock.",
+    "description": "Those who have stared into the Void are not bound by the laws of space and time.",
     "tag": "Subclass",
     "character": "Warlock",
     "icon": "https://static.wikia.nocookie.net/destinypedia/images/5/59/Voidwalker_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314202050",
     "logo": "https://static.wikia.nocookie.net/destinypedia/images/5/59/Voidwalker_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314202050",
-    "element": "Void",
+    "element": ["Void"],
     "grenade": {
       "one": {
         "name": "Vortex Grenade",
@@ -147,12 +147,12 @@
   },
   {
     "name": "Sunsinger",
-    "description": "Sunsinger's super ability, Radiance, allows the player to deal more area damage by reducing the cooldown of grenades while active. Radiance's modifiers can allow a player to revive themselves after death, reduce incoming damage or reduce the cooldowns of a fireteam while active. Sunsinger subclass is unlocked when any of a player's characters reach level 15.",
+    "description": "There are flames that even the Darkness cannot extinguish.",
     "tag": "Subclass",
     "character": "Warlock",
-    "icon": "",
-    "logo": "",
-    "element": "Solar",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/0/03/Sunsinger_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314202012",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/0/03/Sunsinger_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314202012",
+    "element": ["Solar"],
     "grenade": {
       "one": {
         "name": "Solar Grenade",
@@ -280,12 +280,12 @@
   },
   {
     "name": "Stormcaller",
-    "description": "Stormcallers directly manipulate Arc energy, focusing body and mind to channel and chain the lightning. Their enemies are given fair warning— flee from battle, or face the storm. This subclass can be obtained when doing the level 26 mission `Phobos`.",
+    "description": "Harmony within, hurricane without.",
     "tag": "Subclass",
     "character": "Warlock",
-    "icon": "",
-    "logo": "",
-    "element": "Arc",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/7/7e/Stormcaller_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314202128",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/7/7e/Stormcaller_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314202128",
+    "element": ["Arc"],
     "grenade": {
       "one": {
         "name": "Pulse Grenade",
@@ -421,7 +421,7 @@
   {
     "name": "Nightstalker",
     "description": "Draw from the Void. Light the way.",
-    "element": "Void",
+    "element": ["Void"],
     "tag": "Subclass",
     "character": "Hunter",
     "icon": "https://static.wikia.nocookie.net/destinypedia/images/3/39/Nightstalker_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314201340",
@@ -553,267 +553,267 @@
   },
   {
     "name": "Gunslinger",
-    "description": "",
+    "description": "A lone wolf who lives for the perfect shot.",
     "tag": "Subclass",
     "character": "Hunter",
-    "icon": "https://static.wikia.nocookie.net/destinypedia/images/3/39/Nightstalker_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314201340",
-    "logo": "https://static.wikia.nocookie.net/destinypedia/images/3/39/Nightstalker_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314201340",
-    "element": "Solar",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/9/91/Gunslinger_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314201524",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/9/91/Gunslinger_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314201524",
+    "element": ["Solar"],
     "grenade": {
       "one": {
-        "name": "",
-        "description": ""
+        "name": "Incendiary Grenade",
+        "description": "An explosive grenade that sets enemies on fire, causing additional damage to them."
       },
       "two": {
-        "name": "",
-        "description": ""
+        "name": "Swarm Grenade",
+        "description": "A grenade which detonates on impact, releasing multiple drones that seek nearby enemies."
       },
       "three": {
-        "name": "",
-        "description": ""
+        "name": "Tripmine Grenade",
+        "description": "An explosive grenade that sticks to surfaces and detonates when enemies pass through its laser trigger."
       }
     },
     "movement": {
-      "name": "",
-      "description": "",
+      "name": "Double Jump",
+      "description": "Jump a second time after leaving the ground.",
       "modifiers": {
         "one": {
-          "name": "",
-          "description": ""
+          "name": "Better Control",
+          "description": "Upgrades Double Jump for better directional control while in the air."
         },
         "two": {
-          "name": "",
-          "description": ""
+          "name": "Triple Jump",
+          "description": "Upgrades Double Jump with a third jump."
         },
         "three": {
-          "name": "",
-          "description": ""
+          "name": "Higher Jump",
+          "description": "Upgrades Double Jump for even greater height."
         }
       }
     },
     "super": {
-      "name": "",
-      "description": "",
+      "name": "Golden Gun",
+      "description": "Summon a flaming pistol which disintegrates enemies with Solar Light.",
       "modifiers": {
         "one": {
-          "name": "",
-          "description": ""
+          "name": "Deadeye",
+          "description": "Significantly increases the accuracy and damage of Golden Gun."
         },
         "two": {
-          "name": "",
-          "description": ""
+          "name": "Combustion",
+          "description": "Killing enemies with Golden Gun causes them to explode after about one second."
         },
         "three": {
-          "name": "",
-          "description": ""
+          "name": "Gunfighter",
+          "description": "Reduces the cooldown of Golden Gun, allowing it to be used more often."
         }
       }
     },
     "melee": {
-      "name": "",
-      "description": "",
+      "name": "Throwing Knife",
+      "description": "Throw a knife from a distance.",
       "modifiers": {
         "one": {
-          "name": "",
-          "description": ""
+          "name": "Circle of Life",
+          "description": "Getting a precision kill with Throwing Knife reduces Golden Gun's cooldown."
         },
         "two": {
-          "name": "",
-          "description": ""
+          "name": "Incendiary Blade",
+          "description": "Throwing Knife sets enemies on fire, dealing additional damage over time."
         },
         "three": {
-          "name": "",
-          "description": ""
+          "name": "Knife Juggler",
+          "description": "Precision kills with Throwing Knife immediately resets its cooldown."
         }
       }
     },
     "class": {
       "one": {
-        "name": "",
-        "description": ""
+        "name": "Path Forgotten",
+        "description": "Training focused on toughness and speed."
       },
       "two": {
-        "name": "",
-        "description": ""
+        "name": "Path Forbidden",
+        "description": "Training focused on battle recovery and speed."
       },
       "three": {
-        "name": "",
-        "description": ""
+        "name": "Path Unknown",
+        "description": "Training focused on battle recovery and toughness."
       }
     },
     "ability": {
       "one": {
-        "name": "",
-        "description": ""
+        "name": "Scavenger",
+        "description": "Picking up ammo reduces the cooldown of your grenade and Throwing Knife."
       },
       "two": {
-        "name": "",
-        "description": ""
+        "name": "Keyhole",
+        "description": "Golden Gun overpenetrates and can damage multiple targets."
       },
       "three": {
-        "name": "",
-        "description": ""
+        "name": "Gunslinger's Trance",
+        "description": "Precision kills increase weapon stability. Stacks up to 3 times."
       }
     },
     "attributes": {
       "one": {
-        "name": "",
-        "description": ""
+        "name": "Way of the Drifter",
+        "description": "Training focused on all attributes."
       },
       "two": {
-        "name": "",
-        "description": ""
+        "name": "Way of the Fearless",
+        "description": "Training focused on toughness at all costs."
       },
       "three": {
-        "name": "",
-        "description": ""
+        "name": "Way of the Nomad",
+        "description": "Training focused on maximum battle recovery."
       }
     },
     "abilityTwo": {
       "one": {
-        "name": "",
-        "description": ""
+        "name": "Chain of Woe",
+        "description": "Precision kills increase weapon reload speed. Stacks up to 3 times."
       },
       "two": {
-        "name": "",
-        "description": ""
+        "name": "Over the Horizon",
+        "description": "Increases the range of Golden Gun."
       },
       "three": {
-        "name": "",
-        "description": ""
+        "name": "Gambler's Dagger",
+        "description": "Gain an additional Throwing Knife."
       }
     }
   },
   {
     "name": "Bladedancer",
-    "description": "",
+    "description": "Beautiful lethality, relentless style.",
     "tag": "Subclass",
     "character": "Hunter",
-    "icon": "https://static.wikia.nocookie.net/destinypedia/images/3/39/Nightstalker_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314201340",
-    "logo": "https://static.wikia.nocookie.net/destinypedia/images/3/39/Nightstalker_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314201340",
-    "element": "",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/f/fd/Bladedancer_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314201445",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/f/fd/Bladedancer_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314201445",
+    "element": ["Arc"],
     "grenade": {
       "one": {
-        "name": "",
-        "description": ""
+        "name": "Flux Grenade",
+        "description": "An explosive grenade which deals additional damage when attached to enemies."
       },
       "two": {
-        "name": "",
-        "description": ""
+        "name": "Skip Grenade",
+        "description": "A grenade which splits on impact, creating multiple projectiles which seek enemies."
       },
       "three": {
-        "name": "",
-        "description": ""
+        "name": "Arcbolt Grenade",
+        "description": "A grenade that chains bolts of lightning to nearby enemies."
       }
     },
     "movement": {
-      "name": "",
-      "description": "",
+      "name": "Double Jump",
+      "description": "Jump a second time after leaving the ground.",
       "modifiers": {
         "one": {
-          "name": "",
-          "description": ""
+          "name": "Better Control",
+          "description": "Upgrades Double Jump for better directional control while in the air."
         },
         "two": {
-          "name": "",
-          "description": ""
+          "name": "Higher Jump",
+          "description": "Upgrades Double Jump for even greater height."
         },
         "three": {
-          "name": "",
-          "description": ""
+          "name": "Blink",
+          "description": "A short distance teleport that replaces Double Jump."
         }
       }
     },
     "super": {
-      "name": "",
-      "description": "",
+      "name": "Arc Blade",
+      "description": "Charge your blade with Arc Light and consume your foes with lightning.",
       "modifiers": {
         "one": {
-          "name": "",
-          "description": ""
+          "name": "Showstopper",
+          "description": "Press R1/R2 during Arc Blade to damage nearby enemies in a 360-degree radius from the player."
         },
         "two": {
-          "name": "",
-          "description": ""
+          "name": "Razor's Edge",
+          "description": "Press R1/R2 during Arc Blade to unleash a destructive wave of energy that travels along the ground in a straight path from the front of the player."
         },
         "three": {
-          "name": "",
-          "description": ""
+          "name": "Vanish",
+          "description": "Press R1/R2 during Arc Blade to disappear from sight for the duration of the Arc Blade Super or until an attack is made."
         }
       }
     },
     "melee": {
-      "name": "",
-      "description": "",
+      "name": "Blink Strike",
+      "description": "A powerful melee attack with extended range. Acts as a short distance teleport to the target.",
       "modifiers": {
         "one": {
-          "name": "",
-          "description": ""
+          "name": "Backstab",
+          "description": "Hitting an enemy from behind with Blink Strike causes significantly more damage."
         },
         "two": {
-          "name": "",
-          "description": ""
+          "name": "Escape Artist",
+          "description": "Hitting an enemy with Blink Strike grants brief invisibility."
         },
         "three": {
-          "name": "",
-          "description": ""
+          "name": "Fast Twitch",
+          "description": "Reduces the cooldown of Blink Strike."
         }
       }
     },
     "class": {
       "one": {
-        "name": "",
-        "description": ""
+        "name": "Path Forgotten",
+        "description": "Training focused on toughness and speed."
       },
       "two": {
-        "name": "",
-        "description": ""
+        "name": "Path Forbidden",
+        "description": "Training focused on battle recovery and speed."
       },
       "three": {
-        "name": "",
-        "description": ""
+        "name": "Path Unknown",
+        "description": "Training focused on battle recovery and toughness."
       }
     },
     "ability": {
       "one": {
-        "name": "",
-        "description": ""
+        "name": "Fleet Footed",
+        "description": "Increases maximum sprint speed and extends slide distance."
       },
       "two": {
-        "name": "",
-        "description": ""
+        "name": "Quick Draw",
+        "description": "Weapons are ready immediately."
       },
       "three": {
-        "name": "",
-        "description": ""
+        "name": "Shadowjack",
+        "description": "Increases the duration of invisibility effects."
       }
     },
     "attributes": {
       "one": {
-        "name": "",
-        "description": ""
+        "name": "Way of the Drifter",
+        "description": "Training focused on all attributes."
       },
       "two": {
-        "name": "",
-        "description": ""
+        "name": "Way of the Fearless",
+        "description": "Training focused on toughness at all costs."
       },
       "three": {
-        "name": "",
-        "description": ""
+        "name": "Way of the Nomad",
+        "description": "Training focused on maximum battle recovery."
       }
     },
     "abilityTwo": {
       "one": {
-        "name": "",
-        "description": ""
+        "name": "Encore",
+        "description": "Killing an enemy with Arc Blade extends its duration."
       },
       "two": {
-        "name": "",
-        "description": ""
+        "name": "Stalker",
+        "description": "Gain invisibility after crouching in place for a short time"
       },
       "three": {
-        "name": "",
-        "description": ""
+        "name": "Hungering Blade",
+        "description": "Kills with Arc Blade and Blink Strike immediately regenerate health."
       }
     }
   },
@@ -826,400 +826,400 @@
   },
   {
     "name": "Defender",
-    "description": "",
+    "description": "The wall against which the Darkness breaks.",
     "tag": "Subclass",
     "character": "Titan",
-    "icon": "https://static.wikia.nocookie.net/destinypedia/images/3/39/Nightstalker_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314201340",
-    "logo": "https://static.wikia.nocookie.net/destinypedia/images/3/39/Nightstalker_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314201340",
-    "element": "",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/0/01/Defender_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314200129",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/0/01/Defender_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314200129",
+    "element": ["Void"],
     "grenade": {
       "one": {
-        "name": "",
-        "description": ""
+        "name": "Magnetic Grenade",
+        "description": "A grenade that attaches to enemies and explodes twice."
       },
       "two": {
-        "name": "",
-        "description": ""
+        "name": "Spike Grenade",
+        "description": "A grenade that attaches to any surface and emits a torrent of damaging void light."
       },
       "three": {
-        "name": "",
-        "description": ""
+        "name": "Suppressor Grenade",
+        "description": "An explosive grenade that prevents enemies from using abilities for a short time."
       }
     },
     "movement": {
-      "name": "",
-      "description": "",
+      "name": "Lift",
+      "description": "Jump and press again while in the air to activate lift.",
       "modifiers": {
         "one": {
-          "name": "",
-          "description": ""
+          "name": "Increased Height",
+          "description": "Upgrades Lift to travel to greater heights."
         },
         "two": {
-          "name": "",
-          "description": ""
+          "name": "Increased Control",
+          "description": "Upgrades Lift for better directional control while in the air."
         },
         "three": {
-          "name": "",
-          "description": ""
+          "name": "Catapult",
+          "description": "Upgrades Lift to provide a strong initial burst of momentum."
         }
       }
     },
     "super": {
-      "name": "",
-      "description": "",
+      "name": "Ward of Dawn",
+      "description": "Shape Void Light into an indestructible shield to protect you and your allies from harm. Replenishes grenade and melee energy on activation.",
       "modifiers": {
         "one": {
-          "name": "",
-          "description": ""
+          "name": "Armor of Light",
+          "description": "While inside Ward of Dawn you and your allies gain significant damage resistance."
         },
         "two": {
-          "name": "",
-          "description": ""
+          "name": "Blessing of Light",
+          "description": "Passing through Ward of Dawn grants you and your allies a temporary shield."
         },
         "three": {
-          "name": "",
-          "description": ""
+          "name": "Weapons of Light",
+          "description": "Passing through Ward of Dawn grants you and your allies a temporary increase to weapon damage."
         }
       }
     },
     "melee": {
-      "name": "",
-      "description": "",
+      "name": "Disintegrate",
+      "description": "Killing an enemy with this powerful melee attack creates a Force Barrier around you which absorbs incoming damage.",
       "modifiers": {
         "one": {
-          "name": "",
-          "description": ""
+          "name": "War Machine",
+          "description": "While Force Barrier is active all your weapons reload and ready blindingly fast."
         },
         "two": {
-          "name": "",
-          "description": ""
+          "name": "Gift of Light",
+          "description": "While Force Barrier is active all your melee kills create Orbs of Light."
         },
         "three": {
-          "name": "",
-          "description": ""
+          "name": "Unbreakable",
+          "description": "Force Barrier continually recharges."
         }
       }
     },
     "class": {
       "one": {
-        "name": "",
-        "description": ""
+        "name": "Titan Codex I",
+        "description": "Training focused on battle recovery and toughness."
       },
       "two": {
-        "name": "",
-        "description": ""
+        "name": "Titan Codex II",
+        "description": "Training focused on speed and toughness."
       },
       "three": {
-        "name": "",
-        "description": ""
+        "name": "Titan Codex III",
+        "description": "Training focused on battle recovery and speed."
       }
     },
     "ability": {
       "one": {
-        "name": "",
-        "description": ""
+        "name": "Bastion",
+        "description": "Increases the duration of Ward of Dawn."
       },
       "two": {
-        "name": "",
-        "description": ""
+        "name": "Relentless",
+        "description": "Increases the duration and strength of the Force Barrier."
       },
       "three": {
-        "name": "",
-        "description": ""
+        "name": "Gift of the Void",
+        "description": "As Ward of Dawn takes damage from enemy fire it creates additional Orbs of Light."
       }
     },
     "attributes": {
       "one": {
-        "name": "",
-        "description": ""
+        "name": "Titan Codex IV",
+        "description": "Training focused on all attributes."
       },
       "two": {
-        "name": "",
-        "description": ""
+        "name": "Titan Codex V",
+        "description": "Training focused on maximum battle recovery."
       },
       "three": {
-        "name": "",
-        "description": ""
+        "name": "Titan Codex VI",
+        "description": "Training focused on raw speed."
       }
     },
     "abilityTwo": {
       "one": {
-        "name": "",
-        "description": ""
+        "name": "Untouchable",
+        "description": "Reduces the cooldown time of Ward of Dawn."
       },
       "two": {
-        "name": "",
-        "description": ""
+        "name": "Iron Harvest",
+        "description": "Heavy Weapon kills have a chance to create Orbs of Light for your allies."
       },
       "three": {
-        "name": "",
-        "description": ""
+        "name": "Illuminated",
+        "description": "Increases the benefits granted by Blessing of Light and Weapons of Light."
       }
     }
   },
   {
     "name": "Sunbreaker",
-    "description": "",
+    "description": "Forge the fury of undying suns.",
     "tag": "Subclass",
     "character": "Titan",
-    "icon": "https://static.wikia.nocookie.net/destinypedia/images/3/39/Nightstalker_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314201340",
-    "logo": "https://static.wikia.nocookie.net/destinypedia/images/3/39/Nightstalker_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314201340",
-    "element": "",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/b/bc/Sunbreaker_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314200312",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/b/bc/Sunbreaker_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314200312",
+    "element": ["Solar"],
     "grenade": {
       "one": {
-        "name": "",
-        "description": ""
+        "name": "Fusion Grenade",
+        "description": "A grenade that causes bonus damage when attached to its target."
       },
       "two": {
-        "name": "",
-        "description": ""
+        "name": "Thermite Grenade",
+        "description": "Grenade explosion sends forward a burning line of fire."
       },
       "three": {
-        "name": "",
-        "description": ""
+        "name": "Incendiary Grenade",
+        "description": "An explosive grenade that sets enemies on fire, causing additional damage to them."
       }
     },
     "movement": {
-      "name": "",
-      "description": "",
+      "name": "Lift",
+      "description": "Jump and press again while in the air to activate lift.",
       "modifiers": {
         "one": {
-          "name": "",
-          "description": ""
+          "name": "Increased Height",
+          "description": "Upgrades Lift to travel to greater heights."
         },
         "two": {
-          "name": "",
-          "description": ""
+          "name": "Increased Control",
+          "description": "Upgrades Lift for better directional control while in the air."
         },
         "three": {
-          "name": "",
-          "description": ""
+          "name": "Catapult",
+          "description": "Upgrades Lift to provide a strong initial burst of momentum."
         }
       }
     },
     "super": {
-      "name": "",
-      "description": "",
+      "name": "Hammer of Sol",
+      "description": "Summon a flaming hammer and wreak destruction down upon your enemies.",
       "modifiers": {
         "one": {
-          "name": "",
-          "description": ""
+          "name": "Forge Master",
+          "description": "Throw more hammers, and hammers cause bigger explosions."
         },
         "two": {
-          "name": "",
-          "description": ""
+          "name": "Suncharge",
+          "description": "Press R1 during Hammer of Sol to hurl yourself forward. Enemies in your path explode, chaining fiery damage to other enemies."
         },
         "three": {
-          "name": "",
-          "description": ""
+          "name": "Scorched Earth",
+          "description": "Ignite the world, creating Sunspots everywhere your Hammer of Sol impacts."
         }
       }
     },
     "melee": {
-      "name": "",
-      "description": "",
+      "name": "Sunstrike",
+      "description": "Ignite your enemies with a heavy solar strike",
       "modifiers": {
         "one": {
-          "name": "",
-          "description": ""
+          "name": "Melting Point",
+          "description": "Burn away your target's defense. Targets take more damage from both you and your allies."
         },
         "two": {
-          "name": "",
-          "description": ""
+          "name": "Thermal Vent",
+          "description": "Sunstrike releases a Solar explosion on hit. Kills create a Sunspot that damages enemies inside."
         },
         "three": {
-          "name": "",
-          "description": ""
+          "name": "Stoke the Forge",
+          "description": "Natively reduces the cooldown of your Sunstrike melee. Getting a killing blow with Sunstrike instantly recharges it."
         }
       }
     },
     "class": {
       "one": {
-        "name": "",
-        "description": ""
+        "name": "Titan Codex I",
+        "description": "Training focused on battle recovery and toughness."
       },
       "two": {
-        "name": "",
-        "description": ""
+        "name": "Titan Codex II",
+        "description": "Training focused on speed and toughness."
       },
       "three": {
-        "name": "",
-        "description": ""
+        "name": "Titan Codex III",
+        "description": "Training focused on battle recovery and speed."
       }
     },
     "ability": {
       "one": {
-        "name": "",
-        "description": ""
+        "name": "Flameseeker",
+        "description": "Your Hammer of Sol will alter its flight path to seek out your enemies."
       },
       "two": {
-        "name": "",
-        "description": ""
+        "name": "Explosive Pyre",
+        "description": "Enemies felled by your hammer explode, chaining fiery Solar damage to others."
       },
       "three": {
-        "name": "",
-        "description": ""
+        "name": "Fleetfire",
+        "description": "Enemies brought down by your fire grant you bonus agility and reload speed for a short time. Stacks up to 3 times."
       }
     },
     "attributes": {
       "one": {
-        "name": "",
-        "description": ""
+        "name": "Titan Codex IV",
+        "description": "Training focused on all attributes."
       },
       "two": {
-        "name": "",
-        "description": ""
+        "name": "Titan Codex V",
+        "description": "Training focused on maximum battle recovery."
       },
       "three": {
-        "name": "",
-        "description": ""
+        "name": "Titan Codex VI",
+        "description": "Training focused on raw speed."
       }
     },
     "abilityTwo": {
       "one": {
-        "name": "",
-        "description": ""
+        "name": "Simmering Flames",
+        "description": "When Super energy is full, grenade and melee abilities recharge twice as fast."
       },
       "two": {
-        "name": "",
-        "description": ""
+        "name": "Cauterize",
+        "description": "Enemies brought down by your fire regenerate your health."
       },
       "three": {
-        "name": "",
-        "description": ""
+        "name": "Fire Keeper",
+        "description": "When standing in a Sunspot you gain an Overshield and Hammer of Sol lasts longer."
       }
     }
   },
   {
     "name": "Striker",
-    "description": "",
+    "description": "At close quarters a fist is better than any gun.",
     "tag": "Subclass",
     "character": "Titan",
-    "icon": "https://static.wikia.nocookie.net/destinypedia/images/3/39/Nightstalker_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314201340",
-    "logo": "https://static.wikia.nocookie.net/destinypedia/images/3/39/Nightstalker_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314201340",
-    "element": "",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/1/11/Striker_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314195026",
+    "logo": "https://static.wikia.nocookie.net/destinypedia/images/1/11/Striker_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314195026",
+    "element": ["Arc"],
     "grenade": {
       "one": {
-        "name": "",
-        "description": ""
+        "name": "Flashbang Grenade",
+        "description": "An explosive grenade that disorients the enemies it damages."
       },
       "two": {
-        "name": "",
-        "description": ""
+        "name": "Pulse Grenade",
+        "description": "A grenade that periodically damages enemies inside its explosive radius."
       },
       "three": {
-        "name": "",
-        "description": ""
+        "name": "Lightning Grenade",
+        "description": "A grenade that sticks to any surface, periodically emitting bolts of lightning."
       }
     },
     "movement": {
-      "name": "",
-      "description": "",
+      "name": "Lift",
+      "description": "Jump and press again while in the air to activate lift.",
       "modifiers": {
         "one": {
-          "name": "",
-          "description": ""
+          "name": "Increased Height",
+          "description": "Upgrades Lift to travel to greater heights."
         },
         "two": {
-          "name": "",
-          "description": ""
+          "name": "Increased Control",
+          "description": "Upgrades Lift for better directional control while in the air."
         },
         "three": {
-          "name": "",
-          "description": ""
+          "name": "Catapult",
+          "description": "Upgrades Lift to provide a strong initial burst of momentum."
         }
       }
     },
     "super": {
-      "name": "",
-      "description": "",
+      "name": "Fist of Havoc",
+      "description": "Smash the ground and dissolve nearby enemies in a maelstrom of Arc Light.",
       "modifiers": {
         "one": {
-          "name": "",
-          "description": ""
+          "name": "Aftermath",
+          "description": "Fist of Havoc leaves a damage-dealing field in its wake."
         },
         "two": {
-          "name": "",
-          "description": ""
+          "name": "Death from Above",
+          "description": "After jumping, Fist of Havoc can be aimed at enemies below."
         },
         "three": {
-          "name": "",
-          "description": ""
+          "name": "Shockwave",
+          "description": "Fist of Havoc unleashes a wave of devastating energy which travels along the ground."
         }
       }
     },
     "melee": {
-      "name": "",
-      "description": "",
+      "name": "Storm Fist",
+      "description": "A punishing melee attack that deals bonus damage.",
       "modifiers": {
         "one": {
-          "name": "",
-          "description": ""
+          "name": "Overload",
+          "description": "Hits with Storm Fist have a chance to immediately reset its cooldown."
         },
         "two": {
-          "name": "",
-          "description": ""
+          "name": "Discharge",
+          "description": "Hits with Storm Fist deal area of effect damage around the target."
         },
         "three": {
-          "name": "",
-          "description": ""
+          "name": "Amplify",
+          "description": "Kills with Storm Fist significantly reduce the cooldown of Fist of Havoc."
         }
       }
     },
     "class": {
       "one": {
-        "name": "",
-        "description": ""
+        "name": "Titan Codex I",
+        "description": "Training focused on battle recovery and toughness."
       },
       "two": {
-        "name": "",
-        "description": ""
+        "name": "Titan Codex II",
+        "description": "Training focused on speed and toughness."
       },
       "three": {
-        "name": "",
-        "description": ""
+        "name": "Titan Codex III",
+        "description": "Training focused on battle recovery and speed."
       }
     },
     "ability": {
       "one": {
-        "name": "",
-        "description": ""
+        "name": "Headstrong",
+        "description": "Sprinting increases the leap distance of Fist of Havoc."
       },
       "two": {
-        "name": "",
-        "description": ""
+        "name": "Aftershocks",
+        "description": "Increases the duration of the Pulse Grenade, Lightning Grenade, and Aftermath."
       },
       "three": {
-        "name": "",
-        "description": ""
+        "name": "Transfusion",
+        "description": "Kills with Storm Fist or Shoulder Charge immediately trigger health regeneration."
       }
     },
     "attributes": {
       "one": {
-        "name": "",
-        "description": ""
+        "name": "Titan Codex IV",
+        "description": "Training focused on all attributes."
       },
       "two": {
-        "name": "",
-        "description": ""
+        "name": "Titan Codex V",
+        "description": "Training focused on maximum battle recovery."
       },
       "three": {
-        "name": "",
-        "description": ""
+        "name": "Titan Codex VI",
+        "description": "Training focused on raw speed."
       }
     },
     "abilityTwo": {
       "one": {
-        "name": "",
-        "description": ""
+        "name": "Unstoppable",
+        "description": "You are harder to kill while using Fist of Havoc."
       },
       "two": {
-        "name": "",
-        "description": ""
+        "name": "Shoulder Charge",
+        "description": "After sprinting for a short time, unleash a devastating melee attack."
       },
       "three": {
-        "name": "",
-        "description": ""
+        "name": "Juggernaut",
+        "description": "After sprinting for a short time, gain a protective shield."
       }
     }
   },
@@ -1853,7 +1853,7 @@
     "tactic": "In regular combat, Psions present a threat equal to or less than that of standard Legionaries. Their thinner armor means they take more damage than a full-fledged Cabal unit, even on higher difficulties, and they can easily be dispatched with a few center of mass shots or a well-placed headshot. They only become a threat if the Epic modifier is active, which grants them a Void shield.\n\nAlthough they are physically weak, Psions are no pushovers. When they begin to glow and float slightly, they will release a shockwave attack. This move is extremely powerful, reducing even the best Guardians to critical health by simply being near the blast. It has a medium range, and can go through solid cover, meaning the only true way to avoid this attack is to either back up several paces, or run a good distance to the side. Therefore, it's advised that when they begin to signal this attack, either use this opportunity to dispatch them quickly, or move out of the vicinity.",
     "rank": "1",
     "species": "Cabal",
-    "element": "arc",
+    "element": ["arc"],
     "tag": "Enemy"
   },
   {
@@ -5387,34 +5387,10 @@
     }
   },
   {
-    "name": "Auto Rifle",
-    "icon": "https://static.wikia.nocookie.net/destinypedia/images/d/d0/Destiny_Assault_Rifle_1.jpg/revision/latest?cb=20140731021025",
-    "description": "Auto Rifles can be equipped in the primary weapon slot and are fully automatic weapons with high fire rate and low damage.",
-    "note": [
-      "Best statistics for Auto Rifles are High Fire rate, High Stability and Big Magazine."
-    ],
-    "slot": "Primary",
-    "bestUsePVP": [
-      "Persistance",
-      "Counter Balance",
-      "Glass Half Full",
-      "rangefinder"
-    ],
-    "bestUsePVE": ["Counter Balance", "Rangefinder", "Glass Half Full"],
-    "bestWeapons": [
-      "Doctrine of Passing",
-      "Soulstealers Claw",
-      "Atheon's Epilogue",
-      "Truth Serum"
-    ],
-    "tag": "Mechanic"
-  },
-  {
     "name": "Sunbreakers",
     "description": "\"When one can wield the fire of stars, what use is flesh and bone?\"",
     "icon": "https://static.wikia.nocookie.net/destinypedia/images/e/e3/ROI_Sunbreakers.png/revision/latest/scale-to-width-down/1000?cb=20161216041630",
     "logo": "https://static.wikia.nocookie.net/destinypedia/images/2/20/Sunbreakers_%28Year_2%29_icon.jpg/revision/latest/scale-to-width-down/96?cb=20150912164234",
-    "class": "",
     "character": "Warlock",
     "rank": "Exotic",
     "slot": "Gauntlets",
@@ -5472,6 +5448,29 @@
         ]
       }
     }
+  },
+  {
+    "name": "Auto Rifle",
+    "icon": "https://static.wikia.nocookie.net/destinypedia/images/d/d0/Destiny_Assault_Rifle_1.jpg/revision/latest?cb=20140731021025",
+    "description": "Auto Rifles can be equipped in the primary weapon slot and are fully automatic weapons with high fire rate and low damage.",
+    "note": [
+      "Best statistics for Auto Rifles are High Fire rate, High Stability and Big Magazine."
+    ],
+    "slot": "Primary",
+    "bestUsePVP": [
+      "Persistance",
+      "Counter Balance",
+      "Glass Half Full",
+      "rangefinder"
+    ],
+    "bestUsePVE": ["Counter Balance", "Rangefinder", "Glass Half Full"],
+    "bestWeapons": [
+      "Doctrine of Passing",
+      "Soulstealers Claw",
+      "Atheon's Epilogue",
+      "Truth Serum"
+    ],
+    "tag": "Mechanic"
   },
   {
     "name": "Pulse Rifle",
